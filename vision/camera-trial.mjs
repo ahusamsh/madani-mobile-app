@@ -75,12 +75,46 @@ function matchOne(live,ref){
   return {page:ref.page,inliers,matches:pairs.length,score,registration:Array.from(H.data64F.length?H.data64F:H.data32F)};
  }finally{matches.delete();from?.delete();to?.delete();mask?.delete();H?.delete()}
 }
-function getPointer(frameWidth,frameHeight){
+function penNearHand(gray,lm,confidence) {
+ // Experimental: require BOTH visible grasp landmarks and a geometric pen shaft.
+ // No hand or no identifiable shaft => no pen event, never guess from page lines alone.
+ const W=gray.cols,H=gray.rows;
+ const p=i=>({x:lm[i].x*W,y:lm[i].y*H});
+ const thumb=p(4),index=p(8),wrist=p(0),base=p(5);
+ const length=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+ if(length(thumb,index)>length(wrist,base)*.78)return null;
+ const pinch={x:(thumb.x+index.x)/2,y:(thumb.y+index.y)/2};
+ const edges=new cv.Mat(),lines=new cv.Mat();
+ try{
+  cv.Canny(gray,edges,85,175);
+  cv.HoughLinesP(edges,lines,1,Math.PI/180,38,38,10);
+  let best=null;
+  for(let k=0;k<lines.data32S.length;k+=4){
+   const a={x:lines.data32S[k],y:lines.data32S[k+1]},b={x:lines.data32S[k+2],y:lines.data32S[k+3]};
+   const dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy);
+   if(len<45||len>240)continue;
+   const t=Math.max(0,Math.min(1,((pinch.x-a.x)*dx+(pinch.y-a.y)*dy)/(len*len)));
+   const near={x:a.x+t*dx,y:a.y+t*dy},miss=length(near,pinch);
+   if(miss>10)continue;
+   const tip=length(a,wrist)>length(b,wrist)?a:b;
+   const extension=length(tip,wrist)-length(index,wrist);
+   if(extension<16||length(tip,pinch)<18)continue;
+   const vec={x:tip.x-pinch.x,y:tip.y-pinch.y},forward={x:index.x-wrist.x,y:index.y-wrist.y};
+   const cosine=(vec.x*forward.x+vec.y*forward.y)/(Math.hypot(vec.x,vec.y)*Math.hypot(forward.x,forward.y)+1e-8);
+   if(cosine<.72)continue;
+   const score=Math.min(.96,confidence*.8 + Math.min(.16,len/600) + .05*(1-miss/10));
+   if(!best||score>best.confidence)best={type:'pen',confidence:score,tip};
+  }
+  return best;
+ }finally{edges.delete();lines.delete()}
+}
+function getPointer(frameWidth,frameHeight,gray){
  const result=handLandmarker.detectForVideo($('video'),performance.now()),lm=result.landmarks?.[0];if(!lm)return null;
  const d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+ const conf=result.handednesses?.[0]?.[0]?.score??0;
+ if(conf>=.8){const detectedPen=penNearHand(gray,lm,conf);if(detectedPen)return detectedPen;}
  // Finger extension evidence; missing or curled hand does not count.
  if(!(d(lm[8],lm[5])>1.18*d(lm[6],lm[5])&&d(lm[8],lm[0])>1.12*d(lm[6],lm[0])))return null;
- const conf=result.handednesses?.[0]?.[0]?.score??0;
  return conf>=.75?{type:'finger',confidence:Math.min(conf,.97),tip:{x:lm[8].x*frameWidth,y:lm[8].y*frameHeight}}:null;
 }
 function drawOverlay(pointer,page,box){
@@ -97,7 +131,7 @@ async function step(){
  try{
   if($('video').readyState<2){requestAnimationFrame(step);return}
   frames++;gray=frameGray();const w=gray.cols,h=gray.rows;
-  let pointer=null;try{pointer=getPointer(w,h)}catch(e){console.warn('hand detector',e)}
+  let pointer=null;try{pointer=getPointer(w,h,gray)}catch(e){console.warn('hand detector',e)}
   if(frames%10===1&&refPages.length){
    const lf=features(gray),batch=refPages.filter(x=>x.page===latestMatch?.page),start=Math.floor(frames/10)%Math.max(1,Math.ceil(refPages.length/14))*14;
    const refs=[...batch,...refPages.slice(start,start+14)].filter((x,i,a)=>a.findIndex(z=>z.page===x.page)===i),options=[];
