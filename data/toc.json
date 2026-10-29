@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "book": "القاعدة المدنية",
+  "source": "Original Arabic edition PDF extracted chapter headers",
+  "chapters": [
+    {
+      "number": 0,
+      "title": "المقدمة والتمهيد",
+      "start": 6,
+      "end": 15
+    },
+    {
+      "number": 1,
+      "title": "الحروف الهجائية",
+      "start": 16,
+      "end": 23
+    },
+    {
+      "number": 2,
+      "title": "الحروف مع الحركات والسكون",
+      "start": 24,
+      "end": 37
+    },
+    {
+      "number": 3,
+      "title": "الحروف مع التنوين",
+      "start": 38,
+      "end": 45
+    },
+    {
+      "number": 4,
+      "title": "الحروف مع الشدة والحركات",
+      "start": 46,
+      "end": 53
+    },
+    {
+      "number": 5,
+      "title": "الحروف مع الشدة والتنوين",
+      "start": 54,
+      "end": 63
+    },
+    {
+      "number": 6,
+      "title": "همزة القطع وهمزة الوصل",
+      "start": 64,
+      "end": 67
+    },
+    {
+      "number": 7,
+      "title": "المد الطبيعي",
+      "start": 68,
+      "end": 71
+    },
+    {
+      "number": 8,
+      "title": "الألف بعد واو الجماعة",
+      "start": 72,
+      "end": 75
+    },
+    {
+      "number": 9,
+      "title": "التاء المربوطة",
+      "start": 76,
+      "end": 79
+    },
+    {
+      "number": 10,
+      "title": "اللام القمرية واللام الشمسية",
+      "start": 80,
+      "end": 83
+    },
+    {
+      "number": 11,
+      "title": "قراءة الكلمات",
+      "start": 84,
+      "end": 91
+    },
+    {
+      "number": 12,
+      "title": "مصطلحات رسم المصحف",
+      "start": 92,
+      "end": 99
+    },
+    {
+      "number": 13,
+      "title": "الأرقام",
+      "start": 100,
+      "end": 101
+    }
+  ]
+}
