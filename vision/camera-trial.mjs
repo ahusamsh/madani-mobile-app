@@ -3,7 +3,7 @@ import {project,invertHomography,choosePage,PointingGate} from './recognition-co
 pdfjs.GlobalWorkerOptions.workerSrc='../vendor/pdf.worker.mjs';
 const $=id=>document.getElementById(id);
 const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-let cv,handLandmarker,stream,doc,active=false,refPages=[],frames=0,latestMatch=null,lastPageAt=0,gate=new PointingGate();
+let cv,handLandmarker,stream,doc,active=false,refPages=[],frames=0,latestMatch=null,lastPageAt=0,pendingPage=null,pendingHits=0,gate=new PointingGate();
 let orb,matcher;const videoCanvas=document.createElement('canvas');
 const log=s=>{$('debug').textContent=String(s)};
 const status=s=>{$('progress').textContent=s};
@@ -104,10 +104,12 @@ async function step(){
    for(const ref of refs){const item=matchOne(lf,ref);if(item)options.push(item)}
    deleteFeatures(lf);
    const chosen=choosePage(options);
-   if(chosen.page){latestMatch={...chosen,registration:options.find(x=>x.page===chosen.page)?.registration};lastPageAt=performance.now()}
-   else if(performance.now()-lastPageAt>1300)latestMatch=null;
+   if(chosen.page){
+    if(pendingPage===chosen.page)pendingHits++;else{pendingPage=chosen.page;pendingHits=1;latestMatch=null;}
+    if(pendingHits>=2){latestMatch={...chosen,registration:options.find(x=>x.page===chosen.page)?.registration};lastPageAt=performance.now()}
+   }else{pendingPage=null;pendingHits=0;latestMatch=null;}
   }
-  if(!latestMatch||performance.now()-lastPageAt>1300)latestMatch=null;
+  if(!latestMatch||performance.now()-lastPageAt>350)latestMatch=null;
   const pageRef=refPages.find(x=>x.page===latestMatch?.page),inv=latestMatch?.registration?invertHomography(latestMatch.registration):null;
   const point=inv&&pointer?project(inv,pointer.tip):null,pointerPage=pointer&&point?{...pointer,tip:point}:null;
   const decision=gate.update({at:performance.now(),page:latestMatch,pointer:pointerPage,tokens:pageRef?.tokens??[]});
@@ -122,6 +124,7 @@ async function start(){
  $('start').disabled=true;status('تحميل النماذج...');
  try{
   await Promise.all([loadOpenCV(),loadHandTracking()]);
+  if(!cv.ORB||!cv.BFMatcher||!cv.findHomography)throw Error('OpenCV build lacks ORB feature matching');
   orb=new cv.ORB(500);matcher=new cv.BFMatcher(cv.NORM_HAMMING,false);
   doc=await pdfjs.getDocument({url:'../books/ar.pdf',cMapUrl:'../vendor/cmaps/',cMapPacked:true}).promise;
   stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'},width:{ideal:640},height:{ideal:480}},audio:false});
@@ -130,7 +133,7 @@ async function start(){
  }catch(e){log(e.stack||String(e));status('تعذر تشغيل المحرك: '+e.message);stop()}
 }
 function stop(){
- active=false;stream?.getTracks().forEach(t=>t.stop());stream=null;$('video').srcObject=null;gate.reset();
+ active=false;pendingPage=null;pendingHits=0;latestMatch=null;stream?.getTracks().forEach(t=>t.stop());stream=null;$('video').srcObject=null;gate.reset();
  refPages.forEach(x=>deleteFeatures(x.features));refPages=[];doc?.destroy();doc=null;orb?.delete();matcher?.delete();orb=matcher=null;
  $('start').disabled=false;$('stop').disabled=true;status('متوقف');
 }
