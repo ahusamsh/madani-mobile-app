@@ -1,0 +1,14 @@
+const fs=require("node:fs");
+const path=require("node:path");
+const p=path.resolve(__dirname,"..");
+const load=(f)=>JSON.parse(fs.readFileSync(path.join(p,f),"utf8"));
+const a=load("data/audio-library.json"),e=load("data/editions.json");
+const codes=Object.keys(e.locales),missingBooks=codes.filter(code=>!fs.existsSync(path.join(p,"books",code+".pdf")));
+const clips=Object.values(a.segments||{}).filter(s=>typeof s.clip==="string");
+const missingClips=clips.filter(s=>!fs.existsSync(path.join(p,s.clip.replace(/^\.\//,""))));
+const maps=codes.map(code=>({code,entryCount:Object.keys(load("data/edition-maps/"+code+".json").verifiedPages||{}).length}));
+const brokenRecords=Object.entries(a.segments).filter(([id,s])=>!a.pages[s.page]?.zones?.some(z=>z.id===id));
+let audioFull=fs.readdirSync(path.join(p,"library-audio")).filter(f=>f.endsWith(".mp3")).length;
+const result={languages:codes.length,originalPdfFiles:codes.length-missingBooks.length,missingBooks,linkedSegments:clips.length,missingClipFiles:missingClips.length,missingClipSamples:missingClips.slice(0,8).map(s=>s.clip),unlinkedUtterances:a.unlinkedUtterances?.length??null,brokenSegmentAssociations:brokenRecords.length,fullPageFiles:audioFull,mapCounts:maps};
+console.log(JSON.stringify(result,null,2));
+if(missingBooks.length||missingClips.length)process.exitCode=1;

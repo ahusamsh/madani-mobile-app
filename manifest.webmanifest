@@ -1,0 +1,23 @@
+{
+  "name": "القاعدة المدنية | الكتاب التفاعلي الناطق",
+  "short_name": "القاعدة المدنية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f9fbf9",
+  "theme_color": "#075a4e",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

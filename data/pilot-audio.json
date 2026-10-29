@@ -1,0 +1,3382 @@
+{
+  "schema": 2,
+  "id": "madani-first-lessons-v1",
+  "book": {
+    "url": "https://files.a-alqasim.com/books/AbdulMuhsin/AlQaaidahAlMadaniyahAlQiraaah.pdf",
+    "sha256": "53c6d0b622d5994389ace72dc3be14c06c05d4923a2b745a41c65fcf2e166d0e",
+    "pdfPages": 104
+  },
+  "reviewStatus": "machine-aligned-pending-listening",
+  "pages": {
+    "17": {
+      "pdfPage": 17,
+      "printedPage": 15,
+      "width": 481.8900146484375,
+      "height": 680.3150024414062,
+      "image": "./pilot-media/page-015.jpg",
+      "localAudio": "./pilot-media/page-015.mp3",
+      "source": {
+        "printedPage": 15,
+        "pdfPage": 17,
+        "url": "https://files.a-alqasim.com/audio/Mutoon/AbdullahAlWaayely/AlQiraaah/AlQaaidahAlMadaniyahAlQiraaah_015_AbdullahAlWaayely.mp3",
+        "qr": "https://go.alqasim.com/QM015",
+        "bytes": 814498,
+        "sha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415"
+      },
+      "duration": 56.376,
+      "introRegions": [
+        [
+          0.451042,
+          2.027542
+        ],
+        [
+          2.88175,
+          5.08975
+        ],
+        [
+          6.119375,
+          7.242375
+        ],
+        [
+          8.816,
+          10.648792
+        ]
+      ],
+      "zones": [
+        {
+          "id": "p17-w1",
+          "text": "ا",
+          "spokenText": "ألف",
+          "row": 1,
+          "columnRtl": 1,
+          "box": [
+            0.6944498,
+            0.1853882,
+            0.1921165,
+            0.0897984
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b1"
+        },
+        {
+          "id": "p17-w2",
+          "text": "ب",
+          "spokenText": "باء",
+          "row": 1,
+          "columnRtl": 2,
+          "box": [
+            0.5010374,
+            0.1853882,
+            0.1913372,
+            0.0897984
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b2"
+        },
+        {
+          "id": "p17-w3",
+          "text": "ت",
+          "spokenText": "تاء",
+          "row": 1,
+          "columnRtl": 3,
+          "box": [
+            0.3076248,
+            0.1853882,
+            0.1913374,
+            0.0897984
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b3"
+        },
+        {
+          "id": "p17-w4",
+          "text": "ث",
+          "spokenText": "ثاء",
+          "row": 1,
+          "columnRtl": 4,
+          "box": [
+            0.1134342,
+            0.1853882,
+            0.1921154,
+            0.0897984
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b4"
+        },
+        {
+          "id": "p17-w5",
+          "text": "ج",
+          "spokenText": "جيم",
+          "row": 2,
+          "columnRtl": 1,
+          "box": [
+            0.629979,
+            0.2766565,
+            0.2565872,
+            0.1100324
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b5"
+        },
+        {
+          "id": "p17-w6",
+          "text": "ح",
+          "spokenText": "حاء",
+          "row": 2,
+          "columnRtl": 2,
+          "box": [
+            0.3720957,
+            0.2766565,
+            0.2558081,
+            0.1100324
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b6"
+        },
+        {
+          "id": "p17-w7",
+          "text": "خ",
+          "spokenText": "خاء",
+          "row": 2,
+          "columnRtl": 3,
+          "box": [
+            0.1134342,
+            0.2766565,
+            0.2565864,
+            0.1100324
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b7"
+        },
+        {
+          "id": "p17-w8",
+          "text": "د",
+          "spokenText": "دال",
+          "row": 3,
+          "columnRtl": 1,
+          "box": [
+            0.6944498,
+            0.3881589,
+            0.1921165,
+            0.1007336
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b8"
+        },
+        {
+          "id": "p17-w9",
+          "text": "ذ",
+          "spokenText": "ذال",
+          "row": 3,
+          "columnRtl": 2,
+          "box": [
+            0.5010374,
+            0.3881589,
+            0.1913372,
+            0.1007336
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b9"
+        },
+        {
+          "id": "p17-w10",
+          "text": "ر",
+          "spokenText": "راء",
+          "row": 3,
+          "columnRtl": 3,
+          "box": [
+            0.307625,
+            0.3881589,
+            0.1913372,
+            0.1007336
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b10"
+        },
+        {
+          "id": "p17-w11",
+          "text": "ز",
+          "spokenText": "زاي",
+          "row": 3,
+          "columnRtl": 4,
+          "box": [
+            0.1134342,
+            0.3881589,
+            0.1921156,
+            0.1007336
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b11"
+        },
+        {
+          "id": "p17-w12",
+          "text": "س",
+          "spokenText": "سين",
+          "row": 4,
+          "columnRtl": 1,
+          "box": [
+            0.6944498,
+            0.4903624,
+            0.1921165,
+            0.0865736
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b12"
+        },
+        {
+          "id": "p17-w13",
+          "text": "ش",
+          "spokenText": "شين",
+          "row": 4,
+          "columnRtl": 2,
+          "box": [
+            0.5010374,
+            0.4903624,
+            0.1913372,
+            0.0865736
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b13"
+        },
+        {
+          "id": "p17-w14",
+          "text": "ص",
+          "spokenText": "صاد",
+          "row": 4,
+          "columnRtl": 3,
+          "box": [
+            0.307625,
+            0.4903624,
+            0.1913372,
+            0.0865736
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b14"
+        },
+        {
+          "id": "p17-w15",
+          "text": "ض",
+          "spokenText": "ضاد",
+          "row": 4,
+          "columnRtl": 4,
+          "box": [
+            0.1134342,
+            0.4903624,
+            0.1921156,
+            0.0865736
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b15"
+        },
+        {
+          "id": "p17-w16",
+          "text": "ط",
+          "spokenText": "طاء",
+          "row": 5,
+          "columnRtl": 1,
+          "box": [
+            0.6944498,
+            0.5784059,
+            0.1921165,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b16"
+        },
+        {
+          "id": "p17-w17",
+          "text": "ظ",
+          "spokenText": "ظاء",
+          "row": 5,
+          "columnRtl": 2,
+          "box": [
+            0.5010374,
+            0.5784059,
+            0.1913372,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b17"
+        },
+        {
+          "id": "p17-w18",
+          "text": "ع",
+          "spokenText": "عين",
+          "row": 5,
+          "columnRtl": 3,
+          "box": [
+            0.307625,
+            0.5784059,
+            0.1913372,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b18"
+        },
+        {
+          "id": "p17-w19",
+          "text": "غ",
+          "spokenText": "غين",
+          "row": 5,
+          "columnRtl": 4,
+          "box": [
+            0.1134342,
+            0.5784059,
+            0.1921156,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b19"
+        },
+        {
+          "id": "p17-w20",
+          "text": "ف",
+          "spokenText": "فاء",
+          "row": 6,
+          "columnRtl": 1,
+          "box": [
+            0.6944498,
+            0.6664492,
+            0.1921165,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b20"
+        },
+        {
+          "id": "p17-w21",
+          "text": "ق",
+          "spokenText": "قاف",
+          "row": 6,
+          "columnRtl": 2,
+          "box": [
+            0.5010374,
+            0.6664492,
+            0.1913372,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b21"
+        },
+        {
+          "id": "p17-w22",
+          "text": "ك",
+          "spokenText": "كاف",
+          "row": 6,
+          "columnRtl": 3,
+          "box": [
+            0.307625,
+            0.6664492,
+            0.1913372,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b22"
+        },
+        {
+          "id": "p17-w23",
+          "text": "ل",
+          "spokenText": "لام",
+          "row": 6,
+          "columnRtl": 4,
+          "box": [
+            0.1134342,
+            0.6664492,
+            0.1921156,
+            0.0865734
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b23"
+        },
+        {
+          "id": "p17-w24",
+          "text": "م",
+          "spokenText": "ميم",
+          "row": 7,
+          "columnRtl": 1,
+          "box": [
+            0.6941939,
+            0.7544926,
+            0.1923724,
+            0.0962623
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b24"
+        },
+        {
+          "id": "p17-w25",
+          "text": "ن",
+          "spokenText": "نون",
+          "row": 7,
+          "columnRtl": 2,
+          "box": [
+            0.5008684,
+            0.7544926,
+            0.1912503,
+            0.0962623
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b25"
+        },
+        {
+          "id": "p17-w26",
+          "text": "هـ",
+          "spokenText": "هاء",
+          "row": 7,
+          "columnRtl": 3,
+          "box": [
+            0.3720017,
+            0.7544926,
+            0.1267916,
+            0.0962623
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b26"
+        },
+        {
+          "id": "p17-w27",
+          "text": "و",
+          "spokenText": "واو",
+          "row": 7,
+          "columnRtl": 4,
+          "box": [
+            0.2431351,
+            0.7544926,
+            0.1267914,
+            0.0962623
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b27"
+        },
+        {
+          "id": "p17-w28",
+          "text": "ي",
+          "spokenText": "ياء",
+          "row": 7,
+          "columnRtl": 5,
+          "box": [
+            0.1134342,
+            0.7544926,
+            0.1276258,
+            0.0962623
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p17-b28"
+        }
+      ],
+      "boxes": [
+        {
+          "id": "p17-b1",
+          "row": 1,
+          "wordIds": [
+            "p17-w1"
+          ],
+          "box": [
+            0.6944498,
+            0.1853882,
+            0.19211650000000002,
+            0.0897984
+          ],
+          "start": 11.435333,
+          "end": 12.241708,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-001.mp3"
+        },
+        {
+          "id": "p17-b2",
+          "row": 1,
+          "wordIds": [
+            "p17-w2"
+          ],
+          "box": [
+            0.5010374,
+            0.1853882,
+            0.19133719999999999,
+            0.0897984
+          ],
+          "start": 13.071667,
+          "end": 14.193375,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-002.mp3"
+        },
+        {
+          "id": "p17-b3",
+          "row": 1,
+          "wordIds": [
+            "p17-w3"
+          ],
+          "box": [
+            0.3076248,
+            0.1853882,
+            0.1913374,
+            0.0897984
+          ],
+          "start": 14.826917,
+          "end": 15.651625,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-003.mp3"
+        },
+        {
+          "id": "p17-b4",
+          "row": 1,
+          "wordIds": [
+            "p17-w4"
+          ],
+          "box": [
+            0.1134342,
+            0.1853882,
+            0.1921154,
+            0.0897984
+          ],
+          "start": 16.389,
+          "end": 17.395667,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-004.mp3"
+        },
+        {
+          "id": "p17-b5",
+          "row": 2,
+          "wordIds": [
+            "p17-w5"
+          ],
+          "box": [
+            0.629979,
+            0.2766565,
+            0.2565872,
+            0.1100324
+          ],
+          "start": 17.981042,
+          "end": 19.136792,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-005.mp3"
+        },
+        {
+          "id": "p17-b6",
+          "row": 2,
+          "wordIds": [
+            "p17-w6"
+          ],
+          "box": [
+            0.3720957,
+            0.2766565,
+            0.2558080999999999,
+            0.1100324
+          ],
+          "start": 19.761167,
+          "end": 20.690167,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-006.mp3"
+        },
+        {
+          "id": "p17-b7",
+          "row": 2,
+          "wordIds": [
+            "p17-w7"
+          ],
+          "box": [
+            0.1134342,
+            0.2766565,
+            0.2565864,
+            0.1100324
+          ],
+          "start": 21.37625,
+          "end": 22.285208,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-007.mp3"
+        },
+        {
+          "id": "p17-b8",
+          "row": 3,
+          "wordIds": [
+            "p17-w8"
+          ],
+          "box": [
+            0.6944498,
+            0.3881589,
+            0.19211650000000002,
+            0.1007336
+          ],
+          "start": 22.948833,
+          "end": 23.936792,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-008.mp3"
+        },
+        {
+          "id": "p17-b9",
+          "row": 3,
+          "wordIds": [
+            "p17-w9"
+          ],
+          "box": [
+            0.5010374,
+            0.3881589,
+            0.19133719999999999,
+            0.1007336
+          ],
+          "start": 24.525958,
+          "end": 25.53325,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-009.mp3"
+        },
+        {
+          "id": "p17-b10",
+          "row": 3,
+          "wordIds": [
+            "p17-w10"
+          ],
+          "box": [
+            0.307625,
+            0.3881589,
+            0.19133720000000004,
+            0.1007336
+          ],
+          "start": 26.061792,
+          "end": 26.81225,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-010.mp3"
+        },
+        {
+          "id": "p17-b11",
+          "row": 3,
+          "wordIds": [
+            "p17-w11"
+          ],
+          "box": [
+            0.1134342,
+            0.3881589,
+            0.1921156,
+            0.1007336
+          ],
+          "start": 27.316,
+          "end": 28.231625,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-011.mp3"
+        },
+        {
+          "id": "p17-b12",
+          "row": 4,
+          "wordIds": [
+            "p17-w12"
+          ],
+          "box": [
+            0.6944498,
+            0.4903624,
+            0.19211650000000002,
+            0.0865736
+          ],
+          "start": 28.788167,
+          "end": 29.74125,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-012.mp3"
+        },
+        {
+          "id": "p17-b13",
+          "row": 4,
+          "wordIds": [
+            "p17-w13"
+          ],
+          "box": [
+            0.5010374,
+            0.4903624,
+            0.19133719999999999,
+            0.0865736
+          ],
+          "start": 30.185417,
+          "end": 31.318958,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-013.mp3"
+        },
+        {
+          "id": "p17-b14",
+          "row": 4,
+          "wordIds": [
+            "p17-w14"
+          ],
+          "box": [
+            0.307625,
+            0.4903624,
+            0.19133720000000004,
+            0.0865736
+          ],
+          "start": 31.978542,
+          "end": 33.003708,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-014.mp3"
+        },
+        {
+          "id": "p17-b15",
+          "row": 4,
+          "wordIds": [
+            "p17-w15"
+          ],
+          "box": [
+            0.1134342,
+            0.4903624,
+            0.1921156,
+            0.0865736
+          ],
+          "start": 33.552375,
+          "end": 34.627333,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-015.mp3"
+        },
+        {
+          "id": "p17-b16",
+          "row": 5,
+          "wordIds": [
+            "p17-w16"
+          ],
+          "box": [
+            0.6944498,
+            0.5784059,
+            0.19211650000000002,
+            0.0865734
+          ],
+          "start": 35.296125,
+          "end": 36.002417,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-016.mp3"
+        },
+        {
+          "id": "p17-b17",
+          "row": 5,
+          "wordIds": [
+            "p17-w17"
+          ],
+          "box": [
+            0.5010374,
+            0.5784059,
+            0.19133719999999999,
+            0.0865734
+          ],
+          "start": 36.661208,
+          "end": 37.532875,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-017.mp3"
+        },
+        {
+          "id": "p17-b18",
+          "row": 5,
+          "wordIds": [
+            "p17-w18"
+          ],
+          "box": [
+            0.307625,
+            0.5784059,
+            0.19133720000000004,
+            0.0865734
+          ],
+          "start": 38.469292,
+          "end": 39.482958,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-018.mp3"
+        },
+        {
+          "id": "p17-b19",
+          "row": 5,
+          "wordIds": [
+            "p17-w19"
+          ],
+          "box": [
+            0.1134342,
+            0.5784059,
+            0.1921156,
+            0.0865734
+          ],
+          "start": 40.209375,
+          "end": 41.264708,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-019.mp3"
+        },
+        {
+          "id": "p17-b20",
+          "row": 6,
+          "wordIds": [
+            "p17-w20"
+          ],
+          "box": [
+            0.6944498,
+            0.6664492,
+            0.19211650000000002,
+            0.0865734
+          ],
+          "start": 41.827333,
+          "end": 42.663625,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-020.mp3"
+        },
+        {
+          "id": "p17-b21",
+          "row": 6,
+          "wordIds": [
+            "p17-w21"
+          ],
+          "box": [
+            0.5010374,
+            0.6664492,
+            0.19133719999999999,
+            0.0865734
+          ],
+          "start": 43.31625,
+          "end": 44.217,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-021.mp3"
+        },
+        {
+          "id": "p17-b22",
+          "row": 6,
+          "wordIds": [
+            "p17-w22"
+          ],
+          "box": [
+            0.307625,
+            0.6664492,
+            0.19133720000000004,
+            0.0865734
+          ],
+          "start": 44.963917,
+          "end": 45.817917,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-022.mp3"
+        },
+        {
+          "id": "p17-b23",
+          "row": 6,
+          "wordIds": [
+            "p17-w23"
+          ],
+          "box": [
+            0.1134342,
+            0.6664492,
+            0.1921156,
+            0.0865734
+          ],
+          "start": 46.464208,
+          "end": 47.52075,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-023.mp3"
+        },
+        {
+          "id": "p17-b24",
+          "row": 7,
+          "wordIds": [
+            "p17-w24"
+          ],
+          "box": [
+            0.6941939,
+            0.7544926,
+            0.1923724,
+            0.0962623
+          ],
+          "start": 48.204667,
+          "end": 49.2155,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-024.mp3"
+        },
+        {
+          "id": "p17-b25",
+          "row": 7,
+          "wordIds": [
+            "p17-w25"
+          ],
+          "box": [
+            0.5008684,
+            0.7544926,
+            0.19125029999999998,
+            0.0962623
+          ],
+          "start": 49.733833,
+          "end": 50.725625,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-025.mp3"
+        },
+        {
+          "id": "p17-b26",
+          "row": 7,
+          "wordIds": [
+            "p17-w26"
+          ],
+          "box": [
+            0.3720017,
+            0.7544926,
+            0.1267916,
+            0.0962623
+          ],
+          "start": 51.203042,
+          "end": 52.085625,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-026.mp3"
+        },
+        {
+          "id": "p17-b27",
+          "row": 7,
+          "wordIds": [
+            "p17-w27"
+          ],
+          "box": [
+            0.2431351,
+            0.7544926,
+            0.1267914,
+            0.0962623
+          ],
+          "start": 52.652708,
+          "end": 53.5305,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-027.mp3"
+        },
+        {
+          "id": "p17-b28",
+          "row": 7,
+          "wordIds": [
+            "p17-w28"
+          ],
+          "box": [
+            0.1134342,
+            0.7544926,
+            0.1276258,
+            0.0962623
+          ],
+          "start": 54.049667,
+          "end": 54.958,
+          "reviewed": false,
+          "clip": "./pilot-media/p015-box-028.mp3"
+        }
+      ]
+    },
+    "18": {
+      "pdfPage": 18,
+      "printedPage": 16,
+      "width": 481.8900146484375,
+      "height": 680.3150024414062,
+      "image": "./pilot-media/page-016.jpg",
+      "localAudio": "./pilot-media/page-016.mp3",
+      "source": {
+        "printedPage": 16,
+        "pdfPage": 18,
+        "url": "https://files.a-alqasim.com/audio/Mutoon/AbdullahAlWaayely/AlQiraaah/AlQaaidahAlMadaniyahAlQiraaah_016_AbdullahAlWaayely.mp3",
+        "qr": "https://go.alqasim.com/QM016",
+        "bytes": 850498,
+        "sha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1"
+      },
+      "duration": 62.376,
+      "introRegions": [
+        [
+          1.251167,
+          2.829667
+        ],
+        [
+          3.733958,
+          5.941958
+        ],
+        [
+          6.550583,
+          7.978292
+        ],
+        [
+          9.19225,
+          11.946125
+        ]
+      ],
+      "zones": [
+        {
+          "id": "p18-w1",
+          "text": "ا",
+          "spokenText": "ألف",
+          "row": 1,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.1841894,
+            0.1875636,
+            0.09853
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b1"
+        },
+        {
+          "id": "p18-w2",
+          "text": "ا",
+          "spokenText": "ألف",
+          "row": 1,
+          "columnRtl": 2,
+          "box": [
+            0.5029301,
+            0.1841894,
+            0.1760728,
+            0.09853
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b2"
+        },
+        {
+          "id": "p18-w3",
+          "text": "ـا",
+          "spokenText": "ألف",
+          "row": 1,
+          "columnRtl": 3,
+          "box": [
+            0.3257381,
+            0.1841894,
+            0.1751168,
+            0.09853
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b2"
+        },
+        {
+          "id": "p18-w4",
+          "text": "ـا",
+          "spokenText": "ألف",
+          "row": 1,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.1841894,
+            0.194404,
+            0.09853
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b2"
+        },
+        {
+          "id": "p18-w5",
+          "text": "ب",
+          "spokenText": "باء",
+          "row": 2,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.2841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b3"
+        },
+        {
+          "id": "p18-w6",
+          "text": "بـ",
+          "spokenText": "باء",
+          "row": 2,
+          "columnRtl": 2,
+          "box": [
+            0.5029389,
+            0.2841894,
+            0.176064,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b4"
+        },
+        {
+          "id": "p18-w7",
+          "text": "ـبـ",
+          "spokenText": "باء",
+          "row": 2,
+          "columnRtl": 3,
+          "box": [
+            0.3257326,
+            0.2841894,
+            0.1751312,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b4"
+        },
+        {
+          "id": "p18-w8",
+          "text": "ـب",
+          "spokenText": "باء",
+          "row": 2,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.2841894,
+            0.1943985,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b4"
+        },
+        {
+          "id": "p18-w9",
+          "text": "ت",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.3841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b5"
+        },
+        {
+          "id": "p18-w10",
+          "text": "تـ",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 2,
+          "box": [
+            0.5029422,
+            0.3841894,
+            0.1760607,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b6"
+        },
+        {
+          "id": "p18-w11",
+          "text": "ـتـ",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 3,
+          "box": [
+            0.352533,
+            0.3841894,
+            0.148334,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b6"
+        },
+        {
+          "id": "p18-w12",
+          "text": "ـت",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 4,
+          "box": [
+            0.247582,
+            0.3841894,
+            0.1028759,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b6"
+        },
+        {
+          "id": "p18-w13",
+          "text": "ـة",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 5,
+          "box": [
+            0.1786563,
+            0.3841894,
+            0.0668505,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b6"
+        },
+        {
+          "id": "p18-w14",
+          "text": "ة",
+          "spokenText": "تاء",
+          "row": 3,
+          "columnRtl": 6,
+          "box": [
+            0.129259,
+            0.3841894,
+            0.0473222,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b6"
+        },
+        {
+          "id": "p18-w15",
+          "text": "ث",
+          "spokenText": "ثاء",
+          "row": 4,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.4841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b7"
+        },
+        {
+          "id": "p18-w16",
+          "text": "ثـ",
+          "spokenText": "ثاء",
+          "row": 4,
+          "columnRtl": 2,
+          "box": [
+            0.5029311,
+            0.4841894,
+            0.1760718,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b8"
+        },
+        {
+          "id": "p18-w17",
+          "text": "ـثـ",
+          "spokenText": "ثاء",
+          "row": 4,
+          "columnRtl": 3,
+          "box": [
+            0.3257326,
+            0.4841894,
+            0.1751234,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b8"
+        },
+        {
+          "id": "p18-w18",
+          "text": "ـث",
+          "spokenText": "ثاء",
+          "row": 4,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.4841894,
+            0.1943985,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b8"
+        },
+        {
+          "id": "p18-w19",
+          "text": "ج",
+          "spokenText": "جيم",
+          "row": 5,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.5841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b9"
+        },
+        {
+          "id": "p18-w20",
+          "text": "جـ",
+          "spokenText": "جيم",
+          "row": 5,
+          "columnRtl": 2,
+          "box": [
+            0.5029298,
+            0.5841894,
+            0.1760731,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b10"
+        },
+        {
+          "id": "p18-w21",
+          "text": "ـجـ",
+          "spokenText": "جيم",
+          "row": 5,
+          "columnRtl": 3,
+          "box": [
+            0.3257326,
+            0.5841894,
+            0.175122,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b10"
+        },
+        {
+          "id": "p18-w22",
+          "text": "ـج",
+          "spokenText": "جيم",
+          "row": 5,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.5841894,
+            0.1943985,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b10"
+        },
+        {
+          "id": "p18-w23",
+          "text": "ح",
+          "spokenText": "حاء",
+          "row": 6,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.6841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b11"
+        },
+        {
+          "id": "p18-w24",
+          "text": "حـ",
+          "spokenText": "حاء",
+          "row": 6,
+          "columnRtl": 2,
+          "box": [
+            0.5029298,
+            0.6841894,
+            0.1760731,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b12"
+        },
+        {
+          "id": "p18-w25",
+          "text": "ـحـ",
+          "spokenText": "حاء",
+          "row": 6,
+          "columnRtl": 3,
+          "box": [
+            0.3257271,
+            0.6841894,
+            0.1751275,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b12"
+        },
+        {
+          "id": "p18-w26",
+          "text": "ـح",
+          "spokenText": "حاء",
+          "row": 6,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.6841894,
+            0.194393,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b12"
+        },
+        {
+          "id": "p18-w27",
+          "text": "خ",
+          "spokenText": "خاء",
+          "row": 7,
+          "columnRtl": 1,
+          "box": [
+            0.6810781,
+            0.7841894,
+            0.1875636,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b13"
+        },
+        {
+          "id": "p18-w28",
+          "text": "خـ",
+          "spokenText": "خاء",
+          "row": 7,
+          "columnRtl": 2,
+          "box": [
+            0.5029298,
+            0.7841894,
+            0.1760731,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b14"
+        },
+        {
+          "id": "p18-w29",
+          "text": "ـخـ",
+          "spokenText": "خاء",
+          "row": 7,
+          "columnRtl": 3,
+          "box": [
+            0.3257271,
+            0.7841894,
+            0.1751275,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b14"
+        },
+        {
+          "id": "p18-w30",
+          "text": "ـخ",
+          "spokenText": "خاء",
+          "row": 7,
+          "columnRtl": 4,
+          "box": [
+            0.129259,
+            0.7841894,
+            0.194393,
+            0.0985301
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p18-b14"
+        }
+      ],
+      "boxes": [
+        {
+          "id": "p18-b1",
+          "row": 1,
+          "wordIds": [
+            "p18-w1"
+          ],
+          "box": [
+            0.6810781,
+            0.1841894,
+            0.18756359999999994,
+            0.09853
+          ],
+          "start": 13.088417,
+          "end": 13.8855,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-001.mp3"
+        },
+        {
+          "id": "p18-b2",
+          "row": 1,
+          "wordIds": [
+            "p18-w2",
+            "p18-w3",
+            "p18-w4"
+          ],
+          "box": [
+            0.129259,
+            0.1841894,
+            0.5497439000000001,
+            0.09853
+          ],
+          "start": 14.715875,
+          "end": 19.44525,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-002.mp3"
+        },
+        {
+          "id": "p18-b3",
+          "row": 2,
+          "wordIds": [
+            "p18-w5"
+          ],
+          "box": [
+            0.6810781,
+            0.2841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 20.275417,
+          "end": 21.3985,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-003.mp3"
+        },
+        {
+          "id": "p18-b4",
+          "row": 2,
+          "wordIds": [
+            "p18-w6",
+            "p18-w7",
+            "p18-w8"
+          ],
+          "box": [
+            0.129259,
+            0.2841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 22.092625,
+          "end": 26.393083,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-004.mp3"
+        },
+        {
+          "id": "p18-b5",
+          "row": 3,
+          "wordIds": [
+            "p18-w9"
+          ],
+          "box": [
+            0.6810781,
+            0.3841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 27.044042,
+          "end": 27.826542,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-005.mp3"
+        },
+        {
+          "id": "p18-b6",
+          "row": 3,
+          "wordIds": [
+            "p18-w10",
+            "p18-w11",
+            "p18-w12",
+            "p18-w13",
+            "p18-w14"
+          ],
+          "box": [
+            0.129259,
+            0.3841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 28.445833,
+          "end": 35.220708,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-006.mp3"
+        },
+        {
+          "id": "p18-b7",
+          "row": 4,
+          "wordIds": [
+            "p18-w15"
+          ],
+          "box": [
+            0.6810781,
+            0.4841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 35.984333,
+          "end": 36.992292,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-007.mp3"
+        },
+        {
+          "id": "p18-b8",
+          "row": 4,
+          "wordIds": [
+            "p18-w16",
+            "p18-w17",
+            "p18-w18"
+          ],
+          "box": [
+            0.129259,
+            0.4841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 37.610542,
+          "end": 41.814167,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-008.mp3"
+        },
+        {
+          "id": "p18-b9",
+          "row": 5,
+          "wordIds": [
+            "p18-w19"
+          ],
+          "box": [
+            0.6810781,
+            0.5841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 42.334875,
+          "end": 43.501958,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-009.mp3"
+        },
+        {
+          "id": "p18-b10",
+          "row": 5,
+          "wordIds": [
+            "p18-w20",
+            "p18-w21",
+            "p18-w22"
+          ],
+          "box": [
+            0.129259,
+            0.5841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 43.987958,
+          "end": 48.557375,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-010.mp3"
+        },
+        {
+          "id": "p18-b11",
+          "row": 6,
+          "wordIds": [
+            "p18-w23"
+          ],
+          "box": [
+            0.6810781,
+            0.6841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 49.1495,
+          "end": 50.034042,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-011.mp3"
+        },
+        {
+          "id": "p18-b12",
+          "row": 6,
+          "wordIds": [
+            "p18-w24",
+            "p18-w25",
+            "p18-w26"
+          ],
+          "box": [
+            0.129259,
+            0.6841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 50.7565,
+          "end": 55.068042,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-012.mp3"
+        },
+        {
+          "id": "p18-b13",
+          "row": 7,
+          "wordIds": [
+            "p18-w27"
+          ],
+          "box": [
+            0.6810781,
+            0.7841894,
+            0.18756359999999994,
+            0.0985301
+          ],
+          "start": 55.859125,
+          "end": 56.765417,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-013.mp3"
+        },
+        {
+          "id": "p18-b14",
+          "row": 7,
+          "wordIds": [
+            "p18-w28",
+            "p18-w29",
+            "p18-w30"
+          ],
+          "box": [
+            0.129259,
+            0.7841894,
+            0.5497439,
+            0.0985301
+          ],
+          "start": 57.33875,
+          "end": 61.374417,
+          "reviewed": false,
+          "clip": "./pilot-media/p016-box-014.mp3"
+        }
+      ]
+    },
+    "19": {
+      "pdfPage": 19,
+      "printedPage": 17,
+      "width": 481.8900146484375,
+      "height": 680.3150024414062,
+      "image": "./pilot-media/page-017.jpg",
+      "localAudio": "./pilot-media/page-017.mp3",
+      "source": {
+        "printedPage": 17,
+        "pdfPage": 19,
+        "url": "https://files.a-alqasim.com/audio/Mutoon/AbdullahAlWaayely/AlQiraaah/AlQaaidahAlMadaniyahAlQiraaah_017_AbdullahAlWaayely.mp3",
+        "qr": "https://go.alqasim.com/QM017",
+        "bytes": 860434,
+        "sha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686"
+      },
+      "duration": 64.032,
+      "introRegions": [],
+      "zones": [
+        {
+          "id": "p19-w1",
+          "text": "د",
+          "spokenText": "دال",
+          "row": 1,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.1172179,
+            0.1875636,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b1"
+        },
+        {
+          "id": "p19-w2",
+          "text": "د",
+          "spokenText": "دال",
+          "row": 1,
+          "columnRtl": 2,
+          "box": [
+            0.4990545,
+            0.1172179,
+            0.188769,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b2"
+        },
+        {
+          "id": "p19-w3",
+          "text": "ـد",
+          "spokenText": "دال",
+          "row": 1,
+          "columnRtl": 3,
+          "box": [
+            0.3077768,
+            0.1172179,
+            0.1892026,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b2"
+        },
+        {
+          "id": "p19-w4",
+          "text": "ـد",
+          "spokenText": "دال",
+          "row": 1,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.1172179,
+            0.1831654,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b2"
+        },
+        {
+          "id": "p19-w5",
+          "text": "ذ",
+          "spokenText": "ذال",
+          "row": 2,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.2130513,
+            0.1875636,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b3"
+        },
+        {
+          "id": "p19-w6",
+          "text": "ذ",
+          "spokenText": "ذال",
+          "row": 2,
+          "columnRtl": 2,
+          "box": [
+            0.4990379,
+            0.2130513,
+            0.1887856,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b4"
+        },
+        {
+          "id": "p19-w7",
+          "text": "ـذ",
+          "spokenText": "ذال",
+          "row": 2,
+          "columnRtl": 3,
+          "box": [
+            0.3077656,
+            0.2130513,
+            0.1891971,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b4"
+        },
+        {
+          "id": "p19-w8",
+          "text": "ـذ",
+          "spokenText": "ذال",
+          "row": 2,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.2130513,
+            0.1831542,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b4"
+        },
+        {
+          "id": "p19-w9",
+          "text": "ر",
+          "spokenText": "راء",
+          "row": 3,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.3088846,
+            0.1875636,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b5"
+        },
+        {
+          "id": "p19-w10",
+          "text": "ر",
+          "spokenText": "راء",
+          "row": 3,
+          "columnRtl": 2,
+          "box": [
+            0.4990326,
+            0.3088846,
+            0.1887909,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b6"
+        },
+        {
+          "id": "p19-w11",
+          "text": "ـر",
+          "spokenText": "راء",
+          "row": 3,
+          "columnRtl": 3,
+          "box": [
+            0.3077657,
+            0.3088846,
+            0.1891918,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b6"
+        },
+        {
+          "id": "p19-w12",
+          "text": "ـر",
+          "spokenText": "راء",
+          "row": 3,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.3088846,
+            0.1831542,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b6"
+        },
+        {
+          "id": "p19-w13",
+          "text": "ز",
+          "spokenText": "زاي",
+          "row": 4,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.404718,
+            0.1875636,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b7"
+        },
+        {
+          "id": "p19-w14",
+          "text": "ز",
+          "spokenText": "زاي",
+          "row": 4,
+          "columnRtl": 2,
+          "box": [
+            0.4990437,
+            0.404718,
+            0.1887798,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b8"
+        },
+        {
+          "id": "p19-w15",
+          "text": "ـز",
+          "spokenText": "زاي",
+          "row": 4,
+          "columnRtl": 3,
+          "box": [
+            0.3077657,
+            0.404718,
+            0.1892029,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b8"
+        },
+        {
+          "id": "p19-w16",
+          "text": "ـز",
+          "spokenText": "زاي",
+          "row": 4,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.404718,
+            0.1831542,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b8"
+        },
+        {
+          "id": "p19-w17",
+          "text": "س",
+          "spokenText": "سين",
+          "row": 5,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.5005512,
+            0.1875636,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b9"
+        },
+        {
+          "id": "p19-w18",
+          "text": "سـ",
+          "spokenText": "سين",
+          "row": 5,
+          "columnRtl": 2,
+          "box": [
+            0.4990456,
+            0.5005512,
+            0.1887779,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b10"
+        },
+        {
+          "id": "p19-w19",
+          "text": "ـسـ",
+          "spokenText": "سين",
+          "row": 5,
+          "columnRtl": 3,
+          "box": [
+            0.3077712,
+            0.5005512,
+            0.1891992,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b10"
+        },
+        {
+          "id": "p19-w20",
+          "text": "ـس",
+          "spokenText": "سين",
+          "row": 5,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.5005512,
+            0.1831598,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b10"
+        },
+        {
+          "id": "p19-w21",
+          "text": "ش",
+          "spokenText": "شين",
+          "row": 6,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.5963846,
+            0.1875636,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b11"
+        },
+        {
+          "id": "p19-w22",
+          "text": "شـ",
+          "spokenText": "شين",
+          "row": 6,
+          "columnRtl": 2,
+          "box": [
+            0.4990456,
+            0.5963846,
+            0.1887779,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b12"
+        },
+        {
+          "id": "p19-w23",
+          "text": "ـشـ",
+          "spokenText": "شين",
+          "row": 6,
+          "columnRtl": 3,
+          "box": [
+            0.3077767,
+            0.5963846,
+            0.1891937,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b12"
+        },
+        {
+          "id": "p19-w24",
+          "text": "ـش",
+          "spokenText": "شين",
+          "row": 6,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.5963846,
+            0.1831653,
+            0.0943634
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b12"
+        },
+        {
+          "id": "p19-w25",
+          "text": "ص",
+          "spokenText": "صاد",
+          "row": 7,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.6922179,
+            0.1875636,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b13"
+        },
+        {
+          "id": "p19-w26",
+          "text": "صـ",
+          "spokenText": "صاد",
+          "row": 7,
+          "columnRtl": 2,
+          "box": [
+            0.4955692,
+            0.6922179,
+            0.1922543,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b14"
+        },
+        {
+          "id": "p19-w27",
+          "text": "ـصـ",
+          "spokenText": "صاد",
+          "row": 7,
+          "columnRtl": 3,
+          "box": [
+            0.3077712,
+            0.6922179,
+            0.1857229,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b14"
+        },
+        {
+          "id": "p19-w28",
+          "text": "ـص",
+          "spokenText": "صاد",
+          "row": 7,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.6922179,
+            0.1831598,
+            0.0943635
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b14"
+        },
+        {
+          "id": "p19-w29",
+          "text": "ض",
+          "spokenText": "ضاد",
+          "row": 8,
+          "columnRtl": 1,
+          "box": [
+            0.6898987,
+            0.7880513,
+            0.1875636,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b15"
+        },
+        {
+          "id": "p19-w30",
+          "text": "ضـ",
+          "spokenText": "ضاد",
+          "row": 8,
+          "columnRtl": 2,
+          "box": [
+            0.4990549,
+            0.7880513,
+            0.1887687,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b16"
+        },
+        {
+          "id": "p19-w31",
+          "text": "ـضـ",
+          "spokenText": "ضاد",
+          "row": 8,
+          "columnRtl": 3,
+          "box": [
+            0.3077768,
+            0.7880513,
+            0.1892029,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b16"
+        },
+        {
+          "id": "p19-w32",
+          "text": "ـض",
+          "spokenText": "ضاد",
+          "row": 8,
+          "columnRtl": 4,
+          "box": [
+            0.1225363,
+            0.7880513,
+            0.1831654,
+            0.0943633
+          ],
+          "geometryReviewed": true,
+          "reviewed": false,
+          "parentBoxId": "p19-b16"
+        }
+      ],
+      "boxes": [
+        {
+          "id": "p19-b1",
+          "row": 1,
+          "wordIds": [
+            "p19-w1"
+          ],
+          "box": [
+            0.6898987,
+            0.1172179,
+            0.18756359999999994,
+            0.0943635
+          ],
+          "start": 2.713292,
+          "end": 3.699542,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-001.mp3"
+        },
+        {
+          "id": "p19-b2",
+          "row": 1,
+          "wordIds": [
+            "p19-w2",
+            "p19-w3",
+            "p19-w4"
+          ],
+          "box": [
+            0.1225363,
+            0.1172179,
+            0.5652872,
+            0.0943635
+          ],
+          "start": 4.30425,
+          "end": 8.691333,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-002.mp3"
+        },
+        {
+          "id": "p19-b3",
+          "row": 2,
+          "wordIds": [
+            "p19-w5"
+          ],
+          "box": [
+            0.6898987,
+            0.2130513,
+            0.18756359999999994,
+            0.0943633
+          ],
+          "start": 9.600583,
+          "end": 10.605625,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-003.mp3"
+        },
+        {
+          "id": "p19-b4",
+          "row": 2,
+          "wordIds": [
+            "p19-w6",
+            "p19-w7",
+            "p19-w8"
+          ],
+          "box": [
+            0.1225363,
+            0.2130513,
+            0.5652871999999999,
+            0.0943633
+          ],
+          "start": 11.614083,
+          "end": 16.282083,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-004.mp3"
+        },
+        {
+          "id": "p19-b5",
+          "row": 3,
+          "wordIds": [
+            "p19-w9"
+          ],
+          "box": [
+            0.6898987,
+            0.3088846,
+            0.18756359999999994,
+            0.0943635
+          ],
+          "start": 17.113542,
+          "end": 17.863792,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-005.mp3"
+        },
+        {
+          "id": "p19-b6",
+          "row": 3,
+          "wordIds": [
+            "p19-w10",
+            "p19-w11",
+            "p19-w12"
+          ],
+          "box": [
+            0.1225363,
+            0.3088846,
+            0.5652872,
+            0.0943635
+          ],
+          "start": 18.704417,
+          "end": 22.680458,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-006.mp3"
+        },
+        {
+          "id": "p19-b7",
+          "row": 4,
+          "wordIds": [
+            "p19-w13"
+          ],
+          "box": [
+            0.6898987,
+            0.404718,
+            0.18756359999999994,
+            0.0943634
+          ],
+          "start": 23.51325,
+          "end": 24.428625,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-007.mp3"
+        },
+        {
+          "id": "p19-b8",
+          "row": 4,
+          "wordIds": [
+            "p19-w14",
+            "p19-w15",
+            "p19-w16"
+          ],
+          "box": [
+            0.1225363,
+            0.404718,
+            0.5652871999999999,
+            0.0943634
+          ],
+          "start": 25.307292,
+          "end": 29.725417,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-008.mp3"
+        },
+        {
+          "id": "p19-b9",
+          "row": 5,
+          "wordIds": [
+            "p19-w17"
+          ],
+          "box": [
+            0.6898987,
+            0.5005512,
+            0.18756359999999994,
+            0.0943635
+          ],
+          "start": 30.444417,
+          "end": 31.406583,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-009.mp3"
+        },
+        {
+          "id": "p19-b10",
+          "row": 5,
+          "wordIds": [
+            "p19-w18",
+            "p19-w19",
+            "p19-w20"
+          ],
+          "box": [
+            0.1225363,
+            0.5005512,
+            0.5652871999999999,
+            0.0943635
+          ],
+          "start": 32.222625,
+          "end": 36.708583,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-010.mp3"
+        },
+        {
+          "id": "p19-b11",
+          "row": 6,
+          "wordIds": [
+            "p19-w21"
+          ],
+          "box": [
+            0.6898987,
+            0.5963846,
+            0.18756359999999994,
+            0.0943634
+          ],
+          "start": 37.623417,
+          "end": 38.758333,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-011.mp3"
+        },
+        {
+          "id": "p19-b12",
+          "row": 6,
+          "wordIds": [
+            "p19-w22",
+            "p19-w23",
+            "p19-w24"
+          ],
+          "box": [
+            0.1225363,
+            0.5963846,
+            0.5652871999999999,
+            0.0943634
+          ],
+          "start": 39.377792,
+          "end": 44.035958,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-012.mp3"
+        },
+        {
+          "id": "p19-b13",
+          "row": 7,
+          "wordIds": [
+            "p19-w25"
+          ],
+          "box": [
+            0.6898987,
+            0.6922179,
+            0.18756359999999994,
+            0.0943635
+          ],
+          "start": 44.824083,
+          "end": 45.861083,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-013.mp3"
+        },
+        {
+          "id": "p19-b14",
+          "row": 7,
+          "wordIds": [
+            "p19-w26",
+            "p19-w27",
+            "p19-w28"
+          ],
+          "box": [
+            0.1225363,
+            0.6922179,
+            0.5652871999999999,
+            0.0943635
+          ],
+          "start": 47.02575,
+          "end": 52.477083,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-014.mp3"
+        },
+        {
+          "id": "p19-b15",
+          "row": 8,
+          "wordIds": [
+            "p19-w29"
+          ],
+          "box": [
+            0.6898987,
+            0.7880513,
+            0.18756359999999994,
+            0.0943633
+          ],
+          "start": 53.645167,
+          "end": 54.714292,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-015.mp3"
+        },
+        {
+          "id": "p19-b16",
+          "row": 8,
+          "wordIds": [
+            "p19-w30",
+            "p19-w31",
+            "p19-w32"
+          ],
+          "box": [
+            0.1225363,
+            0.7880513,
+            0.5652872999999999,
+            0.0943633
+          ],
+          "start": 55.852333,
+          "end": 61.548083,
+          "reviewed": false,
+          "clip": "./pilot-media/p017-box-016.mp3"
+        }
+      ]
+    }
+  },
+  "segments": {
+    "p17-w1": {
+      "start": 11.435333,
+      "end": 12.241708,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-001.mp3"
+    },
+    "p17-w2": {
+      "start": 13.071667,
+      "end": 14.193375,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-002.mp3"
+    },
+    "p17-w3": {
+      "start": 14.826917,
+      "end": 15.651625,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-003.mp3"
+    },
+    "p17-w4": {
+      "start": 16.389,
+      "end": 17.395667,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-004.mp3"
+    },
+    "p17-w5": {
+      "start": 17.981042,
+      "end": 19.136792,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-005.mp3"
+    },
+    "p17-w6": {
+      "start": 19.761167,
+      "end": 20.690167,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-006.mp3"
+    },
+    "p17-w7": {
+      "start": 21.37625,
+      "end": 22.285208,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-007.mp3"
+    },
+    "p17-w8": {
+      "start": 22.948833,
+      "end": 23.936792,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-008.mp3"
+    },
+    "p17-w9": {
+      "start": 24.525958,
+      "end": 25.53325,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-009.mp3"
+    },
+    "p17-w10": {
+      "start": 26.061792,
+      "end": 26.81225,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-010.mp3"
+    },
+    "p17-w11": {
+      "start": 27.316,
+      "end": 28.231625,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-011.mp3"
+    },
+    "p17-w12": {
+      "start": 28.788167,
+      "end": 29.74125,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-012.mp3"
+    },
+    "p17-w13": {
+      "start": 30.185417,
+      "end": 31.318958,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-013.mp3"
+    },
+    "p17-w14": {
+      "start": 31.978542,
+      "end": 33.003708,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-014.mp3"
+    },
+    "p17-w15": {
+      "start": 33.552375,
+      "end": 34.627333,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-015.mp3"
+    },
+    "p17-w16": {
+      "start": 35.296125,
+      "end": 36.002417,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-016.mp3"
+    },
+    "p17-w17": {
+      "start": 36.661208,
+      "end": 37.532875,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-017.mp3"
+    },
+    "p17-w18": {
+      "start": 38.469292,
+      "end": 39.482958,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-018.mp3"
+    },
+    "p17-w19": {
+      "start": 40.209375,
+      "end": 41.264708,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-019.mp3"
+    },
+    "p17-w20": {
+      "start": 41.827333,
+      "end": 42.663625,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-020.mp3"
+    },
+    "p17-w21": {
+      "start": 43.31625,
+      "end": 44.217,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-021.mp3"
+    },
+    "p17-w22": {
+      "start": 44.963917,
+      "end": 45.817917,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-022.mp3"
+    },
+    "p17-w23": {
+      "start": 46.464208,
+      "end": 47.52075,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-023.mp3"
+    },
+    "p17-w24": {
+      "start": 48.204667,
+      "end": 49.2155,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-024.mp3"
+    },
+    "p17-w25": {
+      "start": 49.733833,
+      "end": 50.725625,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-025.mp3"
+    },
+    "p17-w26": {
+      "start": 51.203042,
+      "end": 52.085625,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-026.mp3"
+    },
+    "p17-w27": {
+      "start": 52.652708,
+      "end": 53.5305,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-027.mp3"
+    },
+    "p17-w28": {
+      "start": 54.049667,
+      "end": 54.958,
+      "reviewed": false,
+      "page": 17,
+      "sourceSha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p015-word-028.mp3"
+    },
+    "p18-w1": {
+      "start": 13.088417,
+      "end": 13.8855,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-001.mp3"
+    },
+    "p18-w2": {
+      "start": 14.715875,
+      "end": 15.67575,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-002.mp3"
+    },
+    "p18-w3": {
+      "start": 16.515375,
+      "end": 17.60425,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-003.mp3"
+    },
+    "p18-w4": {
+      "start": 18.435042,
+      "end": 19.44525,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-004.mp3"
+    },
+    "p18-w5": {
+      "start": 20.275417,
+      "end": 21.3985,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-005.mp3"
+    },
+    "p18-w6": {
+      "start": 22.092625,
+      "end": 23.058667,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-006.mp3"
+    },
+    "p18-w7": {
+      "start": 23.743583,
+      "end": 24.721083,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-007.mp3"
+    },
+    "p18-w8": {
+      "start": 25.427292,
+      "end": 26.393083,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-008.mp3"
+    },
+    "p18-w9": {
+      "start": 27.044042,
+      "end": 27.826542,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-009.mp3"
+    },
+    "p18-w10": {
+      "start": 28.445833,
+      "end": 29.224708,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-010.mp3"
+    },
+    "p18-w11": {
+      "start": 29.91675,
+      "end": 30.723833,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-011.mp3"
+    },
+    "p18-w12": {
+      "start": 31.4155,
+      "end": 32.222583,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-012.mp3"
+    },
+    "p18-w13": {
+      "start": 32.915,
+      "end": 33.72175,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-013.mp3"
+    },
+    "p18-w14": {
+      "start": 34.413792,
+      "end": 35.220708,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-014.mp3"
+    },
+    "p18-w15": {
+      "start": 35.984333,
+      "end": 36.992292,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-015.mp3"
+    },
+    "p18-w16": {
+      "start": 37.610542,
+      "end": 38.618542,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-016.mp3"
+    },
+    "p18-w17": {
+      "start": 39.252333,
+      "end": 40.260375,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-017.mp3"
+    },
+    "p18-w18": {
+      "start": 40.806458,
+      "end": 41.814167,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-018.mp3"
+    },
+    "p18-w19": {
+      "start": 42.334875,
+      "end": 43.501958,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-019.mp3"
+    },
+    "p18-w20": {
+      "start": 43.987958,
+      "end": 45.155083,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-020.mp3"
+    },
+    "p18-w21": {
+      "start": 45.678333,
+      "end": 46.845458,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-021.mp3"
+    },
+    "p18-w22": {
+      "start": 47.390333,
+      "end": 48.557375,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-022.mp3"
+    },
+    "p18-w23": {
+      "start": 49.1495,
+      "end": 50.034042,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-023.mp3"
+    },
+    "p18-w24": {
+      "start": 50.7565,
+      "end": 51.634458,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-024.mp3"
+    },
+    "p18-w25": {
+      "start": 52.505,
+      "end": 53.386,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-025.mp3"
+    },
+    "p18-w26": {
+      "start": 54.194333,
+      "end": 55.068042,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-026.mp3"
+    },
+    "p18-w27": {
+      "start": 55.859125,
+      "end": 56.765417,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-027.mp3"
+    },
+    "p18-w28": {
+      "start": 57.33875,
+      "end": 58.247458,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-028.mp3"
+    },
+    "p18-w29": {
+      "start": 58.922042,
+      "end": 59.830708,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-029.mp3"
+    },
+    "p18-w30": {
+      "start": 60.46575,
+      "end": 61.374417,
+      "reviewed": false,
+      "page": 18,
+      "sourceSha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p016-word-030.mp3"
+    },
+    "p19-w1": {
+      "start": 2.713292,
+      "end": 3.699542,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-001.mp3"
+    },
+    "p19-w2": {
+      "start": 4.30425,
+      "end": 5.287167,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-002.mp3"
+    },
+    "p19-w3": {
+      "start": 5.9865,
+      "end": 6.970833,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-003.mp3"
+    },
+    "p19-w4": {
+      "start": 7.703375,
+      "end": 8.691333,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-004.mp3"
+    },
+    "p19-w5": {
+      "start": 9.600583,
+      "end": 10.605625,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-005.mp3"
+    },
+    "p19-w6": {
+      "start": 11.614083,
+      "end": 12.618833,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-006.mp3"
+    },
+    "p19-w7": {
+      "start": 13.43475,
+      "end": 14.439792,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-007.mp3"
+    },
+    "p19-w8": {
+      "start": 15.275417,
+      "end": 16.282083,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-008.mp3"
+    },
+    "p19-w9": {
+      "start": 17.113542,
+      "end": 17.863792,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-009.mp3"
+    },
+    "p19-w10": {
+      "start": 18.704417,
+      "end": 19.454625,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-010.mp3"
+    },
+    "p19-w11": {
+      "start": 20.287542,
+      "end": 21.03775,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-011.mp3"
+    },
+    "p19-w12": {
+      "start": 21.929792,
+      "end": 22.680458,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-012.mp3"
+    },
+    "p19-w13": {
+      "start": 23.51325,
+      "end": 24.428625,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-013.mp3"
+    },
+    "p19-w14": {
+      "start": 25.307292,
+      "end": 26.222667,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-014.mp3"
+    },
+    "p19-w15": {
+      "start": 27.0705,
+      "end": 27.983792,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-015.mp3"
+    },
+    "p19-w16": {
+      "start": 28.81,
+      "end": 29.725417,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-016.mp3"
+    },
+    "p19-w17": {
+      "start": 30.444417,
+      "end": 31.406583,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-017.mp3"
+    },
+    "p19-w18": {
+      "start": 32.222625,
+      "end": 33.185458,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-018.mp3"
+    },
+    "p19-w19": {
+      "start": 33.98475,
+      "end": 34.947208,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-019.mp3"
+    },
+    "p19-w20": {
+      "start": 35.746167,
+      "end": 36.708583,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-020.mp3"
+    },
+    "p19-w21": {
+      "start": 37.623417,
+      "end": 38.758333,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-021.mp3"
+    },
+    "p19-w22": {
+      "start": 39.377792,
+      "end": 40.513167,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-022.mp3"
+    },
+    "p19-w23": {
+      "start": 41.178167,
+      "end": 42.314167,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-023.mp3"
+    },
+    "p19-w24": {
+      "start": 42.902,
+      "end": 44.035958,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-024.mp3"
+    },
+    "p19-w25": {
+      "start": 44.824083,
+      "end": 45.861083,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-025.mp3"
+    },
+    "p19-w26": {
+      "start": 47.02575,
+      "end": 48.062667,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-026.mp3"
+    },
+    "p19-w27": {
+      "start": 49.261917,
+      "end": 50.299917,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-027.mp3"
+    },
+    "p19-w28": {
+      "start": 51.439333,
+      "end": 52.477083,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-028.mp3"
+    },
+    "p19-w29": {
+      "start": 53.645167,
+      "end": 54.714292,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-029.mp3"
+    },
+    "p19-w30": {
+      "start": 55.852333,
+      "end": 56.92225,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-030.mp3"
+    },
+    "p19-w31": {
+      "start": 58.108708,
+      "end": 59.173125,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-031.mp3"
+    },
+    "p19-w32": {
+      "start": 60.483458,
+      "end": 61.548083,
+      "reviewed": false,
+      "page": 19,
+      "sourceSha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686",
+      "status": "machine-aligned-pending-listening",
+      "clip": "./pilot-media/p017-word-032.mp3"
+    }
+  }
+}

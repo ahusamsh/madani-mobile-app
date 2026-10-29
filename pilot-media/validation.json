@@ -1,0 +1,14 @@
+{
+  "pages": 3,
+  "wordClips": 90,
+  "boxClips": 58,
+  "humanListeningReviewed": 0,
+  "totalAudioFiles": 151,
+  "checks": [
+    "exact speech region counts",
+    "all word zones mapped once",
+    "monotonic non-overlapping word boundaries",
+    "all clip files encoded",
+    "geometry inside page"
+  ]
+}
