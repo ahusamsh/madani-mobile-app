@@ -1,10 +1,11 @@
 # Delivery — Madani camera pointer → existing audio (2026-11-01)
 
-Branch: `feature/vision-pointer-audio-engine-20261101` (based on the `seed` commit `2cc324a` in this session's checkout).
+Branch: `feature/vision-pointer-audio-engine-20261101`, based on PR #1 head `0d90146` (`feature/vision-camera-pointer-20261029`); PR target: that branch.
+Commits: `4de6076` (engine, tests, trial), `d0d4f80` (trial e2e, cache, report), plus this note.
 Status: **trial / not production-ready**. Nothing merged or deployed. No on-device (real phone camera) validation has been done.
 
-## Important context about the base
-The cloud checkout contained only a single `seed` commit with **no git remote**. `origin/feature/vision-camera-pointer-20261029` (PR #1) could not be fetched. The WIP files from the brief (`vision/recognition-core.mjs`, `camera-trial.*`, tests) were present in the seed and were used as the base. If PR #1 contains later commits than the seed, this branch must be rebased onto it.
+## Base
+The cloud checkout was a slim copy of PR #1: identical text files, but no `library-audio/*.mp3` and no `origin` remote. The work was built there and then cherry-picked unchanged onto the real PR #1 head `0d90146`. The `vision/` tree is byte-identical, and all tests were re-run on the new base (47/47 pass).
 
 ## What was built
 All processing is local, in dependency-free JavaScript (`vision/engine/`). The previous trial's unpinned OpenCV/MediaPipe CDN downloads were removed. They were also unreachable from this environment.
