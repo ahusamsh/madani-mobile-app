@@ -1,0 +1,3247 @@
+{
+ "generatedAt": "2026-11-01T14:58:02.328Z",
+ "cameraTrialSmoke": {
+  "result": "وجّه الكاميرا إلى صفحة…",
+  "state": "وجّه الكاميرا إلى صفحة من الكتاب…",
+  "progress": "فهرسة الصفحات: 15 / 89 (من الذاكرة: 0) — يمكنك البدء بالصفحات 17–21 ذات الأصوات المرتبطة",
+  "played": []
+ },
+ "cameraTrialEndToEnd": {
+  "played": [
+   "http://127.0.0.1:8765/pilot-media/p015-word-005.mp3"
+  ],
+  "result": "الصفحة 17 • حرف • قلم: ج",
+  "state": "الصفحة 17 — ثبّت المؤشر…",
+  "zone": "p17-w5",
+  "expectedClip": "./pilot-media/p015-word-005.mp3",
+  "text": "ج",
+  "pass": true
+ },
+ "readerRegression": {
+  "title": "القاعدة المدنية | الكتاب الناطق",
+  "editions": 19,
+  "status": "١٤٣ مقطع مرتبط؛ خرائط المواضع تحتاج مراجعة بشرية؛ باقي التسجيلات والمواضع غير المكتملة لا تُشغّل تخمينًا."
+ },
+ "pageErrors": [],
+ "summary": {
+  "label": "SIMULATED frames rendered from real page images; not real-camera validation",
+  "environment": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "indexedPages": 89,
+  "indexMs": 13904,
+  "targetSequences": 162,
+  "correctTriggers": 107,
+  "wrongTriggers": 0,
+  "precision": 1,
+  "recallPerSequence": 0.66,
+  "duplicateTriggersWhileHeld": 0,
+  "noPointerSequences": 18,
+  "noPointerFalseTriggers": 0,
+  "gapSequences": 11,
+  "gapFalseTriggers": 0,
+  "audioPlaysOnCorrect": 77,
+  "frameLatencyMs": {
+   "p50": 83.3,
+   "p95": 184.4,
+   "frames": 2119
+  },
+  "byScenario": {
+   "pen-alone-frontal": {
+    "sequences": 27,
+    "hit": 20,
+    "wrong": 0
+   },
+   "finger+hand-rotated-tilted": {
+    "sequences": 27,
+    "hit": 20,
+    "wrong": 0
+   },
+   "pencil-partial-zoom": {
+    "sequences": 27,
+    "hit": 16,
+    "wrong": 0
+   },
+   "pen+hand-low-light": {
+    "sequences": 27,
+    "hit": 17,
+    "wrong": 0
+   },
+   "stress-tip-near-frame-edge": {
+    "sequences": 27,
+    "hit": 14,
+    "wrong": 0
+   },
+   "finger-shadow-glare": {
+    "sequences": 27,
+    "hit": 20,
+    "wrong": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w5",
+   "text": "ج",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p17-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "tip-out-of-frame",
+    "stabilizing",
+    "no-reliable-pointer",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p17-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p17-w24"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p17-w24"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "insufficient-page-evidence",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p17-w24"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w24",
+   "text": "م",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p17-w24"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 17,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 17,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "stabilizing",
+    "already-pointing",
+    "pointer-too-short"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w6",
+   "text": "بـ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p18-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p18-w16"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p18-w16"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p18-w16"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "no-reliable-pointer",
+    "stabilizing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p18-w16"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w16",
+   "text": "ثـ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p18-w16"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p18-w26"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p18-w26"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "insufficient-page-evidence",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p18-w26"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 18,
+   "zone": "p18-w26",
+   "text": "ـح",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p18-w26"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 18,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 18,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w6",
+   "text": "ذ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p19-w6"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "pointer-too-short",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w17",
+   "text": "س",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p19-w17"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing",
+    "local-evidence-mismatch"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p19-w27"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p19-w27"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p19-w27"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p19-w27"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 19,
+   "zone": "p19-w27",
+   "text": "ـصـ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p19-w27"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 19,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 19,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w5",
+   "text": "ظ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p20-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p20-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p20-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "insufficient-page-evidence",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p20-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing",
+    "no-reliable-pointer"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p20-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w13",
+   "text": "غ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "no-text-at-tip"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p20-w21"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p20-w21"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "insufficient-page-evidence",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p20-w21"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 20,
+   "zone": "p20-w21",
+   "text": "ق",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p20-w21"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 20,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 20,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "gap",
+   "pageId": 20,
+   "between": [
+    "p20-w4",
+    "p20-w3"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 20,
+   "between": [
+    "p20-w3",
+    "p20-w2"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 20,
+   "between": [
+    "p20-w2",
+    "p20-w1"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p21-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "no-text-at-tip"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p21-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "no-text-at-tip",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p21-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing",
+    "no-reliable-pointer"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p21-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w5",
+   "text": "ل",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p21-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w15",
+   "text": "ـنـ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p21-w15"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p21-w25"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p21-w25"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p21-w25"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-reliable-pointer"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "pointer-too-short"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 21,
+   "zone": "p21-w25",
+   "text": "ـو",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p21-w25"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 1,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 21,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 21,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "gap",
+   "pageId": 21,
+   "between": [
+    "p21-w4",
+    "p21-w3"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 21,
+   "between": [
+    "p21-w3",
+    "p21-w2"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 21,
+   "between": [
+    "p21-w2",
+    "p21-w1"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p24-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "pointer-too-short",
+    "pointer-type-uncertain"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w13",
+   "text": "ُالُّسُ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "pointer-too-short",
+    "occluder-not-entering-from-outside",
+    "no-text-at-tip",
+    "ambiguous-neighbours",
+    "pointer-type-uncertain"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w44",
+   "text": "ُيُِعِ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours",
+    "pointer-type-uncertain"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 24,
+   "zone": "p24-w70",
+   "text": "الَّسَاِكِِن",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 24,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 24,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "gap",
+   "pageId": 24,
+   "between": [
+    "p24-w7",
+    "p24-w6"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 24,
+   "between": [
+    "p24-w14",
+    "p24-w12"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 24,
+   "between": [
+    "p24-w39",
+    "p24-w38"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "pointer-too-short"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w12",
+   "text": "ّمََتَاِن",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "local-evidence-mismatch",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w38",
+   "text": "ب",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p38-w38"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "tip-out-of-frame",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-text-at-tip",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 38,
+   "zone": "p38-w62",
+   "text": "ََِمََعَ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 38,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 38,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "gap",
+   "pageId": 38,
+   "between": [
+    "p38-w36",
+    "p38-w35"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "gap",
+   "pageId": 38,
+   "between": [
+    "p38-w42",
+    "p38-w41"
+   ],
+   "accepted": []
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w3",
+   "text": "ٌّحُشٌّدَص",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p60-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w5",
+   "text": "ــرٌّقِش",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p60-w5"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p60-w7"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p60-w7"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p60-w7"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "stabilizing",
+    "no-pointer-evidence",
+    "pointer-type-uncertain",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "pointer-too-short"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 60,
+   "zone": "p60-w7",
+   "text": "ٌّمُصٌّنِمُس",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p60-w7"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 60,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 60,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w3",
+   "text": "اِإْلِْسْاَلاُمُ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p85-w3"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours",
+    "no-reliable-pointer"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours",
+    "pointer-type-uncertain"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w8",
+   "text": "الْقَيُّوم",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "pen-alone-frontal",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "no-reliable-pointer",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "ambiguous-neighbours",
+    "no-reliable-pointer"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "stress-tip-near-frame-edge",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 85,
+   "zone": "p85-w13",
+   "text": "ًوَبِالْوَاددِلِ",
+   "scenario": "finger-shadow-glare",
+   "accepted": [
+    "p85-w13"
+   ],
+   "correct": 1,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "no-pointer-evidence",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 85,
+   "accepted": [],
+   "pageFound": 11
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 85,
+   "accepted": [],
+   "pageFound": 11
+  }
+ ]
+}
