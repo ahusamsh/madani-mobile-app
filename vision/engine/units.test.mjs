@@ -118,3 +118,10 @@ test('REAL library: page 17 isolated letter ا maps to its own clip; unmapped pa
   const toks = zoneTokens(library, 20, 640, 903);
   assert.ok(toks.length === library.pages['20'].zones.length && toks.every(t => t.box.width > 0));
 });
+
+test('a target hidden under the pointer has no visible evidence (engine rejects it as target-occluded)', () => {
+  const { H, g } = frame({}), wd = page.words[10], box = { x: wd.box[0] * ref.w, y: wd.box[1] * ref.h, width: wd.box[2] * ref.w, height: wd.box[3] * ref.h };
+  const work = 2, mw = Math.round(g.w / work), mh = Math.round(g.h / work), mask = new Uint8Array(mw * mh).fill(1);
+  const ev = verifyLocal(g, ref, H, box, { mask, w: mw, h: mh, work });
+  assert.ok(ev.visible < 0.3, String(ev.visible));
+});

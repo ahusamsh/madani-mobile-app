@@ -26,7 +26,7 @@ async function buildIndex(library) {
   for (const ref of refs) {
     if (!active && n > 0) break;
     const r = await referenceFeatures(ref, db); if (r.cached) cached++;
-    engine.addReferencePage(ref.pageId, null, r.features, r.size); n++;
+    engine.addReferencePage(ref.pageId, null, r.features, r.size, r.thumb); n++;
     $('progress').textContent = `فهرسة الصفحات: ${n} / ${refs.length} (من الذاكرة: ${cached}) — يمكنك البدء بالصفحات 17–21 ذات الأصوات المرتبطة`;
     await new Promise(r => setTimeout(r, 0));
   }

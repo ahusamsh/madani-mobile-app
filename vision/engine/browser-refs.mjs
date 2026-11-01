@@ -1,9 +1,9 @@
 // Browser-only helpers: decode reference page images, cache their features in IndexedDB.
 import { computeFeatures } from './features.mjs';
-import { REF_FEATURE_OPTS } from './page-matcher.mjs';
+import { REF_FEATURE_OPTS, makeThumb } from './page-matcher.mjs';
 
 export const REF_WIDTH = 640;
-const CACHE_VERSION = 'madani-vision-features-v1';
+const CACHE_VERSION = 'madani-vision-features-v2';
 
 /** Pages that have both an original page image and a zone map in the audio library. */
 export function referencePages(library, appRoot) {
@@ -33,9 +33,9 @@ const tx = (db, mode, fn) => new Promise((resolve) => { try { const t = db.trans
 export async function referenceFeatures(ref, db) {
   const key = `${ref.url}|${REF_WIDTH}|${JSON.stringify(REF_FEATURE_OPTS)}`;
   const hit = db && await tx(db, 'readonly', s => s.get(key));
-  if (hit?.features?.desc) return { features: hit.features, size: hit.size, gray: null, cached: true };
-  const gray = await loadGray(ref.url), features = computeFeatures(gray, REF_FEATURE_OPTS), size = { w: gray.w, h: gray.h };
-  if (db) await tx(db, 'readwrite', s => s.put({ features, size }, key));
-  return { features, size, gray, cached: false };
+  if (hit?.features?.desc && hit.thumb?.d) return { features: hit.features, size: hit.size, thumb: hit.thumb, gray: null, cached: true };
+  const gray = await loadGray(ref.url), features = computeFeatures(gray, REF_FEATURE_OPTS), size = { w: gray.w, h: gray.h }, thumb = makeThumb(gray);
+  if (db) await tx(db, 'readwrite', s => s.put({ features, size, thumb }, key));
+  return { features, size, thumb, gray, cached: false };
 }
 export const openFeatureCache = idb;
