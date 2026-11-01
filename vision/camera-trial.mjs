@@ -1,174 +1,103 @@
-import * as pdfjs from '../vendor/pdf.mjs';
-import {project,invertHomography,choosePage,PointingGate} from './recognition-core.mjs';
-pdfjs.GlobalWorkerOptions.workerSrc='../vendor/pdf.worker.mjs';
-const $=id=>document.getElementById(id);
-const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-let cv,handLandmarker,stream,doc,active=false,refPages=[],frames=0,latestMatch=null,lastPageAt=0,pendingPage=null,pendingHits=0,gate=new PointingGate();
-let orb,matcher;const videoCanvas=document.createElement('canvas');
-const log=s=>{$('debug').textContent=String(s)};
-const status=s=>{$('progress').textContent=s};
-function jsScript(src){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(Error('Cannot load '+src));document.head.append(s)})}
-async function loadOpenCV(){
- if(!window.cv)await jsScript('https://docs.opencv.org/4.x/opencv.js');
- const end=performance.now()+15000;
- while(performance.now()<end){if(window.cv?.Mat){cv=window.cv;return}await wait(100)}
- throw Error('OpenCV did not initialize');
-}
-async function loadHandTracking(){
- const {FilesetResolver,HandLandmarker}=await import('https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.34/+esm');
- const vision=await FilesetResolver.forVisionTasks('https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.34/wasm');
- handLandmarker=await HandLandmarker.createFromOptions(vision,{baseOptions:{modelAssetPath:'https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task',delegate:'CPU'},runningMode:'VIDEO',numHands:1,minHandDetectionConfidence:.72,minTrackingConfidence:.65});
-}
-function frameGray(){
- const v=$('video');videoCanvas.width=640;videoCanvas.height=Math.round(v.videoHeight*640/v.videoWidth);
- videoCanvas.getContext('2d',{willReadFrequently:true}).drawImage(v,0,0,videoCanvas.width,videoCanvas.height);
- const rgba=cv.imread(videoCanvas),gray=new cv.Mat();
- cv.cvtColor(rgba,gray,cv.COLOR_RGBA2GRAY);rgba.delete();return gray;
-}
-function features(gray){
- const points=new cv.KeyPointVector(),descriptors=new cv.Mat(),mask=new cv.Mat();
- orb.detectAndCompute(gray,mask,points,descriptors);mask.delete();return {points,descriptors};
-}
-function deleteFeatures(f){f?.points?.delete();f?.descriptors?.delete()}
-function imageTextSegments(textContent,vp){
- const out=[];
- for(const t of textContent.items||[]){
-  const str=(t.str||'').trim();if(!str||!t.width)continue;
-  const m=pdfjs.Util.transform(vp.transform,t.transform),height=Math.max(7,Math.hypot(m[2],m[3])),width=Math.max(1,t.width*vp.scale),baseX=m[4],baseY=m[5]-height;
-  const pieces=[...str.matchAll(/\S+/gu)];
-  for(const piece of pieces){
-   const start=piece.index/str.length,ratio=piece[0].length/str.length;
-   const x=t.dir==='rtl'?baseX+width*(1-start-ratio):baseX+width*start;
-   out.push({id:out.length+1,text:piece[0],confidence:.95,source:'registered-pdf-text',kind:piece[0].length===1?'letter':'word',box:{x,y:baseY,width:width*ratio,height}});
+// Opt-in camera trial: live page identification, finger/pen tip, word/letter, original audio.
+// All processing is local (vision/engine/*); no CDN models, no synthetic speech.
+import { VisionEngine } from './engine/engine.mjs';
+import { referencePages, referenceFeatures, loadGray, openFeatureCache } from './engine/browser-refs.mjs';
+
+const $ = id => document.getElementById(id);
+const APP_ROOT = new URL('../', import.meta.url);
+const FRAME_W = 480;
+const REASONS = {
+  'page-not-identified': 'وجّه الكاميرا إلى صفحة من الكتاب…', 'insufficient-page-evidence': 'لا يكفي ما يظهر للتعرف على الصفحة', 'ambiguous-page': 'الصفحة غير مؤكدة (تشابه بين صفحتين)',
+  'confirming-page': 'جارٍ التأكد من الصفحة…', 'page-tracking-dropout': 'فُقد تتبع الصفحة لحظيًا', 'loading-reference-page': 'تحميل صورة الصفحة المرجعية…',
+  'weak-camera-dark': 'الإضاءة ضعيفة جدًا', 'weak-camera-overexposed': 'الصورة شديدة السطوع', 'weak-camera-low-contrast': 'الصورة باهتة', 'weak-camera-blur': 'الصورة مهتزة أو غير واضحة',
+  'no-pointer-evidence': 'لا يوجد إصبع أو قلم', 'occluder-not-entering-from-outside': 'لا يوجد إصبع أو قلم', 'tip-out-of-frame': 'طرف المؤشر خارج الإطار', 'no-clear-tip': 'طرف المؤشر غير واضح',
+  'pointer-type-uncertain': 'المؤشر غير مؤكد (إصبع أم قلم؟)', 'pointer-too-short': 'المؤشر غير واضح', 'page-occluded-or-misregistered': 'الصفحة مغطاة أكثر من اللازم', 'page-not-in-view': 'الصفحة خارج الإطار',
+  'tip-outside-page': 'الطرف خارج الصفحة', 'no-text-at-tip': 'لا توجد كلمة تحت الطرف', 'ambiguous-neighbours': 'الطرف بين كلمتين — غير مؤكد', 'target-occluded': 'الكلمة مغطاة', 'local-evidence-mismatch': 'ما تحت الطرف لا يطابق الصفحة',
+  'page-has-no-zone-map': 'هذه الصفحة بلا خريطة مواضع', 'stabilizing': 'ثبّت المؤشر…', 'already-pointing': '', 'cooldown': '', 'no-reliable-pointer': 'لا يوجد إصبع أو قلم', 'no-reliable-page': 'الصفحة غير مؤكدة',
+};
+
+let engine, stream, active = false, audio, lastShown = null, latencies = [];
+const canvas = document.createElement('canvas'), ctx2 = canvas.getContext('2d', { willReadFrequently: true });
+
+async function buildIndex(library) {
+  const db = await openFeatureCache(), refs = referencePages(library, APP_ROOT), urls = new Map(refs.map(r => [r.pageId, r.url]));
+  engine = new VisionEngine({ library, loadGray: id => loadGray(urls.get(id)), keepPages: 4 });
+  let n = 0, cached = 0;
+  for (const ref of refs) {
+    if (!active && n > 0) break;
+    const r = await referenceFeatures(ref, db); if (r.cached) cached++;
+    engine.addReferencePage(ref.pageId, null, r.features, r.size); n++;
+    $('progress').textContent = `فهرسة الصفحات: ${n} / ${refs.length} (من الذاكرة: ${cached}) — يمكنك البدء بالصفحات 17–21 ذات الأصوات المرتبطة`;
+    await new Promise(r => setTimeout(r, 0));
   }
- }
- return out;
+  $('progress').textContent = `الفهرس جاهز: ${n} صفحة. تعمل المعالجة على الجهاز فقط.`;
 }
-async function indexReference(pageNo){
- if(!doc||pageNo>doc.numPages)return;
- const page=await doc.getPage(pageNo),base=page.getViewport({scale:1}),vp=page.getViewport({scale:640/base.width});
- const canvas=document.createElement('canvas');canvas.width=Math.ceil(vp.width);canvas.height=Math.ceil(vp.height);
- await page.render({canvasContext:canvas.getContext('2d',{alpha:false}),viewport:vp}).promise;
- const img=cv.imread(canvas),gray=new cv.Mat();cv.cvtColor(img,gray,cv.COLOR_RGBA2GRAY);img.delete();
- const feature=features(gray),text=await page.getTextContent();gray.delete();
- refPages.push({page:pageNo,features:feature,tokens:imageTextSegments(text,vp)});page.cleanup();
- status('الفهرسة البصرية: '+refPages.length+' / '+doc.numPages+' صفحة • تعمل الكاميرا بالتوازي');
-}
-function matchOne(live,ref){
- if(live.descriptors.empty()||ref.features.descriptors.empty())return null;
- const matches=new cv.DMatchVectorVector();let mask=null,H=null,from=null,to=null;
- try{
-  matcher.knnMatch(ref.features.descriptors,live.descriptors,matches,2);
-  const pairs=[];
-  for(let i=0;i<matches.size();i++){
-   const row=matches.get(i);if(row.size()>=2){const a=row.get(0),b=row.get(1);if(a.distance<.72*b.distance)pairs.push([a.queryIdx,a.trainIdx])}row.delete();
+
+function drawPoly(ctx, pts, color, width) { if (!pts?.every(Boolean)) return; ctx.strokeStyle = color; ctx.lineWidth = width; ctx.beginPath(); pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y))); ctx.closePath(); ctx.stroke(); }
+
+function overlay(r, w, h) {
+  const c = $('overlay'); c.width = w; c.height = h; const ctx = c.getContext('2d');
+  const d = r.debug || {};
+  if ($('showDebug').checked && d.pointer?.mask) {
+    const { w: mw, h: mh, mask, work } = d.pointer, img = ctx.createImageData(mw, mh);
+    for (let k = 0; k < mask.length; k++) if (mask[k]) img.data.set([255, 77, 109, 110], k * 4);
+    const tmp = Object.assign(document.createElement('canvas'), { width: mw, height: mh }); tmp.getContext('2d').putImageData(img, 0, 0);
+    ctx.drawImage(tmp, 0, 0, mw * work, mh * work);
   }
-  if(pairs.length<10)return null;
-  const src=[],dst=[];
-  for(const [i,j] of pairs){const a=ref.features.points.get(i).pt,b=live.points.get(j).pt;src.push(a.x,a.y);dst.push(b.x,b.y)}
-  from=cv.matFromArray(pairs.length,1,cv.CV_32FC2,src);to=cv.matFromArray(pairs.length,1,cv.CV_32FC2,dst);
-  mask=new cv.Mat();H=cv.findHomography(from,to,cv.RANSAC,4,mask);
-  if(H.empty())return null;
-  const inliers=Array.from(mask.data).filter(v=>v!==0).length;
-  const score=Math.min(.99,(inliers/pairs.length)*(.68+.32*Math.min(inliers,32)/32));
-  if(inliers<9)return null;
-  return {page:ref.page,inliers,matches:pairs.length,score,registration:Array.from(H.data64F.length?H.data64F:H.data32F)};
- }finally{matches.delete();from?.delete();to?.delete();mask?.delete();H?.delete()}
+  drawPoly(ctx, d.outline, '#38e5a5', 2);
+  for (const c2 of d.candidates || []) drawPoly(ctx, c2.corners.map(p => p && { x: p.x, y: p.y }), '#5aa9ff', 1);
+  if (d.accepted) drawPoly(ctx, d.accepted.corners, '#38e5a5', 4);
+  if (r.tip?.frame) { ctx.strokeStyle = '#ffd038'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(r.tip.frame.x, r.tip.frame.y, 7, 0, 2 * Math.PI); ctx.stroke(); }
 }
-function penNearHand(gray,lm,confidence) {
- // Experimental: require BOTH visible grasp landmarks and a geometric pen shaft.
- // No hand or no identifiable shaft => no pen event, never guess from page lines alone.
- const W=gray.cols,H=gray.rows;
- const p=i=>({x:lm[i].x*W,y:lm[i].y*H});
- const thumb=p(4),index=p(8),wrist=p(0),base=p(5);
- const length=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
- if(length(thumb,index)>length(wrist,base)*.78)return null;
- const pinch={x:(thumb.x+index.x)/2,y:(thumb.y+index.y)/2};
- const edges=new cv.Mat(),lines=new cv.Mat();
- try{
-  cv.Canny(gray,edges,85,175);
-  cv.HoughLinesP(edges,lines,1,Math.PI/180,38,38,10);
-  let best=null;
-  for(let k=0;k<lines.data32S.length;k+=4){
-   const a={x:lines.data32S[k],y:lines.data32S[k+1]},b={x:lines.data32S[k+2],y:lines.data32S[k+3]};
-   const dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy);
-   if(len<45||len>240)continue;
-   const t=Math.max(0,Math.min(1,((pinch.x-a.x)*dx+(pinch.y-a.y)*dy)/(len*len)));
-   const near={x:a.x+t*dx,y:a.y+t*dy},miss=length(near,pinch);
-   if(miss>10)continue;
-   const tip=length(a,wrist)>length(b,wrist)?a:b;
-   const extension=length(tip,wrist)-length(index,wrist);
-   if(extension<16||length(tip,pinch)<18)continue;
-   const vec={x:tip.x-pinch.x,y:tip.y-pinch.y},forward={x:index.x-wrist.x,y:index.y-wrist.y};
-   const cosine=(vec.x*forward.x+vec.y*forward.y)/(Math.hypot(vec.x,vec.y)*Math.hypot(forward.x,forward.y)+1e-8);
-   if(cosine<.72)continue;
-   const score=Math.min(.96,confidence*.8 + Math.min(.16,len/600) + .05*(1-miss/10));
-   if(!best||score>best.confidence)best={type:'pen',confidence:score,tip};
+
+function show(r) {
+  if (r.accepted) {
+    const who = r.pointerType === 'pen' ? 'قلم' : 'إصبع', kind = r.kind === 'letter' ? 'حرف' : 'كلمة';
+    $('result').innerHTML = '';
+    const t = document.createElement('span'); t.className = 't'; t.textContent = r.targetText;
+    $('result').append(`الصفحة ${r.pageId} • ${kind} • ${who}: `, t, r.play ? '' : ' — الصوت غير متوفر لهذا الموضع');
+    lastShown = r;
+    if (r.play && $('sound').checked) { audio.pause(); audio.src = new URL(r.audio.clip, APP_ROOT).href; audio.currentTime = 0; audio.play().catch(e => console.warn('audio', e)); }
+  } else if (!lastShown || r.rejectionReason !== 'already-pointing') {
+    const msg = REASONS[r.rejectionReason] ?? r.rejectionReason;
+    if (msg) $('state').textContent = (r.pageId ? `الصفحة ${r.pageId} — ` : '') + msg;
+    if (!['already-pointing', 'cooldown', 'stabilizing'].includes(r.rejectionReason)) lastShown = null;
   }
-  return best;
- }finally{edges.delete();lines.delete()}
-}
-function getPointer(frameWidth,frameHeight,gray){
- const result=handLandmarker.detectForVideo($('video'),performance.now()),lm=result.landmarks?.[0];if(!lm)return null;
- const d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
- const conf=result.handednesses?.[0]?.[0]?.score??0;
- if(conf>=.8){const detectedPen=penNearHand(gray,lm,conf);if(detectedPen)return detectedPen;}
- // Finger extension evidence; missing or curled hand does not count.
- if(!(d(lm[8],lm[5])>1.18*d(lm[6],lm[5])&&d(lm[8],lm[0])>1.12*d(lm[6],lm[0])))return null;
- return conf>=.75?{type:'finger',confidence:Math.min(conf,.97),tip:{x:lm[8].x*frameWidth,y:lm[8].y*frameHeight}}:null;
-}
-function drawOverlay(pointer,page,box){
- const can=$('overlay');can.width=videoCanvas.width;can.height=videoCanvas.height;const ctx=can.getContext('2d');ctx.lineWidth=3;
- if(pointer){ctx.strokeStyle='#ffd038';ctx.beginPath();ctx.arc(pointer.tip.x,pointer.tip.y,9,0,2*Math.PI);ctx.stroke()}
- if(page?.registration&&box){
-  const {x,y,width,height}=box,pts=[{x,y},{x:x+width,y},{x:x+width,y:y+height},{x,y:y+height}].map(p=>project(page.registration,p));
-  if(pts.every(Boolean)){ctx.strokeStyle='#38e5a5';ctx.beginPath();ctx.moveTo(pts[0].x,pts[0].y);for(let i=1;i<4;i++)ctx.lineTo(pts[i].x,pts[i].y);ctx.closePath();ctx.stroke()}
- }
-}
-async function step(){
- if(!active)return;
- let gray=null;
- try{
-  if($('video').readyState<2){requestAnimationFrame(step);return}
-  frames++;gray=frameGray();const w=gray.cols,h=gray.rows;
-  let pointer=null;try{pointer=getPointer(w,h,gray)}catch(e){console.warn('hand detector',e)}
-  if(frames%10===1&&refPages.length){
-   const lf=features(gray),batch=refPages.filter(x=>x.page===latestMatch?.page),start=Math.floor(frames/10)%Math.max(1,Math.ceil(refPages.length/14))*14;
-   const refs=[...batch,...refPages.slice(start,start+14)].filter((x,i,a)=>a.findIndex(z=>z.page===x.page)===i),options=[];
-   for(const ref of refs){const item=matchOne(lf,ref);if(item)options.push(item)}
-   deleteFeatures(lf);
-   const chosen=choosePage(options);
-   if(chosen.page){
-    if(pendingPage===chosen.page)pendingHits++;else{pendingPage=chosen.page;pendingHits=1;latestMatch=null;}
-    if(pendingHits>=2){latestMatch={...chosen,registration:options.find(x=>x.page===chosen.page)?.registration};lastPageAt=performance.now()}
-   }else{pendingPage=null;pendingHits=0;latestMatch=null;}
+  if ($('showDebug').checked) {
+    const { debug, quality, ...rest } = r, lat = [...latencies].sort((a, b) => a - b);
+    $('debug').textContent = JSON.stringify({ ...rest, quality: { mean: quality.mean | 0, std: quality.std | 0, sharpness: quality.sharpness | 0, weak: quality.weak }, features: debug?.features, latencyMs: { p50: lat[lat.length >> 1] | 0, p95: lat[Math.floor(lat.length * 0.95)] | 0, n: lat.length } }, null, 2);
   }
-  if(!latestMatch||performance.now()-lastPageAt>350)latestMatch=null;
-  const pageRef=refPages.find(x=>x.page===latestMatch?.page),inv=latestMatch?.registration?invertHomography(latestMatch.registration):null;
-  const point=inv&&pointer?project(inv,pointer.tip):null,pointerPage=pointer&&point?{...pointer,tip:point}:null;
-  const decision=gate.update({at:performance.now(),page:latestMatch,pointer:pointerPage,tokens:pageRef?.tokens??[]});
-  if(decision.accepted){$('result').textContent='الصفحة '+decision.page+' • '+decision.targetText;log(JSON.stringify(decision,null,2))}
-  else if(!pointer)$('result').textContent='لا توجد إشارة إصبع موثوقة';
-  else if(!latestMatch)$('result').textContent='جاري التحقق من الصفحة...';
-  drawOverlay(pointer,latestMatch,decision.accepted?pageRef?.tokens.find(x=>x.id===decision.targetId)?.box:null);
- }catch(e){console.error(e);log('فشل بصري؛ لا يتم تخمين نتيجة: '+e.message)}
- finally{gray?.delete();if(active)setTimeout(()=>requestAnimationFrame(step),45)}
 }
-async function start(){
- $('start').disabled=true;status('تحميل النماذج...');
- try{
-  await Promise.all([loadOpenCV(),loadHandTracking()]);
-  if(!cv.ORB||!cv.BFMatcher||!cv.findHomography)throw Error('OpenCV build lacks ORB feature matching');
-  orb=new cv.ORB(500);matcher=new cv.BFMatcher(cv.NORM_HAMMING,false);
-  doc=await pdfjs.getDocument({url:'../books/ar.pdf',cMapUrl:'../vendor/cmaps/',cMapPacked:true}).promise;
-  stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'},width:{ideal:640},height:{ideal:480}},audio:false});
-  $('video').srcObject=stream;await $('video').play();active=true;$('stop').disabled=false;requestAnimationFrame(step);
-  for(let p=1;active&&p<=doc.numPages;p++){await indexReference(p);await wait(20)}
- }catch(e){log(e.stack||String(e));status('تعذر تشغيل المحرك: '+e.message);stop()}
+
+async function loop() {
+  if (!active) return;
+  const v = $('video');
+  if (v.readyState >= 2 && engine?.index.size) {
+    const w = FRAME_W, h = Math.round((v.videoHeight * w) / v.videoWidth);
+    if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
+    ctx2.drawImage(v, 0, 0, w, h);
+    const t = performance.now(), r = engine.processFrame({ rgba: ctx2.getImageData(0, 0, w, h).data, width: w, height: h, at: t });
+    latencies.push(performance.now() - t); if (latencies.length > 200) latencies.shift();
+    show(r); overlay(r, w, h);
+  }
+  setTimeout(() => requestAnimationFrame(loop), 15);
 }
-function stop(){
- active=false;pendingPage=null;pendingHits=0;latestMatch=null;stream?.getTracks().forEach(t=>t.stop());stream=null;$('video').srcObject=null;gate.reset();
- refPages.forEach(x=>deleteFeatures(x.features));refPages=[];doc?.destroy();doc=null;orb?.delete();matcher?.delete();orb=matcher=null;
- $('start').disabled=false;$('stop').disabled=true;status('متوقف');
+
+async function start() {
+  $('start').disabled = true; $('result').textContent = 'جارٍ التحضير…';
+  try {
+    audio = new Audio(); audio.preload = 'auto'; // created inside the click handler so playback is allowed
+    const library = await (await fetch(new URL('data/audio-library.json', APP_ROOT))).json();
+    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: 'environment' }, width: { ideal: 960 }, height: { ideal: 720 } }, audio: false });
+    $('video').srcObject = stream; await $('video').play();
+    active = true; $('stop').disabled = false; $('result').textContent = 'وجّه الكاميرا إلى صفحة…';
+    buildIndex(library).catch(e => { $('progress').textContent = 'تعذرت الفهرسة: ' + e.message; });
+    requestAnimationFrame(loop);
+  } catch (e) { $('result').textContent = 'تعذر تشغيل الكاميرا: ' + e.message; stop(); }
 }
-$('start').onclick=start;$('stop').onclick=stop;
+function stop() {
+  active = false; stream?.getTracks().forEach(t => t.stop()); stream = null; $('video').srcObject = null; engine?.reset(); audio?.pause();
+  $('start').disabled = false; $('stop').disabled = true; $('state').textContent = 'متوقف';
+}
+$('start').onclick = start; $('stop').onclick = stop;
+$('showDebug').onchange = () => { $('debug').hidden = !$('showDebug').checked; };

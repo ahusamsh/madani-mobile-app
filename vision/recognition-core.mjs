@@ -17,18 +17,23 @@ export function distanceToBox({x,y},b){
  return Math.hypot(Math.max(b.x-x,0,x-b.x-b.width),Math.max(b.y-y,0,y-b.y-b.height));
 }
 const validPoint=p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y);
-export function chooseTarget(tip,tokens,{minTextConfidence=.63,maxMissPx=9,tieMargin=.14}={}){
+export function chooseTarget(tip,tokens,{minTextConfidence=.63,maxMissPx=6,tieMargin=.14,outsideRatio=2.5}={}){
  if(!validPoint(tip)||!Array.isArray(tokens))return {target:null,reason:'no-pointer'};
- const ranked=[];
+ const ranked=[];let nearest=Infinity,second=Infinity;
  for(const item of tokens){
   const b=item?.box,text=String(item?.text??'').trim(),conf=Number(item?.confidence??0);
   if(!text||!b||!Number.isFinite(conf)||conf<minTextConfidence)continue;
-  const d=distanceToBox(tip,b),margin=Math.min(maxMissPx,Math.max(2,Math.min(b.width,b.height)*.28));
+  const d=distanceToBox(tip,b);
+  if(d<nearest){second=nearest;nearest=d}else if(d<second)second=d;
+  const margin=Math.min(maxMissPx,Math.max(2,Math.min(b.width,b.height)*.28));
   if(d>margin)continue;
-  ranked.push({item,score:(d===0?1:Math.max(0,1-d/(margin+1)))*.72+conf*.28});
+  ranked.push({item,d,score:(d===0?1:Math.max(0,1-d/(margin+1)))*.72+conf*.28});
  }
  ranked.sort((a,b)=>b.score-a.score);
  if(!ranked.length)return {target:null,reason:'no-text-at-tip'};
+ // Tip outside every box (e.g. in the gap between two words): only accept when one box is clearly the
+ // closest; a word beside or below the tip must never win on box size alone.
+ if(ranked[0].d>0&&second<Infinity&&second<outsideRatio*ranked[0].d+4)return {target:null,reason:'ambiguous-neighbours'};
  if(ranked[1]&&Math.abs(ranked[0].score-ranked[1].score)<tieMargin&&ranked[0].item.id!==ranked[1].item.id)
   return {target:null,reason:'ambiguous-neighbours'};
  return {target:ranked[0].item,confidence:Math.min(1,ranked[0].score),reason:null};
@@ -45,24 +50,27 @@ export class PointingGate{
   Object.assign(this,{holdMs,frames,missingResetMs,repeatCooldownMs,minPointerConfidence,minPageConfidence});this.reset();
  }
  reset(){this.candidate=null;this.firstAt=0;this.count=0;this.lastSeen=0;this.lastEmit=null;this.lastEmitAt=-Infinity;this.armed=true;}
- update({at,page,pointer,tokens}={}){
+ update({at,page,pointer,tokens,selection}={}){
   if(!Number.isFinite(at))throw new TypeError('frame timestamp required');
-  const reject=reason=>({accepted:false,reason,page:page?.page??null,tip:pointer?.tip??null});
+  const reject=reason=>({accepted:false,reason,rejectionReason:reason,page:page?.page??null,pageId:page?.page??null,tip:pointer?.tip??null});
   if(!pointer||!validPoint(pointer.tip)||!['finger','pen'].includes(pointer.type)||!Number.isFinite(pointer.confidence)||pointer.confidence<this.minPointerConfidence){
    if(at-this.lastSeen>=this.missingResetMs){this.candidate=null;this.count=0;this.armed=true;}
-   return reject('no-reliable-pointer');
+   return reject(pointer?.type==='uncertain'?'pointer-type-uncertain':'no-reliable-pointer');
   }
   this.lastSeen=at;
   if(!page||!Number.isInteger(page.page)||!Number.isFinite(page.confidence)||page.confidence<this.minPageConfidence)return reject('no-reliable-page');
-  const selected=chooseTarget(pointer.tip,tokens);
+  const selected=selection??chooseTarget(pointer.tip,tokens);
   if(!selected.target){this.candidate=null;this.count=0;return reject(selected.reason);}
   const key=`${page.page}:${selected.target.id??selected.target.text}`;
   if(this.candidate!==key){this.candidate=key;this.firstAt=at;this.count=1;return reject('stabilizing');}
   this.count++;
-  if(!this.armed)return reject('already-pointing');
+  // Same target while the pointer stays down: speak once. A deliberate move to another target is allowed;
+  // the same target again requires lifting the pointer (missing for missingResetMs).
+  if(!this.armed&&key===this.lastEmit)return reject('already-pointing');
   if(this.count<this.frames||at-this.firstAt<this.holdMs)return reject('stabilizing');
   if(this.lastEmit===key&&at-this.lastEmitAt<this.repeatCooldownMs)return reject('cooldown');
   this.armed=false;this.lastEmit=key;this.lastEmitAt=at;
-  return {accepted:true,reason:null,page:page.page,tip:pointer.tip,kind:selected.target.kind??'word',targetText:selected.target.text,targetId:selected.target.id,confidence:Math.min(page.confidence,pointer.confidence,selected.confidence),sourceEvidence:{pointerType:pointer.type,page:page.evidence??'visual-features',text:selected.target.source??'aligned-text'}};
+  const kind=selected.target.kind??'word';
+  return {accepted:true,reason:null,rejectionReason:null,page:page.page,pageId:page.page,tip:pointer.tip,kind,targetText:selected.target.text,targetId:selected.target.id,confidence:Math.min(page.confidence,pointer.confidence,selected.confidence),sourceEvidence:{pointerType:pointer.type,page:page.evidence??'visual-features',text:selected.target.source??'aligned-text',...(selected.evidence?{local:selected.evidence}:{})}};
  }
 }

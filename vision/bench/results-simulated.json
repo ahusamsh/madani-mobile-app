@@ -1,0 +1,160 @@
+{
+ "generatedAt": "2026-11-01T14:27:20.458Z",
+ "cameraTrialSmoke": {
+  "result": "وجّه الكاميرا إلى صفحة…",
+  "state": "وجّه الكاميرا إلى صفحة من الكتاب…",
+  "progress": "فهرسة الصفحات: 13 / 89 (من الذاكرة: 0) — يمكنك البدء بالصفحات 17–21 ذات الأصوات المرتبطة"
+ },
+ "readerRegression": {
+  "title": "القاعدة المدنية | الكتاب الناطق",
+  "editions": 19,
+  "status": "١٤٣ مقطع مرتبط؛ خرائط المواضع تحتاج مراجعة بشرية؛ باقي التسجيلات والمواضع غير المكتملة لا تُشغّل تخمينًا."
+ },
+ "pageErrors": [],
+ "summary": {
+  "label": "SIMULATED frames rendered from real page images; not real-camera validation",
+  "environment": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "indexedPages": 89,
+  "indexMs": 10629,
+  "targetSequences": 5,
+  "correctTriggers": 0,
+  "wrongTriggers": 1,
+  "precision": 0,
+  "recallPerSequence": 0,
+  "duplicateTriggersWhileHeld": 0,
+  "noPointerSequences": 2,
+  "noPointerFalseTriggers": 0,
+  "gapSequences": 0,
+  "gapFalseTriggers": 0,
+  "audioPlaysOnCorrect": 0,
+  "frameLatencyMs": {
+   "p50": 25,
+   "p95": 1023.3,
+   "frames": 79
+  },
+  "byScenario": {
+   "pen-alone-frontal": {
+    "sequences": 1,
+    "hit": 0,
+    "wrong": 1
+   },
+   "finger+hand-rotated-tilted": {
+    "sequences": 1,
+    "hit": 0,
+    "wrong": 0
+   },
+   "pencil-partial-zoom": {
+    "sequences": 1,
+    "hit": 0,
+    "wrong": 0
+   },
+   "pen+hand-low-light": {
+    "sequences": 1,
+    "hit": 0,
+    "wrong": 0
+   },
+   "finger-shadow-glare": {
+    "sequences": 1,
+    "hit": 0,
+    "wrong": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pen-alone-frontal",
+   "accepted": [
+    "p28-w5"
+   ],
+   "correct": 0,
+   "wrong": 1,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "occluder-not-entering-from-outside",
+    "stabilizing",
+    "no-audio-mapping",
+    "already-pointing"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "finger+hand-rotated-tilted",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "ambiguous-page",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pencil-partial-zoom",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "insufficient-page-evidence",
+    "page-not-identified",
+    "confirming-page",
+    "ambiguous-neighbours"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "pen+hand-low-light",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "ambiguous-page",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "target",
+   "pageId": 17,
+   "zone": "p17-w15",
+   "text": "ض",
+   "scenario": "finger-shadow-glare",
+   "accepted": [],
+   "correct": 0,
+   "wrong": 0,
+   "play": 0,
+   "reasons": [
+    "confirming-page",
+    "ambiguous-page",
+    "page-not-identified"
+   ]
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 17,
+   "accepted": [],
+   "pageFound": 0
+  },
+  {
+   "kind": "no-pointer",
+   "pageId": 17,
+   "accepted": [],
+   "pageFound": 0
+  }
+ ]
+}
