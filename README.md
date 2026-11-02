@@ -41,3 +41,11 @@
 - يحتوي `vision/alignment/` على تفريغات صوتية مؤقتة ومحاولات OCR وسجل كل ربط للمراجعة، ويحتوي `vision/alignment/unmatched-words.json` على المواضع غير المرتبطة. إعادة إنشاء المقاطع: `py scripts/transcribe-book.py` ثم `py scripts/ocr-book.py` ثم `py scripts/build-word-audio.py` ثم `node scripts/audio-coverage.cjs` و`node scripts/build-offline-packs.cjs`. يتطلب التشغيل المحلي نماذج وأدوات مثبتة، ولا يستخدم جهاز التدريب.
 - **حزمة الكاميرا العربية للعمل دون إنترنت:** 912 ملفًا تقريبًا، 32.4MB، شاملة الصور والفهرس والمقاطع المرتبطة، قابلة للتنزيل من التطبيق بعد اتصال أول. يظل تشغيل صفحات الكتاب الكاملة في حزمة مستقلة اختيارية.
 - المراجع التفصيلية والاستخدام الميداني بالكاميرا على هاتف حقيقي لم تكتمل؛ يُرجى اختبار الصفحات ذات الروابط الجديدة قبل اعتمادها رسميًا.
+
+## Audio expansion - 2026-11-02 (single-letter exact matching)
+
+- Total linked original-audio targets: **906 of 3,025** currently eligible camera zones (**29.95%**). Newly linked: **66** isolated Arabic letters across **21 pages** (43 have a vowel mark, 23 are unvowelled).
+- New segment mappings reuse **existing original Arabic recordings**, with exact base-letter and harakat signatures. Hamza variants and fatha/kasra/damma are deliberately kept distinct; no AI-generated recitation or approximate phonetic matches.
+- Source-target provenance and original clip URL: `vision/alignment/reused-letter-clips-audit.json`; reproduction `py scripts/reuse-exact-letter-clips.py`; validation `py scripts/letter-reuse-qa.py` and `node scripts/qa.cjs`.
+- All new and previous automatically created links are **pending listening/human review**, and remain silent if the exact recording cannot be mapped. More than two thousand visible zones are still unlinked.
+- `camera-ar` offline pack manifest was rebuilt; users must update their downloaded offline pack to have the latest mappings offline. No connection to the training computer.

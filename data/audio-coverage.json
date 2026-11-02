@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-02T13:43:21.013Z",
+ "generatedAt": "2026-11-02T14:07:29.714Z",
  "totalPages": 104,
  "pagesWithOriginalRecordings": 90,
  "eligibleVisualZones": 3025,
- "linkedZones": 840,
+ "linkedZones": 906,
  "originalLinkedSegments": 143,
- "machineLinkedSegments": 697,
+ "machineLinkedSegments": 763,
  "humanReviewedSegments": 0,
- "pendingZones": 2185,
+ "pendingZones": 2119,
  "pagesWithoutIndividualAudio": [
   4,
   6,
@@ -30,10 +30,7 @@
   58,
   59,
   60,
-  61,
   66,
-  73,
-  81,
   82,
   93
  ],
@@ -137,9 +134,9 @@
   {
    "page": 13,
    "zones": 89,
-   "mapped": 1,
-   "auto": 1,
-   "missing": 88,
+   "mapped": 21,
+   "auto": 21,
+   "missing": 68,
    "fullPageAudio": true
   },
   {
@@ -161,9 +158,9 @@
   {
    "page": 16,
    "zones": 113,
-   "mapped": 13,
-   "auto": 13,
-   "missing": 100,
+   "mapped": 17,
+   "auto": 17,
+   "missing": 96,
    "fullPageAudio": true
   },
   {
@@ -241,17 +238,17 @@
   {
    "page": 26,
    "zones": 21,
-   "mapped": 4,
-   "auto": 4,
-   "missing": 17,
+   "mapped": 9,
+   "auto": 9,
+   "missing": 12,
    "fullPageAudio": true
   },
   {
    "page": 27,
    "zones": 12,
-   "mapped": 3,
-   "auto": 3,
-   "missing": 9,
+   "mapped": 5,
+   "auto": 5,
+   "missing": 7,
    "fullPageAudio": true
   },
   {
@@ -265,17 +262,17 @@
   {
    "page": 29,
    "zones": 19,
-   "mapped": 4,
-   "auto": 4,
-   "missing": 15,
+   "mapped": 5,
+   "auto": 5,
+   "missing": 14,
    "fullPageAudio": true
   },
   {
    "page": 30,
    "zones": 14,
-   "mapped": 2,
-   "auto": 2,
-   "missing": 12,
+   "mapped": 7,
+   "auto": 7,
+   "missing": 7,
    "fullPageAudio": true
   },
   {
@@ -289,17 +286,17 @@
   {
    "page": 32,
    "zones": 21,
-   "mapped": 4,
-   "auto": 4,
-   "missing": 17,
+   "mapped": 9,
+   "auto": 9,
+   "missing": 12,
    "fullPageAudio": true
   },
   {
    "page": 33,
    "zones": 14,
-   "mapped": 2,
-   "auto": 2,
-   "missing": 12,
+   "mapped": 6,
+   "auto": 6,
+   "missing": 8,
    "fullPageAudio": true
   },
   {
@@ -521,9 +518,9 @@
   {
    "page": 61,
    "zones": 16,
-   "mapped": 0,
-   "auto": 0,
-   "missing": 16,
+   "mapped": 1,
+   "auto": 1,
+   "missing": 15,
    "fullPageAudio": true
   },
   {
@@ -537,9 +534,9 @@
   {
    "page": 63,
    "zones": 19,
-   "mapped": 12,
-   "auto": 12,
-   "missing": 7,
+   "mapped": 13,
+   "auto": 13,
+   "missing": 6,
    "fullPageAudio": true
   },
   {
@@ -553,9 +550,9 @@
   {
    "page": 65,
    "zones": 24,
-   "mapped": 1,
-   "auto": 1,
-   "missing": 23,
+   "mapped": 2,
+   "auto": 2,
+   "missing": 22,
    "fullPageAudio": true
   },
   {
@@ -601,9 +598,9 @@
   {
    "page": 71,
    "zones": 17,
-   "mapped": 6,
-   "auto": 6,
-   "missing": 11,
+   "mapped": 7,
+   "auto": 7,
+   "missing": 10,
    "fullPageAudio": true
   },
   {
@@ -617,9 +614,9 @@
   {
    "page": 73,
    "zones": 17,
-   "mapped": 0,
-   "auto": 0,
-   "missing": 17,
+   "mapped": 1,
+   "auto": 1,
+   "missing": 16,
    "fullPageAudio": true
   },
   {
@@ -649,9 +646,9 @@
   {
    "page": 77,
    "zones": 24,
-   "mapped": 3,
-   "auto": 3,
-   "missing": 21,
+   "mapped": 5,
+   "auto": 5,
+   "missing": 19,
    "fullPageAudio": true
   },
   {
@@ -665,9 +662,9 @@
   {
    "page": 79,
    "zones": 19,
-   "mapped": 6,
-   "auto": 6,
-   "missing": 13,
+   "mapped": 7,
+   "auto": 7,
+   "missing": 12,
    "fullPageAudio": true
   },
   {
@@ -681,9 +678,9 @@
   {
    "page": 81,
    "zones": 15,
-   "mapped": 0,
-   "auto": 0,
-   "missing": 15,
+   "mapped": 1,
+   "auto": 1,
+   "missing": 14,
    "fullPageAudio": true
   },
   {
@@ -729,25 +726,25 @@
   {
    "page": 87,
    "zones": 27,
-   "mapped": 4,
-   "auto": 4,
-   "missing": 23,
+   "mapped": 5,
+   "auto": 5,
+   "missing": 22,
    "fullPageAudio": true
   },
   {
    "page": 88,
    "zones": 35,
-   "mapped": 8,
-   "auto": 8,
-   "missing": 27,
+   "mapped": 9,
+   "auto": 9,
+   "missing": 26,
    "fullPageAudio": true
   },
   {
    "page": 89,
    "zones": 58,
-   "mapped": 7,
-   "auto": 7,
-   "missing": 51,
+   "mapped": 9,
+   "auto": 9,
+   "missing": 49,
    "fullPageAudio": true
   },
   {
@@ -769,9 +766,9 @@
   {
    "page": 92,
    "zones": 95,
-   "mapped": 18,
-   "auto": 18,
-   "missing": 77,
+   "mapped": 24,
+   "auto": 24,
+   "missing": 71,
    "fullPageAudio": true
   },
   {
@@ -785,9 +782,9 @@
   {
    "page": 94,
    "zones": 31,
-   "mapped": 1,
-   "auto": 1,
-   "missing": 30,
+   "mapped": 2,
+   "auto": 2,
+   "missing": 29,
    "fullPageAudio": true
   },
   {

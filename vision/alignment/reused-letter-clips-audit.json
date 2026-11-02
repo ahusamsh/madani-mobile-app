@@ -1,0 +1,814 @@
+[
+ {
+  "page": 13,
+  "id": "p13-w15",
+  "printed": "ط",
+  "base": "ط",
+  "harakat": [],
+  "sourcePage": 20,
+  "sourceZone": "p20-w1",
+  "sourcePrinted": "ط",
+  "clip": "./library-clips/p018-word-001.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w19",
+  "printed": "َت",
+  "base": "ت",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-03",
+  "sourcePrinted": "تَ",
+  "clip": "./library-clips/auto-025-p25-chart-03.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w20",
+  "printed": "ظ",
+  "base": "ظ",
+  "harakat": [],
+  "sourcePage": 20,
+  "sourceZone": "p20-w5",
+  "sourcePrinted": "ظ",
+  "clip": "./library-clips/p018-word-005.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w25",
+  "printed": "َث",
+  "base": "ث",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-04",
+  "sourcePrinted": "ثَ",
+  "clip": "./library-clips/auto-025-p25-chart-04.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w27",
+  "printed": "َع",
+  "base": "ع",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-18",
+  "sourcePrinted": "عَ",
+  "clip": "./library-clips/auto-025-p25-chart-18.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w30",
+  "printed": "َج",
+  "base": "ج",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-05",
+  "sourcePrinted": "جَ",
+  "clip": "./library-clips/auto-025-p25-chart-05.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w32",
+  "printed": "َغ",
+  "base": "غ",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-19",
+  "sourcePrinted": "غَ",
+  "clip": "./library-clips/auto-025-p25-chart-19.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w35",
+  "printed": "َح",
+  "base": "ح",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-06",
+  "sourcePrinted": "حَ",
+  "clip": "./library-clips/auto-025-p25-chart-06.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w36",
+  "printed": "ف",
+  "base": "ف",
+  "harakat": [],
+  "sourcePage": 20,
+  "sourceZone": "p20-w17",
+  "sourcePrinted": "ف",
+  "clip": "./library-clips/p018-word-017.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w38",
+  "printed": "َف",
+  "base": "ف",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-20",
+  "sourcePrinted": "فَ",
+  "clip": "./library-clips/auto-025-p25-chart-20.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w41",
+  "printed": "ق",
+  "base": "ق",
+  "harakat": [],
+  "sourcePage": 20,
+  "sourceZone": "p20-w21",
+  "sourcePrinted": "ق",
+  "clip": "./library-clips/p018-word-021.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w45",
+  "printed": "ك",
+  "base": "ك",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w1",
+  "sourcePrinted": "ك",
+  "clip": "./library-clips/p019-word-001.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w49",
+  "printed": "ل",
+  "base": "ل",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w5",
+  "sourcePrinted": "ل",
+  "clip": "./library-clips/p019-word-005.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w53",
+  "printed": "َر",
+  "base": "ر",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-10",
+  "sourcePrinted": "رَ",
+  "clip": "./library-clips/auto-025-p25-chart-10.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w54",
+  "printed": "م",
+  "base": "م",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w10",
+  "sourcePrinted": "مـ",
+  "clip": "./library-clips/p019-word-010.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w56",
+  "printed": "َم",
+  "base": "م",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-24",
+  "sourcePrinted": "مَ",
+  "clip": "./library-clips/auto-025-p25-chart-24.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w59",
+  "printed": "ن",
+  "base": "ن",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w13",
+  "sourcePrinted": "ن",
+  "clip": "./library-clips/p019-word-013.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w63",
+  "printed": "هـ",
+  "base": "ه",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w17",
+  "sourcePrinted": "هـ",
+  "clip": "./library-clips/p019-word-017.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w67",
+  "printed": "و",
+  "base": "و",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w22",
+  "sourcePrinted": "و",
+  "clip": "./library-clips/p019-word-022.mp3"
+ },
+ {
+  "page": 13,
+  "id": "p13-w71",
+  "printed": "ي",
+  "base": "ي",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w26",
+  "sourcePrinted": "ي",
+  "clip": "./library-clips/p019-word-026.mp3"
+ },
+ {
+  "page": 16,
+  "id": "p16-w15",
+  "printed": "ُب",
+  "base": "ب",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-02",
+  "sourcePrinted": "بُ",
+  "clip": "./library-clips/auto-031-p31-chart-02.mp3"
+ },
+ {
+  "page": 16,
+  "id": "p16-w19",
+  "printed": "ُج",
+  "base": "ج",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-05",
+  "sourcePrinted": "جُ",
+  "clip": "./library-clips/auto-031-p31-chart-05.mp3"
+ },
+ {
+  "page": 16,
+  "id": "p16-w24",
+  "printed": "ُز",
+  "base": "ز",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-11",
+  "sourcePrinted": "زُ",
+  "clip": "./library-clips/auto-031-p31-chart-11.mp3"
+ },
+ {
+  "page": 16,
+  "id": "p16-w35",
+  "printed": "ُـج",
+  "base": "ج",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-05",
+  "sourcePrinted": "جُ",
+  "clip": "./library-clips/auto-031-p31-chart-05.mp3"
+ },
+ {
+  "page": 26,
+  "id": "p26-w6",
+  "printed": "بَـ",
+  "base": "ب",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-02",
+  "sourcePrinted": "بَ",
+  "clip": "./library-clips/auto-025-p25-chart-02.mp3"
+ },
+ {
+  "page": 26,
+  "id": "p26-w8",
+  "printed": "ـسَ",
+  "base": "س",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-12",
+  "sourcePrinted": "سَ",
+  "clip": "./library-clips/auto-025-p25-chart-12.mp3"
+ },
+ {
+  "page": 26,
+  "id": "p26-w12",
+  "printed": "ثَـ",
+  "base": "ث",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-04",
+  "sourcePrinted": "ثَ",
+  "clip": "./library-clips/auto-025-p25-chart-04.mp3"
+ },
+ {
+  "page": 26,
+  "id": "p26-w14",
+  "printed": "جَـ",
+  "base": "ج",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-05",
+  "sourcePrinted": "جَ",
+  "clip": "./library-clips/auto-025-p25-chart-05.mp3"
+ },
+ {
+  "page": 26,
+  "id": "p26-w16",
+  "printed": "حَـ",
+  "base": "ح",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-06",
+  "sourcePrinted": "حَ",
+  "clip": "./library-clips/auto-025-p25-chart-06.mp3"
+ },
+ {
+  "page": 27,
+  "id": "p27-w8",
+  "printed": "عَـ",
+  "base": "ع",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-18",
+  "sourcePrinted": "عَ",
+  "clip": "./library-clips/auto-025-p25-chart-18.mp3"
+ },
+ {
+  "page": 27,
+  "id": "p27-w10",
+  "printed": "غَـ",
+  "base": "غ",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-19",
+  "sourcePrinted": "غَ",
+  "clip": "./library-clips/auto-025-p25-chart-19.mp3"
+ },
+ {
+  "page": 29,
+  "id": "p29-w7",
+  "printed": "جِـ",
+  "base": "ج",
+  "harakat": [
+   "ِ"
+  ],
+  "sourcePage": 28,
+  "sourceZone": "p28-chart-05",
+  "sourcePrinted": "جِ",
+  "clip": "./library-clips/auto-028-p28-chart-05.mp3"
+ },
+ {
+  "page": 30,
+  "id": "p30-w1",
+  "printed": "خَـ",
+  "base": "خ",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-07",
+  "sourcePrinted": "خَ",
+  "clip": "./library-clips/auto-025-p25-chart-07.mp3"
+ },
+ {
+  "page": 30,
+  "id": "p30-w5",
+  "printed": "سَـ",
+  "base": "س",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-12",
+  "sourcePrinted": "سَ",
+  "clip": "./library-clips/auto-025-p25-chart-12.mp3"
+ },
+ {
+  "page": 30,
+  "id": "p30-w7",
+  "printed": "بَـ",
+  "base": "ب",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-02",
+  "sourcePrinted": "بَ",
+  "clip": "./library-clips/auto-025-p25-chart-02.mp3"
+ },
+ {
+  "page": 30,
+  "id": "p30-w9",
+  "printed": "عَـ",
+  "base": "ع",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-18",
+  "sourcePrinted": "عَ",
+  "clip": "./library-clips/auto-025-p25-chart-18.mp3"
+ },
+ {
+  "page": 30,
+  "id": "p30-w11",
+  "printed": "سَـ",
+  "base": "س",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-12",
+  "sourcePrinted": "سَ",
+  "clip": "./library-clips/auto-025-p25-chart-12.mp3"
+ },
+ {
+  "page": 32,
+  "id": "p32-w6",
+  "printed": "ثَـ",
+  "base": "ث",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-04",
+  "sourcePrinted": "ثَ",
+  "clip": "./library-clips/auto-025-p25-chart-04.mp3"
+ },
+ {
+  "page": 32,
+  "id": "p32-w10",
+  "printed": "حَـ",
+  "base": "ح",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-06",
+  "sourcePrinted": "حَ",
+  "clip": "./library-clips/auto-025-p25-chart-06.mp3"
+ },
+ {
+  "page": 32,
+  "id": "p32-w12",
+  "printed": "سُ",
+  "base": "س",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-12",
+  "sourcePrinted": "سُ",
+  "clip": "./library-clips/auto-031-p31-chart-12.mp3"
+ },
+ {
+  "page": 32,
+  "id": "p32-w18",
+  "printed": "عَـ",
+  "base": "ع",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-18",
+  "sourcePrinted": "عَ",
+  "clip": "./library-clips/auto-025-p25-chart-18.mp3"
+ },
+ {
+  "page": 32,
+  "id": "p32-w20",
+  "printed": "ضُ",
+  "base": "ض",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-15",
+  "sourcePrinted": "ضُ",
+  "clip": "./library-clips/auto-031-p31-chart-15.mp3"
+ },
+ {
+  "page": 33,
+  "id": "p33-w3",
+  "printed": "عُـ",
+  "base": "ع",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-18",
+  "sourcePrinted": "عُ",
+  "clip": "./library-clips/auto-031-p31-chart-18.mp3"
+ },
+ {
+  "page": 33,
+  "id": "p33-w8",
+  "printed": "كُـ",
+  "base": "ك",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-22",
+  "sourcePrinted": "كُ",
+  "clip": "./library-clips/auto-031-p31-chart-22.mp3"
+ },
+ {
+  "page": 33,
+  "id": "p33-w11",
+  "printed": "ُو",
+  "base": "و",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-27",
+  "sourcePrinted": "وُ",
+  "clip": "./library-clips/auto-031-p31-chart-27.mp3"
+ },
+ {
+  "page": 33,
+  "id": "p33-w14",
+  "printed": "ضِ",
+  "base": "ض",
+  "harakat": [
+   "ِ"
+  ],
+  "sourcePage": 28,
+  "sourceZone": "p28-chart-15",
+  "sourcePrinted": "ضِ",
+  "clip": "./library-clips/auto-028-p28-chart-15.mp3"
+ },
+ {
+  "page": 61,
+  "id": "p61-w3",
+  "printed": "ـي",
+  "base": "ي",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w26",
+  "sourcePrinted": "ي",
+  "clip": "./library-clips/p019-word-026.mp3"
+ },
+ {
+  "page": 63,
+  "id": "p63-w7",
+  "printed": "عِ",
+  "base": "ع",
+  "harakat": [
+   "ِ"
+  ],
+  "sourcePage": 28,
+  "sourceZone": "p28-chart-18",
+  "sourcePrinted": "عِ",
+  "clip": "./library-clips/auto-028-p28-chart-18.mp3"
+ },
+ {
+  "page": 65,
+  "id": "p65-w18",
+  "printed": "ل",
+  "base": "ل",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w5",
+  "sourcePrinted": "ل",
+  "clip": "./library-clips/p019-word-005.mp3"
+ },
+ {
+  "page": 71,
+  "id": "p71-w5",
+  "printed": "وَ",
+  "base": "و",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-27",
+  "sourcePrinted": "وَ",
+  "clip": "./library-clips/auto-025-p25-chart-27.mp3"
+ },
+ {
+  "page": 73,
+  "id": "p73-w6",
+  "printed": "و",
+  "base": "و",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w22",
+  "sourcePrinted": "و",
+  "clip": "./library-clips/p019-word-022.mp3"
+ },
+ {
+  "page": 77,
+  "id": "p77-w16",
+  "printed": "ع",
+  "base": "ع",
+  "harakat": [],
+  "sourcePage": 20,
+  "sourceZone": "p20-w10",
+  "sourcePrinted": "عـ",
+  "clip": "./library-clips/p018-word-010.mp3"
+ },
+ {
+  "page": 77,
+  "id": "p77-w22",
+  "printed": "م",
+  "base": "م",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w10",
+  "sourcePrinted": "مـ",
+  "clip": "./library-clips/p019-word-010.mp3"
+ },
+ {
+  "page": 79,
+  "id": "p79-w4",
+  "printed": "مُ",
+  "base": "م",
+  "harakat": [
+   "ُ"
+  ],
+  "sourcePage": 31,
+  "sourceZone": "p31-chart-24",
+  "sourcePrinted": "مُ",
+  "clip": "./library-clips/auto-031-p31-chart-24.mp3"
+ },
+ {
+  "page": 81,
+  "id": "p81-w8",
+  "printed": "مِ",
+  "base": "م",
+  "harakat": [
+   "ِ"
+  ],
+  "sourcePage": 28,
+  "sourceZone": "p28-chart-24",
+  "sourcePrinted": "مِ",
+  "clip": "./library-clips/auto-028-p28-chart-24.mp3"
+ },
+ {
+  "page": 87,
+  "id": "p87-w20",
+  "printed": "َو",
+  "base": "و",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-27",
+  "sourcePrinted": "وَ",
+  "clip": "./library-clips/auto-025-p25-chart-27.mp3"
+ },
+ {
+  "page": 88,
+  "id": "p88-w27",
+  "printed": "م",
+  "base": "م",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w10",
+  "sourcePrinted": "مـ",
+  "clip": "./library-clips/p019-word-010.mp3"
+ },
+ {
+  "page": 89,
+  "id": "p89-w8",
+  "printed": "م",
+  "base": "م",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w10",
+  "sourcePrinted": "مـ",
+  "clip": "./library-clips/p019-word-010.mp3"
+ },
+ {
+  "page": 89,
+  "id": "p89-w9",
+  "printed": "َأ",
+  "base": "أ",
+  "harakat": [
+   "َ"
+  ],
+  "sourcePage": 25,
+  "sourceZone": "p25-chart-01",
+  "sourcePrinted": "أَ",
+  "clip": "./library-clips/auto-025-p25-chart-01.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w30",
+  "printed": "و",
+  "base": "و",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w22",
+  "sourcePrinted": "و",
+  "clip": "./library-clips/p019-word-022.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w31",
+  "printed": "ـه",
+  "base": "ه",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w17",
+  "sourcePrinted": "هـ",
+  "clip": "./library-clips/p019-word-017.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w32",
+  "printed": "ـه",
+  "base": "ه",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w17",
+  "sourcePrinted": "هـ",
+  "clip": "./library-clips/p019-word-017.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w40",
+  "printed": "ٌو",
+  "base": "و",
+  "harakat": [
+   "ٌ"
+  ],
+  "sourcePage": 43,
+  "sourceZone": "p43-chart-27",
+  "sourcePrinted": "وٌ",
+  "clip": "./library-clips/auto-043-p43-chart-27.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w56",
+  "printed": "و",
+  "base": "و",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w22",
+  "sourcePrinted": "و",
+  "clip": "./library-clips/p019-word-022.mp3"
+ },
+ {
+  "page": 92,
+  "id": "p92-w57",
+  "printed": "ي",
+  "base": "ي",
+  "harakat": [],
+  "sourcePage": 21,
+  "sourceZone": "p21-w26",
+  "sourcePrinted": "ي",
+  "clip": "./library-clips/p019-word-026.mp3"
+ },
+ {
+  "page": 94,
+  "id": "p94-w12",
+  "printed": "ءٍ",
+  "base": "ء",
+  "harakat": [
+   "ٍ"
+  ],
+  "sourcePage": 41,
+  "sourceZone": "p41-chart-01",
+  "sourcePrinted": "ءٍ",
+  "clip": "./library-clips/auto-041-p41-chart-01.mp3"
+ }
+]

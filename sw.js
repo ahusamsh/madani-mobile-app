@@ -3,7 +3,7 @@
 // - "madani-pack-<id>-<version>": offline packs downloaded from the app (data/offline-packs.json);
 //    NEVER deleted on update (the pack manager replaces a pack only after its new version is complete)
 // - "madani-runtime-<VERSION>": opportunistic cache of other same-origin GETs (small files only)
-const VERSION = 'v7-word-audio-840';
+const VERSION = 'v8-letter-audio-906';
 const SHELL_CACHE = 'madani-shell-' + VERSION, RUNTIME_CACHE = 'madani-runtime-' + VERSION;
 const ENGINE = ['image', 'features', 'page-matcher', 'pointer', 'target', 'engine', 'browser-refs', 'synth'].map(n => `./vision/engine/${n}.mjs`);
 const V2 = ['engine-v2', 'audio-controller', 'content-audio', 'offline-packs', 'ref-index', 'vision-worker', 'frame-source'].map(n => `./vision/v2/${n}.mjs`);

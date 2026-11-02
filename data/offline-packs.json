@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-02T13:43:58.131Z",
+ "generatedAt": "2026-11-02T14:07:30.009Z",
  "packs": [
   {
    "id": "camera-ar",
@@ -10,8 +10,8 @@
    "files": [
     {
      "url": "./data/audio-library.json",
-     "bytes": 1724982,
-     "sha256": "7e279c74685f3f56091584e8bd64d5f0418b283c4a6b9e11535edc3dd14255e6"
+     "bytes": 1745790,
+     "sha256": "98aa4189d3e46aa2feb0efd1a31adcb804f4b0d231aa778e14d95c56134a82c2"
     },
     {
      "url": "./vision/data/ref-index.bin",
@@ -5029,8 +5029,8 @@
      "sha256": "97cd08006364cf7518c8292d5afc79b1b16d690339dcfc83872301bf150e3f2f"
     }
    ],
-   "version": "f648af166d06",
-   "bytes": 35795792
+   "version": "2b124181509c",
+   "bytes": 35816600
   },
   {
    "id": "book-ar",
