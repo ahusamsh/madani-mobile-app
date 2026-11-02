@@ -1,18 +1,17 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-02T13:29:34.239Z",
+ "generatedAt": "2026-11-02T13:43:21.013Z",
  "totalPages": 104,
  "pagesWithOriginalRecordings": 90,
- "eligibleVisualZones": 3024,
- "linkedZones": 801,
+ "eligibleVisualZones": 3025,
+ "linkedZones": 840,
  "originalLinkedSegments": 143,
- "machineLinkedSegments": 658,
+ "machineLinkedSegments": 697,
  "humanReviewedSegments": 0,
- "pendingZones": 2223,
+ "pendingZones": 2185,
  "pagesWithoutIndividualAudio": [
   4,
   6,
-  13,
   22,
   34,
   35,
@@ -90,17 +89,17 @@
   {
    "page": 7,
    "zones": 105,
-   "mapped": 62,
-   "auto": 62,
-   "missing": 43,
+   "mapped": 63,
+   "auto": 63,
+   "missing": 42,
    "fullPageAudio": true
   },
   {
    "page": 8,
    "zones": 74,
-   "mapped": 21,
-   "auto": 21,
-   "missing": 53,
+   "mapped": 22,
+   "auto": 22,
+   "missing": 52,
    "fullPageAudio": true
   },
   {
@@ -114,9 +113,9 @@
   {
    "page": 10,
    "zones": 81,
-   "mapped": 24,
-   "auto": 24,
-   "missing": 57,
+   "mapped": 26,
+   "auto": 26,
+   "missing": 55,
    "fullPageAudio": true
   },
   {
@@ -138,9 +137,9 @@
   {
    "page": 13,
    "zones": 89,
-   "mapped": 0,
-   "auto": 0,
-   "missing": 89,
+   "mapped": 1,
+   "auto": 1,
+   "missing": 88,
    "fullPageAudio": true
   },
   {
@@ -162,9 +161,9 @@
   {
    "page": 16,
    "zones": 113,
-   "mapped": 7,
-   "auto": 7,
-   "missing": 106,
+   "mapped": 13,
+   "auto": 13,
+   "missing": 100,
    "fullPageAudio": true
   },
   {
@@ -233,9 +232,9 @@
   },
   {
    "page": 25,
-   "zones": 30,
-   "mapped": 27,
-   "auto": 27,
+   "zones": 31,
+   "mapped": 28,
+   "auto": 28,
    "missing": 3,
    "fullPageAudio": true
   },
@@ -538,9 +537,9 @@
   {
    "page": 63,
    "zones": 19,
-   "mapped": 11,
-   "auto": 11,
-   "missing": 8,
+   "mapped": 12,
+   "auto": 12,
+   "missing": 7,
    "fullPageAudio": true
   },
   {
@@ -570,9 +569,9 @@
   {
    "page": 67,
    "zones": 16,
-   "mapped": 5,
-   "auto": 5,
-   "missing": 11,
+   "mapped": 6,
+   "auto": 6,
+   "missing": 10,
    "fullPageAudio": true
   },
   {
@@ -610,9 +609,9 @@
   {
    "page": 72,
    "zones": 33,
-   "mapped": 11,
-   "auto": 11,
-   "missing": 22,
+   "mapped": 12,
+   "auto": 12,
+   "missing": 21,
    "fullPageAudio": true
   },
   {
@@ -674,9 +673,9 @@
   {
    "page": 80,
    "zones": 84,
-   "mapped": 21,
-   "auto": 21,
-   "missing": 63,
+   "mapped": 24,
+   "auto": 24,
+   "missing": 60,
    "fullPageAudio": true
   },
   {
@@ -706,9 +705,9 @@
   {
    "page": 84,
    "zones": 95,
-   "mapped": 11,
-   "auto": 11,
-   "missing": 84,
+   "mapped": 20,
+   "auto": 20,
+   "missing": 75,
    "fullPageAudio": true
   },
   {
@@ -722,9 +721,9 @@
   {
    "page": 86,
    "zones": 23,
-   "mapped": 5,
-   "auto": 5,
-   "missing": 18,
+   "mapped": 6,
+   "auto": 6,
+   "missing": 17,
    "fullPageAudio": true
   },
   {
@@ -738,17 +737,17 @@
   {
    "page": 88,
    "zones": 35,
-   "mapped": 7,
-   "auto": 7,
-   "missing": 28,
+   "mapped": 8,
+   "auto": 8,
+   "missing": 27,
    "fullPageAudio": true
   },
   {
    "page": 89,
    "zones": 58,
-   "mapped": 4,
-   "auto": 4,
-   "missing": 54,
+   "mapped": 7,
+   "auto": 7,
+   "missing": 51,
    "fullPageAudio": true
   },
   {
@@ -770,9 +769,9 @@
   {
    "page": 92,
    "zones": 95,
-   "mapped": 17,
-   "auto": 17,
-   "missing": 78,
+   "mapped": 18,
+   "auto": 18,
+   "missing": 77,
    "fullPageAudio": true
   },
   {
@@ -794,17 +793,17 @@
   {
    "page": 95,
    "zones": 29,
-   "mapped": 1,
-   "auto": 1,
-   "missing": 28,
+   "mapped": 4,
+   "auto": 4,
+   "missing": 25,
    "fullPageAudio": true
   },
   {
    "page": 96,
    "zones": 27,
-   "mapped": 1,
-   "auto": 1,
-   "missing": 26,
+   "mapped": 3,
+   "auto": 3,
+   "missing": 24,
    "fullPageAudio": true
   },
   {
@@ -850,9 +849,9 @@
   {
    "page": 102,
    "zones": 69,
-   "mapped": 24,
-   "auto": 24,
-   "missing": 45,
+   "mapped": 25,
+   "auto": 25,
+   "missing": 44,
    "fullPageAudio": true
   },
   {

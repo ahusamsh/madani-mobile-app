@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T04:30:39.809Z",
+ "generatedAt": "2026-11-02T13:48:01.307Z",
  "label": "Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.",
  "errors": [],
  "expected": {
@@ -12,30 +12,30 @@
   "ready": false
  },
  "download": {
-  "ms": 4096,
+  "ms": 6681,
   "chip": "جاهز دون إنترنت ✓",
   "packs": [
    {
     "id": "camera-ar",
     "complete": true,
-    "present": 307,
-    "total": 307,
-    "bytesPresent": 21016397,
+    "present": 1004,
+    "total": 1004,
+    "bytesPresent": 35795792,
     "verified": true,
-    "verifiedAt": 1793593853411
+    "verifiedAt": 1793627296869
    },
    {
     "id": "book-ar",
     "complete": true,
     "present": 187,
     "total": 187,
-    "bytesPresent": 11753901,
+    "bytesPresent": 11753736,
     "verified": true,
-    "verifiedAt": 1793593854845
+    "verifiedAt": 1793627298532
    }
   ]
  },
- "deepVerify": "✓ سليم (307 ملف)",
+ "deepVerify": "✓ سليم (1004 ملف)",
  "offlineOpen": {
   "onLine": false,
   "chip": "دون اتصال — يعمل محليًا ✓",
@@ -48,7 +48,7 @@
    "type": "ready",
    "pages": 104,
    "source": "precomputed-index",
-   "ms": 5627,
+   "ms": 5208,
    "engine": "v2"
   },
   "accepted": [
@@ -56,31 +56,31 @@
     "id": "p17-w5",
     "page": 17,
     "play": true,
-    "at": 7374.200000047684,
-    "frameToResultMs": 93.90000009536743
+    "at": 7173.300000190735,
+    "frameToResultMs": 111.09999990463257
    }
   ],
   "audio": [
    {
     "clip": "./pilot-media/p015-word-005.mp3",
-    "latencyMs": 0.39999985694885254,
+    "latencyMs": 0.3000001907348633,
     "fromCache": true
    }
   ],
   "results": 5,
   "procMs": {
-   "p50": 94.6,
-   "p95": 132.5,
+   "p50": 128.9,
+   "p95": 130.2,
    "n": 5
   },
   "pipelineMs": {
-   "p50": 98,
-   "p95": 150.8
+   "p50": 138.6,
+   "p95": 138.7
   },
   "errors": [],
   "word": "ج",
   "status": "يُنطق الآن",
-  "msFromStartClickToFirstAudio": 6880,
+  "msFromStartClickToFirstAudio": 6452,
   "pass": true
  },
  "offlineReader": {

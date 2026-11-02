@@ -1,0 +1,392 @@
+[
+ {
+  "page": 7,
+  "zone": "p7-w93",
+  "printed": "الَّلَُهُ",
+  "spoken": "الله",
+  "confidence": 0.979,
+  "audioStart": 1.36,
+  "audioEnd": 1.7,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 8,
+  "zone": "p8-w44",
+  "printed": "َهَْمَْزَُةُ",
+  "spoken": "همزة",
+  "confidence": 0.992,
+  "audioStart": 91.36,
+  "audioEnd": 91.96,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 10,
+  "zone": "p10-w22",
+  "printed": "الْقِرَاءَة",
+  "spoken": "القراءة",
+  "confidence": 0.994,
+  "audioStart": 26.86,
+  "audioEnd": 27.92,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 10,
+  "zone": "p10-w29",
+  "printed": "الْقِرَاءَة",
+  "spoken": "القراءة",
+  "confidence": 0.994,
+  "audioStart": 26.86,
+  "audioEnd": 27.92,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 13,
+  "zone": "p13-w82",
+  "printed": "قَبْلَهُ،",
+  "spoken": "قبله",
+  "confidence": 0.97,
+  "audioStart": 277.14,
+  "audioEnd": 277.82,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w67",
+  "printed": "ُتُْكََْتَُبُ",
+  "spoken": "تكتب",
+  "confidence": 0.997,
+  "audioStart": 162.02,
+  "audioEnd": 162.64,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w87",
+  "printed": "َفَِإَِّنَهَا",
+  "spoken": "فإنها",
+  "confidence": 0.989,
+  "audioStart": 160.98,
+  "audioEnd": 162.02,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w88",
+  "printed": "ٌآَذَاٌن",
+  "spoken": "آذان",
+  "confidence": 0.959,
+  "audioStart": 148.64,
+  "audioEnd": 150.74,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w93",
+  "printed": "َفَِإَِّنَهَا",
+  "spoken": "فإنها",
+  "confidence": 0.989,
+  "audioStart": 160.98,
+  "audioEnd": 162.02,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w98",
+  "printed": "َفَِإَِّنَهَا",
+  "spoken": "فإنها",
+  "confidence": 0.989,
+  "audioStart": 160.98,
+  "audioEnd": 162.02,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w105",
+  "printed": "ُتُْكََْتَُبُ",
+  "spoken": "تكتب",
+  "confidence": 0.997,
+  "audioStart": 162.02,
+  "audioEnd": 162.64,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 25,
+  "zone": "p25-ocr-reliable-004",
+  "printed": "الثاني",
+  "spoken": "الثاني",
+  "confidence": 0.787,
+  "audioStart": 3.3,
+  "audioEnd": 4.54,
+  "method": "ocr-highconf-exact-word"
+ },
+ {
+  "page": 63,
+  "zone": "p63-w5",
+  "printed": "وَهَمْزَةُ",
+  "spoken": "وهمزة",
+  "confidence": 0.977,
+  "audioStart": 23.66,
+  "audioEnd": 24.34,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 67,
+  "zone": "p67-w3",
+  "printed": "ُّالْمَدُّ",
+  "spoken": "المد",
+  "confidence": 0.995,
+  "audioStart": 23.56,
+  "audioEnd": 24.02,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 72,
+  "zone": "p72-w33",
+  "printed": "ُتُْكََْتَُبُ",
+  "spoken": "تكتب",
+  "confidence": 0.988,
+  "audioStart": 51.88,
+  "audioEnd": 52.72,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 80,
+  "zone": "p80-w43",
+  "printed": "ُُتُْقَْرَُأ",
+  "spoken": "تقرأ",
+  "confidence": 0.99,
+  "audioStart": 41.34,
+  "audioEnd": 41.82,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 80,
+  "zone": "p80-w51",
+  "printed": "اَّلَِذِي",
+  "spoken": "الذي",
+  "confidence": 0.987,
+  "audioStart": 101.12,
+  "audioEnd": 101.42,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 80,
+  "zone": "p80-w55",
+  "printed": "َهَْمَْزَُةُ",
+  "spoken": "همزة",
+  "confidence": 0.991,
+  "audioStart": 164.58,
+  "audioEnd": 165.08,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w41",
+  "printed": "ََوَُهَُمَا",
+  "spoken": "وهما",
+  "confidence": 0.862,
+  "audioStart": 116.59,
+  "audioEnd": 117.63,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w42",
+  "printed": "اْلَْوَاُو",
+  "spoken": "الواو",
+  "confidence": 0.991,
+  "audioStart": 120.67,
+  "audioEnd": 121.15,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w45",
+  "printed": "َفَُتُْحَْذَُفُ",
+  "spoken": "فتحذف",
+  "confidence": 0.863,
+  "audioStart": 119.25,
+  "audioEnd": 120.67,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w46",
+  "printed": "اْلَْوَاُوُ،",
+  "spoken": "الواو",
+  "confidence": 0.991,
+  "audioStart": 120.67,
+  "audioEnd": 121.15,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w47",
+  "printed": "ََوَُتُْقَْرَُأ",
+  "spoken": "وتقرأ",
+  "confidence": 0.995,
+  "audioStart": 183.19,
+  "audioEnd": 184.79,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w67",
+  "printed": "ََوََبَْعَْدَُهُ",
+  "spoken": "وبعده",
+  "confidence": 0.863,
+  "audioStart": 113.69,
+  "audioEnd": 115.11,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w70",
+  "printed": "ََوَُهَُمَا",
+  "spoken": "وهما",
+  "confidence": 0.862,
+  "audioStart": 116.59,
+  "audioEnd": 117.63,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w81",
+  "printed": "َُكَِلَِمَُة",
+  "spoken": "كلمة",
+  "confidence": 0.992,
+  "audioStart": 176.13,
+  "audioEnd": 177.13,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w89",
+  "printed": "َُكَِلَِمَُة",
+  "spoken": "كلمة",
+  "confidence": 0.992,
+  "audioStart": 176.13,
+  "audioEnd": 177.13,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 86,
+  "zone": "p86-w19",
+  "printed": "ِإِْخَْوٌَة",
+  "spoken": "إخوة",
+  "confidence": 0.945,
+  "audioStart": 417.66,
+  "audioEnd": 419.0,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 88,
+  "zone": "p88-w11",
+  "printed": "رَبُّكُمُ",
+  "spoken": "ربكم",
+  "confidence": 0.993,
+  "audioStart": 156.02,
+  "audioEnd": 157.08,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 89,
+  "zone": "p89-w56",
+  "printed": "َتََرَاُهُ",
+  "spoken": "تراه",
+  "confidence": 0.998,
+  "audioStart": 1022.58,
+  "audioEnd": 1023.38,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 89,
+  "zone": "p89-w57",
+  "printed": "َفَِإَِّنَُهُ",
+  "spoken": "فإنه",
+  "confidence": 0.995,
+  "audioStart": 1023.38,
+  "audioEnd": 1024.24,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 89,
+  "zone": "p89-w58",
+  "printed": "َيََرَاَك",
+  "spoken": "يراك",
+  "confidence": 0.999,
+  "audioStart": 1024.24,
+  "audioEnd": 1025.1,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 92,
+  "zone": "p92-w22",
+  "printed": "ُتُْقَْرَُأ",
+  "spoken": "تقرأ",
+  "confidence": 0.991,
+  "audioStart": 82.48,
+  "audioEnd": 83.14,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 95,
+  "zone": "p95-w14",
+  "printed": "َبَعَدَُهُۥ",
+  "spoken": "بعده",
+  "confidence": 0.95,
+  "audioStart": 183.04,
+  "audioEnd": 184.44,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 95,
+  "zone": "p95-w19",
+  "printed": "ِنِعَمََتَُهُ",
+  "spoken": "نعمته",
+  "confidence": 0.857,
+  "audioStart": 274.92,
+  "audioEnd": 276.32,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 95,
+  "zone": "p95-w20",
+  "printed": "َوَعَدَُهُ",
+  "spoken": "وعده",
+  "confidence": 0.948,
+  "audioStart": 303.48,
+  "audioEnd": 304.88,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 96,
+  "zone": "p96-w2",
+  "printed": "صَغِيرَ",
+  "spoken": "صغير",
+  "confidence": 0.961,
+  "audioStart": 23.2,
+  "audioEnd": 23.88,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 96,
+  "zone": "p96-w4",
+  "printed": "صَغِيرَ",
+  "spoken": "صغير",
+  "confidence": 0.961,
+  "audioStart": 23.2,
+  "audioEnd": 23.88,
+  "method": "page-local-exact-word"
+ },
+ {
+  "page": 102,
+  "zone": "p102-w56",
+  "printed": "َاْلَْبَاُبُ",
+  "spoken": "الباب",
+  "confidence": 0.994,
+  "audioStart": 75.34,
+  "audioEnd": 76.04,
+  "method": "page-local-exact-word"
+ }
+]

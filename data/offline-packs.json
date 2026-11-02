@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-02T13:30:00.155Z",
+ "generatedAt": "2026-11-02T13:43:58.131Z",
  "packs": [
   {
    "id": "camera-ar",
@@ -10,8 +10,8 @@
    "files": [
     {
      "url": "./data/audio-library.json",
-     "bytes": 1714639,
-     "sha256": "0f595d2415524506932d5fad7c9d7110a9af1a26a08bdec4527d223894b66801"
+     "bytes": 1724982,
+     "sha256": "7e279c74685f3f56091584e8bd64d5f0418b283c4a6b9e11535edc3dd14255e6"
     },
     {
      "url": "./vision/data/ref-index.bin",
@@ -4544,6 +4544,201 @@
      "sha256": "51cef9081388c3684185d6023b90f605df5d906b3561598128da7e9495b97714"
     },
     {
+     "url": "./library-clips/lex-007-p7-w93.mp3",
+     "bytes": 14002,
+     "sha256": "d7ace395eaf21ca7f030e680bae4476c63f5cdaf2434e87200fd7ebd085f7da7"
+    },
+    {
+     "url": "./library-clips/lex-008-p8-w44.mp3",
+     "bytes": 18063,
+     "sha256": "bb9a15e8613f7d4d340c295877a0df7f21f2dfc68e968a0a81cdeee69c9a41e1"
+    },
+    {
+     "url": "./library-clips/lex-010-p10-w22.mp3",
+     "bytes": 21099,
+     "sha256": "a057c440f29cb5e7cbb6d00415c63c137965c91a22255a6f2516f0f3677084ea"
+    },
+    {
+     "url": "./library-clips/lex-010-p10-w29.mp3",
+     "bytes": 21099,
+     "sha256": "a057c440f29cb5e7cbb6d00415c63c137965c91a22255a6f2516f0f3677084ea"
+    },
+    {
+     "url": "./library-clips/lex-013-p13-w82.mp3",
+     "bytes": 16710,
+     "sha256": "1ed13fa042a3f8c18ff5fddc41c601658bf9a6270d9b4f3e0bfc0d51b1380ea7"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w67.mp3",
+     "bytes": 15770,
+     "sha256": "51bd101d814ee5c56a166f7b35aef9670dfacc8d9f77e74aa9f003aff934ddea"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w87.mp3",
+     "bytes": 20785,
+     "sha256": "334cdd7681a83c03ed0bdf83422184cde0eb23ef4af4d258d7c90a05d906a1f8"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w88.mp3",
+     "bytes": 33637,
+     "sha256": "5d46edbce2fde9e6f5ce60fcd81f7cca324c0b23ceea65f06feeb502e6f89c17"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w93.mp3",
+     "bytes": 20785,
+     "sha256": "334cdd7681a83c03ed0bdf83422184cde0eb23ef4af4d258d7c90a05d906a1f8"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w98.mp3",
+     "bytes": 20785,
+     "sha256": "334cdd7681a83c03ed0bdf83422184cde0eb23ef4af4d258d7c90a05d906a1f8"
+    },
+    {
+     "url": "./library-clips/lex-016-p16-w105.mp3",
+     "bytes": 15770,
+     "sha256": "51bd101d814ee5c56a166f7b35aef9670dfacc8d9f77e74aa9f003aff934ddea"
+    },
+    {
+     "url": "./library-clips/lex-025-p25-ocr-reliable-004.mp3",
+     "bytes": 23293,
+     "sha256": "01b0624bd4d006b88cd315954c1d6f5eec36f4dac970fd902395f249574d824c"
+    },
+    {
+     "url": "./library-clips/lex-063-p63-w5.mp3",
+     "bytes": 16709,
+     "sha256": "1096ff52fb89d6373e28e39dae13cafbcfb4285dde83e786b1ee9ed55746d255"
+    },
+    {
+     "url": "./library-clips/lex-067-p67-w3.mp3",
+     "bytes": 13888,
+     "sha256": "dd97253cfb272011c09ba03d223d21607ac9e4b635021c033efa0cd8668e53a7"
+    },
+    {
+     "url": "./library-clips/lex-072-p72-w33.mp3",
+     "bytes": 18591,
+     "sha256": "a6e5240697ffa75e785e6f1703fdba4933900d5016d03d05c99a5a75029a895d"
+    },
+    {
+     "url": "./library-clips/lex-080-p80-w43.mp3",
+     "bytes": 14202,
+     "sha256": "2b08e4fdc8a32cb9d56e7542f806a7a996f5899ba3e20a2459d757f647f92b71"
+    },
+    {
+     "url": "./library-clips/lex-080-p80-w51.mp3",
+     "bytes": 12008,
+     "sha256": "1cbf4a9f3ea92ddffa328b8ce3b8f41cd00dc80f3d68f38bf54a4bd029c3b74b"
+    },
+    {
+     "url": "./library-clips/lex-080-p80-w55.mp3",
+     "bytes": 14516,
+     "sha256": "381827a05fd6b14a5fc893a377a4fca2ce3c880469b8c3069ab99cb9e3d10456"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w41.mp3",
+     "bytes": 20785,
+     "sha256": "44df75cf26c82a542f05a348bc15b39e2590882e64af5d3a70cb04799101341d"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w42.mp3",
+     "bytes": 14202,
+     "sha256": "9cbe699c2fdd831c353cdddf8e9d0515f3ec3303aa9352eb2cc3a390a69a4223"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w45.mp3",
+     "bytes": 25487,
+     "sha256": "6454bba7dbc38174ac2391d56af00aae04bef649761e5f92147c2ba32f9911e6"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w46.mp3",
+     "bytes": 14202,
+     "sha256": "9cbe699c2fdd831c353cdddf8e9d0515f3ec3303aa9352eb2cc3a390a69a4223"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w47.mp3",
+     "bytes": 27682,
+     "sha256": "9935505fc16d560f5cbc69211653432d9a85d98caab360e7a8fc1bdb8d225bf8"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w67.mp3",
+     "bytes": 25487,
+     "sha256": "19ae6a34e0c2ab7336aba87b1d09a7169326c43c89a45c17e8480195b007f0dd"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w70.mp3",
+     "bytes": 20785,
+     "sha256": "44df75cf26c82a542f05a348bc15b39e2590882e64af5d3a70cb04799101341d"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w81.mp3",
+     "bytes": 20472,
+     "sha256": "739e0cfad60279e94205f765318645094eb7a6dc458d107e976195fb4e1449e2"
+    },
+    {
+     "url": "./library-clips/lex-084-p84-w89.mp3",
+     "bytes": 20472,
+     "sha256": "739e0cfad60279e94205f765318645094eb7a6dc458d107e976195fb4e1449e2"
+    },
+    {
+     "url": "./library-clips/lex-086-p86-w19.mp3",
+     "bytes": 24548,
+     "sha256": "8abae4d1840fabd9a6d8d0c8d2b1968a3bdd673e612b1f7bbc3909d4342821e3"
+    },
+    {
+     "url": "./library-clips/lex-088-p88-w11.mp3",
+     "bytes": 21100,
+     "sha256": "5a97cf6b6cb0a465e8b616b7d2fcd54a80a53c2e5c6d34e0f395f9f6f28ac4c6"
+    },
+    {
+     "url": "./library-clips/lex-089-p89-w56.mp3",
+     "bytes": 17965,
+     "sha256": "7931b6964c2ee3ec935cc76e65c362d27554a94bd817801362764d9357e27aa7"
+    },
+    {
+     "url": "./library-clips/lex-089-p89-w57.mp3",
+     "bytes": 18905,
+     "sha256": "7eea95d85c07ed246f88f428ef915ad9634b35fa5cb6c3f6db933ec877bb48bc"
+    },
+    {
+     "url": "./library-clips/lex-089-p89-w58.mp3",
+     "bytes": 18905,
+     "sha256": "54e64249eed1d6c5db7b4fcf33fa47b58accac849b02d8fc5b2357889d0f02e1"
+    },
+    {
+     "url": "./library-clips/lex-092-p92-w22.mp3",
+     "bytes": 16397,
+     "sha256": "d9ba75882ad73eb8ecfa7fc2fcefdba158ab3e37e73749f40efefc9503345e28"
+    },
+    {
+     "url": "./library-clips/lex-095-p95-w14.mp3",
+     "bytes": 25175,
+     "sha256": "044477b6ebfff863bd6801fab893eb3bb8bfa3b984470a5727eb7a9652692856"
+    },
+    {
+     "url": "./library-clips/lex-095-p95-w19.mp3",
+     "bytes": 25175,
+     "sha256": "76e91914a237bc10b131d82ffa7232e13e7fa020ca4f420866930d661775cc83"
+    },
+    {
+     "url": "./library-clips/lex-095-p95-w20.mp3",
+     "bytes": 25175,
+     "sha256": "8c5d4d80cb52f1ceac9e3854c87261928703117f3cc2870670848c1c2de2e389"
+    },
+    {
+     "url": "./library-clips/lex-096-p96-w2.mp3",
+     "bytes": 16711,
+     "sha256": "d4a08ae847a322d3253b6fbb75d4a81d5fe6ea63b0bd1d3ed6a1dc78acdcfc20"
+    },
+    {
+     "url": "./library-clips/lex-096-p96-w4.mp3",
+     "bytes": 16711,
+     "sha256": "d4a08ae847a322d3253b6fbb75d4a81d5fe6ea63b0bd1d3ed6a1dc78acdcfc20"
+    },
+    {
+     "url": "./library-clips/lex-102-p102-w56.mp3",
+     "bytes": 18076,
+     "sha256": "aa21e4c7dabcc97380bb472ee783b11d5a0dd3a863ca031029949e0dd9298188"
+    },
+    {
      "url": "./pilot-media/p015-box-001.mp3",
      "bytes": 7148,
      "sha256": "530917da924a8ce129bf0c7511647259e1edf4168862ac0021bca88bf67aad32"
@@ -4834,8 +5029,8 @@
      "sha256": "97cd08006364cf7518c8292d5afc79b1b16d690339dcfc83872301bf150e3f2f"
     }
    ],
-   "version": "940031ee4aef",
-   "bytes": 35019320
+   "version": "f648af166d06",
+   "bytes": 35795792
   },
   {
    "id": "book-ar",
