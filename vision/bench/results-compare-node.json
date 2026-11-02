@@ -1,0 +1,5773 @@
+{
+ "label": "SIMULATED frames rendered from the real page images (PIL decode), Node 22 on a cloud VM \u2014 not real-camera validation",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  28,
+  60
+ ],
+ "zonesPerPage": 2,
+ "v1": {
+  "rows": [
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 271.8065029999998,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 280.9759579999991,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 311.3615640000007,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 296.92623300000196,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 274.3425779999998,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 270.66120899999805,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 287.55550199999925,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 314.23988499999905,
+    "tipJitterPx": 1.3174269278133708
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.56655200000023,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 288.5085799999979,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 280.228783999999,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 275.9838069999969,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 344.4983209999991,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 348.82580600000074,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 278.4246160000039,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.76578500000323,
+    "tipJitterPx": 1.1646079701493195
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 17,
+    "expect": [
+     "p17-w4",
+     "p17-w3"
+    ],
+    "accepted": [
+     "p17-w4",
+     "p17-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 318.7182680000042,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 17,
+    "expect": [
+     "p17-w3",
+     "p17-w2"
+    ],
+    "accepted": [
+     "p17-w3",
+     "p17-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 272.60594099999435,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 17,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 280.41531399999803,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 324.2689559999999,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 289.8585280000043,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 262.83730300000025,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 282.9423220000026,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 286.90297100000316,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 277.6821819999968,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 373.5506669999959,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 313.80044199999975,
+    "tipJitterPx": 1.5996887656661989
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 300.4289140000037,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 277.6788450000022,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 273.2473969999992,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 297.7162690000114,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 0,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 268.1715039999981,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 289.51540399999067,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 291.8860710000008,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 297.515671000001,
+    "tipJitterPx": 1.4338468675789557
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 18,
+    "expect": [
+     "p18-w4",
+     "p18-w3"
+    ],
+    "accepted": [
+     "p18-w4",
+     "p18-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 290.17988100000366,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 18,
+    "expect": [
+     "p18-w3",
+     "p18-w2"
+    ],
+    "accepted": [
+     "p18-w3",
+     "p18-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.9352349999972,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 18,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 263.2106950000016,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 301.03818500001216,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 416.9958850000112,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 285.06550099999004,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 260.9423930000048,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 293.53942699999607,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 294.936200000011,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 276.17609300000186,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 287.59621499999776,
+    "tipJitterPx": 1.3874073436374943
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 288.44508399999177,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 272.9790139999968,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.8976790000015,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 302.52269699999306,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 0,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.4701899999927,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 290.1911969999928,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 295.0401989999955,
+    "tipJitterPx": 1.096061587535776
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 19,
+    "expect": [
+     "p19-w4",
+     "p19-w3"
+    ],
+    "accepted": [
+     "p19-w4",
+     "p19-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 295.24977899999067,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 19,
+    "expect": [
+     "p19-w3",
+     "p19-w2"
+    ],
+    "accepted": [
+     "p19-w3",
+     "p19-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 294.36604299998726,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 19,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 295.14486699999543,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 289.9061849999998,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 280.1167979999882,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 296.7431820000056,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 263.29119699999865,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 278.2875059999933,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 282.1840809999849,
+    "tipJitterPx": 1.445755820836035
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 304.5066280000028,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 273.3434669999988,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.3119010000082,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 288.4316739999922,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 301.826922999986,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 284.5399949999992,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 268.7551890000177,
+    "tipJitterPx": 1.5988885762730183
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 20,
+    "expect": [
+     "p20-w4",
+     "p20-w3"
+    ],
+    "accepted": [
+     "p20-w4",
+     "p20-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 276.8363020000106,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 20,
+    "expect": [
+     "p20-w3",
+     "p20-w2"
+    ],
+    "accepted": [
+     "p20-w3",
+     "p20-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 307.7058959999995,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 20,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 307.6377490000159,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 335.57162199998857,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 282.5713879999821,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 292.5026979999966,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 259.94098899999517,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 291.4622059999965,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.56989400001476,
+    "tipJitterPx": 2.8414584249572434
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 299.5317629999772,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 278.9372089999961,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 277.18673299998045,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 293.86450799999875,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 287.4131130000169,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 286.5644510000129,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 294.4186580000096,
+    "tipJitterPx": 1.8152305285903436
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 21,
+    "expect": [
+     "p21-w4",
+     "p21-w3"
+    ],
+    "accepted": [
+     "p21-w4",
+     "p21-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 298.0507499999949,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 21,
+    "expect": [
+     "p21-w3",
+     "p21-w2"
+    ],
+    "accepted": [
+     "p21-w3",
+     "p21-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 270.21818300001905,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 21,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 285.011170999991,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 323.8142850000004,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 10,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 282.0456240000203,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 298.6873669999768,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 305.7640600000159,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 562.4606870000134,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 275.0612329999858,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 307.6995949999837,
+    "tipJitterPx": 1.185712027934284
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 294.70114200000535,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 303.57242800001404,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 266.26256899998407,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 280.37409299999126,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.86410900001647,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 275.1860120000201,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 346.9928409999993,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 293.3266580000054,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 293.09322899999097,
+    "tipJitterPx": 0.7646911669450538
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 28,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 276.7970080000232,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 270.1178249999939,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.0511370000022,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 295.94767200000933,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 300.88127300000633,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.6752390000038,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 327.73950200001127,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 281.0666070000152,
+    "tipJitterPx": 0.8747886149507487
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 266.067475000018,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 272.17588199998136,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 275.26532500001485,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 270.88404500001343,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 269.07720200001495,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 18,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 279.5287580000004,
+    "tipJitterPx": 1.4910632844696872
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 60,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 11,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "unknown-page",
+    "pageId": "procedural",
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 0,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   }
+  ],
+  "summary": {
+   "label": "SIMULATED frames from real page images \u2014 not real-camera validation",
+   "scenarios": 158,
+   "targetScenariosOk": 118,
+   "targetScenarios": 150,
+   "wordCorrectTriggers": 128,
+   "wordWrongTriggers": 0,
+   "noPointerOrUnknownFalseTriggers": 0,
+   "duplicateTriggers": 0,
+   "pageFramesIdentified": 1995,
+   "pageFramesWrong": 0,
+   "timeToSpeakMs": {
+    "p50": 286.9,
+    "p95": 344.5,
+    "n": 118,
+    "note": "from pointer appearance to accepted target at 14 fps simulated + processing"
+   },
+   "tipJitterRefPx": {
+    "mean": 1.43,
+    "note": "640px-wide page \u2248 3.8 px per mm"
+   },
+   "frameProcessingMs": {
+    "p50": 75.7,
+    "p95": 174,
+    "frames": 2188
+   },
+   "byScenario": {
+    "pen-alone-frontal": {
+     "n": 14,
+     "ok": 13,
+     "wrong": 0
+    },
+    "finger+hand-rotated-tilted": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "pen+hand-low-light": {
+     "n": 14,
+     "ok": 13,
+     "wrong": 0
+    },
+    "pointer-from-left": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "pointer-from-right": {
+     "n": 14,
+     "ok": 8,
+     "wrong": 0
+    },
+    "pointer-from-top": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "stress-short-pointer-right": {
+     "n": 14,
+     "ok": 7,
+     "wrong": 0
+    },
+    "light-pen": {
+     "n": 14,
+     "ok": 0,
+     "wrong": 0
+    },
+    "tip-near-line-bottom": {
+     "n": 14,
+     "ok": 11,
+     "wrong": 0
+    },
+    "steady-hold-shake": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "move-between-adjacent-words": {
+     "n": 10,
+     "ok": 10,
+     "wrong": 0
+    },
+    "no-pointer": {
+     "n": 7,
+     "ok": 7,
+     "wrong": 0
+    },
+    "unknown-page": {
+     "n": 1,
+     "ok": 1,
+     "wrong": 0
+    }
+   }
+  }
+ },
+ "v2": {
+  "rows": [
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 234.84202699997695,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.66025399998762,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 211.74381499999436,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 230.54714600002626,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 216.5567119999905,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 195.09912800003076,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.50578700000187,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 225.5151640000404,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 17,
+    "expect": [
+     "p17-w8"
+    ],
+    "accepted": [
+     "p17-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 232.7021160000004,
+    "tipJitterPx": 0.9618660552524038
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 199.97583299997495,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 192.20935399999144,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 241.96549199998844,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.9081920000026,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 206.39280199998757,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.04524199996376,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 248.7688560000388,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 224.43403699999908,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 17,
+    "expect": [
+     "p17-w22"
+    ],
+    "accepted": [
+     "p17-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 255.70702500001062,
+    "tipJitterPx": 1.0491469987485103
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 17,
+    "expect": [
+     "p17-w4",
+     "p17-w3"
+    ],
+    "accepted": [
+     "p17-w4",
+     "p17-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 210.45777699997416,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 17,
+    "expect": [
+     "p17-w3",
+     "p17-w2"
+    ],
+    "accepted": [
+     "p17-w3",
+     "p17-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.9695579999825,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 17,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 234.23652699997183,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 204.5607430000091,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 227.50808100000722,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 233.04912300000433,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 221.8980230000452,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 227.85292899998603,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 198.7679160000407,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 237.0074119999772,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 241.96133999997983,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 18,
+    "expect": [
+     "p18-w8"
+    ],
+    "accepted": [
+     "p18-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 206.3340769999777,
+    "tipJitterPx": 1.3008865922120911
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 228.64830900001107,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 189.20652900001733,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 197.13217699999223,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 210.946781000006,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 215.68620100000408,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 203.18863699998474,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 642.3363329999847,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 207.33811499999138,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 226.72266899998067,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 18,
+    "expect": [
+     "p18-w23"
+    ],
+    "accepted": [
+     "p18-w23"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 229.08465899998555,
+    "tipJitterPx": 0.7365890617720314
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 18,
+    "expect": [
+     "p18-w4",
+     "p18-w3"
+    ],
+    "accepted": [
+     "p18-w4",
+     "p18-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 190.2480720000458,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 18,
+    "expect": [
+     "p18-w3",
+     "p18-w2"
+    ],
+    "accepted": [
+     "p18-w3",
+     "p18-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 232.1849569999613,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 18,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 213.70522000000346,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 212.04508700000588,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.30907399998978,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 215.9908830000204,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 204.90297599998303,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 234.80838400003267,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.88993699999992,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 689.2657319999998,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 275.00616499996977,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 19,
+    "expect": [
+     "p19-w9"
+    ],
+    "accepted": [
+     "p19-w9"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 233.22721699997783,
+    "tipJitterPx": 0.5005069012040746
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 203.86320299998624,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 211.0407089999644,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 240.65580799995223,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 245.2405869999784,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 8,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 349.17969099996844,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 194.4378189999843,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 203.47707899997476,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.40204900002573,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 19,
+    "expect": [
+     "p19-w25"
+    ],
+    "accepted": [
+     "p19-w25"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 203.58233900001505,
+    "tipJitterPx": 0.4253141354943715
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 19,
+    "expect": [
+     "p19-w4",
+     "p19-w3"
+    ],
+    "accepted": [
+     "p19-w4",
+     "p19-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.88220100000035,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 19,
+    "expect": [
+     "p19-w3",
+     "p19-w2"
+    ],
+    "accepted": [
+     "p19-w3",
+     "p19-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 183.29993800004013,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 19,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.5122149999952,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 264.3002689999994,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.1080340000335,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 201.00346399995033,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 215.3871030000155,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 269.0554350000457,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 258.8788540000096,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.79038600000786,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 20,
+    "expect": [
+     "p20-w7"
+    ],
+    "accepted": [
+     "p20-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 206.83673900004942,
+    "tipJitterPx": 1.241156882750201
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 227.0181819999707,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 223.8418590000365,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 204.79758800001582,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 201.8709600000293,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 618.4621329999645,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 227.3273990000016,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 203.7802429999574,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 233.48140400002012,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 20,
+    "expect": [
+     "p20-w19"
+    ],
+    "accepted": [
+     "p20-w19"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 221.82184499996947,
+    "tipJitterPx": 1.1288666177771507
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 20,
+    "expect": [
+     "p20-w4",
+     "p20-w3"
+    ],
+    "accepted": [
+     "p20-w4",
+     "p20-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.31182699999772,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 20,
+    "expect": [
+     "p20-w3",
+     "p20-w2"
+    ],
+    "accepted": [
+     "p20-w3",
+     "p20-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 255.3573070000275,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 20,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 221.22044999996433,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 231.25413799996022,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.850688000035,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.34949599998072,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 219.660149000003,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 197.9235649999464,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 198.07890099997167,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 21,
+    "expect": [
+     "p21-w8"
+    ],
+    "accepted": [
+     "p21-w8"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 230.2847119999933,
+    "tipJitterPx": 1.6830463019878197
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 225.69659200002206,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 211.04268200002844,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 274.26382900000317,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 201.9206660000491,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 204.50636299996404,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.95564899995225,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.7805020000087,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 21,
+    "expect": [
+     "p21-w22"
+    ],
+    "accepted": [
+     "p21-w22"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 270.961856000009,
+    "tipJitterPx": 1.122420306728449
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 21,
+    "expect": [
+     "p21-w4",
+     "p21-w3"
+    ],
+    "accepted": [
+     "p21-w4",
+     "p21-w3"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.77152300003218,
+    "tipJitterPx": null
+   },
+   {
+    "name": "move-between-adjacent-words",
+    "pageId": 21,
+    "expect": [
+     "p21-w3",
+     "p21-w2"
+    ],
+    "accepted": [
+     "p21-w3",
+     "p21-w2"
+    ],
+    "correct": 2,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 214.66468200000236,
+    "tipJitterPx": null
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 21,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 223.13266299996758,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 254.9973450000398,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 254.94720799999777,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 226.49327999999514,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 208.15393400000175,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 210.11640399997123,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 224.92035800003214,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 218.72755700000562,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 28,
+    "expect": [
+     "p28-w3"
+    ],
+    "accepted": [
+     "p28-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 210.89394100004574,
+    "tipJitterPx": 0.3495229915278079
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 220.58207100001164,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 196.9593950000126,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 226.31323500000872,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 232.15428300003987,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.6492819999694,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 212.9527550000348,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 200.27648500003852,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 207.14808600000106,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 28,
+    "expect": [
+     "p28-w7"
+    ],
+    "accepted": [
+     "p28-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 204.5727879999904,
+    "tipJitterPx": 0.5661112322096624
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 28,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.10015299997758,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 234.44880999997258,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 217.90183699998306,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 217.6117400000221,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 199.00731700001052,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 222.74440600001253,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 60,
+    "expect": [
+     "p60-w3"
+    ],
+    "accepted": [
+     "p60-w3"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.9389370000572,
+    "tipJitterPx": 0.45267638184933334
+   },
+   {
+    "name": "pen-alone-frontal",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "finger+hand-rotated-tilted",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 212.7006059999694,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pen+hand-low-light",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-left",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 199.1843729999964,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 230.43130700004986,
+    "tipJitterPx": null
+   },
+   {
+    "name": "pointer-from-top",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 205.52774200000567,
+    "tipJitterPx": null
+   },
+   {
+    "name": "stress-short-pointer-right",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 228.30818900000304,
+    "tipJitterPx": null
+   },
+   {
+    "name": "light-pen",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "tip-near-line-bottom",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": false,
+    "duplicates": 0,
+    "pageFrames": 13,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "steady-hold-shake",
+    "pageId": 60,
+    "expect": [
+     "p60-w7"
+    ],
+    "accepted": [
+     "p60-w7"
+    ],
+    "correct": 1,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 19,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": 195.24183799995808,
+    "tipJitterPx": 1.137705983493745
+   },
+   {
+    "name": "no-pointer",
+    "pageId": 60,
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 12,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   },
+   {
+    "name": "unknown-page",
+    "pageId": "procedural",
+    "expect": [],
+    "accepted": [],
+    "correct": 0,
+    "wrong": 0,
+    "ok": true,
+    "duplicates": 0,
+    "pageFrames": 0,
+    "pageWrong": 0,
+    "firstAcceptLatencyMs": null,
+    "tipJitterPx": null
+   }
+  ],
+  "summary": {
+   "label": "SIMULATED frames from real page images \u2014 not real-camera validation",
+   "scenarios": 158,
+   "targetScenariosOk": 132,
+   "targetScenarios": 150,
+   "wordCorrectTriggers": 142,
+   "wordWrongTriggers": 0,
+   "noPointerOrUnknownFalseTriggers": 0,
+   "duplicateTriggers": 0,
+   "pageFramesIdentified": 2173,
+   "pageFramesWrong": 0,
+   "timeToSpeakMs": {
+    "p50": 216.6,
+    "p95": 271,
+    "n": 132,
+    "note": "from pointer appearance to accepted target at 14 fps simulated + processing"
+   },
+   "tipJitterRefPx": {
+    "mean": 0.9,
+    "note": "640px-wide page \u2248 3.8 px per mm"
+   },
+   "frameProcessingMs": {
+    "p50": 74.5,
+    "p95": 193.8,
+    "frames": 2188
+   },
+   "byScenario": {
+    "pen-alone-frontal": {
+     "n": 14,
+     "ok": 13,
+     "wrong": 0
+    },
+    "finger+hand-rotated-tilted": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "pen+hand-low-light": {
+     "n": 14,
+     "ok": 13,
+     "wrong": 0
+    },
+    "pointer-from-left": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "pointer-from-right": {
+     "n": 14,
+     "ok": 11,
+     "wrong": 0
+    },
+    "pointer-from-top": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "stress-short-pointer-right": {
+     "n": 14,
+     "ok": 6,
+     "wrong": 0
+    },
+    "light-pen": {
+     "n": 14,
+     "ok": 12,
+     "wrong": 0
+    },
+    "tip-near-line-bottom": {
+     "n": 14,
+     "ok": 11,
+     "wrong": 0
+    },
+    "steady-hold-shake": {
+     "n": 14,
+     "ok": 14,
+     "wrong": 0
+    },
+    "move-between-adjacent-words": {
+     "n": 10,
+     "ok": 10,
+     "wrong": 0
+    },
+    "no-pointer": {
+     "n": 7,
+     "ok": 7,
+     "wrong": 0
+    },
+    "unknown-page": {
+     "n": 1,
+     "ok": 1,
+     "wrong": 0
+    }
+   }
+  }
+ }
+}

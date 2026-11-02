@@ -1,0 +1,3331 @@
+{
+ "schema": 1,
+ "generatedAt": "2026-11-02T04:28:08.472Z",
+ "packs": [
+  {
+   "id": "camera-ar",
+   "titleAr": "الكاميرا والنطق — العربية",
+   "required": true,
+   "description": "Reference index, page images, zone maps and the original clip recordings needed by the offline camera.",
+   "files": [
+    {
+     "url": "./data/audio-library.json",
+     "bytes": 1486871,
+     "sha256": "9981f17f5594f87912fdfdbe29e95dc70d3a9e52fd316b78623c6e15047d3477"
+    },
+    {
+     "url": "./vision/data/ref-index.bin",
+     "bytes": 9557296,
+     "sha256": "508357d5310b7cc49e2388398bbed2766fcb4b576a65fef75bce484fb028b70b"
+    },
+    {
+     "url": "./vision/reference-pages/page-001.png",
+     "bytes": 1189961,
+     "sha256": "91ba37fa5591f193299d7dffa015770d00850239fb524dbfc0ad18f3fc77e6e1"
+    },
+    {
+     "url": "./vision/reference-pages/page-002.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./vision/reference-pages/page-003.png",
+     "bytes": 28605,
+     "sha256": "0a28da38f00b8aa9461a45ceac8bd9714c180ed96d5881f49017b6cc353c41e2"
+    },
+    {
+     "url": "./library-pages/page-004.jpg",
+     "bytes": 35847,
+     "sha256": "af39c63e5770e1fe92a89e02dceffe84b1582b3b9054b3430e981eb5d7c00e53"
+    },
+    {
+     "url": "./library-pages/page-005.jpg",
+     "bytes": 78273,
+     "sha256": "c0e01a0d044806054cdcdf1d222a97e1b1dec12d77afb8d5915e4727795f3ca5"
+    },
+    {
+     "url": "./library-pages/page-006.jpg",
+     "bytes": 45949,
+     "sha256": "40a3a966b4ac775e96e1564d38d69996b18eadd3e68964977567a7790f7c48c8"
+    },
+    {
+     "url": "./library-pages/page-007.jpg",
+     "bytes": 69286,
+     "sha256": "1335992d7ae2041af08c6cdcd2aba3d013867ba84f5edd3ca0b138acb7f42422"
+    },
+    {
+     "url": "./library-pages/page-008.jpg",
+     "bytes": 80217,
+     "sha256": "92359898bf80660ee72f891f58b663966ded8b79328b9b1ecfffb24100c722c2"
+    },
+    {
+     "url": "./library-pages/page-009.jpg",
+     "bytes": 86476,
+     "sha256": "8f690468ffd742e1408d44557ff84db08a825a30f39be865f66c200c3fe5709b"
+    },
+    {
+     "url": "./library-pages/page-010.jpg",
+     "bytes": 45879,
+     "sha256": "54bc91ce15ea982da4a3e4d9d4548a45e6512c425020f9f0849cfc28d76df9c1"
+    },
+    {
+     "url": "./library-pages/page-011.jpg",
+     "bytes": 70368,
+     "sha256": "72de6ff0aba2ab086ae5e65d4072ba49ea3328e46d29b0ab6d35c85601ac3d44"
+    },
+    {
+     "url": "./library-pages/page-012.jpg",
+     "bytes": 46418,
+     "sha256": "fadc661fc5120534045f00e20176b612aa112df45006aa15af5f7a800fca0908"
+    },
+    {
+     "url": "./library-pages/page-013.jpg",
+     "bytes": 90413,
+     "sha256": "79f1fa9f86754746de537368211c8ae7ecc13c9e1c1c6bef8a8bbce731126649"
+    },
+    {
+     "url": "./vision/reference-pages/page-014.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./library-pages/page-015.jpg",
+     "bytes": 45783,
+     "sha256": "baa3ddcaa54f00f3a36bb26768a1185916e2917a1810c48ed3d1fd11aa8decc3"
+    },
+    {
+     "url": "./library-pages/page-016.jpg",
+     "bytes": 89807,
+     "sha256": "872d0596e2fbbb39d37b7b49597ffada8309087df52375088d03f2232995b139"
+    },
+    {
+     "url": "./pilot-media/page-015.jpg",
+     "bytes": 104759,
+     "sha256": "d173bcc262064cff28d782cbd6f12f0b501d1ebad485f2dabc210ac6008a21a2"
+    },
+    {
+     "url": "./pilot-media/page-016.jpg",
+     "bytes": 120646,
+     "sha256": "8d159ca05fa6225b7decb91135fefc5efc69795af8b2bc2b145a0e5a3b140287"
+    },
+    {
+     "url": "./pilot-media/page-017.jpg",
+     "bytes": 113326,
+     "sha256": "3afb3f96ea53fa0169c5f5a0b01fc50ee6e6abac26355dc4f4d0e493e3f31ef0"
+    },
+    {
+     "url": "./library-pages/page-020.jpg",
+     "bytes": 43385,
+     "sha256": "e0a817ecf9e4059a2544f07457473e3bebae644bb937e6feb53ad7831bfef8c1"
+    },
+    {
+     "url": "./library-pages/page-021.jpg",
+     "bytes": 44534,
+     "sha256": "7f560c4fb043f8621cc1ad4fdcc991e9917ff111ee3339e3b33a803c6cdb3df2"
+    },
+    {
+     "url": "./library-pages/page-022.jpg",
+     "bytes": 57685,
+     "sha256": "4dfecfc34e3f42354a338b7e3244142333e9e15beebdbb0dec91b849babb0751"
+    },
+    {
+     "url": "./library-pages/page-023.jpg",
+     "bytes": 36616,
+     "sha256": "e1f94b1cbf4ed80d6da20b2321e3f3e47608fe4acfb0a185f69005116fc5ae97"
+    },
+    {
+     "url": "./library-pages/page-024.jpg",
+     "bytes": 83556,
+     "sha256": "55f1e9c7001f03296a49bdfbc70eb1bd7e59367904a851b5f7e1a918091ec5a6"
+    },
+    {
+     "url": "./library-pages/page-025.jpg",
+     "bytes": 51879,
+     "sha256": "23bd30287569b954f2d7609b3e36c80957fc61802a2c14eed5c665b274724cde"
+    },
+    {
+     "url": "./library-pages/page-026.jpg",
+     "bytes": 56052,
+     "sha256": "900d0655d31620bb9835710de221792608d0654beb3ae82ea782260d394afb02"
+    },
+    {
+     "url": "./library-pages/page-027.jpg",
+     "bytes": 51676,
+     "sha256": "a791d5fc1682052a54e9d0aaea0fd3d004354da97099d1b792fdb089330e30fa"
+    },
+    {
+     "url": "./library-pages/page-028.jpg",
+     "bytes": 48517,
+     "sha256": "710694517971daa7dd1c13d2c9afe0fa25e681fb1ed2e4ed29cd2956b2d40993"
+    },
+    {
+     "url": "./library-pages/page-029.jpg",
+     "bytes": 56511,
+     "sha256": "5f6a91241f265d9330baf522ccde2e674203ab58d9e61922a3c835d85ce20614"
+    },
+    {
+     "url": "./library-pages/page-030.jpg",
+     "bytes": 49804,
+     "sha256": "d278737cd044f8f9549d8f8c5d3e5704b12cc24f9955525cc3a24d4622c7de69"
+    },
+    {
+     "url": "./library-pages/page-031.jpg",
+     "bytes": 53970,
+     "sha256": "3744b8dceaf4563b80eafa777fdaf3b23e2a017bc24ecd25aaf9bd06dd1ca3fe"
+    },
+    {
+     "url": "./library-pages/page-032.jpg",
+     "bytes": 56088,
+     "sha256": "fd316276597e903b13e6b663460c217d151a5320d143fb4dca270d59bbb5eec2"
+    },
+    {
+     "url": "./library-pages/page-033.jpg",
+     "bytes": 52486,
+     "sha256": "d89e3983092569bb993c2e537f1c4446a73be29390fdbb03bc12cae6964262c5"
+    },
+    {
+     "url": "./library-pages/page-034.jpg",
+     "bytes": 59146,
+     "sha256": "3771f623614373b30d2e358e77a902790dff66b51f3b1ad426851a1c832a8ecc"
+    },
+    {
+     "url": "./library-pages/page-035.jpg",
+     "bytes": 50773,
+     "sha256": "1548f0dac57fc2dd7fb37794682b6bbb4912b7befc82fd4efb7d67cc539e32ec"
+    },
+    {
+     "url": "./library-pages/page-036.jpg",
+     "bytes": 46122,
+     "sha256": "154e644629bbf3b73aafcd67e0ec7c63d153c8897c89ed86de53447ef1d0c18d"
+    },
+    {
+     "url": "./library-pages/page-037.jpg",
+     "bytes": 33243,
+     "sha256": "774bbfffc598a34f6509491e48273468cf532fcd13bc71ea7f8b4a2f0f6324f8"
+    },
+    {
+     "url": "./library-pages/page-038.jpg",
+     "bytes": 79500,
+     "sha256": "c92d78815d7366fc9a623ccfd7b3f7bd08051f6e528290eab6ce34dcbdb72618"
+    },
+    {
+     "url": "./library-pages/page-039.jpg",
+     "bytes": 53138,
+     "sha256": "c8cac03377eca32c18d160d79b5cb8fe0e7277d8d34eea0759865f52fcc18038"
+    },
+    {
+     "url": "./library-pages/page-040.jpg",
+     "bytes": 52854,
+     "sha256": "b54b6bf9af8557d852644016bab3e12765c78c75d1d1d93ebe053df1d52b1f5a"
+    },
+    {
+     "url": "./library-pages/page-041.jpg",
+     "bytes": 53293,
+     "sha256": "4d2abfdc0a52d9c32ca37d7369d362cf6a5aa115cfcd885c89d70dbabaac22c5"
+    },
+    {
+     "url": "./library-pages/page-042.jpg",
+     "bytes": 50611,
+     "sha256": "74de3bc7c0a5237085c5f99ec0ba02edcc71eb3bb8b711d4936a26f8dd6aa74a"
+    },
+    {
+     "url": "./library-pages/page-043.jpg",
+     "bytes": 53616,
+     "sha256": "e33d4972e39c2949d1b4ff0537002ae6d483741c794f2dbfd7b786d06759b38c"
+    },
+    {
+     "url": "./library-pages/page-044.jpg",
+     "bytes": 54864,
+     "sha256": "4a7a7f6b374a6b02eb629a1a8956f09a6593c2b67d14e40026f99c3fa5ee4909"
+    },
+    {
+     "url": "./library-pages/page-045.jpg",
+     "bytes": 35599,
+     "sha256": "edc8cf024b98aeb993360451974c7f2ef44acef6af3d5c472e2d1e053487ece2"
+    },
+    {
+     "url": "./library-pages/page-046.jpg",
+     "bytes": 84573,
+     "sha256": "bf8f8f5ae316aee9b5198d44080ec8b5601fb33d8a96bba99026d9b0bd08bf9b"
+    },
+    {
+     "url": "./library-pages/page-047.jpg",
+     "bytes": 62966,
+     "sha256": "621cb6c86f0c6eb15cc762d8287d45becbf7d7040a085f84087ea5266e12d184"
+    },
+    {
+     "url": "./library-pages/page-048.jpg",
+     "bytes": 53746,
+     "sha256": "e142ba6c237891e8e95644b4c5f763a00cd0c1075ebbd64357a9c199c2cf814a"
+    },
+    {
+     "url": "./library-pages/page-049.jpg",
+     "bytes": 62348,
+     "sha256": "63330851d29abfe0c189677ab759b2d1469f18db4b983533beea80ee707db62e"
+    },
+    {
+     "url": "./library-pages/page-050.jpg",
+     "bytes": 54798,
+     "sha256": "c0269a25f22c6d57cbae9564e01d1d349f43b673ab173dff6476be669e6520f5"
+    },
+    {
+     "url": "./library-pages/page-051.jpg",
+     "bytes": 63310,
+     "sha256": "72f6ea6694cdf0bc6f3d2486c8289dc1f591c075c3d504a1704afec57e71ea4c"
+    },
+    {
+     "url": "./library-pages/page-052.jpg",
+     "bytes": 53837,
+     "sha256": "ea7c58d514647459c74744ed73a1e7330b1a7257e9d6ab10d89b5cdebf65e37d"
+    },
+    {
+     "url": "./library-pages/page-053.jpg",
+     "bytes": 35397,
+     "sha256": "ffce5bbdb9f6ae61757517e6f2e5d4921f664f1e13d611ead4268e4e03515904"
+    },
+    {
+     "url": "./library-pages/page-054.jpg",
+     "bytes": 98584,
+     "sha256": "60ea2e322e3c84ac019e0b30eab2054da80e526f9dbd24c72467fb5918c52158"
+    },
+    {
+     "url": "./library-pages/page-055.jpg",
+     "bytes": 66480,
+     "sha256": "6cd9262a6c2bb428daad00daa4a44f2ca3d6b60a508ae8c4bd75bbf1a96a0bc3"
+    },
+    {
+     "url": "./library-pages/page-056.jpg",
+     "bytes": 47331,
+     "sha256": "4d9156ee37c79ae32102f813c485d128a9aefe2a038a122b8a629da9fd957b46"
+    },
+    {
+     "url": "./library-pages/page-057.jpg",
+     "bytes": 65258,
+     "sha256": "cb60865e7cec0a07ea9baac2df02ec0811f64b30f513e8396506e1c8b8afc58e"
+    },
+    {
+     "url": "./library-pages/page-058.jpg",
+     "bytes": 46962,
+     "sha256": "6b93808784db660a7fb9d9197dbf01c7ff1f2f904faaf0460bd06b5abc2ce566"
+    },
+    {
+     "url": "./library-pages/page-059.jpg",
+     "bytes": 66604,
+     "sha256": "5ec03ad8d99f0f7a822808241b7d6acd9326a71ddb00bff5d8f78a30b7ac8c03"
+    },
+    {
+     "url": "./library-pages/page-060.jpg",
+     "bytes": 47361,
+     "sha256": "8805c7ce4d95466a23017568a8586d139c5827d2ec6dd5b26af1e7fc995d606e"
+    },
+    {
+     "url": "./library-pages/page-061.jpg",
+     "bytes": 58914,
+     "sha256": "48402ae2fb1fad90204f96e0fe31955b72f2af7aa2806d2468383a6ad7aec0e6"
+    },
+    {
+     "url": "./vision/reference-pages/page-062.png",
+     "bytes": 5201,
+     "sha256": "2d51decaaab5b03d68c4e6dba7c698d92651d4190f9e71351e60fe0f10b0fa27"
+    },
+    {
+     "url": "./library-pages/page-063.jpg",
+     "bytes": 37062,
+     "sha256": "a30bf70f524a854525f299a2f9407c7a58bfdbd08838e392bdc71b4032abc1aa"
+    },
+    {
+     "url": "./library-pages/page-064.jpg",
+     "bytes": 62585,
+     "sha256": "ff58cc928ad7f08c5a57c199c290348b4c9fb4ef9ef09034b5aa987ea606f10c"
+    },
+    {
+     "url": "./library-pages/page-065.jpg",
+     "bytes": 57108,
+     "sha256": "4e4bb95805a42c41e6f915186bbd38cfef5b043ffcf639e50dd7f62ad4bf1b90"
+    },
+    {
+     "url": "./library-pages/page-066.jpg",
+     "bytes": 54601,
+     "sha256": "de1d52936077b9e4f1da78b86b1e05d659dc073b99e94c8e325137c1c8ac161c"
+    },
+    {
+     "url": "./library-pages/page-067.jpg",
+     "bytes": 33019,
+     "sha256": "a9e8e6b29c4c0166f3793d6bf47254873061d967be9f19f31324806e92230504"
+    },
+    {
+     "url": "./library-pages/page-068.jpg",
+     "bytes": 45605,
+     "sha256": "e50e1e9eda0c7eb341f8b5b09c4762723fb6bbfd537fc0f46f652adf3ebb527c"
+    },
+    {
+     "url": "./library-pages/page-069.jpg",
+     "bytes": 65349,
+     "sha256": "24b6018e528d36994de0b247c8a09c8f278f8bf85783b0c19d4f71fdda649a7c"
+    },
+    {
+     "url": "./vision/reference-pages/page-070.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./library-pages/page-071.jpg",
+     "bytes": 32672,
+     "sha256": "7c8772025d8b74be9d1818404d008af26393f4fa0d9ac4eda2f018433e5b3741"
+    },
+    {
+     "url": "./library-pages/page-072.jpg",
+     "bytes": 38535,
+     "sha256": "55bf3a1bf94f5fcb7958ad87955d9ffe03d040c2ec7c4aba97be4de9983a23d6"
+    },
+    {
+     "url": "./library-pages/page-073.jpg",
+     "bytes": 45656,
+     "sha256": "e76df6164a6cdf196f7ba6dc3383a33956344bd212876b5efac4c33d8bcc855c"
+    },
+    {
+     "url": "./vision/reference-pages/page-074.png",
+     "bytes": 5200,
+     "sha256": "139956c2255aa9c89b9710a1a31e85e68457c72da0a79b5327f48f7a53ce422f"
+    },
+    {
+     "url": "./library-pages/page-075.jpg",
+     "bytes": 34157,
+     "sha256": "7c432c7c599fd8ca0dd6711af7572ae449895798e2f2aada1c169e5c0dad5f72"
+    },
+    {
+     "url": "./library-pages/page-076.jpg",
+     "bytes": 35438,
+     "sha256": "edfaa87b5d1a92f94ee5cce47871233aa99641eaa2cdbde3717d17247949316e"
+    },
+    {
+     "url": "./library-pages/page-077.jpg",
+     "bytes": 57464,
+     "sha256": "bfc54817853c4a71ab6786f3cc8f17ed71ce39127c86beda469c9df672481938"
+    },
+    {
+     "url": "./vision/reference-pages/page-078.png",
+     "bytes": 5200,
+     "sha256": "e74d512dad3a1bce00c0f335f0a15cfb38b6ce2acb9f4f52da294b511d8d16ba"
+    },
+    {
+     "url": "./library-pages/page-079.jpg",
+     "bytes": 37272,
+     "sha256": "a9fda419118f1ff89c00146131c97056d840dac5743f917e7170c66fe5756e57"
+    },
+    {
+     "url": "./library-pages/page-080.jpg",
+     "bytes": 90103,
+     "sha256": "c371cbd457ba35c285419807a6fbf70e0194d581d71875f530ef0c8f7ce2a1ee"
+    },
+    {
+     "url": "./library-pages/page-081.jpg",
+     "bytes": 60157,
+     "sha256": "221611f761bfd94228ec72ac56502b978323b821fb950ce08183199216cef3d1"
+    },
+    {
+     "url": "./library-pages/page-082.jpg",
+     "bytes": 60698,
+     "sha256": "85e317c972332719fb03c492240508d44d3406e9fe30314694d1efae0fc0df20"
+    },
+    {
+     "url": "./library-pages/page-083.jpg",
+     "bytes": 32324,
+     "sha256": "26fe2c464730282f21ac2e1f18203b8fafa37db44040415488881fd60cd645d2"
+    },
+    {
+     "url": "./library-pages/page-084.jpg",
+     "bytes": 91249,
+     "sha256": "41bbc9c3ec60a454252691b660338c3299eef8542c5539cb555c1697a6a23a51"
+    },
+    {
+     "url": "./library-pages/page-085.jpg",
+     "bytes": 52194,
+     "sha256": "22bc55c6c3b9842ee1db3034f71d594aaae928889ad84f20fca494b9842e9fd2"
+    },
+    {
+     "url": "./library-pages/page-086.jpg",
+     "bytes": 58737,
+     "sha256": "5ea2aef718dae5b5396b38f360fb696be539e6567018275eb7de2c5f646372d3"
+    },
+    {
+     "url": "./library-pages/page-087.jpg",
+     "bytes": 64310,
+     "sha256": "bd5bf4e5dc425674fb6458819cf1eb4362316f65e9edef0f85790bb98fdd194f"
+    },
+    {
+     "url": "./library-pages/page-088.jpg",
+     "bytes": 69195,
+     "sha256": "a4e588fb3118c24eaf61e7deb0713e77133aa27aee3895ec31a7f023ce7c16c1"
+    },
+    {
+     "url": "./library-pages/page-089.jpg",
+     "bytes": 79816,
+     "sha256": "a2fa0fb072ce6ccefcc3867af57923b75aafa32932b150133b6c119ec3ffd7c6"
+    },
+    {
+     "url": "./vision/reference-pages/page-090.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./library-pages/page-091.jpg",
+     "bytes": 43176,
+     "sha256": "21e79a1b32cb81aab6a5511bb0f6d00b2324cb85bb81fdd5efb86e2efdfb5a53"
+    },
+    {
+     "url": "./library-pages/page-092.jpg",
+     "bytes": 84927,
+     "sha256": "6592bfeae8f331423d853527ae9eccc4e5dfc8cc96263585d21a330cc396d7cd"
+    },
+    {
+     "url": "./library-pages/page-093.jpg",
+     "bytes": 63188,
+     "sha256": "d84f327746d1e8863f297dc79b7cfcd86444ccd2e9fcfd3b40319879e33e9f5f"
+    },
+    {
+     "url": "./library-pages/page-094.jpg",
+     "bytes": 71770,
+     "sha256": "13c9b7e5165eb5e6ec521cc4653cfe44cdf64990ad6e1a7094a41fc9da18c1e5"
+    },
+    {
+     "url": "./library-pages/page-095.jpg",
+     "bytes": 73062,
+     "sha256": "31b20f7daf8a65c798ce69179bf3a931dfd9f3d4ad5e96669ee0224f03680438"
+    },
+    {
+     "url": "./library-pages/page-096.jpg",
+     "bytes": 71445,
+     "sha256": "85d58166fd53115c06ab5f0a5b124f8e31d5a07f976ea35d1b776c20ae9d685a"
+    },
+    {
+     "url": "./library-pages/page-097.jpg",
+     "bytes": 38021,
+     "sha256": "eef4f40a2be1149fc7b2a9abf1ab846c5e2e92e251839bc0bd5ab9c6e9739994"
+    },
+    {
+     "url": "./vision/reference-pages/page-098.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./library-pages/page-099.jpg",
+     "bytes": 31393,
+     "sha256": "9b6ddabb908e9686997bc167c4cc452982324b58e0c6076f3a4b63cd71f43da2"
+    },
+    {
+     "url": "./library-pages/page-100.jpg",
+     "bytes": 52364,
+     "sha256": "3e9db53ff5e9f5d9a3f354a571afc8e54a4b6e1774de918e94441a307eb64b06"
+    },
+    {
+     "url": "./library-pages/page-101.jpg",
+     "bytes": 44704,
+     "sha256": "038cf64395b36ee6760bede8b163daa2f51c182db882ebfbdd1ecb8a5df42706"
+    },
+    {
+     "url": "./library-pages/page-102.jpg",
+     "bytes": 84959,
+     "sha256": "e6ad30e241dfad59c0ccdaf57a6292a4838a7ff010a202b4f9f3ef22f0247759"
+    },
+    {
+     "url": "./vision/reference-pages/page-103.png",
+     "bytes": 5191,
+     "sha256": "d935f0e4202646fa174561a3cd28bf0d64241417cf386c4c71bb47acb99d3cd7"
+    },
+    {
+     "url": "./vision/reference-pages/page-104.png",
+     "bytes": 1175284,
+     "sha256": "941445c3334bb750262b72bbf12eb5a2c63936d5e23d830e7cfbc98508ad9365"
+    },
+    {
+     "url": "./pilot-media/p015-word-001.mp3",
+     "bytes": 7148,
+     "sha256": "530917da924a8ce129bf0c7511647259e1edf4168862ac0021bca88bf67aad32"
+    },
+    {
+     "url": "./pilot-media/p015-word-002.mp3",
+     "bytes": 9644,
+     "sha256": "65c248508640896d47c8bea9904991fbe423b418b3c570bf676b2bbf9c473632"
+    },
+    {
+     "url": "./pilot-media/p015-word-003.mp3",
+     "bytes": 7340,
+     "sha256": "3e22680cd52ec87c519e7b078f1c3b0f529ac84fb6261f49fbbb999d4ba51a3a"
+    },
+    {
+     "url": "./pilot-media/p015-word-004.mp3",
+     "bytes": 8684,
+     "sha256": "796b6c2fb95c1c590ed02792226b36fe4059cf84c05b341f64bba14bdc4a18a0"
+    },
+    {
+     "url": "./pilot-media/p015-word-005.mp3",
+     "bytes": 10028,
+     "sha256": "ea395085418ba0b254f5713a0f769655159c4e59b7af6f5cbdbb0edabcc9ffbe"
+    },
+    {
+     "url": "./pilot-media/p015-word-006.mp3",
+     "bytes": 8108,
+     "sha256": "6e94a5c7f9a604a0b533783977c5efba0d621d2a6fce3aae9fc8010c40643583"
+    },
+    {
+     "url": "./pilot-media/p015-word-007.mp3",
+     "bytes": 7916,
+     "sha256": "78794e62f55e3407837cfad16e9ab794a892ed894afd8d5b6383e36e627426a9"
+    },
+    {
+     "url": "./pilot-media/p015-word-008.mp3",
+     "bytes": 8684,
+     "sha256": "6a56506967f1752872bfd4305f8909e91334ec399c43c1eead7a4e9548f2d671"
+    },
+    {
+     "url": "./pilot-media/p015-word-009.mp3",
+     "bytes": 8684,
+     "sha256": "11ad4077e8b2a748422a5a997184e746deaef7802fdedbac396e329ccb84195e"
+    },
+    {
+     "url": "./pilot-media/p015-word-010.mp3",
+     "bytes": 6764,
+     "sha256": "9b8cd2f453a81bff8e208e1a0d38edd9694df294a7a527e72e9791f70241a33f"
+    },
+    {
+     "url": "./pilot-media/p015-word-011.mp3",
+     "bytes": 8108,
+     "sha256": "39d907c1e9860dacc794c19333bef5f4843385a336905a3374a1be511ccc20a5"
+    },
+    {
+     "url": "./pilot-media/p015-word-012.mp3",
+     "bytes": 8300,
+     "sha256": "ad8286440fa111a9cf547812697bac7fe3c067c64687243baf430e6692dd64fc"
+    },
+    {
+     "url": "./pilot-media/p015-word-013.mp3",
+     "bytes": 9836,
+     "sha256": "7dcab41fbffd6cf0d41a1cea6be1b42a4e058c59edc27ead247af16c4916b240"
+    },
+    {
+     "url": "./pilot-media/p015-word-014.mp3",
+     "bytes": 8876,
+     "sha256": "15cf11c5c20f45d9eb5b9c54ef252e2069abba1ba29b71bd9177334577d90679"
+    },
+    {
+     "url": "./pilot-media/p015-word-015.mp3",
+     "bytes": 9260,
+     "sha256": "433ff2a26282531badd7dc2da9e9db2356262005cb5fbe8114a0725938a50b8c"
+    },
+    {
+     "url": "./pilot-media/p015-word-016.mp3",
+     "bytes": 6380,
+     "sha256": "9d4193e04a7d5b77e3860d9860c5874f7ee6f8178253e006d9a2501a4acf50eb"
+    },
+    {
+     "url": "./pilot-media/p015-word-017.mp3",
+     "bytes": 7724,
+     "sha256": "51a22b398ea19c6bbaead6e0280dd494f5dd4c38794360e808b09c32d4b660e1"
+    },
+    {
+     "url": "./pilot-media/p015-word-018.mp3",
+     "bytes": 8876,
+     "sha256": "31b9e9b38a3e6500492542cdd8315adabc162ba06d6308ade989670642c81dcb"
+    },
+    {
+     "url": "./pilot-media/p015-word-019.mp3",
+     "bytes": 9068,
+     "sha256": "2202970c819de2c5e562840e2496dc9d79ad5b0a995e7a1cd3e7d18a3a29815d"
+    },
+    {
+     "url": "./pilot-media/p015-word-020.mp3",
+     "bytes": 7340,
+     "sha256": "6fb8e87fcc4d8e1f46b0f268cf4bd358ec5cc75c57a8aa10035091ed1141722b"
+    },
+    {
+     "url": "./pilot-media/p015-word-021.mp3",
+     "bytes": 7916,
+     "sha256": "47b5f79e6530714fb6816ef68fcb516a9ba835ac5d68b3618532e2136542253a"
+    },
+    {
+     "url": "./pilot-media/p015-word-022.mp3",
+     "bytes": 7532,
+     "sha256": "0dbb789d1ee2aacd1fe2f52b081579a0fa30144dd6e52fa15ae5376f5dbdf5a1"
+    },
+    {
+     "url": "./pilot-media/p015-word-023.mp3",
+     "bytes": 9260,
+     "sha256": "e87ac6c3bbe285256f71942bf7fdeac63cee44e66e4205814ca6cb91dda13e50"
+    },
+    {
+     "url": "./pilot-media/p015-word-024.mp3",
+     "bytes": 8876,
+     "sha256": "faf71b8c078c20b761f246fc14b3a1073ee97fbeffc5881ca948b02828e59e21"
+    },
+    {
+     "url": "./pilot-media/p015-word-025.mp3",
+     "bytes": 8684,
+     "sha256": "ab24c84c602597f6e3670d851ade93c26e2eb59c81b9984d4c2278ef67e37358"
+    },
+    {
+     "url": "./pilot-media/p015-word-026.mp3",
+     "bytes": 7724,
+     "sha256": "2fa99a3caab75f4cc49a3398bcc2fd409623fbd3d457c3ed77118171500557e0"
+    },
+    {
+     "url": "./pilot-media/p015-word-027.mp3",
+     "bytes": 7724,
+     "sha256": "e2eb576754100006f3c261e8064b855fe2e70e094ecaa3c196cd0c1d2da88f9b"
+    },
+    {
+     "url": "./pilot-media/p015-word-028.mp3",
+     "bytes": 7916,
+     "sha256": "72760d4edb645d0a92d9eea24d8ef3d43ecadb3f547be2e5fdda79b5c99ecc06"
+    },
+    {
+     "url": "./pilot-media/p016-word-001.mp3",
+     "bytes": 7148,
+     "sha256": "a3aa1c52600f925faa890f0386830d31d9c8fca6595b488ca663e91ee316f657"
+    },
+    {
+     "url": "./pilot-media/p016-word-002.mp3",
+     "bytes": 8300,
+     "sha256": "a0aa29cdfb69f25953b1c775230716dcff7d047ae8c3b2aa4356198e550b7972"
+    },
+    {
+     "url": "./pilot-media/p016-word-003.mp3",
+     "bytes": 9452,
+     "sha256": "a3d8d094032698838b3be8dc72ecf537692fc8d8b5f506a75011275a57422979"
+    },
+    {
+     "url": "./pilot-media/p016-word-004.mp3",
+     "bytes": 8876,
+     "sha256": "61d0f1d37503fca0ff10d0f37d83980abc05cb48e61faac143ed0ef91c716154"
+    },
+    {
+     "url": "./pilot-media/p016-word-005.mp3",
+     "bytes": 9644,
+     "sha256": "cc2305e7a6bde558457a3a3334e3affe2529ab37bf19a7af281cf71bd65ae949"
+    },
+    {
+     "url": "./pilot-media/p016-word-006.mp3",
+     "bytes": 8492,
+     "sha256": "14b43fef2c66e8e3d2bae6d4a20e7829b47c0972bfb2b1b1a787229c6760413e"
+    },
+    {
+     "url": "./pilot-media/p016-word-007.mp3",
+     "bytes": 8492,
+     "sha256": "a804fe4ee6407f135a04279fa9b4e153eec7a4d216de9daed0e81431d54c390a"
+    },
+    {
+     "url": "./pilot-media/p016-word-008.mp3",
+     "bytes": 8492,
+     "sha256": "49d7460558a77a4be57e9eeba31d5bce1e02b310c4a0f8a4f6070591181155eb"
+    },
+    {
+     "url": "./pilot-media/p016-word-009.mp3",
+     "bytes": 6956,
+     "sha256": "cb5f1a0d1b5bdc97935d6ebd2af3fa99d50fa3a390e4f6692d85b033162214d8"
+    },
+    {
+     "url": "./pilot-media/p016-word-010.mp3",
+     "bytes": 6956,
+     "sha256": "9536da929b0b167744848ae666998a1f156d0bcbbd5843d1860f52a62f1a9577"
+    },
+    {
+     "url": "./pilot-media/p016-word-011.mp3",
+     "bytes": 7148,
+     "sha256": "7e1d860a3ab6ef9db8124244d20871314c0ce2b3605c0e38c8e1a0db4a71857c"
+    },
+    {
+     "url": "./pilot-media/p016-word-012.mp3",
+     "bytes": 7148,
+     "sha256": "712666dfc2576acd0a17ac1adf5c8741e92d47fa3ddd97bb37429b863ec43e77"
+    },
+    {
+     "url": "./pilot-media/p016-word-013.mp3",
+     "bytes": 7148,
+     "sha256": "8f695b1dd18e637305bf39ce90a51bac30fc19f22bb815a335236c2232251938"
+    },
+    {
+     "url": "./pilot-media/p016-word-014.mp3",
+     "bytes": 7148,
+     "sha256": "8e88db1e4a95d20ef60aa347ff38aabdd7b34cf20ac0b34ca558a9315266a8e2"
+    },
+    {
+     "url": "./pilot-media/p016-word-015.mp3",
+     "bytes": 8684,
+     "sha256": "222ee031a6c8c31264b989c11d7212a0d3d31d3aa5064f98b5e3103abfa26fc8"
+    },
+    {
+     "url": "./pilot-media/p016-word-016.mp3",
+     "bytes": 8684,
+     "sha256": "9d35b81fc7e9c513a2d00532c4d2277dca43d9cc6bb46ad0d0ecc657c45b5153"
+    },
+    {
+     "url": "./pilot-media/p016-word-017.mp3",
+     "bytes": 8876,
+     "sha256": "6b0b80e643ba243a844f356d14e65d39cf6ed52f2100b036650a5e948f0263eb"
+    },
+    {
+     "url": "./pilot-media/p016-word-018.mp3",
+     "bytes": 8684,
+     "sha256": "3b38533ee6769e6a9ade881c2b80ca3251367229c704711992670739384bea97"
+    },
+    {
+     "url": "./pilot-media/p016-word-019.mp3",
+     "bytes": 10028,
+     "sha256": "cd822410d273b706bb4c599b36ff920d792a6eaa70500c432849d4f2a5f831fb"
+    },
+    {
+     "url": "./pilot-media/p016-word-020.mp3",
+     "bytes": 10028,
+     "sha256": "3be09362d25cf9c111d923dfef71cf3965768f13a0f8d6a6dc527ad015c7d3a8"
+    },
+    {
+     "url": "./pilot-media/p016-word-021.mp3",
+     "bytes": 10028,
+     "sha256": "7a1296d3f4e8344af8a3496d542d63850ddb11e150afa8559fc56d7336c4b683"
+    },
+    {
+     "url": "./pilot-media/p016-word-022.mp3",
+     "bytes": 10028,
+     "sha256": "dd3bd9ad585a4388d41efc9d1e2e45581f47b432a720a459fb1b8432751c3073"
+    },
+    {
+     "url": "./pilot-media/p016-word-023.mp3",
+     "bytes": 7724,
+     "sha256": "adfd700c6bdff60bbcd5edbf73ac47901e448d66014d2d2d3372ed0eb439d9f5"
+    },
+    {
+     "url": "./pilot-media/p016-word-024.mp3",
+     "bytes": 7724,
+     "sha256": "a74d5420d26e0eea1eef5904eb3f8c5c699a32eb3b282329e858485397010cb7"
+    },
+    {
+     "url": "./pilot-media/p016-word-025.mp3",
+     "bytes": 7724,
+     "sha256": "860db79a966b35c5245adc0aa53c45757a399aa56673b7f395ea142536a162bf"
+    },
+    {
+     "url": "./pilot-media/p016-word-026.mp3",
+     "bytes": 7724,
+     "sha256": "e44cca919d5994ecbd74a72980b9f4d1e187522e0343160dc395faf6bda76153"
+    },
+    {
+     "url": "./pilot-media/p016-word-027.mp3",
+     "bytes": 7916,
+     "sha256": "917d1ab5c7b13c28ac7dd401d39130d1145c36766834ee350ddcdd222c6193f3"
+    },
+    {
+     "url": "./pilot-media/p016-word-028.mp3",
+     "bytes": 7916,
+     "sha256": "14f43370770bc905b6f598fe3b6cef7d0fa142b40fc957fe47a11ad8a821cf85"
+    },
+    {
+     "url": "./pilot-media/p016-word-029.mp3",
+     "bytes": 7916,
+     "sha256": "18177e91f603c0a4b30d79e3b88295aae36fff839952ff095566f477cf4201c4"
+    },
+    {
+     "url": "./pilot-media/p016-word-030.mp3",
+     "bytes": 7916,
+     "sha256": "c5d8aadcc6b0af347602a6a51d15f8445fd950b1578d539915963c829ca8a7ab"
+    },
+    {
+     "url": "./pilot-media/p017-word-001.mp3",
+     "bytes": 8684,
+     "sha256": "9ed0180b8803147ee4c742b9bca916b652058080d8c722781f6ba2d33d507a7d"
+    },
+    {
+     "url": "./pilot-media/p017-word-002.mp3",
+     "bytes": 8492,
+     "sha256": "82a6e217149362035a2bac4510d797d05f3794f97488041ae22495ea47d8defc"
+    },
+    {
+     "url": "./pilot-media/p017-word-003.mp3",
+     "bytes": 8684,
+     "sha256": "d5be11d640883a9f6e3877f640024b17ded55160d3e8dbdc6c8c69882012502a"
+    },
+    {
+     "url": "./pilot-media/p017-word-004.mp3",
+     "bytes": 8684,
+     "sha256": "57ff2a77b15eab0e20ba69c63dc73bffd0950a5efdb881df9ccc1259fa185ce8"
+    },
+    {
+     "url": "./pilot-media/p017-word-005.mp3",
+     "bytes": 8684,
+     "sha256": "93f244ead981c9a6acc8567db4865a033294c6efea36e38ad6887039ef1c6ee8"
+    },
+    {
+     "url": "./pilot-media/p017-word-006.mp3",
+     "bytes": 8684,
+     "sha256": "f9b411a12df69508d429e59470e319a8b88511e92c4530b0c2767a53e29aaa07"
+    },
+    {
+     "url": "./pilot-media/p017-word-007.mp3",
+     "bytes": 8684,
+     "sha256": "b1a4c252f8e6c1d3d68e857c13d90d2c4ecbc05ddde9008a39fb965eda90eef1"
+    },
+    {
+     "url": "./pilot-media/p017-word-008.mp3",
+     "bytes": 8684,
+     "sha256": "99f69dadae896944fd5ea997956fa8c5133fbc3eff48ff4f7180e9822b5422ae"
+    },
+    {
+     "url": "./pilot-media/p017-word-009.mp3",
+     "bytes": 6764,
+     "sha256": "7bd56bee98681c572b14e1eb8a3cc57d1054c80e2ee0f64146947e29c8c6ef45"
+    },
+    {
+     "url": "./pilot-media/p017-word-010.mp3",
+     "bytes": 6764,
+     "sha256": "07f3645644af2338837e17cfef227391bba2ca1abff82736908f9dd26daac08f"
+    },
+    {
+     "url": "./pilot-media/p017-word-011.mp3",
+     "bytes": 6764,
+     "sha256": "c2210caaa16b0c1c10d4b2de6f34e5f0440a78b134ec92e7a850c531e2d1ecf0"
+    },
+    {
+     "url": "./pilot-media/p017-word-012.mp3",
+     "bytes": 6764,
+     "sha256": "41d997b56eeb59a360621213e72a3435ebade72062d5b0798e01931c0562ee92"
+    },
+    {
+     "url": "./pilot-media/p017-word-013.mp3",
+     "bytes": 8108,
+     "sha256": "dbbff69a6062d3dc3390d8ab626d5d9c86f94e155c45a020ef0f1309491cbda6"
+    },
+    {
+     "url": "./pilot-media/p017-word-014.mp3",
+     "bytes": 8108,
+     "sha256": "948ffa0d3679507e05e8cf93ed6e4ac6fd085936c67a0ba54f56c30db2b4248c"
+    },
+    {
+     "url": "./pilot-media/p017-word-015.mp3",
+     "bytes": 8108,
+     "sha256": "a5cbe8a3a9f2382f26098d2bd4445d233a8999b56d779bb4ee0efb98c526da5a"
+    },
+    {
+     "url": "./pilot-media/p017-word-016.mp3",
+     "bytes": 8108,
+     "sha256": "2b35dc4a372140cd8196681b49b6feeca06747a9aa1c545f2f59c38c47a4f521"
+    },
+    {
+     "url": "./pilot-media/p017-word-017.mp3",
+     "bytes": 8492,
+     "sha256": "a0b11877201065fe77bae18334bd3e126b7dd2ee1c53dd56e023fe4a1678e1a9"
+    },
+    {
+     "url": "./pilot-media/p017-word-018.mp3",
+     "bytes": 8492,
+     "sha256": "e6b81f3600b59f87709d80c917721c0e5903874fa347ed9b32864de97772039e"
+    },
+    {
+     "url": "./pilot-media/p017-word-019.mp3",
+     "bytes": 8492,
+     "sha256": "6cb5701320590acc9a5e95833e8aabf83b9a3aecf5e2fc90ccf124cfe573fe60"
+    },
+    {
+     "url": "./pilot-media/p017-word-020.mp3",
+     "bytes": 8492,
+     "sha256": "59e56c92c987bf7c348725183d651c20c2941e80cf391010adc4dfbbd8f91226"
+    },
+    {
+     "url": "./pilot-media/p017-word-021.mp3",
+     "bytes": 9836,
+     "sha256": "bdebca35dd79d7c7d7edb2f373d6199fa2df64aad06243ce617b3beee665a1a2"
+    },
+    {
+     "url": "./pilot-media/p017-word-022.mp3",
+     "bytes": 9836,
+     "sha256": "c85073cdfd6f351536d92b32e813baf9a6d68daab7bbe175614c33ea4f91cb5a"
+    },
+    {
+     "url": "./pilot-media/p017-word-023.mp3",
+     "bytes": 9836,
+     "sha256": "fe8e76e9367b3be6072dbfd2e808b2c005585e4539a65928bfea7fb508d93ef1"
+    },
+    {
+     "url": "./pilot-media/p017-word-024.mp3",
+     "bytes": 9836,
+     "sha256": "02cb2d1b5b5657771b949adccef181b3c81449ec3117c69f25ce97c4df09b141"
+    },
+    {
+     "url": "./pilot-media/p017-word-025.mp3",
+     "bytes": 9068,
+     "sha256": "b653f8026a80583f2040ba401ea7997120de6cddfabad85c70d9f4c8bc9292ec"
+    },
+    {
+     "url": "./pilot-media/p017-word-026.mp3",
+     "bytes": 9068,
+     "sha256": "70ef04186472b316c2774f5b9354aae1132a0bfc3e1e39c2cccd2cbe25a6720c"
+    },
+    {
+     "url": "./pilot-media/p017-word-027.mp3",
+     "bytes": 9068,
+     "sha256": "d98cd70a678638a6b8d5ac0d65c339590426f77409373f548f33ae4b97de681a"
+    },
+    {
+     "url": "./pilot-media/p017-word-028.mp3",
+     "bytes": 9068,
+     "sha256": "74262662ba20e39d917682c4054316e86bf8383dc0b8ca4f24ef7df5416e8c3c"
+    },
+    {
+     "url": "./pilot-media/p017-word-029.mp3",
+     "bytes": 9260,
+     "sha256": "d384651fb086ce6eeacdf5adbe2ca9b726016fef3bc6a1c39ccdc1ef3baa3d48"
+    },
+    {
+     "url": "./pilot-media/p017-word-030.mp3",
+     "bytes": 9260,
+     "sha256": "2fe97749a60fecc8720d9944834583deed6da558733a4e86838a0c143db420f2"
+    },
+    {
+     "url": "./pilot-media/p017-word-031.mp3",
+     "bytes": 9260,
+     "sha256": "c919f6f11629deb24ba29d6474e3a4f538e27bb97c18627937b34aef23c35cdc"
+    },
+    {
+     "url": "./pilot-media/p017-word-032.mp3",
+     "bytes": 9260,
+     "sha256": "18084bb0d7535cd93457ed38179318dac63837e3070690726b3f82de3dc9951b"
+    },
+    {
+     "url": "./library-clips/p018-word-001.mp3",
+     "bytes": 6380,
+     "sha256": "587a19f455cf583f4547dd14e8534c8a37daae42cde24cbca4d39b2e50a8b453"
+    },
+    {
+     "url": "./library-clips/p018-word-002.mp3",
+     "bytes": 6380,
+     "sha256": "6ec256b3fe029e706c2a2a62fcab5464ce296214b8c977393132ef2e61a472a3"
+    },
+    {
+     "url": "./library-clips/p018-word-003.mp3",
+     "bytes": 6380,
+     "sha256": "dd9aabcb6f0b74aa6b4dd912811c3c55ac7d915760de0053657eb9d5d3233101"
+    },
+    {
+     "url": "./library-clips/p018-word-004.mp3",
+     "bytes": 6380,
+     "sha256": "3794f526d506caf7c29372af92081dc23449755adacc929fe79ebd465dbafb17"
+    },
+    {
+     "url": "./library-clips/p018-word-005.mp3",
+     "bytes": 7724,
+     "sha256": "e6d2e6d1f50c0f9d8c3c9b099a8d1a01d0abb384ed20ace829564d634e13e671"
+    },
+    {
+     "url": "./library-clips/p018-word-006.mp3",
+     "bytes": 7724,
+     "sha256": "e9a7aa3363f52a67682b25d4106c632a378f74b4c49d8664dcc251acb28faf67"
+    },
+    {
+     "url": "./library-clips/p018-word-007.mp3",
+     "bytes": 7724,
+     "sha256": "2e95a5d1bec72c48eb6c475ac509d2b7b13f0167fbf01f99eec8698ba1db5a00"
+    },
+    {
+     "url": "./library-clips/p018-word-008.mp3",
+     "bytes": 7724,
+     "sha256": "ea7aebca62bff66b1755d94c2e7919bdce03a56c3643c50fd7f89ca54658744b"
+    },
+    {
+     "url": "./library-clips/p018-word-009.mp3",
+     "bytes": 8876,
+     "sha256": "43b0711d3cf6c4f67d0f4e04188537f0c10902e12a6133a123ed5c40887d951e"
+    },
+    {
+     "url": "./library-clips/p018-word-010.mp3",
+     "bytes": 8876,
+     "sha256": "b9153789846863d8332a537fb90a71348fbd109d57709be1c4d8634fb226f89a"
+    },
+    {
+     "url": "./library-clips/p018-word-011.mp3",
+     "bytes": 8876,
+     "sha256": "3bde39c7a2196b8e8c65b176af14d50b6abab0be487a250bf4a3c860d914e969"
+    },
+    {
+     "url": "./library-clips/p018-word-012.mp3",
+     "bytes": 8876,
+     "sha256": "880d02013ac7e97c96ddab04bbcfc3dc8e0b5436045d8bf47538c5b8826c1cf7"
+    },
+    {
+     "url": "./library-clips/p018-word-013.mp3",
+     "bytes": 9260,
+     "sha256": "2c90e4656e990e386ce2b40ae81c37a2093080ec9fe14f798acc45c69a39239b"
+    },
+    {
+     "url": "./library-clips/p018-word-014.mp3",
+     "bytes": 9260,
+     "sha256": "a92ad72f360c7831a5a305f0227764df12b7ab50210ee848b562c0263af77cee"
+    },
+    {
+     "url": "./library-clips/p018-word-015.mp3",
+     "bytes": 9260,
+     "sha256": "b22cbaadc6c6c21b3522c137e3f9c5e6f6c3507815ae89284f12cf51db027006"
+    },
+    {
+     "url": "./library-clips/p018-word-016.mp3",
+     "bytes": 9260,
+     "sha256": "7e05844cc0d596248a4b3da84757add62ce142b860a164e4fddfa87c2814a71a"
+    },
+    {
+     "url": "./library-clips/p018-word-017.mp3",
+     "bytes": 7340,
+     "sha256": "d8f7a6ca119d9acaa309364009dc529d6234a0b4d9827f812ee34022e37f2f06"
+    },
+    {
+     "url": "./library-clips/p018-word-018.mp3",
+     "bytes": 7340,
+     "sha256": "88ca87f96a2245674984d8f939e3f4733987a3bbdc12fd62dc3b6f2991a38771"
+    },
+    {
+     "url": "./library-clips/p018-word-019.mp3",
+     "bytes": 7340,
+     "sha256": "1246566d19486926a7038865cac8bf1896c5e72935572a42c4509e294fa17c7a"
+    },
+    {
+     "url": "./library-clips/p018-word-020.mp3",
+     "bytes": 7340,
+     "sha256": "215ea6b67fe5daad5147e4f86dc7ea0dcd581e749f703f975bda31e8471e9c5e"
+    },
+    {
+     "url": "./library-clips/p018-word-021.mp3",
+     "bytes": 7916,
+     "sha256": "4d69b0f943faba3fc1062a3d1f2fabc1dcdd1bd72c59e3f67de975c7c4db3acd"
+    },
+    {
+     "url": "./library-clips/p018-word-022.mp3",
+     "bytes": 7916,
+     "sha256": "2d6b92f46748c2dd237c45fc03bd41afc8a3240d3c33271a9d9092bbadc2435f"
+    },
+    {
+     "url": "./library-clips/p018-word-023.mp3",
+     "bytes": 7916,
+     "sha256": "fe44ff50f4b6a8f88c11069b97da98568d7f65a829686bb6192e5ae196b0175b"
+    },
+    {
+     "url": "./library-clips/p018-word-024.mp3",
+     "bytes": 7916,
+     "sha256": "8065b382bfb3864b64985929bbbd9aa9e5d82b46d3dbb869c3ff6abfe500b6db"
+    },
+    {
+     "url": "./library-clips/p019-word-001.mp3",
+     "bytes": 7340,
+     "sha256": "b63a20bb1e1ab4b2d0bb8601ab234afa7c0e543037196ca75332b22c11fb8166"
+    },
+    {
+     "url": "./library-clips/p019-word-002.mp3",
+     "bytes": 7532,
+     "sha256": "e7c1b6fb83ce65505d10c8cabb72f2ce38955332b10ad44a87dc562e1a7936a2"
+    },
+    {
+     "url": "./library-clips/p019-word-003.mp3",
+     "bytes": 7340,
+     "sha256": "b912f0cc43a19e089cedbef591edadf809889be097bd2ce96473a41ab23dc1d3"
+    },
+    {
+     "url": "./library-clips/p019-word-004.mp3",
+     "bytes": 7340,
+     "sha256": "138c2151d3a618ed17d5cbe848a0b74bbf898053a592d92157186163b24bb4db"
+    },
+    {
+     "url": "./library-clips/p019-word-005.mp3",
+     "bytes": 9068,
+     "sha256": "9e20400d45055dfa0d51d633c4877443e89ae0e34e297b5f67ce3e6b38dc808d"
+    },
+    {
+     "url": "./library-clips/p019-word-006.mp3",
+     "bytes": 9068,
+     "sha256": "4e5936c4f9c6ef62829d9ddd74351d77fe86ed7e539d1141caa95f37fd391806"
+    },
+    {
+     "url": "./library-clips/p019-word-007.mp3",
+     "bytes": 9068,
+     "sha256": "2eb658269558d56538c08ff5d0c4d5a173220193de046ed201951db1e319f964"
+    },
+    {
+     "url": "./library-clips/p019-word-008.mp3",
+     "bytes": 9068,
+     "sha256": "989cfde4341585bf5f922b775bcd191f7cda91baeaf76a5c3e42e0d6aee6265f"
+    },
+    {
+     "url": "./library-clips/p019-word-009.mp3",
+     "bytes": 8876,
+     "sha256": "34f5d4135ac10dc76aef6a87957ba5848d74d1478e90567b981a83f8ec3f7d89"
+    },
+    {
+     "url": "./library-clips/p019-word-010.mp3",
+     "bytes": 8876,
+     "sha256": "9a49bf6888729606e7da644253c1bc26a28df0d34c504e411f1044d8ba54c1be"
+    },
+    {
+     "url": "./library-clips/p019-word-011.mp3",
+     "bytes": 8876,
+     "sha256": "a49fef0e8a0638fb7b8581f06b7e17bad36ab89f7b2ec06e9f2a1a84e6be8b87"
+    },
+    {
+     "url": "./library-clips/p019-word-012.mp3",
+     "bytes": 8876,
+     "sha256": "b01c0ffe1a242fbd96071414f594a6a7e32b2d10b049c7176f50feb76d5811ce"
+    },
+    {
+     "url": "./library-clips/p019-word-013.mp3",
+     "bytes": 8684,
+     "sha256": "c5d98cd2638a2ac1dd37bb294a637ee26a61287bc049db3cc7a411a967d7321e"
+    },
+    {
+     "url": "./library-clips/p019-word-014.mp3",
+     "bytes": 8684,
+     "sha256": "a08063bb0fbf59bcb16815060c08b966b727b684c606a86df8317fcabbf9b152"
+    },
+    {
+     "url": "./library-clips/p019-word-015.mp3",
+     "bytes": 8684,
+     "sha256": "f918368ec9ad2589f62d857bf30f47794bba5406f29e39dddb46a5dbc8f1045c"
+    },
+    {
+     "url": "./library-clips/p019-word-016.mp3",
+     "bytes": 8684,
+     "sha256": "43dd0104449b9bdaeb34cfeacabf1093b4d80b1700024abfd4eb913f9ab968ba"
+    },
+    {
+     "url": "./library-clips/p019-word-017.mp3",
+     "bytes": 7724,
+     "sha256": "526781618613701aad03f1d238263a3cd3f14b46d86ca1407f4c1138bfc8f5c6"
+    },
+    {
+     "url": "./library-clips/p019-word-018.mp3",
+     "bytes": 7724,
+     "sha256": "f8da0b6625c31cd22d9c10c7fb6b123bb8dfb7439d6aa3ae7e6a332e0325f5a5"
+    },
+    {
+     "url": "./library-clips/p019-word-019.mp3",
+     "bytes": 7724,
+     "sha256": "b392909e5dc870c2d45269bd0961abe763582057ac26e4fbbcbd3bb8344ed4f3"
+    },
+    {
+     "url": "./library-clips/p019-word-020.mp3",
+     "bytes": 7724,
+     "sha256": "2e677f54fc7bbb9df81f7f278f56e1023ffef1669c1274002df533495bbb36c7"
+    },
+    {
+     "url": "./library-clips/p019-word-021.mp3",
+     "bytes": 7724,
+     "sha256": "2d4c67743828b12a43f5b92e7aa827a82f1cb07c1c185f062b2997a17b154056"
+    },
+    {
+     "url": "./library-clips/p019-word-022.mp3",
+     "bytes": 7724,
+     "sha256": "53c1b9773d8b5dd4711eb73c364f3322977dbf8fb71f8ce3e07b406837c9ec60"
+    },
+    {
+     "url": "./library-clips/p019-word-023.mp3",
+     "bytes": 7724,
+     "sha256": "8b072f975da67697b783def2af7968b67d579172933e8f3606bc5854e304a3a8"
+    },
+    {
+     "url": "./library-clips/p019-word-024.mp3",
+     "bytes": 7724,
+     "sha256": "96018268a4b07da692b78211f66ca4be0d287c928b6f47760e7a34cedb74ed33"
+    },
+    {
+     "url": "./library-clips/p019-word-025.mp3",
+     "bytes": 7724,
+     "sha256": "d6505cca8d910c53d6e5959f557a88c0722820bea0fc1b7368d8273cc3dd9c22"
+    },
+    {
+     "url": "./library-clips/p019-word-026.mp3",
+     "bytes": 7916,
+     "sha256": "0e428faeb27ba48c4fb82a9ec8f42d075b706abf3abc3dfcdd996cceab008ef0"
+    },
+    {
+     "url": "./library-clips/p019-word-027.mp3",
+     "bytes": 7916,
+     "sha256": "0d2ba2d5459d54f829f5ccb3a45300b6c5e49861571c1227e8eeddab01189dca"
+    },
+    {
+     "url": "./library-clips/p019-word-028.mp3",
+     "bytes": 7916,
+     "sha256": "c372ba39965770167e6ef711197977eb59d9021eb8a8c7deeccdc6660f33f664"
+    },
+    {
+     "url": "./library-clips/p019-word-029.mp3",
+     "bytes": 7916,
+     "sha256": "0a8af219f5d018236ad6c9739e8d2ea47e62385981e7c42a06bd496dc5080f37"
+    },
+    {
+     "url": "./pilot-media/p015-box-001.mp3",
+     "bytes": 7148,
+     "sha256": "530917da924a8ce129bf0c7511647259e1edf4168862ac0021bca88bf67aad32"
+    },
+    {
+     "url": "./pilot-media/p015-box-002.mp3",
+     "bytes": 9644,
+     "sha256": "65c248508640896d47c8bea9904991fbe423b418b3c570bf676b2bbf9c473632"
+    },
+    {
+     "url": "./pilot-media/p015-box-003.mp3",
+     "bytes": 7340,
+     "sha256": "3e22680cd52ec87c519e7b078f1c3b0f529ac84fb6261f49fbbb999d4ba51a3a"
+    },
+    {
+     "url": "./pilot-media/p015-box-004.mp3",
+     "bytes": 8684,
+     "sha256": "796b6c2fb95c1c590ed02792226b36fe4059cf84c05b341f64bba14bdc4a18a0"
+    },
+    {
+     "url": "./pilot-media/p015-box-005.mp3",
+     "bytes": 10028,
+     "sha256": "ea395085418ba0b254f5713a0f769655159c4e59b7af6f5cbdbb0edabcc9ffbe"
+    },
+    {
+     "url": "./pilot-media/p015-box-006.mp3",
+     "bytes": 8108,
+     "sha256": "6e94a5c7f9a604a0b533783977c5efba0d621d2a6fce3aae9fc8010c40643583"
+    },
+    {
+     "url": "./pilot-media/p015-box-007.mp3",
+     "bytes": 7916,
+     "sha256": "78794e62f55e3407837cfad16e9ab794a892ed894afd8d5b6383e36e627426a9"
+    },
+    {
+     "url": "./pilot-media/p015-box-008.mp3",
+     "bytes": 8684,
+     "sha256": "6a56506967f1752872bfd4305f8909e91334ec399c43c1eead7a4e9548f2d671"
+    },
+    {
+     "url": "./pilot-media/p015-box-009.mp3",
+     "bytes": 8684,
+     "sha256": "11ad4077e8b2a748422a5a997184e746deaef7802fdedbac396e329ccb84195e"
+    },
+    {
+     "url": "./pilot-media/p015-box-010.mp3",
+     "bytes": 6764,
+     "sha256": "9b8cd2f453a81bff8e208e1a0d38edd9694df294a7a527e72e9791f70241a33f"
+    },
+    {
+     "url": "./pilot-media/p015-box-011.mp3",
+     "bytes": 8108,
+     "sha256": "39d907c1e9860dacc794c19333bef5f4843385a336905a3374a1be511ccc20a5"
+    },
+    {
+     "url": "./pilot-media/p015-box-012.mp3",
+     "bytes": 8300,
+     "sha256": "ad8286440fa111a9cf547812697bac7fe3c067c64687243baf430e6692dd64fc"
+    },
+    {
+     "url": "./pilot-media/p015-box-013.mp3",
+     "bytes": 9836,
+     "sha256": "7dcab41fbffd6cf0d41a1cea6be1b42a4e058c59edc27ead247af16c4916b240"
+    },
+    {
+     "url": "./pilot-media/p015-box-014.mp3",
+     "bytes": 8876,
+     "sha256": "15cf11c5c20f45d9eb5b9c54ef252e2069abba1ba29b71bd9177334577d90679"
+    },
+    {
+     "url": "./pilot-media/p015-box-015.mp3",
+     "bytes": 9260,
+     "sha256": "433ff2a26282531badd7dc2da9e9db2356262005cb5fbe8114a0725938a50b8c"
+    },
+    {
+     "url": "./pilot-media/p015-box-016.mp3",
+     "bytes": 6380,
+     "sha256": "9d4193e04a7d5b77e3860d9860c5874f7ee6f8178253e006d9a2501a4acf50eb"
+    },
+    {
+     "url": "./pilot-media/p015-box-017.mp3",
+     "bytes": 7724,
+     "sha256": "51a22b398ea19c6bbaead6e0280dd494f5dd4c38794360e808b09c32d4b660e1"
+    },
+    {
+     "url": "./pilot-media/p015-box-018.mp3",
+     "bytes": 8876,
+     "sha256": "31b9e9b38a3e6500492542cdd8315adabc162ba06d6308ade989670642c81dcb"
+    },
+    {
+     "url": "./pilot-media/p015-box-019.mp3",
+     "bytes": 9068,
+     "sha256": "2202970c819de2c5e562840e2496dc9d79ad5b0a995e7a1cd3e7d18a3a29815d"
+    },
+    {
+     "url": "./pilot-media/p015-box-020.mp3",
+     "bytes": 7340,
+     "sha256": "6fb8e87fcc4d8e1f46b0f268cf4bd358ec5cc75c57a8aa10035091ed1141722b"
+    },
+    {
+     "url": "./pilot-media/p015-box-021.mp3",
+     "bytes": 7916,
+     "sha256": "47b5f79e6530714fb6816ef68fcb516a9ba835ac5d68b3618532e2136542253a"
+    },
+    {
+     "url": "./pilot-media/p015-box-022.mp3",
+     "bytes": 7532,
+     "sha256": "0dbb789d1ee2aacd1fe2f52b081579a0fa30144dd6e52fa15ae5376f5dbdf5a1"
+    },
+    {
+     "url": "./pilot-media/p015-box-023.mp3",
+     "bytes": 9260,
+     "sha256": "e87ac6c3bbe285256f71942bf7fdeac63cee44e66e4205814ca6cb91dda13e50"
+    },
+    {
+     "url": "./pilot-media/p015-box-024.mp3",
+     "bytes": 8876,
+     "sha256": "faf71b8c078c20b761f246fc14b3a1073ee97fbeffc5881ca948b02828e59e21"
+    },
+    {
+     "url": "./pilot-media/p015-box-025.mp3",
+     "bytes": 8684,
+     "sha256": "ab24c84c602597f6e3670d851ade93c26e2eb59c81b9984d4c2278ef67e37358"
+    },
+    {
+     "url": "./pilot-media/p015-box-026.mp3",
+     "bytes": 7724,
+     "sha256": "2fa99a3caab75f4cc49a3398bcc2fd409623fbd3d457c3ed77118171500557e0"
+    },
+    {
+     "url": "./pilot-media/p015-box-027.mp3",
+     "bytes": 7724,
+     "sha256": "e2eb576754100006f3c261e8064b855fe2e70e094ecaa3c196cd0c1d2da88f9b"
+    },
+    {
+     "url": "./pilot-media/p015-box-028.mp3",
+     "bytes": 7916,
+     "sha256": "72760d4edb645d0a92d9eea24d8ef3d43ecadb3f547be2e5fdda79b5c99ecc06"
+    },
+    {
+     "url": "./pilot-media/p016-box-001.mp3",
+     "bytes": 7148,
+     "sha256": "a3aa1c52600f925faa890f0386830d31d9c8fca6595b488ca663e91ee316f657"
+    },
+    {
+     "url": "./pilot-media/p016-box-002.mp3",
+     "bytes": 38636,
+     "sha256": "133d75672024dba1c8e4e3a624dae59de9039ae14eb9262a935854b66a1aa5e1"
+    },
+    {
+     "url": "./pilot-media/p016-box-003.mp3",
+     "bytes": 9644,
+     "sha256": "cc2305e7a6bde558457a3a3334e3affe2529ab37bf19a7af281cf71bd65ae949"
+    },
+    {
+     "url": "./pilot-media/p016-box-004.mp3",
+     "bytes": 35180,
+     "sha256": "105f5fb701e8f6d7ef0e2d07310a2483761e09104800b3dbde0065007eb43154"
+    },
+    {
+     "url": "./pilot-media/p016-box-005.mp3",
+     "bytes": 6956,
+     "sha256": "cb5f1a0d1b5bdc97935d6ebd2af3fa99d50fa3a390e4f6692d85b033162214d8"
+    },
+    {
+     "url": "./pilot-media/p016-box-006.mp3",
+     "bytes": 54956,
+     "sha256": "b11969609be79b0197fd0a832029c6e9e59a12adfca29464684c809a25f1ff0a"
+    },
+    {
+     "url": "./pilot-media/p016-box-007.mp3",
+     "bytes": 8684,
+     "sha256": "222ee031a6c8c31264b989c11d7212a0d3d31d3aa5064f98b5e3103abfa26fc8"
+    },
+    {
+     "url": "./pilot-media/p016-box-008.mp3",
+     "bytes": 34412,
+     "sha256": "7b4990833e4250356474c1c76fb9b303330931b8086c8c5ec00f7f1c688fc780"
+    },
+    {
+     "url": "./pilot-media/p016-box-009.mp3",
+     "bytes": 10028,
+     "sha256": "cd822410d273b706bb4c599b36ff920d792a6eaa70500c432849d4f2a5f831fb"
+    },
+    {
+     "url": "./pilot-media/p016-box-010.mp3",
+     "bytes": 37292,
+     "sha256": "1295ec24245ebc83f21b569d5391cdb926b703ce3bc706b79bacbff386500f91"
+    },
+    {
+     "url": "./pilot-media/p016-box-011.mp3",
+     "bytes": 7724,
+     "sha256": "adfd700c6bdff60bbcd5edbf73ac47901e448d66014d2d2d3372ed0eb439d9f5"
+    },
+    {
+     "url": "./pilot-media/p016-box-012.mp3",
+     "bytes": 35180,
+     "sha256": "71ee43f4e40f7b9c8e9baed0912a1855dfc9ae7bb01d07ff5ad500266f052cd9"
+    },
+    {
+     "url": "./pilot-media/p016-box-013.mp3",
+     "bytes": 7916,
+     "sha256": "917d1ab5c7b13c28ac7dd401d39130d1145c36766834ee350ddcdd222c6193f3"
+    },
+    {
+     "url": "./pilot-media/p016-box-014.mp3",
+     "bytes": 33068,
+     "sha256": "daacc0b72bbcf366bac65827045c291149a9353bc8df545bc4f7167f5854530b"
+    },
+    {
+     "url": "./pilot-media/p017-box-001.mp3",
+     "bytes": 8684,
+     "sha256": "9ed0180b8803147ee4c742b9bca916b652058080d8c722781f6ba2d33d507a7d"
+    },
+    {
+     "url": "./pilot-media/p017-box-002.mp3",
+     "bytes": 35756,
+     "sha256": "700dcbc407513be9765b285c87102f18d840cda4252334c5294258664a547b6a"
+    },
+    {
+     "url": "./pilot-media/p017-box-003.mp3",
+     "bytes": 8684,
+     "sha256": "93f244ead981c9a6acc8567db4865a033294c6efea36e38ad6887039ef1c6ee8"
+    },
+    {
+     "url": "./pilot-media/p017-box-004.mp3",
+     "bytes": 38060,
+     "sha256": "3eaf67ec2ffd25be4f7297e80e31fd3b6b2436b29e27d517f447d6445e451c6a"
+    },
+    {
+     "url": "./pilot-media/p017-box-005.mp3",
+     "bytes": 6764,
+     "sha256": "7bd56bee98681c572b14e1eb8a3cc57d1054c80e2ee0f64146947e29c8c6ef45"
+    },
+    {
+     "url": "./pilot-media/p017-box-006.mp3",
+     "bytes": 32492,
+     "sha256": "f020f0d377bc6ae868d3c0feb5c37c120c60351f9968a7e4c0e53ae2e48455e4"
+    },
+    {
+     "url": "./pilot-media/p017-box-007.mp3",
+     "bytes": 8108,
+     "sha256": "dbbff69a6062d3dc3390d8ab626d5d9c86f94e155c45a020ef0f1309491cbda6"
+    },
+    {
+     "url": "./pilot-media/p017-box-008.mp3",
+     "bytes": 36140,
+     "sha256": "cbef2cc2e0544c86bff59ae5451250cf5a4cde2d10ac7e36ddc9d3abb34be007"
+    },
+    {
+     "url": "./pilot-media/p017-box-009.mp3",
+     "bytes": 8492,
+     "sha256": "a0b11877201065fe77bae18334bd3e126b7dd2ee1c53dd56e023fe4a1678e1a9"
+    },
+    {
+     "url": "./pilot-media/p017-box-010.mp3",
+     "bytes": 36524,
+     "sha256": "b845aaa56dbaafb999c5a8bd5c18969b46cff5cba108a0885b920196a3e0b2b9"
+    },
+    {
+     "url": "./pilot-media/p017-box-011.mp3",
+     "bytes": 9836,
+     "sha256": "bdebca35dd79d7c7d7edb2f373d6199fa2df64aad06243ce617b3beee665a1a2"
+    },
+    {
+     "url": "./pilot-media/p017-box-012.mp3",
+     "bytes": 38060,
+     "sha256": "c07e6bc71918b417175b18fcd8b197e18a993500c23bed6020450db0f71a9396"
+    },
+    {
+     "url": "./pilot-media/p017-box-013.mp3",
+     "bytes": 9068,
+     "sha256": "b653f8026a80583f2040ba401ea7997120de6cddfabad85c70d9f4c8bc9292ec"
+    },
+    {
+     "url": "./pilot-media/p017-box-014.mp3",
+     "bytes": 44396,
+     "sha256": "5993220780e0f92e1aeebcd4d5e18a0ee0db79bf9efb63930dfe90a6ff3201c3"
+    },
+    {
+     "url": "./pilot-media/p017-box-015.mp3",
+     "bytes": 9260,
+     "sha256": "d384651fb086ce6eeacdf5adbe2ca9b726016fef3bc6a1c39ccdc1ef3baa3d48"
+    },
+    {
+     "url": "./pilot-media/p017-box-016.mp3",
+     "bytes": 46316,
+     "sha256": "97cd08006364cf7518c8292d5afc79b1b16d690339dcfc83872301bf150e3f2f"
+    }
+   ],
+   "version": "5e606076bc72",
+   "bytes": 21016397
+  },
+  {
+   "id": "book-ar",
+   "titleAr": "الكتاب العربي (PDF) للقراءة دون إنترنت",
+   "required": true,
+   "description": "Arabic PDF, its page map and the PDF viewer resources.",
+   "files": [
+    {
+     "url": "./books/ar.pdf",
+     "bytes": 9445848,
+     "sha256": "53c6d0b622d5994389ace72dc3be14c06c05d4923a2b745a41c65fcf2e166d0e"
+    },
+    {
+     "url": "./data/edition-maps/ar.json",
+     "bytes": 359835,
+     "sha256": "d6f73d9a6f56086b6ea62e63164a4cf9151fbcf8a5a62ad05d8cd79ee37f939c"
+    },
+    {
+     "url": "./vendor/cmaps/78-EUC-H.bcmap",
+     "bytes": 2404,
+     "sha256": "d92a261336dc18b8c03a46eb4d462382d33f4338fa195d303256b2031434c874"
+    },
+    {
+     "url": "./vendor/cmaps/78-EUC-V.bcmap",
+     "bytes": 173,
+     "sha256": "61670bebc4e4827b67230c054fd0d820d6e30c3584d02e386804e62bbedc032a"
+    },
+    {
+     "url": "./vendor/cmaps/78-H.bcmap",
+     "bytes": 2379,
+     "sha256": "ece6415b853d61e1b2560165151407d35cf16e6556932b85a13ea75276b77402"
+    },
+    {
+     "url": "./vendor/cmaps/78-RKSJ-H.bcmap",
+     "bytes": 2398,
+     "sha256": "696b1f973c97623496703809eaaa5f9b40696c77540057413f4b826a08edfa7b"
+    },
+    {
+     "url": "./vendor/cmaps/78-RKSJ-V.bcmap",
+     "bytes": 173,
+     "sha256": "53cb6d560ab377da48cf65d6dcacb0bdb31f13fab7066c580de38c12a73a7ff9"
+    },
+    {
+     "url": "./vendor/cmaps/78-V.bcmap",
+     "bytes": 169,
+     "sha256": "289000f02fd34872b6975503217f33abae6bee676e7d28f640473a67c8db1712"
+    },
+    {
+     "url": "./vendor/cmaps/78ms-RKSJ-H.bcmap",
+     "bytes": 2651,
+     "sha256": "a2442595218f5f8bd8e1b42188e368587d876cfe0cc4cd87196f077c878f72e2"
+    },
+    {
+     "url": "./vendor/cmaps/78ms-RKSJ-V.bcmap",
+     "bytes": 290,
+     "sha256": "f8ddceba96bfd9d3740bd1789ee30d1f47c78371520a8084f71f7df58f19be0b"
+    },
+    {
+     "url": "./vendor/cmaps/83pv-RKSJ-H.bcmap",
+     "bytes": 905,
+     "sha256": "44040051ec818fe09b9703472bea72efd2759d5eeb5ff0d77c718d6bb5e6d1df"
+    },
+    {
+     "url": "./vendor/cmaps/90ms-RKSJ-H.bcmap",
+     "bytes": 721,
+     "sha256": "c13e043e85ff715b75bb03801e8fd0fb8f3a75e4a48496faa6baaf92b5b48ba1"
+    },
+    {
+     "url": "./vendor/cmaps/90ms-RKSJ-V.bcmap",
+     "bytes": 290,
+     "sha256": "499bb916ce1adbe4289b6e5811f4dc20eb238cdc2ffad20cf26ae56716885bab"
+    },
+    {
+     "url": "./vendor/cmaps/90msp-RKSJ-H.bcmap",
+     "bytes": 715,
+     "sha256": "7b8b3b8bbf821702e9a4df9f3596ce292380c8c1b0925dedadbb4e4b2d80498b"
+    },
+    {
+     "url": "./vendor/cmaps/90msp-RKSJ-V.bcmap",
+     "bytes": 291,
+     "sha256": "6296c2b5c07dca8128e96d5296d621a3268803d4fa0e5812a21e52fe2802aacb"
+    },
+    {
+     "url": "./vendor/cmaps/90pv-RKSJ-H.bcmap",
+     "bytes": 982,
+     "sha256": "fb5103f03d3a34547e18d316e52b6d9b26e485c662999222f84d2ba54c2e4fa8"
+    },
+    {
+     "url": "./vendor/cmaps/90pv-RKSJ-V.bcmap",
+     "bytes": 260,
+     "sha256": "7bcb5ad2ba55b9662ce379e16c2d9cc2b82d621a579807353741172e4af615c2"
+    },
+    {
+     "url": "./vendor/cmaps/Add-H.bcmap",
+     "bytes": 2419,
+     "sha256": "a2ffab28b990998181bcca9b0e914bb2207820f100ae31d5c469444892e5ad8e"
+    },
+    {
+     "url": "./vendor/cmaps/Add-RKSJ-H.bcmap",
+     "bytes": 2413,
+     "sha256": "b29f4b52e2465d0485856d5e69f1ba69927deb2848d8fd328c8035583b35bb7e"
+    },
+    {
+     "url": "./vendor/cmaps/Add-RKSJ-V.bcmap",
+     "bytes": 287,
+     "sha256": "2aa2232c283a3f5d0997c2834a36cead0b79ce2657944cfeed08140c293460ff"
+    },
+    {
+     "url": "./vendor/cmaps/Add-V.bcmap",
+     "bytes": 282,
+     "sha256": "25125d3b1be64e86b2df5b3344170b45a42bcaa0b46e43a34314ef73c166e542"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-0.bcmap",
+     "bytes": 317,
+     "sha256": "8c65be9d51a9f269a547dc12460707aaf4031ab67ebe8a2900f4b4cc6b3e450e"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-1.bcmap",
+     "bytes": 371,
+     "sha256": "73152bc1a59cc594b414ac6068be48e5512b96ae85920c40e32a99269fdb0c04"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-2.bcmap",
+     "bytes": 376,
+     "sha256": "a1b8d353bdef9584c820464e8f1c9e2013d64ebf433cba0aa831dddf515818c2"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-3.bcmap",
+     "bytes": 401,
+     "sha256": "2ffc0c75c79fafde506163d3c08c390d183251009f3fbf6ae50d1167d14b9570"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-4.bcmap",
+     "bytes": 405,
+     "sha256": "98a1f470c878c6b9691a4d7aef776af8ac9b55f5587c9fafa00547f3bf655716"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-5.bcmap",
+     "bytes": 406,
+     "sha256": "ddd6e29955eb8cb545f2ebd09c628c3bbda5023256eda1b728f743c75fb77829"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-6.bcmap",
+     "bytes": 406,
+     "sha256": "317bb2db71e0e5b7b0c47b75de1da915c2e22f65f0c0861507f9ca7ba238f8a2"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-CNS1-UCS2.bcmap",
+     "bytes": 41193,
+     "sha256": "e665837f2197c6bd08cd8955ad4d6932cee2398e2e328b25b00e6bfb3bd72af9"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-0.bcmap",
+     "bytes": 217,
+     "sha256": "8b81cce8a11d510e505704953cfa4e4ab080c1a0cab991145a3512ee433946b9"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-1.bcmap",
+     "bytes": 250,
+     "sha256": "0426983081788ec7202703e71f1efa4b860f75b936994236010b39d89251a81e"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-2.bcmap",
+     "bytes": 465,
+     "sha256": "e67b37a83b160ab3831306a71a605893b24454ee81ac9b6123bf2d3984d268d5"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-3.bcmap",
+     "bytes": 470,
+     "sha256": "aa299afc3e12a28726147305f191be28c7498078c8b182ece7886ac79cd99078"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-4.bcmap",
+     "bytes": 601,
+     "sha256": "8fbd7d74c2ddb1350c1cecce54a73fde3f5453093d4bed445283ec0033d2097f"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-5.bcmap",
+     "bytes": 625,
+     "sha256": "c22cb2fcff24112fa31dab2111bdc51957006576d31aad5a25e67793ac01428c"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-GB1-UCS2.bcmap",
+     "bytes": 33974,
+     "sha256": "20507620260c0c935c35afc1e70e5888aa7125d5ec7ffc03cef1959feb2c1641"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-0.bcmap",
+     "bytes": 225,
+     "sha256": "464f08905236f5703b1f5cf8358767c8b18e6bcc808840d081f1de2c7ab38134"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-1.bcmap",
+     "bytes": 226,
+     "sha256": "4c823848722187d1ffe75ae3f5f9126ccd2d7895a05fad14c919fb119e037008"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-2.bcmap",
+     "bytes": 233,
+     "sha256": "7810fb808e367e70429e90a9478fe6a3fdc3e214f25c7582ce9c2da6a242315c"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-3.bcmap",
+     "bytes": 242,
+     "sha256": "84deb1828711ad3d390c9899c38abce1bf619d65ff7bf1a326ec95acc45f08f8"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-4.bcmap",
+     "bytes": 337,
+     "sha256": "3f8a4f974919c2b8bae5d10175ffa2673be140481e00840542c85d48ef184067"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-5.bcmap",
+     "bytes": 430,
+     "sha256": "1d3ce4ff28d977f8cf37a912ae4ec811f4175c3167b1ec0b2567feec3e79e1db"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-6.bcmap",
+     "bytes": 485,
+     "sha256": "5609797b9401b30be72ef9645da62a87829f058c3be4b5c623383119f584b1d9"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Japan1-UCS2.bcmap",
+     "bytes": 40951,
+     "sha256": "66c5d0dc4964f4093e77b194023f3a0f689324028ec8330e1e1d0570bcba7c2f"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Korea1-0.bcmap",
+     "bytes": 241,
+     "sha256": "dfb8c3874f0e5a8c3acf597d2c12d2b63e90bc5e4f0fce990ec4c56077d80b32"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Korea1-1.bcmap",
+     "bytes": 386,
+     "sha256": "62f277b7b1c441c007797ae707d5c37258d029ce4661a2b911e2e1ee35e6adc1"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Korea1-2.bcmap",
+     "bytes": 391,
+     "sha256": "1d77068af462f96d7ad28ad7e7d43eef6423c685b479d7dc25ff5df38db0380d"
+    },
+    {
+     "url": "./vendor/cmaps/Adobe-Korea1-UCS2.bcmap",
+     "bytes": 23293,
+     "sha256": "857b723088be97255053562bfa41bd1075a7f7910d3bab59a0645c8bbc7060ff"
+    },
+    {
+     "url": "./vendor/cmaps/B5-H.bcmap",
+     "bytes": 1086,
+     "sha256": "718ad0ffbef4c34f8f3f31292c462e519cd567a5511fc8b346c60010d64f4ef9"
+    },
+    {
+     "url": "./vendor/cmaps/B5-V.bcmap",
+     "bytes": 142,
+     "sha256": "b5c37383517477620ced927b6b4ffd4f4cc6230d8051b5b46a21d6768e07f7d8"
+    },
+    {
+     "url": "./vendor/cmaps/B5pc-H.bcmap",
+     "bytes": 1099,
+     "sha256": "bab6028aead1d6149400e904ab10cfd319082d826473ed4c582c8eeed920f17e"
+    },
+    {
+     "url": "./vendor/cmaps/B5pc-V.bcmap",
+     "bytes": 144,
+     "sha256": "41543142b9767f3b76133899fc8453282b01ad3c653acaeea42d78c5a7d08c63"
+    },
+    {
+     "url": "./vendor/cmaps/CNS-EUC-H.bcmap",
+     "bytes": 1780,
+     "sha256": "e8f89cd61e6486b948205da46499d659ed0aed949b7095fd3c8e95ffe2b0e7a9"
+    },
+    {
+     "url": "./vendor/cmaps/CNS-EUC-V.bcmap",
+     "bytes": 1920,
+     "sha256": "cae422bec2ac6dbe86bf921cec942bacd2d0b733ffcca5f91b3ba14e917025a0"
+    },
+    {
+     "url": "./vendor/cmaps/CNS1-H.bcmap",
+     "bytes": 706,
+     "sha256": "e8487971ab20cd16f3de3e8ac56ec994b72b658ad113f2818239dfd5108f501a"
+    },
+    {
+     "url": "./vendor/cmaps/CNS1-V.bcmap",
+     "bytes": 143,
+     "sha256": "42df8076aaa7574505e7304af83a3323ec032c4177d64b1309db8c043d594a8a"
+    },
+    {
+     "url": "./vendor/cmaps/CNS2-H.bcmap",
+     "bytes": 504,
+     "sha256": "bc6024d274d440f0625c69e25f37036ef6cb6689432ceaa160d3432a2a716ca7"
+    },
+    {
+     "url": "./vendor/cmaps/CNS2-V.bcmap",
+     "bytes": 93,
+     "sha256": "2e4f70a8afd23a121030fc2e5b5f3816e903b11e7ba8b8c09654b31c80399c38"
+    },
+    {
+     "url": "./vendor/cmaps/ETHK-B5-H.bcmap",
+     "bytes": 4426,
+     "sha256": "d2f10fa519336bc4efcc7b6deb9604b75429946b40d82e311cb3a97a1994c89a"
+    },
+    {
+     "url": "./vendor/cmaps/ETHK-B5-V.bcmap",
+     "bytes": 158,
+     "sha256": "1fea3fd0d9f0f679f80505800851ef2e4131d81127e18c006938ffa2f4c8b247"
+    },
+    {
+     "url": "./vendor/cmaps/ETen-B5-H.bcmap",
+     "bytes": 1125,
+     "sha256": "87ee6b3f5bfda5fe26fa35431264c7d73070d10dbbf398a75185d63ae322c18d"
+    },
+    {
+     "url": "./vendor/cmaps/ETen-B5-V.bcmap",
+     "bytes": 158,
+     "sha256": "47dc0d2c21e3bde317947aec1675ceabc1d5460a60bf9c24334b8c407a17172c"
+    },
+    {
+     "url": "./vendor/cmaps/ETenms-B5-H.bcmap",
+     "bytes": 101,
+     "sha256": "d5f5a73da4173b7da9a3a20e16f26f9cd5d12deb1553409919e0cec6fd37fdee"
+    },
+    {
+     "url": "./vendor/cmaps/ETenms-B5-V.bcmap",
+     "bytes": 172,
+     "sha256": "18252fca90f472f479af1bddd60d6ab51c8e1b55dcf6845951426504934543e0"
+    },
+    {
+     "url": "./vendor/cmaps/EUC-H.bcmap",
+     "bytes": 578,
+     "sha256": "f9939cd57fccdc65c5d9f4c205fd497ebdbd283643308da5663801a8c1d9c595"
+    },
+    {
+     "url": "./vendor/cmaps/EUC-V.bcmap",
+     "bytes": 170,
+     "sha256": "1283a50a706507c4436da83ede9ad7a4440be25378f2e96f6c81a430081426a3"
+    },
+    {
+     "url": "./vendor/cmaps/Ext-H.bcmap",
+     "bytes": 2536,
+     "sha256": "4000ed4e61a1c668ef453bbd0603cfa383defa793abd46a57ed870d7f527350b"
+    },
+    {
+     "url": "./vendor/cmaps/Ext-RKSJ-H.bcmap",
+     "bytes": 2542,
+     "sha256": "e0d2f0df337660e73813238dd4a725f11f0621b90f3273857db253d0e7694caa"
+    },
+    {
+     "url": "./vendor/cmaps/Ext-RKSJ-V.bcmap",
+     "bytes": 218,
+     "sha256": "f617a22b6d67febb187990952006c91a9f5a4db21155d268c656252d0c21985d"
+    },
+    {
+     "url": "./vendor/cmaps/Ext-V.bcmap",
+     "bytes": 215,
+     "sha256": "c2087fb845a9e3acea0c2922cd40e6af67e11957bec74dcd597f1285edd490ce"
+    },
+    {
+     "url": "./vendor/cmaps/GB-EUC-H.bcmap",
+     "bytes": 549,
+     "sha256": "928bad06fd84a48f5ba7150d7716609119fb660f2aaa73eccad81ddab9b9d203"
+    },
+    {
+     "url": "./vendor/cmaps/GB-EUC-V.bcmap",
+     "bytes": 179,
+     "sha256": "a9ad88ac2479da529b16dc48abc5952332e27bc355335f91df5729a587533324"
+    },
+    {
+     "url": "./vendor/cmaps/GB-H.bcmap",
+     "bytes": 528,
+     "sha256": "1018c777a8910b5bb46d7d54a4aee9d51ca5cff8addb2b41c969d9101cb3fd1c"
+    },
+    {
+     "url": "./vendor/cmaps/GB-V.bcmap",
+     "bytes": 175,
+     "sha256": "0b96789143c0bbf9f1641ae7165b3456dccd14dabffcbb0bd654d5bf6f94f863"
+    },
+    {
+     "url": "./vendor/cmaps/GBK-EUC-H.bcmap",
+     "bytes": 14692,
+     "sha256": "2103fed28650ede096a2281104a1a8a4304dae0db414342c636867522307123b"
+    },
+    {
+     "url": "./vendor/cmaps/GBK-EUC-V.bcmap",
+     "bytes": 180,
+     "sha256": "a7fd35dd14d9dbdb955f34e6c0630618b6620dfd09d4283b2f65a65ce77fcaea"
+    },
+    {
+     "url": "./vendor/cmaps/GBK2K-H.bcmap",
+     "bytes": 19662,
+     "sha256": "3d919ae72af16c5cc6846ec87a4326a9f125e493c59d3628429d35c2c95fe8c4"
+    },
+    {
+     "url": "./vendor/cmaps/GBK2K-V.bcmap",
+     "bytes": 219,
+     "sha256": "b927fdfd595c07ce9158bf2ec13f4641b2e83b01c70989dadfabd6ed7c6ac2dc"
+    },
+    {
+     "url": "./vendor/cmaps/GBKp-EUC-H.bcmap",
+     "bytes": 14686,
+     "sha256": "d15ebd8e81fb4fe8a244f1b1e877922e03500ac69eddf5001093e502430451d2"
+    },
+    {
+     "url": "./vendor/cmaps/GBKp-EUC-V.bcmap",
+     "bytes": 181,
+     "sha256": "fdc736d46e642625dccc8ad8c59f2c69fc7db7a13f2e799c6c6b779e707bb97a"
+    },
+    {
+     "url": "./vendor/cmaps/GBT-EUC-H.bcmap",
+     "bytes": 7290,
+     "sha256": "dc5f44e48a39f3367ae28665027d8ab1d8cedb5a9dcc5068a900acd6709f60f9"
+    },
+    {
+     "url": "./vendor/cmaps/GBT-EUC-V.bcmap",
+     "bytes": 180,
+     "sha256": "a1ad24e63653b8aa388c18fa5e498f007564e43dde699a9f91ccb4645c999be8"
+    },
+    {
+     "url": "./vendor/cmaps/GBT-H.bcmap",
+     "bytes": 7269,
+     "sha256": "8afda745a505763f3ff54c8126eeb48ef376ea9ed07d9f42ff9a22c5c547ec57"
+    },
+    {
+     "url": "./vendor/cmaps/GBT-V.bcmap",
+     "bytes": 176,
+     "sha256": "cdc2ec5c3c7c7033290c9a8894878202f08674eb9b1ae7d36218430326768771"
+    },
+    {
+     "url": "./vendor/cmaps/GBTpc-EUC-H.bcmap",
+     "bytes": 7298,
+     "sha256": "7b23e2f7bfdb6c918f567b7324bf858f398bd8cd5f268d74ece19a3c91bf4f32"
+    },
+    {
+     "url": "./vendor/cmaps/GBTpc-EUC-V.bcmap",
+     "bytes": 182,
+     "sha256": "d7a1b13ead9ab511cf2cd01de6ce8b02aa8e8767e84895337d7a3b67f039f93b"
+    },
+    {
+     "url": "./vendor/cmaps/GBpc-EUC-H.bcmap",
+     "bytes": 557,
+     "sha256": "3c4a4eb82f05abe51f6650985c630e180438bfdd491318f5d20d2ec29236e1c3"
+    },
+    {
+     "url": "./vendor/cmaps/GBpc-EUC-V.bcmap",
+     "bytes": 181,
+     "sha256": "215bdfa2842705624b4cf4cd29b8e3c720f1e192365e0305c11030a424c84d7c"
+    },
+    {
+     "url": "./vendor/cmaps/H.bcmap",
+     "bytes": 553,
+     "sha256": "a0233e21047ec00b852125b243cbcf30abee511155b6d8159c24f944384bc9ee"
+    },
+    {
+     "url": "./vendor/cmaps/HKdla-B5-H.bcmap",
+     "bytes": 2654,
+     "sha256": "5242bce18fb13ab4cc59b146a03eba36e4ce42667eeff09e10981a9d2aa4996b"
+    },
+    {
+     "url": "./vendor/cmaps/HKdla-B5-V.bcmap",
+     "bytes": 148,
+     "sha256": "2e0537f786c0791d41a925f72bad2d4e7268aa6cbf15a1400a722672cec38e2c"
+    },
+    {
+     "url": "./vendor/cmaps/HKdlb-B5-H.bcmap",
+     "bytes": 2414,
+     "sha256": "fdc8159984bf5dbe475c0d5dfcb621ecee4dea07c38c668bd77f4c679e23b9b3"
+    },
+    {
+     "url": "./vendor/cmaps/HKdlb-B5-V.bcmap",
+     "bytes": 148,
+     "sha256": "b249eb9dcb915ab45057c5d4d7aa55ef88d0efbb092af6bae0b2d4705d139abf"
+    },
+    {
+     "url": "./vendor/cmaps/HKgccs-B5-H.bcmap",
+     "bytes": 2292,
+     "sha256": "ab64c7fc5e9b2e97750cc4f269b0da14fd8649e49151b7598c8df86599bac591"
+    },
+    {
+     "url": "./vendor/cmaps/HKgccs-B5-V.bcmap",
+     "bytes": 149,
+     "sha256": "02ebdf7cdffb5395fb21091cd58a013a18ae5388922822f9dc6292ef16b98956"
+    },
+    {
+     "url": "./vendor/cmaps/HKm314-B5-H.bcmap",
+     "bytes": 1772,
+     "sha256": "bfd8bbde6b36a9da4c1c902c74121a30d9807a7079a00eeea218be6adc223cef"
+    },
+    {
+     "url": "./vendor/cmaps/HKm314-B5-V.bcmap",
+     "bytes": 149,
+     "sha256": "2a64a815cfb6fdd480674a868762e3d161fda17543b20c9209978559f0667164"
+    },
+    {
+     "url": "./vendor/cmaps/HKm471-B5-H.bcmap",
+     "bytes": 2171,
+     "sha256": "49d7c037758826b5b6c0fa329c35bbf25d3943197754e72ecd30c6fb04d745e6"
+    },
+    {
+     "url": "./vendor/cmaps/HKm471-B5-V.bcmap",
+     "bytes": 149,
+     "sha256": "be24c109e78aa4fe3c1f27d30aab3ed0741e783fa1b6b6c2719741072b54b132"
+    },
+    {
+     "url": "./vendor/cmaps/HKscs-B5-H.bcmap",
+     "bytes": 4437,
+     "sha256": "08599378f41d96b40537adef6e6edcc4a787bc63f5accf47c026df4905a13914"
+    },
+    {
+     "url": "./vendor/cmaps/HKscs-B5-V.bcmap",
+     "bytes": 159,
+     "sha256": "d073542b7dad1c4cbf01c1af5f0cd13218d1281a491956e310c55702fc8705c4"
+    },
+    {
+     "url": "./vendor/cmaps/Hankaku.bcmap",
+     "bytes": 132,
+     "sha256": "b454701f7aecd7856769016dfd04ca64280a060f2c67a2466d50b4395d24974e"
+    },
+    {
+     "url": "./vendor/cmaps/Hiragana.bcmap",
+     "bytes": 124,
+     "sha256": "2ed669394756dd9458651cd9995ab29ab691ecb7686659003306cdf22767a414"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-EUC-H.bcmap",
+     "bytes": 1848,
+     "sha256": "6784e16dbc5861c036c23d3e55f0d4ba0975a3e464da0ee8e49bcfff0be070c4"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-EUC-V.bcmap",
+     "bytes": 164,
+     "sha256": "fdb36bad85e9924823d49db374067988e024cf80fc894711f2c9178951cbbe95"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-H.bcmap",
+     "bytes": 1831,
+     "sha256": "c1f6d61f1d3304fd539a65ae72624fa567ecc3853bf52e283958a7a2515b3eee"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-Johab-H.bcmap",
+     "bytes": 16791,
+     "sha256": "939993d213f68db763bf156217c217ae23af082b91a0eacecf3d11eb4ff8ef8c"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-Johab-V.bcmap",
+     "bytes": 166,
+     "sha256": "5d61967aac0e666def721e8b8d0fed8f95a879a14f2e76ce516c3d11c621e519"
+    },
+    {
+     "url": "./vendor/cmaps/KSC-V.bcmap",
+     "bytes": 160,
+     "sha256": "d7da5afd9f1fe74816d79c9325f0139a4efb6438664ebfdf9a7aa92f3034360f"
+    },
+    {
+     "url": "./vendor/cmaps/KSCms-UHC-H.bcmap",
+     "bytes": 2787,
+     "sha256": "5b70d8f6a4fa9e2283dc649f0ff95d906d56efbee50a20e8d2faec3a8fed078e"
+    },
+    {
+     "url": "./vendor/cmaps/KSCms-UHC-HW-H.bcmap",
+     "bytes": 2789,
+     "sha256": "a5e6ba22aceb02fdedee11bfb9ed138463d89e85b87810b9f075b469d936f8ec"
+    },
+    {
+     "url": "./vendor/cmaps/KSCms-UHC-HW-V.bcmap",
+     "bytes": 169,
+     "sha256": "890332a6a26880d463a12f2a6ff048bf9cf7e45077cfb1ca8815b89baa7bf411"
+    },
+    {
+     "url": "./vendor/cmaps/KSCms-UHC-V.bcmap",
+     "bytes": 166,
+     "sha256": "1631b531c9a40c8cbe24c2317dba107362e49fa6e18af620414d627c111d570c"
+    },
+    {
+     "url": "./vendor/cmaps/KSCpc-EUC-H.bcmap",
+     "bytes": 2024,
+     "sha256": "709480682c55cedbb0124b9960d78e28febeee0df2e34607d61aac6601647ec7"
+    },
+    {
+     "url": "./vendor/cmaps/KSCpc-EUC-V.bcmap",
+     "bytes": 166,
+     "sha256": "031707887d6fc2378a36cdb6775334fd7a236c3f95048d8436abf43fe26fc49d"
+    },
+    {
+     "url": "./vendor/cmaps/Katakana.bcmap",
+     "bytes": 100,
+     "sha256": "3b6ca6642fbf8822da00d5e58a8aa275216d5c32dbf2bd73e934197fc9fc5c53"
+    },
+    {
+     "url": "./vendor/cmaps/LICENSE",
+     "bytes": 2116,
+     "sha256": "24c20d022ae9ab5d37501df4d9818bb073c709193d4f0648cc71e937eb6967bb"
+    },
+    {
+     "url": "./vendor/cmaps/NWP-H.bcmap",
+     "bytes": 2765,
+     "sha256": "286c6c9e335da330928a01edc3c97a3a623f1f7f3c42762b0a7dc2f651b1a78f"
+    },
+    {
+     "url": "./vendor/cmaps/NWP-V.bcmap",
+     "bytes": 252,
+     "sha256": "3a75fb7b59adfb172710758c425d8ac6c93fd5360a64dd4afd5dd04e60ab4b4d"
+    },
+    {
+     "url": "./vendor/cmaps/RKSJ-H.bcmap",
+     "bytes": 534,
+     "sha256": "a70de61a22a898f693f02cc011c3e3cff2e10aaa7cddb4661e456a21ae859f78"
+    },
+    {
+     "url": "./vendor/cmaps/RKSJ-V.bcmap",
+     "bytes": 170,
+     "sha256": "68c1a64506471a524ea5cfc3b3a9f8f70031989a6bd95427b1351f33ccf50b06"
+    },
+    {
+     "url": "./vendor/cmaps/Roman.bcmap",
+     "bytes": 96,
+     "sha256": "1c6b3ef9d9e5cb1aa329142ce9414b90f9b6d7f9182a2a9e927378dab8f0d43f"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UCS2-H.bcmap",
+     "bytes": 48280,
+     "sha256": "779428116752f34e2490a1941d24e4634c71e3c22d053b811d2090ae2fb3c704"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UCS2-V.bcmap",
+     "bytes": 156,
+     "sha256": "1e5cc184b850ea44abc2df8ae5674279df668e8edf5e2a1a2ea2bd77adbd280f"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF16-H.bcmap",
+     "bytes": 50419,
+     "sha256": "32ff139b3c7b91d6ad25f994701f3ce7b242906022c418fd73e6493fc228bfe5"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF16-V.bcmap",
+     "bytes": 156,
+     "sha256": "278eb1e68d1a236c60ef59472cf0176ee0d45f364285e76ca12419a08d46fb9a"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF32-H.bcmap",
+     "bytes": 52679,
+     "sha256": "bf26eb67fe19ee5ba915799e80ca72408400aa8342fdf6a244a4f44de8f97336"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF32-V.bcmap",
+     "bytes": 160,
+     "sha256": "f7da3caf83ceb1cb37936fa10700d9ba6e9c3f72c5bc9724e3ac79bff0c0179e"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF8-H.bcmap",
+     "bytes": 53629,
+     "sha256": "2f2a742bcd1a84a148a4a518b9eed51a8f9c6ca5ed3bc5e2e41fff97de5dc2d8"
+    },
+    {
+     "url": "./vendor/cmaps/UniCNS-UTF8-V.bcmap",
+     "bytes": 157,
+     "sha256": "b7c3f10780a8c62dd1c8ff6c30dc1e4e23b6cdc87c3a96fcd514cc98ffd3af9d"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UCS2-H.bcmap",
+     "bytes": 43366,
+     "sha256": "9201569b402e81ad8860650bd86350c4fa28e5dd5971f05fcacaf40f51de18ed"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UCS2-V.bcmap",
+     "bytes": 193,
+     "sha256": "f10282335e4d64203bc2a653a3a47d745ec76c8ae04549f4d50180c1899be216"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF16-H.bcmap",
+     "bytes": 44086,
+     "sha256": "386fd39581245c034da016a92d23f3df1117d169f996100050b264fc09a84e35"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF16-V.bcmap",
+     "bytes": 178,
+     "sha256": "0473cfbba612b92dd9918f0ff8aee9112897c48e0ffdc0eb82da3144ed8ea84a"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF32-H.bcmap",
+     "bytes": 45738,
+     "sha256": "f48a145dc4e3ed1dca1dde7111716a72306a2a4191ab05c6bae3a5c3a961cd2f"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF32-V.bcmap",
+     "bytes": 182,
+     "sha256": "106acc49b7118bdef944e32107b4f348238f3929a0a15d3b7aab7b9101535993"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF8-H.bcmap",
+     "bytes": 46837,
+     "sha256": "f217b439c80ee5fa1bc2cf6d1defcc319f8d84483d166a00ee199e05a68588df"
+    },
+    {
+     "url": "./vendor/cmaps/UniGB-UTF8-V.bcmap",
+     "bytes": 181,
+     "sha256": "a64df947632878eacc532fa193c735c92a383b7d66e6f8374ac193af7c64fc63"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UCS2-H.bcmap",
+     "bytes": 25439,
+     "sha256": "ad2352f40870880fbf7f8ee5abadff743fbd025fbf9830b8ada472d1c5e4da0b"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UCS2-HW-H.bcmap",
+     "bytes": 119,
+     "sha256": "16e87edca954177c0881c874859d6783220925d821b5cdfb8755b61ebd93f9ce"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UCS2-HW-V.bcmap",
+     "bytes": 680,
+     "sha256": "1973457e2c0192819947e56068625b34fb9a72ecc8a476ce6d7eaae5f73e2e5c"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UCS2-V.bcmap",
+     "bytes": 664,
+     "sha256": "42a133d8e2ce9dd6d2288018e01592d2bf2435b326d39b94ea0b6e6a44ac33d3"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF16-H.bcmap",
+     "bytes": 39443,
+     "sha256": "f6a89c5688978548c83fcee990e205bc63c74274d5c69b49032a3bd4c49a05ee"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF16-V.bcmap",
+     "bytes": 643,
+     "sha256": "c67126fc7c73850855186bb0d6482ac0a365057e0b58778c4ab9f234683fef53"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF32-H.bcmap",
+     "bytes": 40539,
+     "sha256": "96195950ce0fe24443d8eb426fa6b88534ec421d7bef9046f0b2362809cfba73"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF32-V.bcmap",
+     "bytes": 677,
+     "sha256": "ed4dafda402bdd19c4d5d8bf2ab41473c0f86f384552b4c7b963d6627daedeb1"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF8-H.bcmap",
+     "bytes": 41695,
+     "sha256": "798fb0bf06ab0788d1f6a91c2db7de581612eef03c628f10e8f7ecd8f70ab448"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS-UTF8-V.bcmap",
+     "bytes": 678,
+     "sha256": "1021611424f913b2df0bfdbe94bd327c04e224ec89d8e821c6501ea3d21f4265"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF16-H.bcmap",
+     "bytes": 39534,
+     "sha256": "710a32d7cb43fd6bd9dbf30da5971f8c941590f74441e208d852c2be0e74cc97"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF16-V.bcmap",
+     "bytes": 647,
+     "sha256": "3b149aff5c5707b57fb3215d1775852c8b1f413ec0f679ea628f25cf87fe098d"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF32-H.bcmap",
+     "bytes": 40630,
+     "sha256": "8d2658e18741af7937d586a57c89729a6fec0d86121197c1f8518aa58b29cdfb"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF32-V.bcmap",
+     "bytes": 681,
+     "sha256": "6dd475782f2897648a683c48b2fa015a15b8f06856760bddc8a17a63f418bacb"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF8-H.bcmap",
+     "bytes": 41779,
+     "sha256": "691c614ce432b3e62486efb54e5c84c6da5afe9b51b21253bde4758feb484183"
+    },
+    {
+     "url": "./vendor/cmaps/UniJIS2004-UTF8-V.bcmap",
+     "bytes": 682,
+     "sha256": "40a8c7ea2d46711c5f78fc9a878a7db68b1543ba5cd60ecf14f519a2deb829b7"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISPro-UCS2-HW-V.bcmap",
+     "bytes": 705,
+     "sha256": "6826f94d789d7bf1960668c1c5819c34c9585c1b23152fbc19ee81c7df08524b"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISPro-UCS2-V.bcmap",
+     "bytes": 689,
+     "sha256": "493de9fd1a08f7946065d8ab58f0c3c9fe489f5a0f109f2d05a3169b4bd5789f"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISPro-UTF8-V.bcmap",
+     "bytes": 726,
+     "sha256": "6181d382cf736c5e09492e8be9f26f31fa25b7462253f23ab16646af432cad81"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISX0213-UTF32-H.bcmap",
+     "bytes": 40517,
+     "sha256": "692044e1fb33445668632bc9fe7386805c624864be1ddeb29d65bb0c99fc630c"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISX0213-UTF32-V.bcmap",
+     "bytes": 684,
+     "sha256": "dd54e16ca7bffb3a886242549b2bf7d78a277087f7c60d2636f118c21a5b0646"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISX02132004-UTF32-H.bcmap",
+     "bytes": 40608,
+     "sha256": "f80ea5a989be30ccda5a8804baef6d3b4b044d2b339bf8b31c671b2466171cf6"
+    },
+    {
+     "url": "./vendor/cmaps/UniJISX02132004-UTF32-V.bcmap",
+     "bytes": 688,
+     "sha256": "94c22bd99e771c5fbe0dd8dc39850570d4db0075074aca13e272813edd7cc57f"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UCS2-H.bcmap",
+     "bytes": 25783,
+     "sha256": "a1081396ab4adb6f4a5b6c15f896963c244c1c9bcb65ce5616d06096a1b9811c"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UCS2-V.bcmap",
+     "bytes": 178,
+     "sha256": "6cab547431958fbdc1d401d06ebd4dd61a73f5509a10f974df32bcbca11a2e43"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF16-H.bcmap",
+     "bytes": 26327,
+     "sha256": "42d35b396286499dfae1737a07adb3a64500df37b426580bfb1d3ea872938519"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF16-V.bcmap",
+     "bytes": 164,
+     "sha256": "5bdb7390c80dcc136cb47d41dc7460082560969c17322ee739fe3020fb642410"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF32-H.bcmap",
+     "bytes": 26451,
+     "sha256": "3a01ec51ed1b828101351e337ffb8250abe11880032e5210f881170fed2588de"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF32-V.bcmap",
+     "bytes": 168,
+     "sha256": "dfda895eceaed081af030dbbb962b49629eea817fc3c02bae15db93d0c68acd7"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF8-H.bcmap",
+     "bytes": 27790,
+     "sha256": "3fac9c65145f72d7d42157a3b9c5ed6904632184e6a0888f2b828699afd2002f"
+    },
+    {
+     "url": "./vendor/cmaps/UniKS-UTF8-V.bcmap",
+     "bytes": 169,
+     "sha256": "9ecc6cf30dd354b9778ddba163b6cc7302b087ce9f39d1ba73472d2b75ed13ca"
+    },
+    {
+     "url": "./vendor/cmaps/V.bcmap",
+     "bytes": 166,
+     "sha256": "b9ad1c0c09ff14bca52f9a28a9767eb857ad0e8946e64ba14c7387a7eb69866a"
+    },
+    {
+     "url": "./vendor/cmaps/WP-Symbol.bcmap",
+     "bytes": 179,
+     "sha256": "543923bead225732aba30976690ee89095a19628277b5863efecc2c728d5d7bf"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitDingbats.pfb",
+     "bytes": 29513,
+     "sha256": "845c752392b6c914fb989c75a08b7792b88f542d2499042ef2889f8c814a16ed"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitFixed.pfb",
+     "bytes": 17597,
+     "sha256": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitFixedBold.pfb",
+     "bytes": 18055,
+     "sha256": "f1b7159702973f54fc86254ea38bcf3712b2a736eb3a0995751e9f4bb45ad603"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitFixedBoldItalic.pfb",
+     "bytes": 19151,
+     "sha256": "8a000945843bd31add06aee63bf9fd41b7578b4f3242a4b7cd46349ad9d24d4d"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitFixedItalic.pfb",
+     "bytes": 18746,
+     "sha256": "5007faf8320fa1fcc08b8894b356ad976f60b992ba29ee5272578bbdebaf3876"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitSerif.pfb",
+     "bytes": 19469,
+     "sha256": "4f57d2b9d884af8f907bf22df6019b52d86cbf6214fdbd02b1ae05472a543f35"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitSerifBold.pfb",
+     "bytes": 19395,
+     "sha256": "0bdf4b04e964139818d51eda03d566ba999fc3ba2421b1c6c51f9dc969022e80"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitSerifBoldItalic.pfb",
+     "bytes": 20733,
+     "sha256": "a406cac82583bf98175cb62c87ed5e95c45fbb34eece63a10b0a13e793cb2e10"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitSerifItalic.pfb",
+     "bytes": 21227,
+     "sha256": "610ae0687198045c4db5d1a6650fd5e92536631706382eb8b72e38df578d0ae9"
+    },
+    {
+     "url": "./vendor/standard_fonts/FoxitSymbol.pfb",
+     "bytes": 16729,
+     "sha256": "47967d055530e7357088a08403115425643ec2cdfd6201ba8af0fbd7116c1539"
+    },
+    {
+     "url": "./vendor/standard_fonts/LICENSE_FOXIT",
+     "bytes": 1580,
+     "sha256": "77f43e2de90fdc20a82bb3280981c1de1109d7d84657f14ab2ef17e03271b7fa"
+    },
+    {
+     "url": "./vendor/standard_fonts/LICENSE_LIBERATION",
+     "bytes": 4516,
+     "sha256": "1cfc9eab5a504c8d3496a2dd8f3efc7c5367e0910a038d9e678659473953c76a"
+    },
+    {
+     "url": "./vendor/standard_fonts/LiberationSans-Bold.ttf",
+     "bytes": 137052,
+     "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc"
+    },
+    {
+     "url": "./vendor/standard_fonts/LiberationSans-BoldItalic.ttf",
+     "bytes": 135124,
+     "sha256": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d"
+    },
+    {
+     "url": "./vendor/standard_fonts/LiberationSans-Italic.ttf",
+     "bytes": 162036,
+     "sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512"
+    },
+    {
+     "url": "./vendor/standard_fonts/LiberationSans-Regular.ttf",
+     "bytes": 139512,
+     "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
+    }
+   ],
+   "version": "bf4b1ca61a48",
+   "bytes": 11753901
+  },
+  {
+   "id": "page-audio-ar",
+   "titleAr": "تسجيلات الصفحات الكاملة (اختياري)",
+   "required": false,
+   "description": "Full-page original recordings used by the reader's page playback.",
+   "files": [
+    {
+     "url": "./library-audio/page-003.mp3",
+     "bytes": 643137,
+     "sha256": "5b729ecc4a2a1b666f135996481650684c2818afc768ca0bd68b3cbfe387b957"
+    },
+    {
+     "url": "./library-audio/page-005.mp3",
+     "bytes": 1011129,
+     "sha256": "450e623fadabc10b7e93a8669b848f09be82b1f93fabe7dbc63782bae3853085"
+    },
+    {
+     "url": "./library-audio/page-006.mp3",
+     "bytes": 1477175,
+     "sha256": "f46a96dc5f361253ef54f9dda08b1caf121c04bd01a33e4bdc680453ed2dfec2"
+    },
+    {
+     "url": "./library-audio/page-007.mp3",
+     "bytes": 1401298,
+     "sha256": "21b915ba75c92b83cc9a285eb32b24cdd9b85d6c5201ffae87f921967f45e0f1"
+    },
+    {
+     "url": "./library-audio/page-008.mp3",
+     "bytes": 903490,
+     "sha256": "56f0c8d74aaa96f7589e7c4e98c6e982bacfa9bfa9542e8048d8735085d3e227"
+    },
+    {
+     "url": "./library-audio/page-009.mp3",
+     "bytes": 1063618,
+     "sha256": "1b4d742a8df3d5480f28d72bae21b010ee581538ea8c4ea9ec594c1d27dade2b"
+    },
+    {
+     "url": "./library-audio/page-010.mp3",
+     "bytes": 953314,
+     "sha256": "8690e569602beca22b605411b7c50c9ada1488d0eab8f4b11b2cb154cf438a99"
+    },
+    {
+     "url": "./library-audio/page-011.mp3",
+     "bytes": 2252194,
+     "sha256": "d1f4092da2f4db8a01ca574483c9a398de06c756931f8bee9085e9f97f69937b"
+    },
+    {
+     "url": "./library-audio/page-013.mp3",
+     "bytes": 751570,
+     "sha256": "9b697a3ce5c9fc3a27f55c7114ae2d82d18ea5cd3d194f7bcb1e94e90c225ed3"
+    },
+    {
+     "url": "./library-audio/page-014.mp3",
+     "bytes": 1587778,
+     "sha256": "a8de964f8ddcd130e60672b31e4b5dd681d0d80042ea531a596338dc45f3a0e6"
+    },
+    {
+     "url": "./library-audio/page-015.mp3",
+     "bytes": 814498,
+     "sha256": "726d5b7ada24a0526e8c9d11131e1b35f85605adeea248d973016a9ceaacd415"
+    },
+    {
+     "url": "./library-audio/page-016.mp3",
+     "bytes": 850498,
+     "sha256": "6529e7ae989ae93196724be564857a0d067069f567606364de25528648a447d1"
+    },
+    {
+     "url": "./library-audio/page-017.mp3",
+     "bytes": 860434,
+     "sha256": "145657ac36d5162920f1c6884e54646bcc586ed8520a34bea7610ce84dcfc686"
+    },
+    {
+     "url": "./library-audio/page-018.mp3",
+     "bytes": 784690,
+     "sha256": "819a83ae96f40ddaa7a7e7d69c0e83df3720989ae7747422ffd6045151865e3d"
+    },
+    {
+     "url": "./library-audio/page-019.mp3",
+     "bytes": 855250,
+     "sha256": "f89eb910a0953f62dd119130ce62294db0842e30a5f5be40d264bf854a0a2639"
+    },
+    {
+     "url": "./library-audio/page-020.mp3",
+     "bytes": 934018,
+     "sha256": "4d97a9c4693062b7d1ac2caebf631d843092f941464e238375d547ca9a907b62"
+    },
+    {
+     "url": "./library-audio/page-021.mp3",
+     "bytes": 632913,
+     "sha256": "7a2d4c91b583dc24b43fbccda9870c954db587199804a6a6d9dfc3b58ca07f0a"
+    },
+    {
+     "url": "./library-audio/page-022.mp3",
+     "bytes": 1609090,
+     "sha256": "d3e031beb3205e7819d083653182a687b94e54577e7dfb4a38d79e95900d0777"
+    },
+    {
+     "url": "./library-audio/page-023.mp3",
+     "bytes": 907090,
+     "sha256": "2c7ee526a3b4d2acefd62c00a4baf35270bc73b3f02a63e98f90115739791da3"
+    },
+    {
+     "url": "./library-audio/page-024.mp3",
+     "bytes": 1657464,
+     "sha256": "8128fb8255d4b1075423762d6aaef611cdc783f3ae2cf01c66bb8e12ae949d49"
+    },
+    {
+     "url": "./library-audio/page-025.mp3",
+     "bytes": 1629106,
+     "sha256": "f7e55757edbc7ca13787afe3aa14f7058810be1172d8af20b20f92acc8fa0c1e"
+    },
+    {
+     "url": "./library-audio/page-026.mp3",
+     "bytes": 940930,
+     "sha256": "6d0745c314030dfaeb53b0e6911462b10ef657f834fdd065a2bc48ac109b9314"
+    },
+    {
+     "url": "./library-audio/page-027.mp3",
+     "bytes": 1636162,
+     "sha256": "e0554135b2d254cd8eca746035bd67ea6047b2d06de2e815752ec2e1ac9504fc"
+    },
+    {
+     "url": "./library-audio/page-028.mp3",
+     "bytes": 1629106,
+     "sha256": "b9c04748d9bea4655d2aff756b868ce2d8e6ac78e863685f57713bc76b176198"
+    },
+    {
+     "url": "./library-audio/page-029.mp3",
+     "bytes": 946111,
+     "sha256": "1a12f2131d3877142be93a88efbacc412d28151b33eee83658afadcccbbefec2"
+    },
+    {
+     "url": "./library-audio/page-030.mp3",
+     "bytes": 1577901,
+     "sha256": "c25df26398279a366092f25632443fe8c97fe5fb58fd508de8fab470fecfc27e"
+    },
+    {
+     "url": "./library-audio/page-031.mp3",
+     "bytes": 1619026,
+     "sha256": "53a8e88ee1547d8637aa94e84530c41e7eec26f14f1dbdb285a0633c192421f2"
+    },
+    {
+     "url": "./library-audio/page-032.mp3",
+     "bytes": 1355794,
+     "sha256": "5076d2570840a140e02db53c475eceb9aa6a6d9f88c973ddb04a1bd4877ca4ec"
+    },
+    {
+     "url": "./library-audio/page-033.mp3",
+     "bytes": 1238290,
+     "sha256": "9fd3d3c8ee362bda21741c7237af5c19274fb22ed65cc01a520221e816b43db0"
+    },
+    {
+     "url": "./library-audio/page-034.mp3",
+     "bytes": 1229794,
+     "sha256": "8b00bee7c894ba240c369a5c3083b052ff9567075367cbe69e50fade2af76fbc"
+    },
+    {
+     "url": "./library-audio/page-035.mp3",
+     "bytes": 591873,
+     "sha256": "6fa22204ab83fdfc37fc789c8673c3f915a8af9e2a56ba9fcd5357fd370b1371"
+    },
+    {
+     "url": "./library-audio/page-036.mp3",
+     "bytes": 1472866,
+     "sha256": "6f16f772195a8cf0c121bafcf4b32de353984a4fe15abac66683679887f3743f"
+    },
+    {
+     "url": "./library-audio/page-037.mp3",
+     "bytes": 997954,
+     "sha256": "e2a4190b0b9a246de99a249d9f81b1f108e0f5a22ace82aef655a0534867d3dd"
+    },
+    {
+     "url": "./library-audio/page-038.mp3",
+     "bytes": 1634722,
+     "sha256": "a3b7c228a2f98cc7e4a940e12043957ad2b8af41dbf7ad1609738404d42153c1"
+    },
+    {
+     "url": "./library-audio/page-039.mp3",
+     "bytes": 986146,
+     "sha256": "db4b0acca07dbb7fe4660c51d19678f82fddf10a7e3f20140f6ebd9e47395f65"
+    },
+    {
+     "url": "./library-audio/page-040.mp3",
+     "bytes": 1672306,
+     "sha256": "22f7e33b1a2e798c89a1c9c242ebac824fa1b042229a91b00f79c447771c033d"
+    },
+    {
+     "url": "./library-audio/page-041.mp3",
+     "bytes": 997090,
+     "sha256": "45af29abc05b582db69f7c00c63a882088569118e647f8c561ba693abda91c47"
+    },
+    {
+     "url": "./library-audio/page-042.mp3",
+     "bytes": 1644226,
+     "sha256": "fff30966153e747bde2fd3bf2fec574fe605f0d43115694dbc610525ddb1639c"
+    },
+    {
+     "url": "./library-audio/page-043.mp3",
+     "bytes": 640689,
+     "sha256": "43d975dfc613c419d7051d82c19c8e78c78785b9c18e30711d5d48421ff608f4"
+    },
+    {
+     "url": "./library-audio/page-044.mp3",
+     "bytes": 1536514,
+     "sha256": "f0c466c600b8914a3ef0f74e5e1f0935cd8ad68cf431c896f60abcaaab66a2b7"
+    },
+    {
+     "url": "./library-audio/page-045.mp3",
+     "bytes": 1443634,
+     "sha256": "e3ee489972beb83596d69b2b9788ddcc5e9710f1d7f0406c2dced4c0cf7d6f9f"
+    },
+    {
+     "url": "./library-audio/page-046.mp3",
+     "bytes": 1612978,
+     "sha256": "03c57dfd415910258e2558ea5c9113434df009c11927719e54cd392761ad36a6"
+    },
+    {
+     "url": "./library-audio/page-047.mp3",
+     "bytes": 1392226,
+     "sha256": "3e8b2aea08726eb8bb8bc75cc467ab9eb55ac68840afb00b0d6f2688def73ab1"
+    },
+    {
+     "url": "./library-audio/page-048.mp3",
+     "bytes": 1616290,
+     "sha256": "90499432ede7c9d7761e61352517980c751377036012896373338fe80abfb0ea"
+    },
+    {
+     "url": "./library-audio/page-049.mp3",
+     "bytes": 1408066,
+     "sha256": "9747fe2282b71d02d562b620c3379a8261386160dae44b05fa7f5b2c01fbed1d"
+    },
+    {
+     "url": "./library-audio/page-050.mp3",
+     "bytes": 1735378,
+     "sha256": "97434a06ef7d3e7f200ea67f911e49a4cf1831ed72e55fcef46446382154adb6"
+    },
+    {
+     "url": "./library-audio/page-051.mp3",
+     "bytes": 636369,
+     "sha256": "7bf78eee67a748dde363af588583cbec6c4927d60397f777caa46ce467b8da9e"
+    },
+    {
+     "url": "./library-audio/page-052.mp3",
+     "bytes": 1750498,
+     "sha256": "5a51b88dc1ff075914a37a39b8f790f21048329fd87a5ffd8c75e0dcd3dcb32c"
+    },
+    {
+     "url": "./library-audio/page-053.mp3",
+     "bytes": 1446082,
+     "sha256": "c8a1f71f87f82102fa98504f69b363a331d20a447f44636be9207adf4056afdf"
+    },
+    {
+     "url": "./library-audio/page-054.mp3",
+     "bytes": 914290,
+     "sha256": "68e252b67e7f9127e469054ffff5ac32a502ef2c0fb5ae54f479c06674a17a94"
+    },
+    {
+     "url": "./library-audio/page-055.mp3",
+     "bytes": 1241746,
+     "sha256": "fe75039b2c29d002d2ef62e9c903033ee3fe5894026540fcc9a892c9e1f8d1e4"
+    },
+    {
+     "url": "./library-audio/page-056.mp3",
+     "bytes": 943810,
+     "sha256": "05311ade06cd4f615b2a4fc181404878fcf44bfc6d595149974d1c92fd0a1b52"
+    },
+    {
+     "url": "./library-audio/page-057.mp3",
+     "bytes": 1313458,
+     "sha256": "e7a1b5d8b705e2c47619cff236085014b70d27e494bd04af4db81b2b2bb54674"
+    },
+    {
+     "url": "./library-audio/page-058.mp3",
+     "bytes": 955474,
+     "sha256": "2ac5d002ec6a1b24d47bef412044ca063cbb1e4e0f507ecd15dec2629927e6ad"
+    },
+    {
+     "url": "./library-audio/page-059.mp3",
+     "bytes": 1779586,
+     "sha256": "05685e74ee25d231118fdc68b693dfbbd7d1d3a822f20e846fcd845251fb01c7"
+    },
+    {
+     "url": "./library-audio/page-061.mp3",
+     "bytes": 642129,
+     "sha256": "62c0a5482ac0253d637d488c9e5fa56353df03d20d2e1515541387f5b02a8942"
+    },
+    {
+     "url": "./library-audio/page-062.mp3",
+     "bytes": 1196530,
+     "sha256": "8763396bbdcf67279ae99dd8523b9c1432bb599ac154bf5c3d2ad7ebb8f24b31"
+    },
+    {
+     "url": "./library-audio/page-063.mp3",
+     "bytes": 1688866,
+     "sha256": "543d6d86cc84f110ededf5b85dcdce81a8a2bdede4c1eddff21a0d02ed12203f"
+    },
+    {
+     "url": "./library-audio/page-064.mp3",
+     "bytes": 1506562,
+     "sha256": "82c88bfa5461cee91fa4cecf6260c0d665b21b5ef7aeb1f9ef83d735f0f1e464"
+    },
+    {
+     "url": "./library-audio/page-065.mp3",
+     "bytes": 649761,
+     "sha256": "005c0be98e11e8df8d85fe6f13d24cb3930e4f4cc85f8c9f0d994a1bbbd746d7"
+    },
+    {
+     "url": "./library-audio/page-066.mp3",
+     "bytes": 974626,
+     "sha256": "6d061ffc853107c53ac5aa9efaa2de9fb6e010a422a1889d269de23f7ea4b228"
+    },
+    {
+     "url": "./library-audio/page-067.mp3",
+     "bytes": 1917826,
+     "sha256": "0cbc802ac836b5504dc4cadde9a7c4b44384d228a51597c9c40aeeb2855a17b5"
+    },
+    {
+     "url": "./library-audio/page-069.mp3",
+     "bytes": 609873,
+     "sha256": "f8c8f80fc0066e85190e10d2ac5ebf3366030e89eddc29b0c2d88020dd41d1f0"
+    },
+    {
+     "url": "./library-audio/page-070.mp3",
+     "bytes": 821842,
+     "sha256": "a718ec4d7c2820ced14bb3ae03fc9a2687e199141c65eaa01e9a283794b73975"
+    },
+    {
+     "url": "./library-audio/page-071.mp3",
+     "bytes": 1426930,
+     "sha256": "1962db47705905e6626b7258d9dba6562d50553e8c130a3d6750abdd718e34ae"
+    },
+    {
+     "url": "./library-audio/page-073.mp3",
+     "bytes": 623121,
+     "sha256": "7b5722d056503475772f139dd0e8de07cdb77129dc7f427c1ae79ad0650df5bf"
+    },
+    {
+     "url": "./library-audio/page-074.mp3",
+     "bytes": 813634,
+     "sha256": "414bd03736e1f857fe03961fabed6e5e6055eb07dcaec6c7954184ff82a95bdd"
+    },
+    {
+     "url": "./library-audio/page-075.mp3",
+     "bytes": 1773004,
+     "sha256": "017b695bd003eef22bedf94f931457f1772224f10a1ef0038ac4084a5a72ebcb"
+    },
+    {
+     "url": "./library-audio/page-077.mp3",
+     "bytes": 670497,
+     "sha256": "2f5c4f02dc5eb16d5946dd2c3eb153908957848fef6924aa9e6cbcd96f678031"
+    },
+    {
+     "url": "./library-audio/page-078.mp3",
+     "bytes": 1514770,
+     "sha256": "da79017f38b94c8e87510f049500060fcf50eabab22f67bdee20f548d0987a66"
+    },
+    {
+     "url": "./library-audio/page-079.mp3",
+     "bytes": 1918546,
+     "sha256": "e8260265de47a1ba401a9c918b1fee70e07c64971db78ad172d212bc7688abe6"
+    },
+    {
+     "url": "./library-audio/page-080.mp3",
+     "bytes": 1868578,
+     "sha256": "293d36900bbec7e0ccc6a651bc534066a7b47aa652da7ceb2cd64bd615f59418"
+    },
+    {
+     "url": "./library-audio/page-081.mp3",
+     "bytes": 613893,
+     "sha256": "a4b170e05760de5ef2e70474c9d6288a24e1011efd7a8ce2831a74f3a7255fc0"
+    },
+    {
+     "url": "./library-audio/page-082.mp3",
+     "bytes": 1608802,
+     "sha256": "faa24c93bb7fe1f1c6dda117e0b3cd93e0b03cdf14a8decc81329e3164f55be4"
+    },
+    {
+     "url": "./library-audio/page-083.mp3",
+     "bytes": 2748995,
+     "sha256": "13ae690c53f77a66d7c0b39df2ad3fc6a00529822a1fed0dc9d6696162411022"
+    },
+    {
+     "url": "./library-audio/page-084.mp3",
+     "bytes": 3380147,
+     "sha256": "3fda701099aef3ada1cebfb5788a11bbbfdfdb7446957ff665f2bc902aa0ed2c"
+    },
+    {
+     "url": "./library-audio/page-085.mp3",
+     "bytes": 3788243,
+     "sha256": "e99b006dd7f0ff74eaf407f7a09d113b73f4903131025f0f2783735375c7a6d7"
+    },
+    {
+     "url": "./library-audio/page-086.mp3",
+     "bytes": 4818851,
+     "sha256": "18a5eba488f6f3b5765eb6b7c9d55505ac3110d3f197928d0189ff8255b584cb"
+    },
+    {
+     "url": "./library-audio/page-087.mp3",
+     "bytes": 6719075,
+     "sha256": "c8348376e5183404b6efd965f387d2a1f7cb4bc56b272030696f8f038f8e1493"
+    },
+    {
+     "url": "./library-audio/page-089.mp3",
+     "bytes": 677842,
+     "sha256": "8b3cc8a6d0526aaa00c98c25660077c8bc9571cb9883f257768dcef1893d2b4a"
+    },
+    {
+     "url": "./library-audio/page-090.mp3",
+     "bytes": 1433554,
+     "sha256": "9db75b8c553b7a7c823480ffde0f373bbb10041b7fd6c21c598c91cf89472e3d"
+    },
+    {
+     "url": "./library-audio/page-091.mp3",
+     "bytes": 1623587,
+     "sha256": "d513322ce54bffca9b0be5408d1850aa6e5b0130b866419636dbaa535825fda5"
+    },
+    {
+     "url": "./library-audio/page-092.mp3",
+     "bytes": 2422490,
+     "sha256": "9e8836db0316c951885d154f48962e989491909aab7d786262cef539852db376"
+    },
+    {
+     "url": "./library-audio/page-093.mp3",
+     "bytes": 3374099,
+     "sha256": "97042b86888b7f2c81c466822425a631f3ad941c21841cac27f9d7b663765637"
+    },
+    {
+     "url": "./library-audio/page-094.mp3",
+     "bytes": 2512835,
+     "sha256": "13029ec0c45715898b8bc93f4064d6db363f8b669b13b7f75bafb6104fdb4c0e"
+    },
+    {
+     "url": "./library-audio/page-095.mp3",
+     "bytes": 1221874,
+     "sha256": "cf84da9269f28d22ead783a4cd6e7c30056fbe099dce8636859809bb39362289"
+    },
+    {
+     "url": "./library-audio/page-097.mp3",
+     "bytes": 585681,
+     "sha256": "1c43214d97cc777f0f07952402cd89e6eeb1c9d53dd5dc16f9f91c3e675c3014"
+    },
+    {
+     "url": "./library-audio/page-098.mp3",
+     "bytes": 992770,
+     "sha256": "83b58c41af6744c2d44c9f5b7c8ccead2a05f0b8973147cfe7b15112508a1289"
+    },
+    {
+     "url": "./library-audio/page-099.mp3",
+     "bytes": 963733,
+     "sha256": "f61dad6028f3644f01eab07765cdba9055708c9764de0176e2f858a7a17c486e"
+    },
+    {
+     "url": "./library-audio/page-100.mp3",
+     "bytes": 1378616,
+     "sha256": "16afa7ca837267eb5786f1690c0c8ba1d3f5e63ac73793aceee2b2089667a067"
+    },
+    {
+     "url": "./pilot-media/page-015.mp3",
+     "bytes": 451628,
+     "sha256": "4a3ace166f141d33442b63eea7b533631eaae5ef669f53b820c927d165ae3d62"
+    },
+    {
+     "url": "./pilot-media/page-016.mp3",
+     "bytes": 499628,
+     "sha256": "6cf519d24c1f51c72fbcf62814cdd73e92d0e9ba5e5f1e378ea0f0523d8ac190"
+    },
+    {
+     "url": "./pilot-media/page-017.mp3",
+     "bytes": 512876,
+     "sha256": "1f9c0c606b9116d6ddd1ef49fdff0e03a01f51198c2d51469a54d12efc161796"
+    }
+   ],
+   "version": "9311127491eb",
+   "bytes": 131063453
+  },
+  {
+   "id": "edition-bn",
+   "titleAr": "طبعة البنغالية",
+   "required": false,
+   "description": "Bengali edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/bn.pdf",
+     "bytes": 6274404,
+     "sha256": "f9cd7c6c14c62c63ae1220bce6e7f5c4d13858c5ea852f43dfd2a1e0edd9ad8b"
+    },
+    {
+     "url": "./data/edition-maps/bn.json",
+     "bytes": 118734,
+     "sha256": "a32c88840a8c4e4fdf94ed77374b579989d6e5db2a1b90cf9967e663a22ec2a3"
+    }
+   ],
+   "version": "70cfba3210f7",
+   "bytes": 6393138
+  },
+  {
+   "id": "edition-en",
+   "titleAr": "طبعة الإنجليزية",
+   "required": false,
+   "description": "English edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/en.pdf",
+     "bytes": 5486289,
+     "sha256": "c7195ebc5724f3a43a4e532b762bd12f32cf317a11e9fe1eab7eb8a486795a5a"
+    },
+    {
+     "url": "./data/edition-maps/en.json",
+     "bytes": 139212,
+     "sha256": "ddd9493dabdc4dfc4984d332dcc6379def0dc4b6243956bee152bec3d8a2edf6"
+    }
+   ],
+   "version": "d5fb6711256a",
+   "bytes": 5625501
+  },
+  {
+   "id": "edition-es",
+   "titleAr": "طبعة الإسبانية",
+   "required": false,
+   "description": "Spanish edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/es.pdf",
+     "bytes": 6348223,
+     "sha256": "7979ab9b0469ed3f236ed6c9800be7fc1082ba1e06dd283c1af2cc5fabb06fdf"
+    },
+    {
+     "url": "./data/edition-maps/es.json",
+     "bytes": 120064,
+     "sha256": "c7580be1b9a78c6294c46fcfcefa08ef4da09fa6c80834c9203b75fe0c54148f"
+    }
+   ],
+   "version": "8e331c11f343",
+   "bytes": 6468287
+  },
+  {
+   "id": "edition-fa",
+   "titleAr": "طبعة الفارسية",
+   "required": false,
+   "description": "Persian edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/fa.pdf",
+     "bytes": 24599963,
+     "sha256": "b9452ad5d923719dd816290fd140bd8d073e65e8925fb6b3add5ab63b0d858e8"
+    },
+    {
+     "url": "./data/edition-maps/fa.json",
+     "bytes": 125300,
+     "sha256": "75fe958efa3f16291d025e8093978c2e71fb07eb755290513b90cd554b688a57"
+    }
+   ],
+   "version": "515cfca11b01",
+   "bytes": 24725263
+  },
+  {
+   "id": "edition-fr",
+   "titleAr": "طبعة الفرنسية",
+   "required": false,
+   "description": "French edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/fr.pdf",
+     "bytes": 6027366,
+     "sha256": "35df21adcd467fe72e64e3e7281011fd99d1c9cf3f821a701d9199eddc6bfd46"
+    },
+    {
+     "url": "./data/edition-maps/fr.json",
+     "bytes": 115623,
+     "sha256": "6170acf33d011798d872bfed6b03093f6eef31cce62e9a59f484044660aba81a"
+    }
+   ],
+   "version": "388d86e86dc5",
+   "bytes": 6142989
+  },
+  {
+   "id": "edition-ha",
+   "titleAr": "طبعة الهوسا",
+   "required": false,
+   "description": "Hausa edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ha.pdf",
+     "bytes": 6410381,
+     "sha256": "3c34d7614aa4ddf13e6d3ff5b064a72d01a940be6f970a29f616f82cbf8a9dc7"
+    },
+    {
+     "url": "./data/edition-maps/ha.json",
+     "bytes": 122480,
+     "sha256": "f2ec36a390e7a01ba68d2ee6ef3ddd90b5ae54599215677d3eb64b266db4bf19"
+    }
+   ],
+   "version": "1517d8f3bb25",
+   "bytes": 6532861
+  },
+  {
+   "id": "edition-hi",
+   "titleAr": "طبعة الهندية",
+   "required": false,
+   "description": "Hindi edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/hi.pdf",
+     "bytes": 6163932,
+     "sha256": "b77e8ce2f6af9579df8acda615411b7f1dffa566ce5c469c8ba8f1520c4c02ca"
+    },
+    {
+     "url": "./data/edition-maps/hi.json",
+     "bytes": 118763,
+     "sha256": "44903d8a9586507b28b3b2b56aac8a3bf99c5996a6bf9cfbeaf4b5f9f0e7c26b"
+    }
+   ],
+   "version": "d3083a564ce2",
+   "bytes": 6282695
+  },
+  {
+   "id": "edition-id",
+   "titleAr": "طبعة الإندونيسية",
+   "required": false,
+   "description": "Indonesian edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/id.pdf",
+     "bytes": 6057520,
+     "sha256": "063c30e76c9fd45a569536286bb8c503de427fd061df4f5fa25f6b157415dc3a"
+    },
+    {
+     "url": "./data/edition-maps/id.json",
+     "bytes": 121329,
+     "sha256": "ccecb669255ceba6cde90b5886e5a659472e5a1583fa337c4836df53d7a735f6"
+    }
+   ],
+   "version": "b919af2c9a3c",
+   "bytes": 6178849
+  },
+  {
+   "id": "edition-it",
+   "titleAr": "طبعة الإيطالية",
+   "required": false,
+   "description": "Italian edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/it.pdf",
+     "bytes": 6339489,
+     "sha256": "36b0ddda410ebaeb72e1d11d2bc7b108df2b77399172d9f983944e9173f0074b"
+    },
+    {
+     "url": "./data/edition-maps/it.json",
+     "bytes": 119114,
+     "sha256": "4043970b1bd5ff985e296dcc9b39798513066397d29ed74004751f3586ea3f78"
+    }
+   ],
+   "version": "77dc3638346f",
+   "bytes": 6458603
+  },
+  {
+   "id": "edition-ms",
+   "titleAr": "طبعة الماليزية",
+   "required": false,
+   "description": "Malay edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ms.pdf",
+     "bytes": 5162373,
+     "sha256": "8cb01db00f8e436b460cfd1aca54dceaa6c0fd310531711a22fd5c584580911c"
+    },
+    {
+     "url": "./data/edition-maps/ms.json",
+     "bytes": 122482,
+     "sha256": "8feb5f27389030ddc2db6bff22c34e801776a3b2524c53a78e9ae558eb5f22ab"
+    }
+   ],
+   "version": "1736a129b6b2",
+   "bytes": 5284855
+  },
+  {
+   "id": "edition-ml",
+   "titleAr": "طبعة المليبارية",
+   "required": false,
+   "description": "Malayalam edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ml.pdf",
+     "bytes": 4984532,
+     "sha256": "b9ce7557b19facec01312a0b4d433f6c8a242975284d41b416073ec617047492"
+    },
+    {
+     "url": "./data/edition-maps/ml.json",
+     "bytes": 119340,
+     "sha256": "8ea3e56fcb565eef2c59ce8f7ab1e62bc62169e05abde2251310cae7200a274e"
+    }
+   ],
+   "version": "953811960dbf",
+   "bytes": 5103872
+  },
+  {
+   "id": "edition-pt",
+   "titleAr": "طبعة البرتغالية",
+   "required": false,
+   "description": "Portuguese edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/pt.pdf",
+     "bytes": 6103894,
+     "sha256": "105c51a513a8096b8bd988d7efef60a16028494ccf219a7abd2dd12948c4e70c"
+    },
+    {
+     "url": "./data/edition-maps/pt.json",
+     "bytes": 118742,
+     "sha256": "faba7801e561d47941efbdcf78e97b4d4c4e2c46ab7d549c0de68ed1af8fc481"
+    }
+   ],
+   "version": "84d585f94643",
+   "bytes": 6222636
+  },
+  {
+   "id": "edition-ru",
+   "titleAr": "طبعة الروسية",
+   "required": false,
+   "description": "Russian edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ru.pdf",
+     "bytes": 6323651,
+     "sha256": "f99e7493b5b20136f6f5c270651e9e5373eeb80b60634885a05ecd3b5658b832"
+    },
+    {
+     "url": "./data/edition-maps/ru.json",
+     "bytes": 120920,
+     "sha256": "2ae05e4e9a91be86508724f04d7974b61eaa2b218c4dea9daea4b46a42fa36a6"
+    }
+   ],
+   "version": "381e3e34b7a8",
+   "bytes": 6444571
+  },
+  {
+   "id": "edition-sq",
+   "titleAr": "طبعة الألبانية",
+   "required": false,
+   "description": "Albanian edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/sq.pdf",
+     "bytes": 5883384,
+     "sha256": "623055a850a479101188d2e03b4d7c9c785d11930d3adffa22798f89111eff3d"
+    },
+    {
+     "url": "./data/edition-maps/sq.json",
+     "bytes": 120025,
+     "sha256": "ea167e23b10e5fceb579c6a1ddcad22600d7a19fa8190c6f13dea30561a2a4f9"
+    }
+   ],
+   "version": "536902b613a7",
+   "bytes": 6003409
+  },
+  {
+   "id": "edition-sw",
+   "titleAr": "طبعة السواحلية",
+   "required": false,
+   "description": "Swahili edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/sw.pdf",
+     "bytes": 6346783,
+     "sha256": "23cb09e404fd73c1ef65d4e4dd648fef0aafc284a976a23d6ea4bf991f8ef254"
+    },
+    {
+     "url": "./data/edition-maps/sw.json",
+     "bytes": 118731,
+     "sha256": "43080b5e7c682b4ced36c0ce7c95546eb074e0a26b723cadb831c8a609d6c1da"
+    }
+   ],
+   "version": "069750ea7877",
+   "bytes": 6465514
+  },
+  {
+   "id": "edition-ur",
+   "titleAr": "طبعة الأوردية",
+   "required": false,
+   "description": "Urdu edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ur.pdf",
+     "bytes": 6449912,
+     "sha256": "4aaf7d8fd713cdb3d65dddf0bc3e481841957e5e39640206f4085f0a119ec1f7"
+    },
+    {
+     "url": "./data/edition-maps/ur.json",
+     "bytes": 127415,
+     "sha256": "73aa8dc4d31103706186dcf02a0726bafa526fde1820f2d154129fd27916b13e"
+    }
+   ],
+   "version": "fd3c3870131a",
+   "bytes": 6577327
+  },
+  {
+   "id": "edition-zh",
+   "titleAr": "طبعة الصينية",
+   "required": false,
+   "description": "Chinese edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/zh.pdf",
+     "bytes": 6558810,
+     "sha256": "16337657a9e795bb5a97a5f15093292e43dcd7090c5b72cbabcf8a8fbf64d20a"
+    },
+    {
+     "url": "./data/edition-maps/zh.json",
+     "bytes": 118715,
+     "sha256": "64fb415035ff779103ab84c8ee5032432649e7a6d32b033662656f02d47bb01a"
+    }
+   ],
+   "version": "02b8d38f16c4",
+   "bytes": 6677525
+  },
+  {
+   "id": "edition-ff",
+   "titleAr": "طبعة الفلاتية",
+   "required": false,
+   "description": "Fulfulde edition PDF and page map (teaching audio stays Arabic).",
+   "files": [
+    {
+     "url": "./books/ff.pdf",
+     "bytes": 16956079,
+     "sha256": "566c7241b01defbcad36a296b02ef5805a72dbc2b2e4f61f3f08a397cf95b4a9"
+    },
+    {
+     "url": "./data/edition-maps/ff.json",
+     "bytes": 128662,
+     "sha256": "38bc952272def2480da02bd3811d7eb3e166fb6202f46faa39c07eb455ace50a"
+    }
+   ],
+   "version": "49cf6c1faff6",
+   "bytes": 17084741
+  }
+ ]
+}

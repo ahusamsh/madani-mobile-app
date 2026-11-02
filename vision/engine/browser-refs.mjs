@@ -5,10 +5,10 @@ import { REF_FEATURE_OPTS, makeThumb } from './page-matcher.mjs';
 export const REF_WIDTH = 640;
 const CACHE_VERSION = 'madani-vision-features-v2';
 
-/** Pages that have both an original page image and a zone map in the audio library. */
+/** Every original book page with an image is searchable, even when no individual audio zone exists. */
 export function referencePages(library, appRoot) {
   return Object.entries(library.pages || {})
-    .filter(([, p]) => typeof p.image === 'string' && Array.isArray(p.zones) && p.zones.length)
+    .filter(([, p]) => typeof p.image === 'string')
     .map(([id, p]) => ({ pageId: Number(id), url: new URL(p.image, appRoot).href, hasAudio: p.zones.some(z => library.segments?.[z.id]) }))
     .sort((a, b) => Number(b.hasAudio) - Number(a.hasAudio) || a.pageId - b.pageId);
 }

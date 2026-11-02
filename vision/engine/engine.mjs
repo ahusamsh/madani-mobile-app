@@ -64,7 +64,7 @@ export class VisionEngine {
         // near-identical sibling pages (same layout) are re-checked by content periodically while tracking
         if (at - (t.checkedAt ?? -Infinity) >= this.opt.siblingCheckMs) {
           t.checkedAt = at;
-          const r = this.index.identify(F, { prior: [t.page], candidates: 0, budgetPages: 0, gray });
+          const r = this.index.identify(F, { prior: [t.page], candidates: 0, budgetPages: 0, gray, searchAll: this.opt.siblingSearchAll ?? true });
           if (r.page === null) { t.ambiguous = r.reason; } else { t.ambiguous = null; if (r.page !== t.page) { this.track = null; this.pending = null; this.lastIdentifyAt = -Infinity; return { page: null, reason: 'page-changed' }; } }
         }
         if (t.ambiguous) return { page: null, reason: t.ambiguous };
@@ -76,21 +76,28 @@ export class VisionEngine {
     if (at - this.lastIdentifyAt < this.opt.identifyIntervalMs) return null;
     this.lastIdentifyAt = at;
     const prior = t ? [t.page, t.page + 1, t.page - 1] : [];
-    const r = this.index.identify(F, { prior, gray });
+    const r = this.index.identify(F, { prior, gray, ...(this.opt.identify || {}) });
     if (r.page === null) { if (!t || t.misses >= this.opt.trackMisses * 4) this.track = null; return { page: null, reason: r.reason, evaluated: r.evaluated }; }
     const seen = this.pending?.page === r.page ? this.pending.hits + 1 : 1;
     this.pending = { page: r.page, hits: seen };
-    if (seen < this.opt.confirmHits && r.page !== t?.page) { this.lastIdentifyAt = -Infinity; return { page: null, reason: 'confirming-page', candidate: r.page }; }
+    if (seen < this.opt.confirmHits && r.page !== t?.page && !this.fastConfirm(r)) { this.lastIdentifyAt = -Infinity; return { page: null, reason: 'confirming-page', candidate: r.page }; }
     this.track = { page: r.page, H: r.registration, confidence: r.confidence, misses: 0, checkedAt: at };
     const ev = r.evaluated.find(e => e.page === r.page);
     return { page: r.page, H: r.registration, confidence: r.confidence, method: r.method, evidence: ev };
   }
 
+  // ---- extension hooks (defaults = baseline behaviour; Offline Vision V2 overrides them) ----
+  liveFeatureOpts() { return LIVE_FEATURE_OPTS; }
+  fastConfirm() { return false; }
+  smoothTip(tip) { return tip; }
+  pointerLost() {}
+  selectTarget(tip, tokens) { return chooseTarget(tip, tokens); }
+
   /** frame: {rgba (Uint8ClampedArray), width, height, at (ms)} at working resolution (~480 px wide). */
   processFrame({ rgba, width, height, at }) {
     const T0 = performance.now(), timings = {};
     const gray = fromRGBA(rgba, width, height), quality = frameQuality(gray);
-    const F = computeFeatures(gray, LIVE_FEATURE_OPTS); timings.features = performance.now() - T0;
+    const F = computeFeatures(gray, this.liveFeatureOpts()); timings.features = performance.now() - T0;
     const T1 = performance.now(), loc = this.locatePage(F, at, gray); timings.page = performance.now() - T1;
     const base = { accepted: false, play: false, pageId: null, targetText: null, targetId: null, kind: null, tip: null, pointerType: null, confidence: 0, audio: null, quality, timings };
     const finish = (r) => { timings.total = performance.now() - T0; return r; };
@@ -111,15 +118,16 @@ export class VisionEngine {
     debug.pointer = ptr.debug ? { w: ptr.debug.w, h: ptr.debug.h, work: ptr.debug.work, mask: ptr.debug.mask } : null;
     const result = { ...base, pageId: loc.page, pointerType: ptr.type, sourceEvidence: { page: { method: loc.method, inliers: loc.evidence?.inliers, matches: loc.evidence?.matches, score: loc.confidence }, pointer: ptr.evidence ?? null }, debug };
     if (!ptr.tip || !ptr.type) {
+      this.pointerLost(at);
       this.gate.update({ at, page: pageInfo });
       return finish({ ...result, rejectionReason: ptr.reason === 'no-pointer-evidence' && quality.weak ? quality.weak : ptr.reason });
     }
-    const tipPage = project(Hinv, ptr.tip);
+    const tipPage = ptr.type && ptr.type !== 'uncertain' ? this.smoothTip(project(Hinv, ptr.tip), at, ptr) : project(Hinv, ptr.tip);
     result.tip = { frame: ptr.tip, page: tipPage };
     if (ptr.type === 'uncertain') { this.gate.update({ at, page: pageInfo, pointer: { type: 'uncertain', confidence: 0, tip: tipPage } }); return finish({ ...result, rejectionReason: ptr.reason }); }
     if (!tipPage || tipPage.x < 0 || tipPage.y < 0 || tipPage.x > ref.w || tipPage.y > ref.h) { this.gate.update({ at, page: pageInfo }); return finish({ ...result, rejectionReason: 'tip-outside-page' }); }
     const T3 = performance.now(), tokens = this.tokensFor(loc.page);
-    let selection = tokens.length ? chooseTarget(tipPage, tokens) : { target: null, reason: 'page-has-no-zone-map' };
+    let selection = tokens.length ? this.selectTarget(tipPage, tokens, loc.page) : { target: null, reason: 'page-has-no-zone-map' };
     debug.candidates = tokens.filter(t => Math.abs(t.box.x + t.box.width / 2 - tipPage.x) < t.box.width * 1.5 + 20 && Math.abs(t.box.y + t.box.height / 2 - tipPage.y) < t.box.height * 1.5 + 20).map(t => ({ id: t.id, text: t.text, corners: [[t.box.x, t.box.y], [t.box.x + t.box.width, t.box.y], [t.box.x + t.box.width, t.box.y + t.box.height], [t.box.x, t.box.y + t.box.height]].map(([x, y]) => project(H, { x, y })) }));
     if (selection.target) {
       const sc = localScale(H, tipPage), radius = Math.max(0, Math.round(0.5 / sc - 0.5));

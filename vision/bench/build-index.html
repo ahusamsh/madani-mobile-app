@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Build reference index</title></head>
+<body><pre id="log">building…</pre><script type="module">
+import { referencePages, loadGray, REF_WIDTH } from '../engine/browser-refs.mjs';
+import { computeFeatures } from '../engine/features.mjs';
+import { REF_FEATURE_OPTS, makeThumb } from '../engine/page-matcher.mjs';
+import { serializeIndex } from '../v2/ref-index.mjs';
+const root = new URL('../../', import.meta.url);
+const library = await (await fetch(new URL('data/audio-library.json', root))).json();
+const entries = [];
+for (const r of referencePages(library, root)) {
+  const g = await loadGray(r.url);
+  entries.push({ pageId: r.pageId, url: new URL(r.url).pathname.replace(/^\//, './'), size: { w: g.w, h: g.h }, features: computeFeatures(g, REF_FEATURE_OPTS), thumb: makeThumb(g) });
+}
+const bin = serializeIndex(entries, { version: 1, refWidth: REF_WIDTH, featureOpts: REF_FEATURE_OPTS, builtWith: navigator.userAgent });
+let s = ''; for (let i = 0; i < bin.length; i += 0x8000) s += String.fromCharCode(...bin.subarray(i, i + 0x8000));
+window.__index = { b64: btoa(s), pages: entries.length }; document.getElementById('log').textContent = 'done ' + entries.length;
+</script></body></html>

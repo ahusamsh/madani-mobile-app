@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#075a4e">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icon-192.png">
+<title>الكاميرا الناطقة — القاعدة المدنية</title>
+<style>
+:root{font-family:Cairo,Tahoma,"Noto Sans Arabic",Arial,sans-serif;--bg:#f4f8f5;--card:#fff;--fg:#173f39;--muted:#6b8279;--brand:#075a4e;--brand2:#096254;--gold:#eecd81;--line:#dce7e0;--ok:#0f7a4f;--warn:#a26a00;--bad:#b42318}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d1714;--card:#14211d;--fg:#dcebe4;--muted:#9db6ab;--line:#24362f;--brand2:#2a9b7f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg)}button{font:inherit;cursor:pointer}
+main{max-width:760px;margin:auto;padding:12px 16px calc(24px + env(safe-area-inset-bottom))}
+header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+header a{color:var(--brand2);text-decoration:none;font-weight:700;padding:10px 0}
+h1{font-size:1.15rem;margin:4px 0}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 11px;font-size:.8rem;white-space:nowrap}
+.chip.ok{color:var(--ok);border-color:#a9d9c1}.chip.warn{color:var(--warn);border-color:#f0d49a}.chip.bad{color:var(--bad);border-color:#f3b8b2}
+.start{display:block;width:100%;min-height:64px;border:0;border-radius:18px;background:linear-gradient(135deg,#0a6958,#063f38);color:#fff;font-size:1.25rem;font-weight:800;box-shadow:0 8px 22px #0b615133}
+.start.on{background:#5b2a2a}
+.camera{position:relative;background:#0b0f0e;border-radius:18px;overflow:hidden;aspect-ratio:4/3;margin-top:12px}
+.camera video,.camera canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.camera canvas{pointer-events:none}
+.camera .hint{position:absolute;inset:auto 0 0 0;padding:10px;text-align:center;color:#fff;background:linear-gradient(transparent,#000a);font-size:.9rem}
+.result{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin-top:12px;display:grid;grid-template-columns:1fr auto;gap:6px;align-items:center;min-height:96px}
+.word{font-size:2.6rem;font-weight:800;line-height:1.2;color:var(--brand2);min-height:1.2em}
+.meta{color:var(--muted);font-size:.85rem}
+.speaking{font-size:1.6rem;opacity:.15;transition:opacity .15s}.speaking.on{opacity:1}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.controls button,.pack button{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:12px;padding:10px 14px;min-height:44px}
+.controls button[aria-pressed=true]{background:#e3f3e9;border-color:#a9d9c1;color:var(--brand)}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 14px;margin-top:12px}
+summary{cursor:pointer;font-weight:800;min-height:32px;display:flex;align-items:center;gap:8px}
+.pack{border-top:1px solid var(--line);padding:10px 0;display:grid;grid-template-columns:1fr auto;gap:6px;align-items:center}
+.pack b{font-size:.95rem}.pack small{color:var(--muted);display:block}
+progress{width:100%;height:8px;grid-column:1/-1}
+#diag{white-space:pre-wrap;direction:ltr;text-align:left;font-size:11px;max-height:45vh;overflow:auto;margin:0}
+.muted{color:var(--muted);font-size:.85rem;line-height:1.8}
+</style>
+</head>
+<body>
+<main>
+  <header><a href="../index.html">← الكتاب</a><span id="offline" class="chip warn" role="status">التحقق من العمل دون إنترنت…</span></header>
+  <h1>الكاميرا الناطقة</h1>
+  <p class="muted">وجّه الكاميرا إلى صفحة من الكتاب وأشر بإصبع السبابة أو بطرف القلم إلى حرف أو كلمة؛ يُشغَّل التسجيل الأصلي عند ثبات التعرف. كل المعالجة على جهازك.</p>
+  <button id="start" class="start" type="button">📷 تشغيل الكاميرا</button>
+  <div class="camera"><video id="video" autoplay muted playsinline></video><canvas id="overlay" aria-hidden="true"></canvas><div class="hint" id="hint">الكاميرا متوقفة</div></div>
+  <section class="result" aria-live="polite">
+    <div><div id="word" class="word"></div><div id="meta" class="meta">—</div></div>
+    <div id="speaking" class="speaking" aria-label="النطق">🔊</div>
+    <div class="chip" id="status" role="status" style="grid-column:1/-1;justify-self:start">لم يبدأ الفحص</div>
+  </section>
+  <div class="controls">
+    <button id="sound" type="button" aria-pressed="true">🔊 الصوت</button>
+    <button id="pageAudio" type="button" disabled aria-label="تشغيل التسجيل الأصلي الكامل للصفحة المكتشفة">▶ سماع الصفحة كاملة</button>
+    <button id="switch" type="button" hidden>🔄 تبديل الكاميرا</button>
+    <button id="diagBtn" type="button" aria-pressed="false">🛠 تشخيص</button>
+  </div>
+  <details id="packs"><summary>📦 التنزيل للعمل دون إنترنت <span id="storage" class="chip"></span></summary>
+    <p class="muted">نزّل الحزم المطلوبة مرة واحدة مع الاتصال؛ بعدها تعمل الكاميرا والنطق والكتاب العربي دون إنترنت. يُتحقق من سلامة كل ملف (SHA-256) قبل اعتماده.</p>
+    <div id="packList"></div>
+    <details><summary>لغات إضافية (اختياري)</summary><div id="editionList"></div></details>
+  </details>
+  <details id="diagBox" hidden><summary>تفاصيل تشخيصية</summary><pre id="diag"></pre></details>
+  <p class="muted">يتعرف المحرك على جميع صفحات الكتاب الـ104؛ النطق الفردي متوفر للمواضع المربوطة فقط. عند عدم توفر صوت منفصل يمكنك تشغيل تسجيل الصفحة كاملة، إن وجد، بالزر أعلاه. لتنزيلها دون إنترنت اختر حزمة تسجيلات الصفحات الكاملة.</p>
+  <p class="muted">النسخة السابقة من المحرك: <a href="camera-trial.html">صفحة التجربة الأولى</a>.</p>
+</main>
+<script type="module" src="./camera-v2.mjs"></script>
+</body>
+</html>

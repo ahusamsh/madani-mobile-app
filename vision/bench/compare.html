@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Baseline vs V2 (simulated)</title></head>
+<body><h1>Baseline vs V2 — SIMULATED frames from real page images</h1><pre id="log"></pre><script type="module">
+import { VisionEngine } from '../engine/engine.mjs';
+import { VisionEngineV2 } from '../v2/engine-v2.mjs';
+import { parseIndex } from '../v2/ref-index.mjs';
+import { loadGray } from '../engine/browser-refs.mjs';
+import { buildScenarios, runCompare } from './compare.mjs';
+const root = new URL('../../', import.meta.url), q = new URLSearchParams(location.search), log = s => (document.getElementById('log').textContent += s + '\n');
+try {
+  const library = await (await fetch(new URL('data/audio-library.json', root))).json();
+  const idx = parseIndex(await (await fetch(new URL('vision/data/ref-index.bin', root))).arrayBuffer());
+  const pages = (q.get('pages') || '17,18,19,20,21').split(',').map(Number), grays = new Map();
+  for (const p of idx.pages) if (pages.includes(p.pageId)) grays.set(p.pageId, await loadGray(new URL(p.url, root).href));
+  const scenarios = buildScenarios(library, grays, pages, +(q.get('zones') || 2)), out = { pages, environment: navigator.userAgent };
+  for (const which of (q.get('engines') || 'v1,v2').split(',')) {
+    const e = which === 'v2' ? new VisionEngineV2({ library, loadGray: id => loadGray(new URL(idx.pages.find(p => p.pageId === id).url, root).href) }) : new VisionEngine({ library, loadGray: id => loadGray(new URL(idx.pages.find(p => p.pageId === id).url, root).href) });
+    for (const p of idx.pages) e.addReferencePage(p.pageId, grays.get(p.pageId) ?? null, p.features, p.size, p.thumb);
+    out[which] = runCompare(e, scenarios, grays, { log }); log(which + ' ' + JSON.stringify(out[which].summary));
+  }
+  window.__compare = out;
+} catch (e) { window.__compare = { error: String(e.stack || e) }; log(String(e.stack || e)); }
+</script></body></html>
