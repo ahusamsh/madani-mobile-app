@@ -1,0 +1,320 @@
+[
+ {
+  "page": 7,
+  "zone": "p7-w96",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 7,
+  "zone": "p7-w97",
+  "text": "َنَِبِِّيَِنَا",
+  "reusedFrom": "p7-w10"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w2",
+  "text": "ًَبَْعَْدَ",
+  "reusedFrom": "p45-w10"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w11",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w14",
+  "text": "عَلَى",
+  "reusedFrom": "p11-w109"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w29",
+  "text": "عَلَى",
+  "reusedFrom": "p11-w109"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w30",
+  "text": "الْحَرَكَاتِ",
+  "reusedFrom": "p11-w72"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w42",
+  "text": "قِرَاءَةً",
+  "reusedFrom": "p11-w136"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w43",
+  "text": "صَحِيحَة",
+  "reusedFrom": "p11-w137"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w46",
+  "text": "عَلَى",
+  "reusedFrom": "p11-w109"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w50",
+  "text": "ِيُتْقِنَ",
+  "reusedFrom": "p37-w17"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w51",
+  "text": "قِرَاءَةَ",
+  "reusedFrom": "p11-w156"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w58",
+  "text": "عَلَى",
+  "reusedFrom": "p11-w109"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w77",
+  "text": "عَلَى",
+  "reusedFrom": "p11-w109"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w96",
+  "text": "قِرَاءَةً",
+  "reusedFrom": "p11-w136"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w97",
+  "text": "صَحِيحَة",
+  "reusedFrom": "p11-w137"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w119",
+  "text": "بَعْدَ",
+  "reusedFrom": "p46-ocr-021"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w158",
+  "text": "قِرَاءَةً",
+  "reusedFrom": "p11-w136"
+ },
+ {
+  "page": 11,
+  "zone": "p11-w159",
+  "text": "صَحِيحَة",
+  "reusedFrom": "p11-w137"
+ },
+ {
+  "page": 15,
+  "zone": "p15-w12",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w1",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w7",
+  "text": "َِمَِثَاُلُ",
+  "reusedFrom": "p84-w35"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w31",
+  "text": "َِمَِثَاُلُ",
+  "reusedFrom": "p84-w35"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w38",
+  "text": "ٌَتَْنِْبِيٌه",
+  "reusedFrom": "p24-w79"
+ },
+ {
+  "page": 16,
+  "zone": "p16-w76",
+  "text": "ٌَتَْنِْبِيٌه",
+  "reusedFrom": "p24-w79"
+ },
+ {
+  "page": 23,
+  "zone": "p23-w13",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 38,
+  "zone": "p38-w21",
+  "text": "ٌَتَْنِْبِيٌه",
+  "reusedFrom": "p24-w79"
+ },
+ {
+  "page": 38,
+  "zone": "p38-w35",
+  "text": "ِمِْثَْل",
+  "reusedFrom": "p72-w24"
+ },
+ {
+  "page": 38,
+  "zone": "p38-w41",
+  "text": "ِمِْثَْل",
+  "reusedFrom": "p72-w24"
+ },
+ {
+  "page": 46,
+  "zone": "p46-w17",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 54,
+  "zone": "p54-w10",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 63,
+  "zone": "p63-w14",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 64,
+  "zone": "p64-w32",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 67,
+  "zone": "p67-w12",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 68,
+  "zone": "p68-w24",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 68,
+  "zone": "p68-w25",
+  "text": "الَّشَْرُْحُ",
+  "reusedFrom": "p76-w11"
+ },
+ {
+  "page": 68,
+  "zone": "p68-w37",
+  "text": "ََِوََهََكََذَا",
+  "reusedFrom": "p24-w50"
+ },
+ {
+  "page": 71,
+  "zone": "p71-w4",
+  "text": "بَعْدَ",
+  "reusedFrom": "p46-ocr-021"
+ },
+ {
+  "page": 71,
+  "zone": "p71-w10",
+  "text": "ًَبَْعَْدَ",
+  "reusedFrom": "p45-w10"
+ },
+ {
+  "page": 71,
+  "zone": "p71-w14",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 75,
+  "zone": "p75-w11",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 76,
+  "zone": "p76-w10",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 79,
+  "zone": "p79-w10",
+  "text": "ًَبَْعَْدَ",
+  "reusedFrom": "p45-w10"
+ },
+ {
+  "page": 79,
+  "zone": "p79-w14",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 80,
+  "zone": "p80-w68",
+  "text": "ٌَتَْنِْبِيٌه",
+  "reusedFrom": "p24-w79"
+ },
+ {
+  "page": 83,
+  "zone": "p83-w9",
+  "text": "ًَبَْعَْدَ",
+  "reusedFrom": "p45-w10"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w1",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "reusedFrom": "p72-w26"
+ },
+ {
+  "page": 84,
+  "zone": "p84-w30",
+  "text": "ٌَتَْنِْبِيٌه",
+  "reusedFrom": "p24-w79"
+ },
+ {
+  "page": 99,
+  "zone": "p99-w11",
+  "text": "َعََلَى",
+  "reusedFrom": "p72-w14"
+ },
+ {
+  "page": 102,
+  "zone": "p102-w12",
+  "text": "ُاْلَْبَاُبُ",
+  "reusedFrom": "p102-w36"
+ },
+ {
+  "page": 102,
+  "zone": "p102-w19",
+  "text": "ُاْلَْبَاُبُ",
+  "reusedFrom": "p102-w36"
+ },
+ {
+  "page": 102,
+  "zone": "p102-w23",
+  "text": "ُاْلَْبَاُبُ",
+  "reusedFrom": "p102-w36"
+ },
+ {
+  "page": 102,
+  "zone": "p102-w40",
+  "text": "ُاْلَْبَاُبُ",
+  "reusedFrom": "p102-w36"
+ }
+]

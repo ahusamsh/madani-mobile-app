@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-02T05:28:00.401Z",
+ "generatedAt": "2026-11-02T13:30:00.155Z",
  "packs": [
   {
    "id": "camera-ar",
@@ -10,8 +10,8 @@
    "files": [
     {
      "url": "./data/audio-library.json",
-     "bytes": 1703062,
-     "sha256": "45f7c514acd936613d516e8448dec6c3b89103ce437019469f7f5407f22c9609"
+     "bytes": 1714639,
+     "sha256": "0f595d2415524506932d5fad7c9d7110a9af1a26a08bdec4527d223894b66801"
     },
     {
      "url": "./vision/data/ref-index.bin",
@@ -4279,6 +4279,271 @@
      "sha256": "ba7f38b2e4155870d512343cbd55c519732ee280c40563de59852ce5a059ed29"
     },
     {
+     "url": "./library-clips/reuse-007-p7-w96.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-007-p7-w97.mp3",
+     "bytes": 17764,
+     "sha256": "c9d003dfc4fbdd17ea5d838306ceb80efe20168e8f640ffefc562df19f3c90c0"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w2.mp3",
+     "bytes": 17650,
+     "sha256": "50424b404273388de2470068454270f5391f78a84ce7b19605d5120fb04f8b7e"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w11.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w14.mp3",
+     "bytes": 12635,
+     "sha256": "bf92019a11f5734da8dd17e3782078c46ef0a7ef9424144cb169f77c08cfb60f"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w29.mp3",
+     "bytes": 12635,
+     "sha256": "bf92019a11f5734da8dd17e3782078c46ef0a7ef9424144cb169f77c08cfb60f"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w30.mp3",
+     "bytes": 16083,
+     "sha256": "ed7f075517eb5491b86a6d961968e572d1888dec9e4552bf8e2913c0bd8c5969"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w42.mp3",
+     "bytes": 17337,
+     "sha256": "082a9ddf1f73d88267c6a4ca3c2bee3b403366c1e50b0429389507188fab2dd0"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w43.mp3",
+     "bytes": 16083,
+     "sha256": "587480e747d68d61bdccd8b92eeca596b38046c387cca5ebfa16cf1b8563a360"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w46.mp3",
+     "bytes": 12635,
+     "sha256": "bf92019a11f5734da8dd17e3782078c46ef0a7ef9424144cb169f77c08cfb60f"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w50.mp3",
+     "bytes": 21098,
+     "sha256": "11e2529e0e52ff493f88404df8cf64d251ac6c49c4c43eb942dab20bb16bdddc"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w51.mp3",
+     "bytes": 16083,
+     "sha256": "8db64310e9b937e84732c69835e2f6c584fb2654f2b73889c4a28188017ead9d"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w58.mp3",
+     "bytes": 12635,
+     "sha256": "bf92019a11f5734da8dd17e3782078c46ef0a7ef9424144cb169f77c08cfb60f"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w77.mp3",
+     "bytes": 12635,
+     "sha256": "bf92019a11f5734da8dd17e3782078c46ef0a7ef9424144cb169f77c08cfb60f"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w96.mp3",
+     "bytes": 17337,
+     "sha256": "082a9ddf1f73d88267c6a4ca3c2bee3b403366c1e50b0429389507188fab2dd0"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w97.mp3",
+     "bytes": 16083,
+     "sha256": "587480e747d68d61bdccd8b92eeca596b38046c387cca5ebfa16cf1b8563a360"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w119.mp3",
+     "bytes": 12322,
+     "sha256": "a4a716b7a67d96c5015915e9d97cc3f017d01eea434580dad722993aab57a306"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w158.mp3",
+     "bytes": 17337,
+     "sha256": "082a9ddf1f73d88267c6a4ca3c2bee3b403366c1e50b0429389507188fab2dd0"
+    },
+    {
+     "url": "./library-clips/reuse-011-p11-w159.mp3",
+     "bytes": 16083,
+     "sha256": "587480e747d68d61bdccd8b92eeca596b38046c387cca5ebfa16cf1b8563a360"
+    },
+    {
+     "url": "./library-clips/reuse-015-p15-w12.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-016-p16-w1.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-016-p16-w7.mp3",
+     "bytes": 17651,
+     "sha256": "46b4fd54cce10fcf21fa723df2e13a30781ea0971e7d665186971c3a2cce1a94"
+    },
+    {
+     "url": "./library-clips/reuse-016-p16-w31.mp3",
+     "bytes": 17651,
+     "sha256": "46b4fd54cce10fcf21fa723df2e13a30781ea0971e7d665186971c3a2cce1a94"
+    },
+    {
+     "url": "./library-clips/reuse-016-p16-w38.mp3",
+     "bytes": 22353,
+     "sha256": "48a3b5bd12886e38a577e4bb686e1df3174dcefbeb1d3947327c4d3e39bfeb53"
+    },
+    {
+     "url": "./library-clips/reuse-016-p16-w76.mp3",
+     "bytes": 22353,
+     "sha256": "48a3b5bd12886e38a577e4bb686e1df3174dcefbeb1d3947327c4d3e39bfeb53"
+    },
+    {
+     "url": "./library-clips/reuse-023-p23-w13.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-038-p38-w21.mp3",
+     "bytes": 22353,
+     "sha256": "48a3b5bd12886e38a577e4bb686e1df3174dcefbeb1d3947327c4d3e39bfeb53"
+    },
+    {
+     "url": "./library-clips/reuse-038-p38-w35.mp3",
+     "bytes": 24233,
+     "sha256": "b65a0eea9e60ca2cd482b094036f8681ccf9e4f0ec649129cda7a465461dc510"
+    },
+    {
+     "url": "./library-clips/reuse-038-p38-w41.mp3",
+     "bytes": 24233,
+     "sha256": "b65a0eea9e60ca2cd482b094036f8681ccf9e4f0ec649129cda7a465461dc510"
+    },
+    {
+     "url": "./library-clips/reuse-046-p46-w17.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-054-p54-w10.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-063-p63-w14.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-064-p64-w32.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-067-p67-w12.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-068-p68-w24.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-068-p68-w25.mp3",
+     "bytes": 30503,
+     "sha256": "3d3bd165199a31b9c8cb36389d058ed50acfef3230386ed40956a807a6029e6a"
+    },
+    {
+     "url": "./library-clips/reuse-068-p68-w37.mp3",
+     "bytes": 24233,
+     "sha256": "3b4fcfe3e7c3f6b0d314a7c06767c3ec9e07fcc627e291ecaae7a1a17a7d1d9f"
+    },
+    {
+     "url": "./library-clips/reuse-071-p71-w4.mp3",
+     "bytes": 12322,
+     "sha256": "a4a716b7a67d96c5015915e9d97cc3f017d01eea434580dad722993aab57a306"
+    },
+    {
+     "url": "./library-clips/reuse-071-p71-w10.mp3",
+     "bytes": 17650,
+     "sha256": "50424b404273388de2470068454270f5391f78a84ce7b19605d5120fb04f8b7e"
+    },
+    {
+     "url": "./library-clips/reuse-071-p71-w14.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-075-p75-w11.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-076-p76-w10.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-079-p79-w10.mp3",
+     "bytes": 17650,
+     "sha256": "50424b404273388de2470068454270f5391f78a84ce7b19605d5120fb04f8b7e"
+    },
+    {
+     "url": "./library-clips/reuse-079-p79-w14.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-080-p80-w68.mp3",
+     "bytes": 22353,
+     "sha256": "48a3b5bd12886e38a577e4bb686e1df3174dcefbeb1d3947327c4d3e39bfeb53"
+    },
+    {
+     "url": "./library-clips/reuse-083-p83-w9.mp3",
+     "bytes": 17650,
+     "sha256": "50424b404273388de2470068454270f5391f78a84ce7b19605d5120fb04f8b7e"
+    },
+    {
+     "url": "./library-clips/reuse-084-p84-w1.mp3",
+     "bytes": 44922,
+     "sha256": "5845ede56372666f25bc21ad20f904e5d8748eb71936652d7b06a3574e080866"
+    },
+    {
+     "url": "./library-clips/reuse-084-p84-w30.mp3",
+     "bytes": 22353,
+     "sha256": "48a3b5bd12886e38a577e4bb686e1df3174dcefbeb1d3947327c4d3e39bfeb53"
+    },
+    {
+     "url": "./library-clips/reuse-099-p99-w11.mp3",
+     "bytes": 12008,
+     "sha256": "24bf4c187da9e6f2fd29bd2820c978d7d1915a74ba37298d63f9efba0e838610"
+    },
+    {
+     "url": "./library-clips/reuse-102-p102-w12.mp3",
+     "bytes": 18076,
+     "sha256": "51cef9081388c3684185d6023b90f605df5d906b3561598128da7e9495b97714"
+    },
+    {
+     "url": "./library-clips/reuse-102-p102-w19.mp3",
+     "bytes": 18076,
+     "sha256": "51cef9081388c3684185d6023b90f605df5d906b3561598128da7e9495b97714"
+    },
+    {
+     "url": "./library-clips/reuse-102-p102-w23.mp3",
+     "bytes": 18076,
+     "sha256": "51cef9081388c3684185d6023b90f605df5d906b3561598128da7e9495b97714"
+    },
+    {
+     "url": "./library-clips/reuse-102-p102-w40.mp3",
+     "bytes": 18076,
+     "sha256": "51cef9081388c3684185d6023b90f605df5d906b3561598128da7e9495b97714"
+    },
+    {
      "url": "./pilot-media/p015-box-001.mp3",
      "bytes": 7148,
      "sha256": "530917da924a8ce129bf0c7511647259e1edf4168862ac0021bca88bf67aad32"
@@ -4569,8 +4834,8 @@
      "sha256": "97cd08006364cf7518c8292d5afc79b1b16d690339dcfc83872301bf150e3f2f"
     }
    ],
-   "version": "db7239c8b918",
-   "bytes": 33920929
+   "version": "940031ee4aef",
+   "bytes": 35019320
   },
   {
    "id": "book-ar",
@@ -5160,8 +5425,8 @@
     },
     {
      "url": "./vendor/cmaps/LICENSE",
-     "bytes": 2116,
-     "sha256": "24c20d022ae9ab5d37501df4d9818bb073c709193d4f0648cc71e937eb6967bb"
+     "bytes": 2080,
+     "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
     },
     {
      "url": "./vendor/cmaps/NWP-H.bcmap",
@@ -5485,13 +5750,13 @@
     },
     {
      "url": "./vendor/standard_fonts/LICENSE_FOXIT",
-     "bytes": 1580,
-     "sha256": "77f43e2de90fdc20a82bb3280981c1de1109d7d84657f14ab2ef17e03271b7fa"
+     "bytes": 1553,
+     "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
     },
     {
      "url": "./vendor/standard_fonts/LICENSE_LIBERATION",
-     "bytes": 4516,
-     "sha256": "1cfc9eab5a504c8d3496a2dd8f3efc7c5367e0910a038d9e678659473953c76a"
+     "bytes": 4414,
+     "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
     },
     {
      "url": "./vendor/standard_fonts/LiberationSans-Bold.ttf",
@@ -5514,8 +5779,8 @@
      "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
     }
    ],
-   "version": "bf4b1ca61a48",
-   "bytes": 11753901
+   "version": "085036f76899",
+   "bytes": 11753736
   },
   {
    "id": "page-audio-ar",
