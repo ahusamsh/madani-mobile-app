@@ -125,17 +125,17 @@ export class PageIndex {
    * candidates; page-specific CONTENT decides between near-identical layouts (e.g. the same letter grid
    * with fatha vs kasra), so a page is only accepted when its dense score clearly beats every sibling.
    */
-  identify(live, { prior = [], candidates = 3, gray = null, minDense = 0.3, denseMargin = 0.04, quickIterations = 250 } = {}) {
+  identify(live, { prior = [], candidates = 3, gray = null, minDense = 0.3, denseMargin = 0.04, quickIterations = 250, searchAll = true, quickMinInliers = 10 } = {}) {
     const tried = new Map(), add = (id, priorH = null) => { if (!tried.has(id) && this.pages.has(id)) { const v = this.verify(live, id, { priorH }); if (v) tried.set(id, v); } };
     for (const id of prior) add(id);
     // 1) one LSH pass gives candidate correspondences for all pages; 2) quick per-page geometry;
     // 3) rank by inliers on page-DISTINCTIVE features (common decoration/grid features excluded)
     const ranking = [];
-    for (const [pageId, m] of this.lsh.matchAll(live)) {
-      if (m.length < 10 || tried.has(pageId)) continue;
+    for (const [pageId, m] of searchAll ? this.lsh.matchAll(live) : []) {
+      if (m.length < quickMinInliers || tried.has(pageId)) continue;
       const ref = this.pages.get(pageId).features, cm = consistentMatches(m, live, ref);
-      if (cm.length < 10) continue;
-      const r = ransacHomography(...pairs(cm, live, ref), { threshold: 5, iterations: quickIterations, minInliers: 10 });
+      if (cm.length < quickMinInliers) continue;
+      const r = ransacHomography(...pairs(cm, live, ref), { threshold: 5, iterations: quickIterations, minInliers: quickMinInliers });
       if (!r) continue;
       let distinct = 0; cm.forEach((x, k) => { if (r.mask[k] && x[3] <= 1) distinct++; });
       ranking.push({ pageId, inliers: r.inliers, distinct, H: r.H });
@@ -153,7 +153,7 @@ export class PageIndex {
     const method = prior.length && best.page === prior[0] ? 'tracked' : 'identified';
     if (!(best.dense >= minDense)) return { page: null, reason: 'insufficient-page-evidence', evaluated, votes: shortlist, method };
     if (second && best.dense - (second.dense ?? -1) < denseMargin) return { page: null, reason: 'ambiguous-page', evaluated, votes: shortlist, method };
-    return { page: best.page, confidence: Math.min(best.score, 0.5 + best.dense), registration: best.registration, reason: null, evaluated, votes: shortlist, method };
+    return { page: best.page, confidence: Math.min(best.score, 0.5 + best.dense), registration: best.registration, reason: null, evaluated, votes: shortlist, method, dense: best.dense, denseMargin: second ? best.dense - (second.dense ?? -1) : 1 };
   }
 }
 
