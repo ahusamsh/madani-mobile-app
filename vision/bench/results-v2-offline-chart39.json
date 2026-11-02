@@ -1,0 +1,95 @@
+{
+ "generatedAt": "2026-11-02T05:28:10.868Z",
+ "label": "Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.",
+ "errors": [],
+ "expected": {
+  "zone": "p39-chart-02",
+  "clip": "./library-clips/auto-039-p39-chart-02.mp3",
+  "text": "بً"
+ },
+ "beforeDownload": {
+  "chip": "غير جاهز دون إنترنت",
+  "ready": false
+ },
+ "download": {
+  "ms": 3815,
+  "chip": "جاهز دون إنترنت ✓",
+  "packs": [
+   {
+    "id": "camera-ar",
+    "complete": true,
+    "present": 912,
+    "total": 912,
+    "bytesPresent": 33920929,
+    "verified": true,
+    "verifiedAt": 1793597300484
+   },
+   {
+    "id": "book-ar",
+    "complete": true,
+    "present": 187,
+    "total": 187,
+    "bytesPresent": 11753901,
+    "verified": true,
+    "verifiedAt": 1793597301437
+   }
+  ]
+ },
+ "deepVerify": "✓ سليم (912 ملف)",
+ "offlineOpen": {
+  "onLine": false,
+  "chip": "دون اتصال — يعمل محليًا ✓",
+  "ready": true,
+  "sw": true,
+  "networkProbe": "unreachable"
+ },
+ "offlineCamera": {
+  "diag": "{\n \"engine\": \"v2\",\n \"width\": 480,\n \"procMs\": {\n  \"p50\": \"78\",\n  \"p95\": \"120\"\n },\n \"audioStartMs\": null,\n \"reason\": null,\n \"page\": 39,\n \"pointer\": \"pen\",\n \"tip\": {\n  \"x\": 370.58577641670746,\n  \"y\": 216.4237484416589\n },\n \"candidate\": null,\n \"confidence\": 0.923,\n \"quality\": {\n  \"mean\": 239,\n  \"std\": 51,\n  \"sharpness\": 845,\n  \"weak\": null\n },\n \"timings\": {\n  \"features\": 20.700000047683716,\n  \"page\": 1.4000000953674316,\n  \"pointer\": 39.700000047683716,\n  \"target\": 0.39999985694885254,\n  \"total\": 62.200000047683716\n },\n \"evidence\": {\n  \"page\": {\n   \"method\": \"tracked\",\n   \"inliers\": 249,\n   \"matches\": 264,\n   \"score\": 0.99\n  },\n  \"pointer\": {\n   \"widthMm8\": 7.4,\n   \"widthMm16\": 8.6,\n   \"visibleLengthMm\": 80.1,\n   \"skinFraction\": 0,\n   \"areaPx\": 1629,\n   \"components\": 1,\n   \"method\": \"reference-difference-occluder\"\n  },\n  \"text\": {\n   \"source\": \"audio-library-zone\",\n   \"ncc\": 0.912,\n   \"visible\": 0.98,\n   \"inkStd\": 30.8\n  },\n  \"audio\": \"segment\"\n },\n \"content\": {\n  \"contentId\": \"p39-chart-02\",\n  \"pageId\": 39,\n  \"text\": \"بً\",\n  \"spokenText\": \"بً\",\n  \"kind\": \"syllable\",\n  \"reviewed\": false,\n  \"geometryReviewed\": false,\n  \"audio\": {\n   \"clip\": \"./library-clips/auto-039-p39-chart-02.mp3\",\n   \"segmentId\": \"p39-chart-02\",\n   \"start\": 15.52,\n   \"end\": 16.92,\n   \"reviewed\": false,\n   \"status\": \"available\",\n   \"via\": \"segment\",\n   \"segmentStatus\": \"machine-aligned-pending-listening\"\n  }\n }\n}",
+  "ready": {
+   "type": "ready",
+   "pages": 104,
+   "source": "precomputed-index",
+   "ms": 3039,
+   "engine": "v2"
+  },
+  "accepted": [
+   {
+    "id": "p39-chart-02",
+    "page": 39,
+    "play": true,
+    "at": 4320.100000143051,
+    "frameToResultMs": 66.89999985694885
+   }
+  ],
+  "audio": [
+   {
+    "clip": "./library-clips/auto-039-p39-chart-02.mp3",
+    "latencyMs": 0.7000000476837158,
+    "fromCache": true
+   }
+  ],
+  "results": 4,
+  "procMs": {
+   "p50": 78.3,
+   "p95": 120,
+   "n": 4
+  },
+  "pipelineMs": {
+   "p50": 130.4,
+   "p95": 151.4
+  },
+  "errors": [],
+  "word": "بً",
+  "status": "يُنطق الآن",
+  "msFromStartClickToFirstAudio": 3934,
+  "pass": true
+ },
+ "offlineReader": {
+  "title": "القاعدة المدنية | الكتاب الناطق",
+  "page": "الصفحة ١٧",
+  "canvas": 720,
+  "loadingHidden": true,
+  "zones": 28,
+  "pass": true
+ }
+}

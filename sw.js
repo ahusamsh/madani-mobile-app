@@ -3,13 +3,13 @@
 // - "madani-pack-<id>-<version>": offline packs downloaded from the app (data/offline-packs.json);
 //    NEVER deleted on update (the pack manager replaces a pack only after its new version is complete)
 // - "madani-runtime-<VERSION>": opportunistic cache of other same-origin GETs (small files only)
-const VERSION = 'v5-full-book-vision';
+const VERSION = 'v6-word-audio-alignment';
 const SHELL_CACHE = 'madani-shell-' + VERSION, RUNTIME_CACHE = 'madani-runtime-' + VERSION;
 const ENGINE = ['image', 'features', 'page-matcher', 'pointer', 'target', 'engine', 'browser-refs', 'synth'].map(n => `./vision/engine/${n}.mjs`);
 const V2 = ['engine-v2', 'audio-controller', 'content-audio', 'offline-packs', 'ref-index', 'vision-worker', 'frame-source'].map(n => `./vision/v2/${n}.mjs`);
 const SHELL = [
   './', './index.html', './app.js', './style.css', './manifest.webmanifest', './icon-192.png', './icon-512.png',
-  './vendor/pdf.mjs', './vendor/pdf.worker.mjs', './data/editions.json', './data/toc.json', './data/offline-packs.json',
+  './vendor/pdf.mjs', './vendor/pdf.worker.mjs', './data/editions.json', './data/toc.json', './data/offline-packs.json', './data/audio-coverage.json',
   './vision/recognition-core.mjs', ...ENGINE, ...V2, './vision/camera-v2.html', './vision/camera-v2.mjs',
   './vision/camera-trial.html', './vision/camera-trial.mjs',
 ];

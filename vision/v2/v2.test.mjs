@@ -41,7 +41,9 @@ test('REAL library: unified content -> clip, unmapped stays unmapped, coverage i
   const cov = audioCoverage(library, p => existsSync(root + p.slice(2)));
   assert.equal(cov.totals.mapped, Object.keys(library.segments).length);
   assert.equal(cov.totals.missingFiles, 0);
-  assert.deepEqual(cov.pages.map(p => p.pageId).sort((a, b) => a - b), [17, 18, 19, 20, 21]);
+  const activePages = cov.pages.map(p => p.pageId);
+  assert.ok([17, 18, 19, 20, 21].every(p => activePages.includes(p)), 'original pilot pages must remain linked');
+  assert.ok(activePages.length >= 30, 'expanded book-wide audio links should cover many pages');
   assert.ok(cov.totals.zones > 2000 && cov.totals.mapped < cov.totals.zones, 'most zones have no clip-level audio');
 });
 

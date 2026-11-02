@@ -1,0 +1,6052 @@
+[
+ {
+  "page": 7,
+  "id": "p7-w3",
+  "text": "اْلَْحَْمُْدُ",
+  "start": 5.64,
+  "end": 6.8,
+  "transcript": "الحمد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.898
+ },
+ {
+  "page": 7,
+  "id": "p7-w4",
+  "text": "ِلَِّلَِهِ",
+  "start": 6.8,
+  "end": 7.24,
+  "transcript": "لله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.967
+ },
+ {
+  "page": 7,
+  "id": "p7-w6",
+  "text": "اْلَْعَاَلَِمِيَنَ",
+  "start": 7.54,
+  "end": 8.72,
+  "transcript": "العالمين",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.997
+ },
+ {
+  "page": 7,
+  "id": "p7-w9",
+  "text": "َعََلَى",
+  "start": 9.98,
+  "end": 10.32,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.94
+ },
+ {
+  "page": 7,
+  "id": "p7-w10",
+  "text": "َنَِبِِّيَِنَا",
+  "start": 10.32,
+  "end": 11,
+  "transcript": "نبينا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.934
+ },
+ {
+  "page": 7,
+  "id": "p7-w12",
+  "text": "َوََعََلَى",
+  "start": 11.54,
+  "end": 12.14,
+  "transcript": "وعلى",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.959
+ },
+ {
+  "page": 7,
+  "id": "p7-w13",
+  "text": "َآِلِِهِ",
+  "start": 12.14,
+  "end": 12.52,
+  "transcript": "آله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.979
+ },
+ {
+  "page": 7,
+  "id": "p7-w14",
+  "text": "َوََصَْحِْبِِهِ",
+  "start": 12.52,
+  "end": 13.3,
+  "transcript": "وصحبه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 7,
+  "id": "p7-w15",
+  "text": "َأَْجَْمَِعِيَن",
+  "start": 13.3,
+  "end": 14.36,
+  "transcript": "أجمعين",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 7,
+  "id": "p7-w16",
+  "text": "َُأََّمَا",
+  "start": 14.36,
+  "end": 14.74,
+  "transcript": "أما",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.918
+ },
+ {
+  "page": 7,
+  "id": "p7-w17",
+  "text": "َبَْعُْد",
+  "start": 14.74,
+  "end": 15.3,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 7,
+  "id": "p7-w18",
+  "text": "َفََقَْدْ",
+  "start": 15.3,
+  "end": 16.52,
+  "transcript": "فقد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 7,
+  "id": "p7-w19",
+  "text": "َشَُرَُفَْتْ",
+  "start": 16.52,
+  "end": 17.08,
+  "transcript": "شرفت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 7,
+  "id": "p7-w20",
+  "text": "َهَِذِِهِ",
+  "start": 17.08,
+  "end": 17.32,
+  "transcript": "هذه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.985
+ },
+ {
+  "page": 7,
+  "id": "p7-w22",
+  "text": "ِبِاْلِْعِْلِْمِ؛",
+  "start": 17.86,
+  "end": 18.6,
+  "transcript": "بالعلم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.934
+ },
+ {
+  "page": 7,
+  "id": "p7-w23",
+  "text": "َفََأََّوَُلُ",
+  "start": 18.6,
+  "end": 19.38,
+  "transcript": "فأول",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 7,
+  "id": "p7-w24",
+  "text": "آَيٍَةٍ",
+  "start": 19.38,
+  "end": 19.84,
+  "transcript": "آية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.932
+ },
+ {
+  "page": 7,
+  "id": "p7-w25",
+  "text": "ُأُْنِْزَِلَْتْ",
+  "start": 19.84,
+  "end": 20.68,
+  "transcript": "انزلت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.878
+ },
+ {
+  "page": 7,
+  "id": "p7-w27",
+  "text": "اْلَْحَِّثِ",
+  "start": 20.84,
+  "end": 21.2,
+  "transcript": "الحث",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.908
+ },
+ {
+  "page": 7,
+  "id": "p7-w28",
+  "text": "َعََلَْيِْهِ؛",
+  "start": 21.2,
+  "end": 21.56,
+  "transcript": "عليه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.901
+ },
+ {
+  "page": 7,
+  "id": "p7-w29",
+  "text": "َقَاَلَ",
+  "start": 21.56,
+  "end": 22.14,
+  "transcript": "قال",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.973
+ },
+ {
+  "page": 7,
+  "id": "p7-w30",
+  "text": "َتَعَاَلَى",
+  "start": 22.14,
+  "end": 23.26,
+  "transcript": "تعالى",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 7,
+  "id": "p7-w33",
+  "text": "اْلِْقَِرَاَءَِةِ",
+  "start": 26.66,
+  "end": 27.46,
+  "transcript": "القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.96
+ },
+ {
+  "page": 7,
+  "id": "p7-w36",
+  "text": "َتَعَُّلُِم",
+  "start": 28.12,
+  "end": 28.66,
+  "transcript": "تعلم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.935
+ },
+ {
+  "page": 7,
+  "id": "p7-w37",
+  "text": "،َاْلِْعِْلِْمِ؛",
+  "start": 28.66,
+  "end": 29.32,
+  "transcript": "العلم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 7,
+  "id": "p7-w38",
+  "text": "َجََمَْعُْتُ",
+  "start": 29.32,
+  "end": 30.44,
+  "transcript": "جمعت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.951
+ },
+ {
+  "page": 7,
+  "id": "p7-w42",
+  "text": "ِفِيَهَا",
+  "start": 32.5,
+  "end": 32.94,
+  "transcript": "فيها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 7,
+  "id": "p7-w45",
+  "text": "ََوَاْلُْيُْسَْرَ",
+  "start": 33.5,
+  "end": 34.24,
+  "transcript": "واليسر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.797
+ },
+ {
+  "page": 7,
+  "id": "p7-w50",
+  "text": "ِإِْتَْقَاِنِ",
+  "start": 36.16,
+  "end": 36.76,
+  "transcript": "اتقان",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.853
+ },
+ {
+  "page": 7,
+  "id": "p7-w52",
+  "text": "ِعِْنَْدَ",
+  "start": 37.54,
+  "end": 37.86,
+  "transcript": "عند",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.953
+ },
+ {
+  "page": 7,
+  "id": "p7-w55",
+  "text": "اْخِْتَِصَاِرِ",
+  "start": 39.64,
+  "end": 40.28,
+  "transcript": "اختصار",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 7,
+  "id": "p7-w56",
+  "text": "َزَََمَِنِ",
+  "start": 40.28,
+  "end": 40.64,
+  "transcript": "زمن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 7,
+  "id": "p7-w57",
+  "text": "الَّتَعَُّلُِم",
+  "start": 40.64,
+  "end": 41.24,
+  "transcript": "التعلم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.887
+ },
+ {
+  "page": 7,
+  "id": "p7-w58",
+  "text": "ََوََسََّمَْيُْتَُهَا",
+  "start": 41.24,
+  "end": 42.92,
+  "transcript": "وسميتها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.913
+ },
+ {
+  "page": 7,
+  "id": "p7-w61",
+  "text": "اْلَْمََدَِنَِّيَُة",
+  "start": 44.44,
+  "end": 45.36,
+  "transcript": "المدنية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.968
+ },
+ {
+  "page": 7,
+  "id": "p7-w62",
+  "text": "َتَْعِْلِيُمُ",
+  "start": 45.36,
+  "end": 46.74,
+  "transcript": "تعليم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.958
+ },
+ {
+  "page": 7,
+  "id": "p7-w63",
+  "text": "اْلِْقَِرَاَءَِةِ",
+  "start": 46.74,
+  "end": 47.56,
+  "transcript": "القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 7,
+  "id": "p7-w67",
+  "text": "اْلَْمَْنَْهَُجُ",
+  "start": 49.92,
+  "end": 50.48,
+  "transcript": "المنهج",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.98
+ },
+ {
+  "page": 7,
+  "id": "p7-w68",
+  "text": "اْلُْمَُقَّرَُرُ",
+  "start": 50.48,
+  "end": 51.16,
+  "transcript": "المقرر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.954
+ },
+ {
+  "page": 7,
+  "id": "p7-w70",
+  "text": "َحََلََقَاِتِ",
+  "start": 51.42,
+  "end": 52,
+  "transcript": "حلقات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 7,
+  "id": "p7-w71",
+  "text": "اْلُْقُْرْآِنِ",
+  "start": 52,
+  "end": 52.58,
+  "transcript": "القرآن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 7,
+  "id": "p7-w72",
+  "text": "اْلَْكَِرِيِمِ",
+  "start": 52.58,
+  "end": 53.2,
+  "transcript": "الكريم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.981
+ },
+ {
+  "page": 7,
+  "id": "p7-w73",
+  "text": "ََوَاْلُْمُُتُوِنِ",
+  "start": 53.2,
+  "end": 53.88,
+  "transcript": "والمتون",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.909
+ },
+ {
+  "page": 7,
+  "id": "p7-w74",
+  "text": "اْلِْعِْلِْمَِّيَِة",
+  "start": 53.88,
+  "end": 54.66,
+  "transcript": "العلمية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 7,
+  "id": "p7-w75",
+  "text": "ِبِاْلَْمَْسِْجِِدِ",
+  "start": 54.66,
+  "end": 55.74,
+  "transcript": "بالمسجد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 7,
+  "id": "p7-w76",
+  "text": "اْلَْحََرَاِمِ",
+  "start": 55.74,
+  "end": 56.26,
+  "transcript": "الحرام",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 7,
+  "id": "p7-w77",
+  "text": "ََوَاْلَْمَْسِْجِِدِ",
+  "start": 56.26,
+  "end": 57.02,
+  "transcript": "والمسجد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.919
+ },
+ {
+  "page": 7,
+  "id": "p7-w78",
+  "text": "الَّنَبَِوِِّيِ",
+  "start": 57.02,
+  "end": 57.62,
+  "transcript": "النبوي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.974
+ },
+ {
+  "page": 7,
+  "id": "p7-w79",
+  "text": "ََوََغَْيِْرِِهَِمَا",
+  "start": 57.62,
+  "end": 58.9,
+  "transcript": "وغيرهما",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.951
+ },
+ {
+  "page": 7,
+  "id": "p7-w82",
+  "text": "الَّلَهَ",
+  "start": 60.1,
+  "end": 60.44,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.903
+ },
+ {
+  "page": 7,
+  "id": "p7-w84",
+  "text": "َيَْنَْفََعَ",
+  "start": 60.8,
+  "end": 61.32,
+  "transcript": "ينفع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 7,
+  "id": "p7-w85",
+  "text": "ِبَِهَا،",
+  "start": 61.32,
+  "end": 61.74,
+  "transcript": "بها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 7,
+  "id": "p7-w87",
+  "text": "َيَْجَْعََلَهَا",
+  "start": 62.48,
+  "end": 63.14,
+  "transcript": "يجعلها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 7,
+  "id": "p7-w99",
+  "text": "َوََعََلَى",
+  "start": 68.54,
+  "end": 69.46,
+  "transcript": "وعلى",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 7,
+  "id": "p7-w100",
+  "text": "آِلِِهِ",
+  "start": 69.46,
+  "end": 69.86,
+  "transcript": "آله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 7,
+  "id": "p7-w101",
+  "text": "َوََصَْحِْبِِهِ",
+  "start": 69.86,
+  "end": 70.7,
+  "transcript": "وصحبه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.939
+ },
+ {
+  "page": 7,
+  "id": "p7-w102",
+  "text": "َأَْجَْمَِعِيَن",
+  "start": 70.7,
+  "end": 71.66,
+  "transcript": "أجمعين.",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 7,
+  "id": "p7-ocr-001",
+  "text": "المقدمة",
+  "start": 2.94,
+  "end": 4.88,
+  "transcript": "المقدمة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.952
+ },
+ {
+  "page": 7,
+  "id": "p7-ocr-012",
+  "text": "«القاعدة",
+  "start": 42.92,
+  "end": 44.44,
+  "transcript": "القاعدة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.916
+ },
+ {
+  "page": 7,
+  "id": "p7-ocr-017",
+  "text": "وَسَلَمَ",
+  "start": 66.34,
+  "end": 66.88,
+  "transcript": "وسلم",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.907
+ },
+ {
+  "page": 8,
+  "id": "p8-w6",
+  "text": "َتَْمِْهِيدًاً",
+  "start": 19.62,
+  "end": 20.24,
+  "transcript": "تمهيدا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.934
+ },
+ {
+  "page": 8,
+  "id": "p8-w33",
+  "text": "ًََمََعََهَا",
+  "start": 84.02,
+  "end": 84.56,
+  "transcript": "معها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 8,
+  "id": "p8-w34",
+  "text": "َغَاِلِبًا",
+  "start": 84.56,
+  "end": 85.3,
+  "transcript": "غالبا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.887
+ },
+ {
+  "page": 8,
+  "id": "p8-w45",
+  "text": "اْلَْقَْطِْعِ",
+  "start": 100.82,
+  "end": 101.36,
+  "transcript": "القطع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.986
+ },
+ {
+  "page": 8,
+  "id": "p8-w47",
+  "text": "اْلَْوَْصِْلِ",
+  "start": 102.08,
+  "end": 102.56,
+  "transcript": "الوصل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.867
+ },
+ {
+  "page": 8,
+  "id": "p8-w50",
+  "text": "اْلَْمَْرُْبُوَطَُةُ",
+  "start": 103.48,
+  "end": 104.44,
+  "transcript": "المربوطة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.97
+ },
+ {
+  "page": 8,
+  "id": "p8-w53",
+  "text": "اْلَْقَمَِرََِّيَُةُ",
+  "start": 105.08,
+  "end": 105.9,
+  "transcript": "القمرية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.829
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-006",
+  "text": "التي",
+  "start": 14.42,
+  "end": 14.7,
+  "transcript": "التي",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-009",
+  "text": "إلى",
+  "start": 26.32,
+  "end": 26.64,
+  "transcript": "إلى",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.933
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-010",
+  "text": "دروس",
+  "start": 29.6,
+  "end": 30.22,
+  "transcript": "دروس",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.895
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-013",
+  "text": "التعليم.",
+  "start": 37.02,
+  "end": 37.84,
+  "transcript": "التعليم",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.98
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-020",
+  "text": "مُستقلة",
+  "start": 68.44,
+  "end": 69.3,
+  "transcript": "مستقلة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.875
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-021",
+  "text": "وعدم",
+  "start": 72.44,
+  "end": 73.52,
+  "transcript": "وعدم",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.835
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-022",
+  "text": "فِيهَا",
+  "start": 74,
+  "end": 74.6,
+  "transcript": "فيها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.998
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-024",
+  "text": "تكون",
+  "start": 81.46,
+  "end": 81.94,
+  "transcript": "تكون",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.981
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-025",
+  "text": "إلا",
+  "start": 81.94,
+  "end": 82.34,
+  "transcript": "إلا",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.954
+ },
+ {
+  "page": 8,
+  "id": "p8-ocr-026",
+  "text": "همزتين",
+  "start": 89.56,
+  "end": 90.26,
+  "transcript": "همزتين",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.947
+ },
+ {
+  "page": 9,
+  "id": "p9-w3",
+  "text": "َبََدَْأُْتُ",
+  "start": 3.28,
+  "end": 3.9,
+  "transcript": "بدأت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.903
+ },
+ {
+  "page": 9,
+  "id": "p9-w6",
+  "text": "ِبِاْلَْفَْتَْحَِةِ،",
+  "start": 4.4,
+  "end": 5.58,
+  "transcript": "بالفتحة،",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.824
+ },
+ {
+  "page": 9,
+  "id": "p9-w8",
+  "text": "اْلَْكَْسَْرَِةِ،",
+  "start": 5.92,
+  "end": 6.54,
+  "transcript": "الكسرة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.853
+ },
+ {
+  "page": 9,
+  "id": "p9-w13",
+  "text": "َأَََخَُّفُ",
+  "start": 8.86,
+  "end": 9.08,
+  "transcript": "أخف",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.935
+ },
+ {
+  "page": 9,
+  "id": "p9-w14",
+  "text": "اْلَْحََرََكَاِتِ",
+  "start": 9.08,
+  "end": 9.92,
+  "transcript": "الحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.829
+ },
+ {
+  "page": 9,
+  "id": "p9-w16",
+  "text": "ُاْلَْكَْسُْر",
+  "start": 10.74,
+  "end": 11.6,
+  "transcript": "الكسر،",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.845
+ },
+ {
+  "page": 9,
+  "id": "p9-w44",
+  "text": "َرَََّتَْبُْتُ",
+  "start": 79.16,
+  "end": 79.64,
+  "transcript": "رتبت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.914
+ },
+ {
+  "page": 9,
+  "id": "p9-w58",
+  "text": "َأَْبَْيََضَ",
+  "start": 109.22,
+  "end": 109.96,
+  "transcript": "أبيض",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.879
+ },
+ {
+  "page": 9,
+  "id": "p9-w59",
+  "text": "ََوََأَْخَْضََر",
+  "start": 109.96,
+  "end": 110.66,
+  "transcript": "وأخضر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.804
+ },
+ {
+  "page": 9,
+  "id": "p9-w67",
+  "text": "ًِبَِذَِلَِكَ",
+  "start": 128.56,
+  "end": 129.12,
+  "transcript": "بذلك",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.904
+ },
+ {
+  "page": 9,
+  "id": "p9-w68",
+  "text": "ََمََهَاَرََةَالَّسََمَاِعِ،ََوََيَْقَْرََأَِقَِرَاَءًَةًَصَِحِيَحًَة",
+  "start": 129.12,
+  "end": 132.86,
+  "transcript": "مهارة السماع ويقرأ قراءة صحيحة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.769
+ },
+ {
+  "page": 9,
+  "id": "p9-w73",
+  "text": "َتَْعِْلِيُمُ",
+  "start": 142.96,
+  "end": 143.96,
+  "transcript": "تعليم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.931
+ },
+ {
+  "page": 9,
+  "id": "p9-w74",
+  "text": "اْلِْكَِتَاَبَِة",
+  "start": 143.96,
+  "end": 144.78,
+  "transcript": "الكتابة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-005",
+  "text": "وَجَعَلْتُ",
+  "start": 37.18,
+  "end": 38.32,
+  "transcript": "وجعلت",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.919
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-006",
+  "text": "كما",
+  "start": 40.16,
+  "end": 40.74,
+  "transcript": "كما",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.974
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-007",
+  "text": "كَلِمَاتِ",
+  "start": 46.82,
+  "end": 47.48,
+  "transcript": "كلمات",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-008",
+  "text": "تَكُونَ",
+  "start": 57.28,
+  "end": 57.66,
+  "transcript": "تكون",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-015",
+  "text": "كَلِمَةِ",
+  "start": 96.48,
+  "end": 97.1,
+  "transcript": "كلمة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.919
+ },
+ {
+  "page": 10,
+  "id": "p10-w5",
+  "text": "عِلْمِيّاً",
+  "start": 8.18,
+  "end": 8.92,
+  "transcript": "علميا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.896
+ },
+ {
+  "page": 10,
+  "id": "p10-w7",
+  "text": "كُتُبِ",
+  "start": 9.22,
+  "end": 9.72,
+  "transcript": "كتب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.968
+ },
+ {
+  "page": 10,
+  "id": "p10-w12",
+  "text": "لِقَوَاعِدِ",
+  "start": 13.1,
+  "end": 14.18,
+  "transcript": "لقواعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.937
+ },
+ {
+  "page": 10,
+  "id": "p10-w32",
+  "text": "الْقِرَاءَةِ",
+  "start": 26.86,
+  "end": 27.92,
+  "transcript": "القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 10,
+  "id": "p10-w33",
+  "text": "وَإِتْقَانُهَا",
+  "start": 27.92,
+  "end": 29.06,
+  "transcript": "وإتقانها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.888
+ },
+ {
+  "page": 10,
+  "id": "p10-w35",
+  "text": "زَمَنٍ",
+  "start": 29.36,
+  "end": 29.86,
+  "transcript": "زمن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.887
+ },
+ {
+  "page": 10,
+  "id": "p10-w37",
+  "text": "ِأَمْثِلَتُهَا",
+  "start": 32.64,
+  "end": 33.7,
+  "transcript": "أمثلتها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.797
+ },
+ {
+  "page": 10,
+  "id": "p10-w39",
+  "text": "الْقُرْآنِ",
+  "start": 33.92,
+  "end": 34.6,
+  "transcript": "القرآن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 10,
+  "id": "p10-w51",
+  "text": "ِعَدَمُ",
+  "start": 43.82,
+  "end": 44.34,
+  "transcript": "عدم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.885
+ },
+ {
+  "page": 10,
+  "id": "p10-w52",
+  "text": "تَكْرَارِ",
+  "start": 44.34,
+  "end": 45.18,
+  "transcript": "تكرار",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.929
+ },
+ {
+  "page": 10,
+  "id": "p10-w54",
+  "text": "ِأَمْثِلَةُ",
+  "start": 47.14,
+  "end": 48.22,
+  "transcript": "أمثلة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.952
+ },
+ {
+  "page": 10,
+  "id": "p10-w55",
+  "text": "بَابِ",
+  "start": 48.22,
+  "end": 48.64,
+  "transcript": "باب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.973
+ },
+ {
+  "page": 10,
+  "id": "p10-w56",
+  "text": "قِرَاءَةِ",
+  "start": 48.64,
+  "end": 49.42,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.854
+ },
+ {
+  "page": 10,
+  "id": "p10-w57",
+  "text": "الْكَلِمَاتِ",
+  "start": 49.42,
+  "end": 50.24,
+  "transcript": "الكلمات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.923
+ },
+ {
+  "page": 10,
+  "id": "p10-w59",
+  "text": "عَلَى",
+  "start": 51.36,
+  "end": 51.92,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.98
+ },
+ {
+  "page": 10,
+  "id": "p10-w65",
+  "text": "ِلَهَا",
+  "start": 55.78,
+  "end": 56.52,
+  "transcript": "لها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.97
+ },
+ {
+  "page": 10,
+  "id": "p10-w66",
+  "text": "تَطْبِيقٌ",
+  "start": 56.52,
+  "end": 57.22,
+  "transcript": "تطبيق",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 10,
+  "id": "p10-w70",
+  "text": "عَلَى",
+  "start": 59.48,
+  "end": 59.82,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.953
+ },
+ {
+  "page": 10,
+  "id": "p10-w73",
+  "text": "وَالْقِرَاءَةِ",
+  "start": 60.58,
+  "end": 61.54,
+  "transcript": "والقراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.971
+ },
+ {
+  "page": 10,
+  "id": "p10-w76",
+  "text": "ِيَتْبَعُهَا",
+  "start": 64.5,
+  "end": 65.46,
+  "transcript": "يتبعها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.974
+ },
+ {
+  "page": 10,
+  "id": "p10-w77",
+  "text": "كِتَابٌ",
+  "start": 65.46,
+  "end": 66.08,
+  "transcript": "كتاب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 10,
+  "id": "p10-w78",
+  "text": "مُفْرَدٌ",
+  "start": 66.08,
+  "end": 66.78,
+  "transcript": "مفرد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.894
+ },
+ {
+  "page": 10,
+  "id": "p10-w79",
+  "text": "لِلْكِتَابَةِ",
+  "start": 66.78,
+  "end": 67.96,
+  "transcript": "للكتابة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.96
+ },
+ {
+  "page": 10,
+  "id": "p10-w80",
+  "text": "بِنَفْسِ",
+  "start": 67.96,
+  "end": 68.54,
+  "transcript": "بنفس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.985
+ },
+ {
+  "page": 11,
+  "id": "p11-w5",
+  "text": "اْلِْكَِتَاِِبِ",
+  "start": 7.02,
+  "end": 7.6,
+  "transcript": "الكتاب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 11,
+  "id": "p11-w6",
+  "text": "ُيُْصِْبُِحُ",
+  "start": 7.6,
+  "end": 8.14,
+  "transcript": "يصبح",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.959
+ },
+ {
+  "page": 11,
+  "id": "p11-w7",
+  "text": "الَّطَاِلُِبُ",
+  "start": 8.14,
+  "end": 8.76,
+  "transcript": "الطالب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 11,
+  "id": "p11-w8",
+  "text": "َقَاِدِرًا",
+  "start": 8.76,
+  "end": 9.38,
+  "transcript": "قادرا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.951
+ },
+ {
+  "page": 11,
+  "id": "p11-w9",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 9.38,
+  "end": 10.1,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.917
+ },
+ {
+  "page": 11,
+  "id": "p11-w10",
+  "text": "الَّلَِه",
+  "start": 10.1,
+  "end": 10.56,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 11,
+  "id": "p11-w23",
+  "text": "الْهِجَائِيَّةَ",
+  "start": 18.08,
+  "end": 18.9,
+  "transcript": "الهجائية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.982
+ },
+ {
+  "page": 11,
+  "id": "p11-w24",
+  "text": "وَأَشْكَالَهَا",
+  "start": 18.9,
+  "end": 19.88,
+  "transcript": "وأشكالها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 11,
+  "id": "p11-w25",
+  "text": "قِرَاءَةً",
+  "start": 19.88,
+  "end": 20.62,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.936
+ },
+ {
+  "page": 11,
+  "id": "p11-w26",
+  "text": "صَحِيحَة",
+  "start": 20.62,
+  "end": 22.12,
+  "transcript": "صحيحة،",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.98
+ },
+ {
+  "page": 11,
+  "id": "p11-w38",
+  "text": "بِالْحَرَكَاتِ",
+  "start": 27.28,
+  "end": 28.1,
+  "transcript": "بالحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.971
+ },
+ {
+  "page": 11,
+  "id": "p11-w64",
+  "text": "وَالْحَرَكَات",
+  "start": 40.1,
+  "end": 41.14,
+  "transcript": "والحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 11,
+  "id": "p11-w72",
+  "text": "الْحَرَكَاتِ",
+  "start": 44.2,
+  "end": 44.86,
+  "transcript": "الحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 11,
+  "id": "p11-w73",
+  "text": "قِرَاءَةً",
+  "start": 44.86,
+  "end": 45.56,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 11,
+  "id": "p11-w74",
+  "text": "صَحِيحَة",
+  "start": 45.56,
+  "end": 46.38,
+  "transcript": "صحيحة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.998
+ },
+ {
+  "page": 11,
+  "id": "p11-w100",
+  "text": "بَيْنَ",
+  "start": 58.22,
+  "end": 58.48,
+  "transcript": "بين",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 11,
+  "id": "p11-w101",
+  "text": "هَمْزَةِ",
+  "start": 58.48,
+  "end": 59,
+  "transcript": "همزة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.941
+ },
+ {
+  "page": 11,
+  "id": "p11-w102",
+  "text": "الْقَطْعِ",
+  "start": 59,
+  "end": 59.48,
+  "transcript": "القطع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 11,
+  "id": "p11-w103",
+  "text": "وَهَمْزَةِ",
+  "start": 59.48,
+  "end": 60.06,
+  "transcript": "وهمزة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.791
+ },
+ {
+  "page": 11,
+  "id": "p11-w104",
+  "text": "الْوَصْلِ",
+  "start": 60.06,
+  "end": 60.5,
+  "transcript": "الوصل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.906
+ },
+ {
+  "page": 11,
+  "id": "p11-w105",
+  "text": "قِرَاءَةً",
+  "start": 60.5,
+  "end": 61.36,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 11,
+  "id": "p11-w109",
+  "text": "عَلَى",
+  "start": 63.64,
+  "end": 64,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 11,
+  "id": "p11-w112",
+  "text": "الْمَدِّ",
+  "start": 64.58,
+  "end": 65.04,
+  "transcript": "المد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.982
+ },
+ {
+  "page": 11,
+  "id": "p11-w117",
+  "text": "عَلَى",
+  "start": 67.54,
+  "end": 67.92,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 11,
+  "id": "p11-w121",
+  "text": "الْجَمَاعَة",
+  "start": 69.24,
+  "end": 69.92,
+  "transcript": "الجماعة.",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.886
+ },
+ {
+  "page": 11,
+  "id": "p11-w122",
+  "text": "ًيُتْقِنَ",
+  "start": 71.2,
+  "end": 71.72,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 11,
+  "id": "p11-w123",
+  "text": "قِرَاءَةَ",
+  "start": 71.72,
+  "end": 72.4,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.98
+ },
+ {
+  "page": 11,
+  "id": "p11-w132",
+  "text": "الْقَمَرِيَّةَ",
+  "start": 76.94,
+  "end": 77.84,
+  "transcript": "القمرية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.902
+ },
+ {
+  "page": 11,
+  "id": "p11-w136",
+  "text": "قِرَاءَةً",
+  "start": 79.06,
+  "end": 79.8,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 11,
+  "id": "p11-w137",
+  "text": "صَحِيحَة",
+  "start": 79.8,
+  "end": 80.44,
+  "transcript": "صحيحة.",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.999
+ },
+ {
+  "page": 11,
+  "id": "p11-w138",
+  "text": "ًيُتْقِنَ",
+  "start": 80.44,
+  "end": 82,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.864
+ },
+ {
+  "page": 11,
+  "id": "p11-w139",
+  "text": "قِرَاءَةَ",
+  "start": 82,
+  "end": 82.56,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.962
+ },
+ {
+  "page": 11,
+  "id": "p11-w140",
+  "text": "الْكَلِمَاتِ",
+  "start": 82.56,
+  "end": 83.22,
+  "transcript": "الكلمات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.912
+ },
+ {
+  "page": 11,
+  "id": "p11-w141",
+  "text": "وَالْجُمَلِ",
+  "start": 83.22,
+  "end": 83.84,
+  "transcript": "والجمل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.903
+ },
+ {
+  "page": 11,
+  "id": "p11-w144",
+  "text": "قِرَاءَةً",
+  "start": 84.6,
+  "end": 85.42,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 11,
+  "id": "p11-w145",
+  "text": "صَحِيحَة",
+  "start": 85.42,
+  "end": 86.44,
+  "transcript": "صحيحة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.963
+ },
+ {
+  "page": 11,
+  "id": "p11-w148",
+  "text": "الْقُرْآنَ",
+  "start": 87.8,
+  "end": 88.36,
+  "transcript": "القرآن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 11,
+  "id": "p11-w151",
+  "text": "بِمُصْطَلَحَاتِ",
+  "start": 88.96,
+  "end": 89.92,
+  "transcript": "بمصطلحات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.889
+ },
+ {
+  "page": 11,
+  "id": "p11-w154",
+  "text": "الْعُثْمَانِي",
+  "start": 90.4,
+  "end": 91.44,
+  "transcript": "العثماني",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 11,
+  "id": "p11-w155",
+  "text": "ًيُتْقِنَ",
+  "start": 92.06,
+  "end": 92.86,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.986
+ },
+ {
+  "page": 11,
+  "id": "p11-w156",
+  "text": "قِرَاءَةَ",
+  "start": 92.86,
+  "end": 93.52,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 12,
+  "id": "p12-ocr-003",
+  "text": "الثامن",
+  "start": 47.98,
+  "end": 48.68,
+  "transcript": "الثامن",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.876
+ },
+ {
+  "page": 15,
+  "id": "p15-w10",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 12.54,
+  "end": 13.06,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.906
+ },
+ {
+  "page": 15,
+  "id": "p15-w11",
+  "text": "الَّلَِه",
+  "start": 13.06,
+  "end": 13.36,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 15,
+  "id": "p15-ocr-003",
+  "text": "الانتهاء",
+  "start": 9.36,
+  "end": 10.04,
+  "transcript": "الانتهاء",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.863
+ },
+ {
+  "page": 15,
+  "id": "p15-ocr-004",
+  "text": "هذا",
+  "start": 10.26,
+  "end": 10.5,
+  "transcript": "هذا",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 15,
+  "id": "p15-ocr-013",
+  "text": "أشكال",
+  "start": 24.04,
+  "end": 24.64,
+  "transcript": "أشكال",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.946
+ },
+ {
+  "page": 16,
+  "id": "p16-w42",
+  "text": "ُِيُْكََْتََفَى",
+  "start": 71.8,
+  "end": 72.44,
+  "transcript": "يكتفى",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.972
+ },
+ {
+  "page": 23,
+  "id": "p23-w11",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 13.08,
+  "end": 13.66,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.904
+ },
+ {
+  "page": 23,
+  "id": "p23-w12",
+  "text": "الَّلَِه",
+  "start": 13.66,
+  "end": 14.06,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 23,
+  "id": "p23-ocr-004",
+  "text": "يُصبح",
+  "start": 11.52,
+  "end": 12.04,
+  "transcript": "يصبح",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.925
+ },
+ {
+  "page": 23,
+  "id": "p23-ocr-005",
+  "text": "قادرا",
+  "start": 12.56,
+  "end": 13.08,
+  "transcript": "قادرا",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.943
+ },
+ {
+  "page": 24,
+  "id": "p24-w5",
+  "text": "ُاْلَْفَْتَْحَُة",
+  "start": 17.68,
+  "end": 19.94,
+  "transcript": "الفتحة،",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 24,
+  "id": "p24-w50",
+  "text": "ََِوََهََكََذَا",
+  "start": 115.98,
+  "end": 117.3,
+  "transcript": "وهكذا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.81
+ },
+ {
+  "page": 24,
+  "id": "p24-w79",
+  "text": "ٌَتَْنِْبِيٌه",
+  "start": 174.54,
+  "end": 175.72,
+  "transcript": "تنبيه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.943
+ },
+ {
+  "page": 24,
+  "id": "p24-ocr-009",
+  "text": "طريقة",
+  "start": 39.04,
+  "end": 41.06,
+  "transcript": "طريقة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.972
+ },
+ {
+  "page": 37,
+  "id": "p37-w2",
+  "text": "الثَّالِث",
+  "start": 1.54,
+  "end": 2.44,
+  "transcript": "الثالث",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.971
+ },
+ {
+  "page": 37,
+  "id": "p37-w6",
+  "text": "التَّنْوِين",
+  "start": 4.24,
+  "end": 5.34,
+  "transcript": "التنوين",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.951
+ },
+ {
+  "page": 37,
+  "id": "p37-w9",
+  "text": "ًَبَْعَْدَ",
+  "start": 7.14,
+  "end": 8.06,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.876
+ },
+ {
+  "page": 37,
+  "id": "p37-w11",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 11.1,
+  "end": 11.64,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.877
+ },
+ {
+  "page": 37,
+  "id": "p37-w12",
+  "text": "الَّلَِه",
+  "start": 11.64,
+  "end": 11.92,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 37,
+  "id": "p37-w13",
+  "text": "َعََلَى",
+  "start": 11.92,
+  "end": 12.26,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.918
+ },
+ {
+  "page": 37,
+  "id": "p37-w17",
+  "text": "ِيُتْقِنَ",
+  "start": 15.18,
+  "end": 16.24,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.833
+ },
+ {
+  "page": 38,
+  "id": "p38-ocr-003",
+  "text": "طريقة",
+  "start": 35.34,
+  "end": 37.1,
+  "transcript": "طريقة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 38,
+  "id": "p38-ocr-015",
+  "text": "درسي",
+  "start": 160.94,
+  "end": 161.62,
+  "transcript": "درسي",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.875
+ },
+ {
+  "page": 45,
+  "id": "p45-w2",
+  "text": "الرَّابِع",
+  "start": 1.88,
+  "end": 2.74,
+  "transcript": "الرابع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.943
+ },
+ {
+  "page": 45,
+  "id": "p45-w6",
+  "text": "الشَّدَّةِ",
+  "start": 4.78,
+  "end": 5.34,
+  "transcript": "الشدة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.892
+ },
+ {
+  "page": 45,
+  "id": "p45-w7",
+  "text": "وَالْحَرَكَات",
+  "start": 5.34,
+  "end": 6.68,
+  "transcript": "والحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 45,
+  "id": "p45-w10",
+  "text": "ًَبَْعَْدَ",
+  "start": 10,
+  "end": 10.78,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.942
+ },
+ {
+  "page": 45,
+  "id": "p45-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 13.88,
+  "end": 14.48,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.887
+ },
+ {
+  "page": 45,
+  "id": "p45-w13",
+  "text": "الَّلَِه",
+  "start": 14.48,
+  "end": 14.8,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 45,
+  "id": "p45-w14",
+  "text": "َعََلَى",
+  "start": 14.8,
+  "end": 15.2,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.849
+ },
+ {
+  "page": 45,
+  "id": "p45-ocr-006",
+  "text": "صَحِيحَة",
+  "start": 25.78,
+  "end": 26.7,
+  "transcript": "صحيحة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.981
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-006",
+  "text": "مثال",
+  "start": 17.5,
+  "end": 18.62,
+  "transcript": "مثال",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-007",
+  "text": "ذلك:",
+  "start": 18.62,
+  "end": 19.24,
+  "transcript": "ذلك",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-008",
+  "text": "فَوْقَهَا",
+  "start": 31.96,
+  "end": 32.78,
+  "transcript": "فوقها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.922
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-015",
+  "text": "النطق",
+  "start": 71.28,
+  "end": 71.8,
+  "transcript": "النطق",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.82
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-020",
+  "text": "كَانَ",
+  "start": 110.14,
+  "end": 110.4,
+  "transcript": "كان",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.985
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-021",
+  "text": "بَعْدَ",
+  "start": 110.4,
+  "end": 110.74,
+  "transcript": "بعد",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.983
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-022",
+  "text": "الْحَرْفٍ",
+  "start": 110.74,
+  "end": 111.12,
+  "transcript": "الحرف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-029",
+  "text": "مقصورة»",
+  "start": 142.14,
+  "end": 143.2,
+  "transcript": "مقصورة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.927
+ },
+ {
+  "page": 53,
+  "id": "p53-w2",
+  "text": "الْخَامِس",
+  "start": 1.48,
+  "end": 2.54,
+  "transcript": "الخامس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 53,
+  "id": "p53-w6",
+  "text": "الشَّدَّةِ",
+  "start": 4.68,
+  "end": 5.26,
+  "transcript": "الشدة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.843
+ },
+ {
+  "page": 53,
+  "id": "p53-w7",
+  "text": "وَالتَّنْوِين",
+  "start": 5.26,
+  "end": 6.52,
+  "transcript": "والتنوين",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.969
+ },
+ {
+  "page": 53,
+  "id": "p53-w10",
+  "text": "ًَبَْعَْدَ",
+  "start": 8.74,
+  "end": 9.72,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.908
+ },
+ {
+  "page": 53,
+  "id": "p53-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 12.98,
+  "end": 13.66,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.901
+ },
+ {
+  "page": 53,
+  "id": "p53-w13",
+  "text": "الَّلَِه",
+  "start": 13.66,
+  "end": 14.08,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 53,
+  "id": "p53-w14",
+  "text": "َعََلَى",
+  "start": 14.08,
+  "end": 14.54,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.796
+ },
+ {
+  "page": 54,
+  "id": "p54-ocr-003",
+  "text": "الفتحتين:",
+  "start": 11.9,
+  "end": 13.1,
+  "transcript": "الفتحتين",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.869
+ },
+ {
+  "page": 63,
+  "id": "p63-w1",
+  "text": "ُالْبَابُ",
+  "start": 0,
+  "end": 2.02,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.799
+ },
+ {
+  "page": 63,
+  "id": "p63-w2",
+  "text": "السَّادِس",
+  "start": 2.02,
+  "end": 2.86,
+  "transcript": "السادس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 63,
+  "id": "p63-w6",
+  "text": "الْوَصْل",
+  "start": 5.7,
+  "end": 6.28,
+  "transcript": "الوصل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.901
+ },
+ {
+  "page": 63,
+  "id": "p63-w10",
+  "text": "ًَبَْعَْدَ",
+  "start": 8.84,
+  "end": 10.28,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.912
+ },
+ {
+  "page": 63,
+  "id": "p63-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 13.44,
+  "end": 14.08,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.907
+ },
+ {
+  "page": 63,
+  "id": "p63-w13",
+  "text": "الَّلَِه",
+  "start": 14.08,
+  "end": 14.46,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 63,
+  "id": "p63-ocr-010",
+  "text": "بين",
+  "start": 17,
+  "end": 17.28,
+  "transcript": "بين",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 63,
+  "id": "p63-ocr-011",
+  "text": "همزه",
+  "start": 17.28,
+  "end": 17.86,
+  "transcript": "همزة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 63,
+  "id": "p63-ocr-012",
+  "text": "القطع",
+  "start": 17.86,
+  "end": 18.38,
+  "transcript": "القطع",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.997
+ },
+ {
+  "page": 63,
+  "id": "p63-ocr-013",
+  "text": "وهمزه",
+  "start": 18.38,
+  "end": 19.06,
+  "transcript": "وهمزة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.943
+ },
+ {
+  "page": 64,
+  "id": "p64-w18",
+  "text": "ََُوَِإَِذَا",
+  "start": 38.48,
+  "end": 39.68,
+  "transcript": "وإذا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.902
+ },
+ {
+  "page": 64,
+  "id": "p64-w47",
+  "text": "َُبَْعَْدََهَا",
+  "start": 104.9,
+  "end": 105.64,
+  "transcript": "بعدها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.956
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-005",
+  "text": "همزة",
+  "start": 24.96,
+  "end": 25.64,
+  "transcript": "همزة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-006",
+  "text": "الوصل",
+  "start": 25.64,
+  "end": 26.2,
+  "transcript": "الوصل",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-007",
+  "text": "همزة",
+  "start": 26.2,
+  "end": 27.9,
+  "transcript": "همزة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.805
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-008",
+  "text": "زائدة",
+  "start": 27.9,
+  "end": 28.62,
+  "transcript": "زائدة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.919
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-009",
+  "text": "أول",
+  "start": 28.98,
+  "end": 29.36,
+  "transcript": "أول",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.9
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-013",
+  "text": "عَلَيْهَا",
+  "start": 33.14,
+  "end": 33.88,
+  "transcript": "عليها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.975
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-016",
+  "text": "كيف",
+  "start": 43.24,
+  "end": 44.84,
+  "transcript": "كيف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.934
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-019",
+  "text": "تعرف",
+  "start": 44.84,
+  "end": 45.26,
+  "transcript": "تعرف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-020",
+  "text": "وهمزة",
+  "start": 46.26,
+  "end": 46.86,
+  "transcript": "وهمزة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.831
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-021",
+  "text": "الوَاو",
+  "start": 50.2,
+  "end": 50.86,
+  "transcript": "الواو",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.865
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-026",
+  "text": "شرح",
+  "start": 80.96,
+  "end": 82.02,
+  "transcript": "شرح",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-027",
+  "text": "الدرس",
+  "start": 82.02,
+  "end": 82.44,
+  "transcript": "الدرس",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 64,
+  "id": "p64-ocr-028",
+  "text": "الثاني",
+  "start": 82.44,
+  "end": 83.46,
+  "transcript": "الثاني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 65,
+  "id": "p65-w6",
+  "text": "أُعْمَل",
+  "start": 49.82,
+  "end": 51.84,
+  "transcript": "أعمل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.972
+ },
+ {
+  "page": 67,
+  "id": "p67-w10",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 14.56,
+  "end": 15.22,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.831
+ },
+ {
+  "page": 67,
+  "id": "p67-w11",
+  "text": "الَّلَِه",
+  "start": 15.22,
+  "end": 15.64,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 67,
+  "id": "p67-ocr-003",
+  "text": "يصبح",
+  "start": 12.86,
+  "end": 13.38,
+  "transcript": "يصبح",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 68,
+  "id": "p68-ocr-001",
+  "text": "ثلاثة:",
+  "start": 11.56,
+  "end": 13.2,
+  "transcript": "ثلاثة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 69,
+  "id": "p69-w16",
+  "text": "َغَُفُوٌرٌ",
+  "start": 146.1,
+  "end": 146.8,
+  "transcript": "غفور",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.922
+ },
+ {
+  "page": 71,
+  "id": "p71-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 14.64,
+  "end": 15.22,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.856
+ },
+ {
+  "page": 71,
+  "id": "p71-w13",
+  "text": "الَّلَِه",
+  "start": 15.22,
+  "end": 15.56,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 72,
+  "id": "p72-w6",
+  "text": "َِسََبَُبُ",
+  "start": 18.9,
+  "end": 19.86,
+  "transcript": "سبب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.832
+ },
+ {
+  "page": 72,
+  "id": "p72-w7",
+  "text": "ِكَِتَاَبَِةِ",
+  "start": 19.86,
+  "end": 20.54,
+  "transcript": "كتابة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.959
+ },
+ {
+  "page": 72,
+  "id": "p72-w14",
+  "text": "َعََلَى",
+  "start": 24.3,
+  "end": 24.6,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.981
+ },
+ {
+  "page": 72,
+  "id": "p72-w17",
+  "text": "ِلِْلَْجََمَاَعَِةِ،",
+  "start": 25.58,
+  "end": 26.46,
+  "transcript": "للجماعة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.966
+ },
+ {
+  "page": 72,
+  "id": "p72-w18",
+  "text": "َفَِإَِذَا",
+  "start": 26.46,
+  "end": 27.56,
+  "transcript": "فإذا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.923
+ },
+ {
+  "page": 72,
+  "id": "p72-w20",
+  "text": "َتَُكُِنِ",
+  "start": 27.74,
+  "end": 28.2,
+  "transcript": "تكن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 72,
+  "id": "p72-w24",
+  "text": "ِمِْثَْل",
+  "start": 31.96,
+  "end": 33.28,
+  "transcript": "مثل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.967
+ },
+ {
+  "page": 72,
+  "id": "p72-w25",
+  "text": "َأَْرُْجُو",
+  "start": 33.28,
+  "end": 34.14,
+  "transcript": "أرجو",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.871
+ },
+ {
+  "page": 72,
+  "id": "p72-w26",
+  "text": "َطَِرِيَقَُةُاْلِْقَِرَاَءَِة",
+  "start": 34.14,
+  "end": 37.18,
+  "transcript": "طريقة القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.888
+ },
+ {
+  "page": 72,
+  "id": "p72-w27",
+  "text": "الَّشَْرُْحُ",
+  "start": 37.18,
+  "end": 38.02,
+  "transcript": "الشرح",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.907
+ },
+ {
+  "page": 75,
+  "id": "p75-w9",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 12.84,
+  "end": 13.32,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.967
+ },
+ {
+  "page": 75,
+  "id": "p75-w10",
+  "text": "الَّلَِه",
+  "start": 13.32,
+  "end": 13.72,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 75,
+  "id": "p75-w16",
+  "text": "ًيُتْقِنَ",
+  "start": 18.54,
+  "end": 19.86,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.912
+ },
+ {
+  "page": 75,
+  "id": "p75-ocr-003",
+  "text": "يصبح",
+  "start": 11,
+  "end": 11.52,
+  "transcript": "يصبح",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.955
+ },
+ {
+  "page": 76,
+  "id": "p76-w11",
+  "text": "الَّشَْرُْحُ",
+  "start": 24.72,
+  "end": 26.56,
+  "transcript": "الشرح",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.97
+ },
+ {
+  "page": 77,
+  "id": "p77-w13",
+  "text": "الْمَرْبُوطَة",
+  "start": 68.34,
+  "end": 69.38,
+  "transcript": "المربوطة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.975
+ },
+ {
+  "page": 79,
+  "id": "p79-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 17.16,
+  "end": 17.82,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.884
+ },
+ {
+  "page": 79,
+  "id": "p79-w13",
+  "text": "الَّلَِه",
+  "start": 17.82,
+  "end": 18.2,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-009",
+  "text": "تعرف",
+  "start": 30.2,
+  "end": 30.62,
+  "transcript": "تعرف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-010",
+  "text": "وتعرف",
+  "start": 31.76,
+  "end": 32.34,
+  "transcript": "وتعرف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-011",
+  "text": "قبل",
+  "start": 35.2,
+  "end": 35.52,
+  "transcript": "قبل",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.826
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-012",
+  "text": "فإن",
+  "start": 37.52,
+  "end": 37.88,
+  "transcript": "فإن",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.956
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-013",
+  "text": "قرّات",
+  "start": 37.88,
+  "end": 38.26,
+  "transcript": "قرأت",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.968
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-014",
+  "text": "اللام",
+  "start": 38.26,
+  "end": 38.66,
+  "transcript": "اللام",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-015",
+  "text": "فهى",
+  "start": 38.66,
+  "end": 39.1,
+  "transcript": "فهي",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-017",
+  "text": "شرح",
+  "start": 46.52,
+  "end": 47.06,
+  "transcript": "شرح",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.837
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-018",
+  "text": "الدرس",
+  "start": 47.06,
+  "end": 47.46,
+  "transcript": "الدرس",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-019",
+  "text": "الأول",
+  "start": 47.46,
+  "end": 47.94,
+  "transcript": "الأول",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-028",
+  "text": "الدرس",
+  "start": 86.68,
+  "end": 87.06,
+  "transcript": "الدرس",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-029",
+  "text": "الثاني",
+  "start": 87.06,
+  "end": 87.64,
+  "transcript": "الثاني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.975
+ },
+ {
+  "page": 83,
+  "id": "p83-w2",
+  "text": "الْحَادِيَ",
+  "start": 2.04,
+  "end": 2.74,
+  "transcript": "الحادي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.842
+ },
+ {
+  "page": 83,
+  "id": "p83-w11",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 13.58,
+  "end": 14.24,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.888
+ },
+ {
+  "page": 83,
+  "id": "p83-w12",
+  "text": "الَّلَِه",
+  "start": 14.24,
+  "end": 14.64,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 83,
+  "id": "p83-w13",
+  "text": "َعََلَى",
+  "start": 14.64,
+  "end": 15.06,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.827
+ },
+ {
+  "page": 83,
+  "id": "p83-w15",
+  "text": "ًيُتْقِنَ",
+  "start": 15.58,
+  "end": 17.08,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.935
+ },
+ {
+  "page": 84,
+  "id": "p84-w35",
+  "text": "َِمَِثَاُلُ",
+  "start": 107.48,
+  "end": 108.26,
+  "transcript": "مثال",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.976
+ },
+ {
+  "page": 84,
+  "id": "p84-w52",
+  "text": "اَّلَِتِي",
+  "start": 125.15,
+  "end": 125.43,
+  "transcript": "التي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.883
+ },
+ {
+  "page": 84,
+  "id": "p84-ocr-005",
+  "text": "فِيما",
+  "start": 87.04,
+  "end": 87.7,
+  "transcript": "فيما",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.975
+ },
+ {
+  "page": 84,
+  "id": "p84-ocr-006",
+  "text": "عَلَى",
+  "start": 89,
+  "end": 89.42,
+  "transcript": "على",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.97
+ },
+ {
+  "page": 84,
+  "id": "p84-ocr-008",
+  "text": "حَرْفٌ",
+  "start": 95.22,
+  "end": 95.6,
+  "transcript": "حرف",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.985
+ },
+ {
+  "page": 84,
+  "id": "p84-ocr-010",
+  "text": "وَجَاءَ",
+  "start": 99.54,
+  "end": 100.06,
+  "transcript": "وجاء",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.945
+ },
+ {
+  "page": 85,
+  "id": "p85-w9",
+  "text": "ُاْلَْعَِزِيُزُ",
+  "start": 244.2,
+  "end": 245,
+  "transcript": "العزيز",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.953
+ },
+ {
+  "page": 86,
+  "id": "p86-w20",
+  "text": "وَقُولُوا",
+  "start": 472.82,
+  "end": 474.36,
+  "transcript": "وقولوا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.863
+ },
+ {
+  "page": 86,
+  "id": "p86-w21",
+  "text": "لِلنَّاسِ",
+  "start": 474.36,
+  "end": 475.42,
+  "transcript": "للناس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.962
+ },
+ {
+  "page": 86,
+  "id": "p86-ocr-003",
+  "text": "الثاني:",
+  "start": 11.24,
+  "end": 13.04,
+  "transcript": "الثاني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 86,
+  "id": "p86-ocr-004",
+  "text": "ثلاث",
+  "start": 14.92,
+  "end": 15.48,
+  "transcript": "ثلاث",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 88,
+  "id": "p88-w4",
+  "text": "َخََلَْقُْتُ",
+  "start": 119.06,
+  "end": 119.78,
+  "transcript": "خلقت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 88,
+  "id": "p88-w17",
+  "text": "كَمِثْلِهِ",
+  "start": 325.98,
+  "end": 326.94,
+  "transcript": "كمثله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.891
+ },
+ {
+  "page": 88,
+  "id": "p88-w19",
+  "text": "وَهُوَ",
+  "start": 328.06,
+  "end": 328.74,
+  "transcript": "وهو",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.962
+ },
+ {
+  "page": 88,
+  "id": "p88-w20",
+  "text": "السَّمِيعُ",
+  "start": 328.74,
+  "end": 329.72,
+  "transcript": "السميع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 91,
+  "id": "p91-w2",
+  "text": "الثَّانِيَ",
+  "start": 2.14,
+  "end": 2.92,
+  "transcript": "الثاني",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.842
+ },
+ {
+  "page": 91,
+  "id": "p91-w6",
+  "text": "رَسْمِ",
+  "start": 5.46,
+  "end": 5.88,
+  "transcript": "رسم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 91,
+  "id": "p91-w7",
+  "text": "الْمُصْحَف",
+  "start": 5.88,
+  "end": 6.94,
+  "transcript": "المصحف",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 91,
+  "id": "p91-w10",
+  "text": "ًَبَْعَْدَ",
+  "start": 9.14,
+  "end": 10.32,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.84
+ },
+ {
+  "page": 91,
+  "id": "p91-w12",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 13.56,
+  "end": 14.2,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.904
+ },
+ {
+  "page": 91,
+  "id": "p91-w13",
+  "text": "الَّلَِه",
+  "start": 14.2,
+  "end": 14.56,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 91,
+  "id": "p91-w14",
+  "text": "َعََلَى",
+  "start": 14.56,
+  "end": 14.98,
+  "transcript": "على",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.87
+ },
+ {
+  "page": 91,
+  "id": "p91-w21",
+  "text": "يَخْتَلِفُ",
+  "start": 26.84,
+  "end": 27.62,
+  "transcript": "يختلف",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.922
+ },
+ {
+  "page": 92,
+  "id": "p92-w7",
+  "text": "الُّسُُكُوِن",
+  "start": 18.54,
+  "end": 19.06,
+  "transcript": "السكون",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.814
+ },
+ {
+  "page": 92,
+  "id": "p92-w46",
+  "text": "ََِوََعََدَِمِ",
+  "start": 71.68,
+  "end": 72.62,
+  "transcript": "وعدم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.952
+ },
+ {
+  "page": 92,
+  "id": "p92-w60",
+  "text": "ٌَتَْنِْبِيٌه",
+  "start": 92.58,
+  "end": 93.74,
+  "transcript": "تنبيه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.813
+ },
+ {
+  "page": 92,
+  "id": "p92-w63",
+  "text": "ٌَفَاِئَِدٌَة",
+  "start": 99.76,
+  "end": 101.6,
+  "transcript": "فائدة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.841
+ },
+ {
+  "page": 92,
+  "id": "p92-w69",
+  "text": "ِإَِذَا",
+  "start": 113.66,
+  "end": 114.56,
+  "transcript": "إذا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.852
+ },
+ {
+  "page": 92,
+  "id": "p92-w70",
+  "text": "َكَاَنَْتُْمََُتََحَِّرَّكًَةًِبَِفَْتَْحٍَة",
+  "start": 114.56,
+  "end": 116.76,
+  "transcript": "كانت متحركة بفتحة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.958
+ },
+ {
+  "page": 92,
+  "id": "p92-w73",
+  "text": "َكَْسَْرٍَة",
+  "start": 119.46,
+  "end": 119.98,
+  "transcript": "كسرة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 92,
+  "id": "p92-w74",
+  "text": "ُِيُْحِْى",
+  "start": 121.36,
+  "end": 122,
+  "transcript": "يحي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.908
+ },
+ {
+  "page": 92,
+  "id": "p92-w78",
+  "text": "ُاْلَْبَْغُْى",
+  "start": 124.88,
+  "end": 125.5,
+  "transcript": "البغي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.965
+ },
+ {
+  "page": 92,
+  "id": "p92-w84",
+  "text": "ِإَِذَا",
+  "start": 133.98,
+  "end": 135.08,
+  "transcript": "إذا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.866
+ },
+ {
+  "page": 92,
+  "id": "p92-w89",
+  "text": "ِعَِبَاِدِى",
+  "start": 148.04,
+  "end": 149.12,
+  "transcript": "عبادي",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.87
+ },
+ {
+  "page": 92,
+  "id": "p92-ocr-008",
+  "text": "مكتملة",
+  "start": 85.14,
+  "end": 86.02,
+  "transcript": "مكتملة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.918
+ },
+ {
+  "page": 26,
+  "id": "p26-w4",
+  "text": "خَـ",
+  "start": 177.12,
+  "end": 178.52,
+  "transcript": "خا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.992
+ },
+ {
+  "page": 26,
+  "id": "p26-w10",
+  "text": "تَـ",
+  "start": 162.82,
+  "end": 164.92,
+  "transcript": "تا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.853
+ },
+ {
+  "page": 26,
+  "id": "p26-w18",
+  "text": "خَـ",
+  "start": 177.12,
+  "end": 178.52,
+  "transcript": "خا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.992
+ },
+ {
+  "page": 26,
+  "id": "p26-w20",
+  "text": "َد",
+  "start": 174.6,
+  "end": 176.44,
+  "transcript": "دا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.99
+ },
+ {
+  "page": 27,
+  "id": "p27-w1",
+  "text": "َر",
+  "start": 146.02,
+  "end": 147.42,
+  "transcript": "را",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.776
+ },
+ {
+  "page": 27,
+  "id": "p27-w3",
+  "text": "َز",
+  "start": 59.92,
+  "end": 61.32,
+  "transcript": "زا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.91
+ },
+ {
+  "page": 27,
+  "id": "p27-w5",
+  "text": "سَـ",
+  "start": 136.56,
+  "end": 137.92,
+  "transcript": "سا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.871
+ },
+ {
+  "page": 29,
+  "id": "p29-w2",
+  "text": "يَـ",
+  "start": 15.8,
+  "end": 17.12,
+  "transcript": "يا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.774
+ },
+ {
+  "page": 29,
+  "id": "p29-w8",
+  "text": "َر",
+  "start": 98,
+  "end": 99.4,
+  "transcript": "را",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.85
+ },
+ {
+  "page": 29,
+  "id": "p29-w10",
+  "text": "بَـ",
+  "start": 144.52,
+  "end": 145.44,
+  "transcript": "با",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.97
+ },
+ {
+  "page": 29,
+  "id": "p29-w18",
+  "text": "نَـ",
+  "start": 178,
+  "end": 180.28,
+  "transcript": "نا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.994
+ },
+ {
+  "page": 30,
+  "id": "p30-w3",
+  "text": "مَـ",
+  "start": 48.92,
+  "end": 49.7,
+  "transcript": "ما",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.811
+ },
+ {
+  "page": 30,
+  "id": "p30-w13",
+  "text": "شَ",
+  "start": 176.26,
+  "end": 178.72,
+  "transcript": "شا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.979
+ },
+ {
+  "page": 32,
+  "id": "p32-w2",
+  "text": "كَـ",
+  "start": 91.48,
+  "end": 92.3,
+  "transcript": "كا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.972
+ },
+ {
+  "page": 32,
+  "id": "p32-w4",
+  "text": "كَـ",
+  "start": 91.48,
+  "end": 92.3,
+  "transcript": "كا",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.972
+ },
+ {
+  "page": 32,
+  "id": "p32-w14",
+  "text": "بَـ",
+  "start": 146.98,
+  "end": 149.46,
+  "transcript": "با",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.977
+ },
+ {
+  "page": 32,
+  "id": "p32-w16",
+  "text": "صُ",
+  "start": 150.94,
+  "end": 152.34,
+  "transcript": "صو",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.994
+ },
+ {
+  "page": 33,
+  "id": "p33-w1",
+  "text": "ظُ",
+  "start": 36.2,
+  "end": 36.9,
+  "transcript": "ظو",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.771
+ },
+ {
+  "page": 33,
+  "id": "p33-w5",
+  "text": "فُـ",
+  "start": 75.94,
+  "end": 77.34,
+  "transcript": "فو",
+  "method": "exact-syllable-same-page",
+  "confidence": 0.972
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-01",
+  "text": "أَ",
+  "start": 13.62,
+  "end": 14.48,
+  "transcript": "آ",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-02",
+  "text": "بَ",
+  "start": 17.62,
+  "end": 18.32,
+  "transcript": "با",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-03",
+  "text": "تَ",
+  "start": 19.02,
+  "end": 20.78,
+  "transcript": "تا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.635
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-04",
+  "text": "ثَ",
+  "start": 20.78,
+  "end": 23.42,
+  "transcript": "ثا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.822
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-05",
+  "text": "جَ",
+  "start": 23.42,
+  "end": 25.68,
+  "transcript": "جا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.869
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-06",
+  "text": "حَ",
+  "start": 25.68,
+  "end": 27.06,
+  "transcript": "ح",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.98
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-07",
+  "text": "خَ",
+  "start": 27.06,
+  "end": 29.8,
+  "transcript": "خا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-08",
+  "text": "دَ",
+  "start": 32.86,
+  "end": 34.26,
+  "transcript": "دا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.678
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-09",
+  "text": "ذَ",
+  "start": 35.06,
+  "end": 36.06,
+  "transcript": "ذا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.826
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-10",
+  "text": "رَ",
+  "start": 36.62,
+  "end": 38.52,
+  "transcript": "را",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.754
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-11",
+  "text": "زَ",
+  "start": 39.02,
+  "end": 39.72,
+  "transcript": "زا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.845
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-12",
+  "text": "سَ",
+  "start": 41.06,
+  "end": 42.06,
+  "transcript": "سا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.91
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-13",
+  "text": "شَ",
+  "start": 43.06,
+  "end": 43.92,
+  "transcript": "شا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.966
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-14",
+  "text": "صَ",
+  "start": 45.06,
+  "end": 45.8,
+  "transcript": "صا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.899
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-15",
+  "text": "ضَ",
+  "start": 47,
+  "end": 47.7,
+  "transcript": "ضا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.572
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-16",
+  "text": "طَ",
+  "start": 48.94,
+  "end": 49.64,
+  "transcript": "طا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.888
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-18",
+  "text": "عَ",
+  "start": 50.56,
+  "end": 51.26,
+  "transcript": "ضا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.566
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-19",
+  "text": "غَ",
+  "start": 51.26,
+  "end": 51.84,
+  "transcript": "ع",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.98
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-20",
+  "text": "فَ",
+  "start": 51.84,
+  "end": 53.6,
+  "transcript": "غ",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.872
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-21",
+  "text": "قَ",
+  "start": 57.06,
+  "end": 57.5,
+  "transcript": "ق",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.785
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-22",
+  "text": "كَ",
+  "start": 58.68,
+  "end": 59.38,
+  "transcript": "ك",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-23",
+  "text": "لَ",
+  "start": 60.5,
+  "end": 61.2,
+  "transcript": "لا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.932
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-24",
+  "text": "مَ",
+  "start": 62.32,
+  "end": 63.02,
+  "transcript": "ما",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.858
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-25",
+  "text": "نَ",
+  "start": 63.98,
+  "end": 64.68,
+  "transcript": "ن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.784
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-26",
+  "text": "هَ",
+  "start": 65.94,
+  "end": 66.64,
+  "transcript": "ه",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-27",
+  "text": "وَ",
+  "start": 67.7,
+  "end": 68.4,
+  "transcript": "و",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.924
+ },
+ {
+  "page": 25,
+  "id": "p25-chart-28",
+  "text": "يَ",
+  "start": 69.68,
+  "end": 70.38,
+  "transcript": "يا",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-01",
+  "text": "إِ",
+  "start": 7,
+  "end": 9.2,
+  "transcript": "إي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-02",
+  "text": "بِ",
+  "start": 11.54,
+  "end": 12.94,
+  "transcript": "بي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-03",
+  "text": "تِ",
+  "start": 12.94,
+  "end": 14.5,
+  "transcript": "تي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.701
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-04",
+  "text": "ثِ",
+  "start": 14.5,
+  "end": 16.3,
+  "transcript": "ثي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.738
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-05",
+  "text": "جِ",
+  "start": 18.38,
+  "end": 19.08,
+  "transcript": "جي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.916
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-06",
+  "text": "حِ",
+  "start": 19.78,
+  "end": 20.78,
+  "transcript": "حي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.948
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-07",
+  "text": "خِ",
+  "start": 22.26,
+  "end": 23,
+  "transcript": "خي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.95
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-08",
+  "text": "دِ",
+  "start": 25.66,
+  "end": 26.36,
+  "transcript": "دي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.946
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-09",
+  "text": "ذِ",
+  "start": 27.06,
+  "end": 28.54,
+  "transcript": "ذي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.836
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-10",
+  "text": "رِ",
+  "start": 28.54,
+  "end": 30.84,
+  "transcript": "ري",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.619
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-11",
+  "text": "زِ",
+  "start": 32.96,
+  "end": 34.36,
+  "transcript": "زي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.87
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-12",
+  "text": "سِ",
+  "start": 36.06,
+  "end": 36.76,
+  "transcript": "سي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.738
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-13",
+  "text": "شِ",
+  "start": 37.46,
+  "end": 39.26,
+  "transcript": "شي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.558
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-14",
+  "text": "صِ",
+  "start": 40.86,
+  "end": 41.56,
+  "transcript": "صي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.941
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-15",
+  "text": "ضِ",
+  "start": 43.38,
+  "end": 44.78,
+  "transcript": "ضي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.684
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-16",
+  "text": "طِ",
+  "start": 44.78,
+  "end": 46.74,
+  "transcript": "طي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.883
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-17",
+  "text": "ظِ",
+  "start": 46.74,
+  "end": 48.92,
+  "transcript": "ضي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.722
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-18",
+  "text": "عِ",
+  "start": 49.54,
+  "end": 51.06,
+  "transcript": "عي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.966
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-19",
+  "text": "غِ",
+  "start": 53.18,
+  "end": 54.58,
+  "transcript": "غي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.963
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-20",
+  "text": "فِ",
+  "start": 54.58,
+  "end": 56.6,
+  "transcript": "في",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.588
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-21",
+  "text": "قِ",
+  "start": 56.6,
+  "end": 58.52,
+  "transcript": "طي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-22",
+  "text": "كِ",
+  "start": 58.52,
+  "end": 60.6,
+  "transcript": "كي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-23",
+  "text": "لِ",
+  "start": 61.18,
+  "end": 63.02,
+  "transcript": "لي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-24",
+  "text": "مِ",
+  "start": 66.26,
+  "end": 67.66,
+  "transcript": "مي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.672
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-25",
+  "text": "نِ",
+  "start": 67.66,
+  "end": 69.96,
+  "transcript": "ني",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-26",
+  "text": "هِ",
+  "start": 69.96,
+  "end": 72.22,
+  "transcript": "هي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-27",
+  "text": "وِ",
+  "start": 72.22,
+  "end": 74.1,
+  "transcript": "وي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.765
+ },
+ {
+  "page": 28,
+  "id": "p28-chart-28",
+  "text": "يِ",
+  "start": 74.1,
+  "end": 75.52,
+  "transcript": "إي",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.686
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-01",
+  "text": "أُ",
+  "start": 7,
+  "end": 8.44,
+  "transcript": "أو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.554
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-02",
+  "text": "بُ",
+  "start": 10.44,
+  "end": 11.84,
+  "transcript": "بو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.915
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-03",
+  "text": "تُ",
+  "start": 11.84,
+  "end": 13.18,
+  "transcript": "تو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-04",
+  "text": "ثُ",
+  "start": 14,
+  "end": 15.8,
+  "transcript": "ثو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.867
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-05",
+  "text": "جُ",
+  "start": 17.82,
+  "end": 19.22,
+  "transcript": "جو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.983
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-06",
+  "text": "حُ",
+  "start": 19.22,
+  "end": 21.98,
+  "transcript": "حو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.956
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-07",
+  "text": "خُ",
+  "start": 21.98,
+  "end": 24.28,
+  "transcript": "خو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.962
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-08",
+  "text": "دُ",
+  "start": 24.28,
+  "end": 26.68,
+  "transcript": "دو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.975
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-09",
+  "text": "ذُ",
+  "start": 26.68,
+  "end": 29.24,
+  "transcript": "ذو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.768
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-10",
+  "text": "رُ",
+  "start": 29.24,
+  "end": 31.74,
+  "transcript": "رو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.766
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-11",
+  "text": "زُ",
+  "start": 31.74,
+  "end": 34.3,
+  "transcript": "زو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.825
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-12",
+  "text": "سُ",
+  "start": 34.3,
+  "end": 36.68,
+  "transcript": "سو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.874
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-13",
+  "text": "شُ",
+  "start": 38.14,
+  "end": 39.54,
+  "transcript": "شو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.978
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-14",
+  "text": "صُ",
+  "start": 41.6,
+  "end": 42.3,
+  "transcript": "صو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.844
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-15",
+  "text": "ضُ",
+  "start": 44.02,
+  "end": 44.72,
+  "transcript": "ضو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.645
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-16",
+  "text": "طُ",
+  "start": 46.36,
+  "end": 47.06,
+  "transcript": "طو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.885
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-17",
+  "text": "ظُ",
+  "start": 47.76,
+  "end": 48.34,
+  "transcript": "ظ",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-18",
+  "text": "عُ",
+  "start": 50.96,
+  "end": 51.68,
+  "transcript": "عو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.638
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-19",
+  "text": "غُ",
+  "start": 53.36,
+  "end": 54.76,
+  "transcript": "غو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.946
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-20",
+  "text": "فُ",
+  "start": 54.76,
+  "end": 56.68,
+  "transcript": "فو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.736
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-21",
+  "text": "قُ",
+  "start": 56.68,
+  "end": 59.2,
+  "transcript": "قو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-22",
+  "text": "كُ",
+  "start": 60.78,
+  "end": 62.18,
+  "transcript": "كو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-23",
+  "text": "لُ",
+  "start": 62.18,
+  "end": 64.46,
+  "transcript": "لو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.704
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-24",
+  "text": "مُ",
+  "start": 66.22,
+  "end": 66.92,
+  "transcript": "مو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.879
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-25",
+  "text": "نُ",
+  "start": 68.48,
+  "end": 69.88,
+  "transcript": "نو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.852
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-26",
+  "text": "هُ",
+  "start": 71.7,
+  "end": 73.1,
+  "transcript": "هو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.552
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-27",
+  "text": "وُ",
+  "start": 73.1,
+  "end": 73.44,
+  "transcript": "و",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.576
+ },
+ {
+  "page": 31,
+  "id": "p31-chart-28",
+  "text": "يُ",
+  "start": 74.76,
+  "end": 76.2,
+  "transcript": "يو",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.561
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-01",
+  "text": "ءً",
+  "start": 13,
+  "end": 13.72,
+  "transcript": "أن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-02",
+  "text": "بً",
+  "start": 15.52,
+  "end": 16.92,
+  "transcript": "بن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-03",
+  "text": "تً",
+  "start": 18.88,
+  "end": 20.28,
+  "transcript": "تن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.621
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-04",
+  "text": "ثً",
+  "start": 21,
+  "end": 22.94,
+  "transcript": "ثن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.944
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-05",
+  "text": "جً",
+  "start": 24.4,
+  "end": 25.8,
+  "transcript": "جن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.976
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-06",
+  "text": "حً",
+  "start": 25.8,
+  "end": 28.3,
+  "transcript": "حن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.968
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-07",
+  "text": "خً",
+  "start": 28.3,
+  "end": 29.82,
+  "transcript": "خن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.675
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-08",
+  "text": "دً",
+  "start": 32.08,
+  "end": 33.48,
+  "transcript": "دن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.699
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-09",
+  "text": "ذً",
+  "start": 34.3,
+  "end": 35.74,
+  "transcript": "ذن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.64
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-10",
+  "text": "رً",
+  "start": 36.3,
+  "end": 38,
+  "transcript": "رن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.94
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-11",
+  "text": "زً",
+  "start": 39.3,
+  "end": 40.78,
+  "transcript": "زن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.941
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-12",
+  "text": "سً",
+  "start": 42.26,
+  "end": 43.66,
+  "transcript": "سن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.928
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-13",
+  "text": "شً",
+  "start": 44.3,
+  "end": 45.78,
+  "transcript": "شن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.977
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-14",
+  "text": "صً",
+  "start": 47.34,
+  "end": 48.74,
+  "transcript": "صن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.954
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-15",
+  "text": "ضً",
+  "start": 51.04,
+  "end": 52.44,
+  "transcript": "ضن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.859
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-16",
+  "text": "طً",
+  "start": 53.3,
+  "end": 54.98,
+  "transcript": "طن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.793
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-17",
+  "text": "ظً",
+  "start": 56.44,
+  "end": 57.84,
+  "transcript": "ظن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.709
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-18",
+  "text": "عً",
+  "start": 57.84,
+  "end": 59.5,
+  "transcript": "عن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-19",
+  "text": "غً",
+  "start": 61,
+  "end": 62.4,
+  "transcript": "غن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.901
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-20",
+  "text": "فً",
+  "start": 65.04,
+  "end": 66.44,
+  "transcript": "فن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.95
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-21",
+  "text": "قً",
+  "start": 66.44,
+  "end": 68.34,
+  "transcript": "قن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.955
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-22",
+  "text": "كً",
+  "start": 70.08,
+  "end": 71.48,
+  "transcript": "كن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.652
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-23",
+  "text": "لً",
+  "start": 71.48,
+  "end": 72.66,
+  "transcript": "لن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.954
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-24",
+  "text": "مً",
+  "start": 72.66,
+  "end": 74.5,
+  "transcript": "من",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.931
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-25",
+  "text": "نً",
+  "start": 76.76,
+  "end": 78.16,
+  "transcript": "نن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.959
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-26",
+  "text": "هً",
+  "start": 80.12,
+  "end": 80.98,
+  "transcript": "هن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.886
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-27",
+  "text": "وً",
+  "start": 81.52,
+  "end": 82.92,
+  "transcript": "ون",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.961
+ },
+ {
+  "page": 39,
+  "id": "p39-chart-28",
+  "text": "يً",
+  "start": 82.92,
+  "end": 84.68,
+  "transcript": "ين",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-01",
+  "text": "ءٍ",
+  "start": 13,
+  "end": 14.12,
+  "transcript": "إن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-02",
+  "text": "بٍ",
+  "start": 15,
+  "end": 16.7,
+  "transcript": "بن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-03",
+  "text": "تٍ",
+  "start": 18.98,
+  "end": 20.38,
+  "transcript": "تن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.812
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-04",
+  "text": "ثٍ",
+  "start": 20.38,
+  "end": 22.28,
+  "transcript": "ثن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.831
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-05",
+  "text": "جٍ",
+  "start": 23,
+  "end": 24.94,
+  "transcript": "جن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.954
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-06",
+  "text": "حٍ",
+  "start": 24.94,
+  "end": 27.06,
+  "transcript": "حن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.917
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-07",
+  "text": "خٍ",
+  "start": 27.06,
+  "end": 28.98,
+  "transcript": "خن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.583
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-08",
+  "text": "دٍ",
+  "start": 31.48,
+  "end": 32.88,
+  "transcript": "دن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-09",
+  "text": "ذٍ",
+  "start": 34.58,
+  "end": 35.98,
+  "transcript": "ذن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.728
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-10",
+  "text": "رٍ",
+  "start": 35.98,
+  "end": 36.68,
+  "transcript": "رن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.845
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-11",
+  "text": "زٍ",
+  "start": 38.16,
+  "end": 39.56,
+  "transcript": "زن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.746
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-12",
+  "text": "سٍ",
+  "start": 39.56,
+  "end": 41.06,
+  "transcript": "سن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.908
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-13",
+  "text": "شٍ",
+  "start": 42.9,
+  "end": 44.3,
+  "transcript": "شن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.917
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-14",
+  "text": "صٍ",
+  "start": 46.08,
+  "end": 47.48,
+  "transcript": "صن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.905
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-15",
+  "text": "ضٍ",
+  "start": 49.32,
+  "end": 50.72,
+  "transcript": "ضن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.647
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-16",
+  "text": "طٍ",
+  "start": 50.72,
+  "end": 52.06,
+  "transcript": "طن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.736
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-17",
+  "text": "ظٍ",
+  "start": 53.98,
+  "end": 55.38,
+  "transcript": "ضن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.868
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-18",
+  "text": "عٍ",
+  "start": 55.38,
+  "end": 57.48,
+  "transcript": "عين",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-19",
+  "text": "غٍ",
+  "start": 59.04,
+  "end": 60.44,
+  "transcript": "رن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-20",
+  "text": "فٍ",
+  "start": 62.18,
+  "end": 63.58,
+  "transcript": "فن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.751
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-21",
+  "text": "قٍ",
+  "start": 65.98,
+  "end": 66.68,
+  "transcript": "قن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.609
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-22",
+  "text": "كٍ",
+  "start": 67.38,
+  "end": 68.74,
+  "transcript": "هن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-23",
+  "text": "لٍ",
+  "start": 69.38,
+  "end": 70.86,
+  "transcript": "لن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.845
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-24",
+  "text": "مٍ",
+  "start": 71.38,
+  "end": 72.72,
+  "transcript": "من",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.914
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-25",
+  "text": "نٍ",
+  "start": 75,
+  "end": 76.4,
+  "transcript": "نن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.796
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-26",
+  "text": "هٍ",
+  "start": 76.4,
+  "end": 78.56,
+  "transcript": "هن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.86
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-27",
+  "text": "وٍ",
+  "start": 79.38,
+  "end": 81.06,
+  "transcript": "وين",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.871
+ },
+ {
+  "page": 41,
+  "id": "p41-chart-28",
+  "text": "يٍ",
+  "start": 81.06,
+  "end": 82.96,
+  "transcript": "اين",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.611
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-01",
+  "text": "ءٌ",
+  "start": 13.64,
+  "end": 15.04,
+  "transcript": "أن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-02",
+  "text": "بٌ",
+  "start": 16.98,
+  "end": 18.38,
+  "transcript": "بن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.755
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-03",
+  "text": "تٌ",
+  "start": 19,
+  "end": 20.88,
+  "transcript": "تن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.928
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-04",
+  "text": "ثٌ",
+  "start": 20.88,
+  "end": 23.66,
+  "transcript": "ثن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.949
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-05",
+  "text": "جٌ",
+  "start": 23.66,
+  "end": 25.96,
+  "transcript": "جن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.973
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-06",
+  "text": "حٌ",
+  "start": 25.96,
+  "end": 28.3,
+  "transcript": "حن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.989
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-07",
+  "text": "خٌ",
+  "start": 28.3,
+  "end": 29.9,
+  "transcript": "خن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.787
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-08",
+  "text": "دٌ",
+  "start": 32.34,
+  "end": 33.74,
+  "transcript": "دن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.593
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-09",
+  "text": "ذٌ",
+  "start": 34.3,
+  "end": 36,
+  "transcript": "ذن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.865
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-10",
+  "text": "رٌ",
+  "start": 36,
+  "end": 38.76,
+  "transcript": "رن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.879
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-11",
+  "text": "زٌ",
+  "start": 39.3,
+  "end": 41.04,
+  "transcript": "زن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.857
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-12",
+  "text": "سٌ",
+  "start": 41.04,
+  "end": 42.96,
+  "transcript": "سن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.894
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-13",
+  "text": "شٌ",
+  "start": 44.3,
+  "end": 45.58,
+  "transcript": "شن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.959
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-14",
+  "text": "صٌ",
+  "start": 47.06,
+  "end": 48.46,
+  "transcript": "سن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.909
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-15",
+  "text": "ضٌ",
+  "start": 50.3,
+  "end": 51.7,
+  "transcript": "ضن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.629
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-16",
+  "text": "طٌ",
+  "start": 53.34,
+  "end": 54.74,
+  "transcript": "طن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.659
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-17",
+  "text": "ظٌ",
+  "start": 56.84,
+  "end": 58.24,
+  "transcript": "ظن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.553
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-18",
+  "text": "عٌ",
+  "start": 58.24,
+  "end": 59.82,
+  "transcript": "عن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-19",
+  "text": "غٌ",
+  "start": 60.74,
+  "end": 62.56,
+  "transcript": "غن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.684
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-20",
+  "text": "فٌ",
+  "start": 62.56,
+  "end": 65.06,
+  "transcript": "فن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.966
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-21",
+  "text": "قٌ",
+  "start": 67.76,
+  "end": 69.16,
+  "transcript": "قن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.888
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-22",
+  "text": "كٌ",
+  "start": 69.16,
+  "end": 71.12,
+  "transcript": "كن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.878
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-23",
+  "text": "لٌ",
+  "start": 71.12,
+  "end": 72.94,
+  "transcript": "لن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.901
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-24",
+  "text": "مٌ",
+  "start": 73.74,
+  "end": 74.84,
+  "transcript": "من",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.727
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-25",
+  "text": "نٌ",
+  "start": 77.02,
+  "end": 78.42,
+  "transcript": "نن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.911
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-26",
+  "text": "هٌ",
+  "start": 78.42,
+  "end": 81.04,
+  "transcript": "هن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.83
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-27",
+  "text": "وٌ",
+  "start": 81.04,
+  "end": 82.78,
+  "transcript": "حن",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 43,
+  "id": "p43-chart-28",
+  "text": "يٌ",
+  "start": 84.04,
+  "end": 85.38,
+  "transcript": "ين",
+  "method": "ordered-chart-28-letters",
+  "confidence": 0.55
+ },
+ {
+  "page": 8,
+  "id": "p8-w26",
+  "text": "اْلِْقَِرَاَءَِة",
+  "start": 70.6,
+  "end": 71.42,
+  "transcript": "القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.997
+ },
+ {
+  "page": 8,
+  "id": "p8-w30",
+  "text": "اْلَْهَْمَْزَُةُ",
+  "start": 86.6,
+  "end": 87.54,
+  "transcript": "الهمزة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.913
+ },
+ {
+  "page": 8,
+  "id": "p8-w69",
+  "text": "ِلَِيَْقَْرََأ",
+  "start": 146.36,
+  "end": 147.86,
+  "transcript": "ليقرأ",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.956
+ },
+ {
+  "page": 8,
+  "id": "p8-w70",
+  "text": "ِالَّطَاِلُِبُ",
+  "start": 49.98,
+  "end": 50.58,
+  "transcript": "الطالب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-003",
+  "text": "الْبَابٍ",
+  "start": 26.42,
+  "end": 26.8,
+  "transcript": "الباب",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.984
+ },
+ {
+  "page": 9,
+  "id": "p9-ocr-009",
+  "text": "الْكَلِمَاتِ»:",
+  "start": 67.42,
+  "end": 68.18,
+  "transcript": "الكلمات",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.937
+ },
+ {
+  "page": 12,
+  "id": "p12-ocr-004",
+  "text": "القطع",
+  "start": 39.54,
+  "end": 40.06,
+  "transcript": "القطع",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 12,
+  "id": "p12-ocr-006",
+  "text": "الشدةٍ",
+  "start": 34.22,
+  "end": 34.74,
+  "transcript": "الشدة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.924
+ },
+ {
+  "page": 12,
+  "id": "p12-ocr-007",
+  "text": "وَالتنوين",
+  "start": 34.74,
+  "end": 35.88,
+  "transcript": "والتنوين",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.97
+ },
+ {
+  "page": 12,
+  "id": "p12-ocr-009",
+  "text": "الثاني",
+  "start": 12.68,
+  "end": 14.46,
+  "transcript": "الثاني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 15,
+  "id": "p15-w5",
+  "text": "الْهِجَائِيَّة",
+  "start": 25.22,
+  "end": 26.14,
+  "transcript": "الهجائية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.991
+ },
+ {
+  "page": 15,
+  "id": "p15-ocr-015",
+  "text": "بِأَشْكَالِهَا",
+  "start": 33.28,
+  "end": 34.3,
+  "transcript": "بأشكالها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 16,
+  "id": "p16-w61",
+  "text": "ِبَِصَْوِْتَِهَا",
+  "start": 117.58,
+  "end": 118.94,
+  "transcript": "بصوتها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.933
+ },
+ {
+  "page": 23,
+  "id": "p23-w5",
+  "text": "الْحَرَكَاتِ",
+  "start": 17.54,
+  "end": 18.34,
+  "transcript": "الحركات",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 23,
+  "id": "p23-w6",
+  "text": "وَالسُّكُون",
+  "start": 22.52,
+  "end": 23.14,
+  "transcript": "والسكون",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.891
+ },
+ {
+  "page": 24,
+  "id": "p24-w69",
+  "text": "ِالَّثَاِنِي",
+  "start": 161.46,
+  "end": 162.48,
+  "transcript": "الثاني",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.998
+ },
+ {
+  "page": 24,
+  "id": "p24-w70",
+  "text": "الَّسَاِكِِن",
+  "start": 156.62,
+  "end": 157.1,
+  "transcript": "الساكن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 24,
+  "id": "p24-ocr-008",
+  "text": "صَغِيرَة",
+  "start": 26,
+  "end": 26.64,
+  "transcript": "صغيرة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.999
+ },
+ {
+  "page": 24,
+  "id": "p24-ocr-023",
+  "text": "الكلمة",
+  "start": 171.16,
+  "end": 171.88,
+  "transcript": "الكلمة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.944
+ },
+ {
+  "page": 24,
+  "id": "p24-ocr-033",
+  "text": "الرابع",
+  "start": 143.16,
+  "end": 143.74,
+  "transcript": "الرابع",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.903
+ },
+ {
+  "page": 37,
+  "id": "p37-w1",
+  "text": "ُالْبَابُ",
+  "start": 9.16,
+  "end": 9.56,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 38,
+  "id": "p38-w68",
+  "text": "ًاْلَْكَِلَِمََةَ",
+  "start": 153.02,
+  "end": 153.7,
+  "transcript": "الكلمة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.967
+ },
+ {
+  "page": 38,
+  "id": "p38-w69",
+  "text": "َكَاِمَِلًَة",
+  "start": 129.84,
+  "end": 130.46,
+  "transcript": "كاملة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.979
+ },
+ {
+  "page": 45,
+  "id": "p45-w1",
+  "text": "ُالْبَابُ",
+  "start": 11.9,
+  "end": 12.3,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 46,
+  "id": "p46-w33",
+  "text": "َحََرََكَِتِِهَِمَا",
+  "start": 129.48,
+  "end": 130.78,
+  "transcript": "حركتهما",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.974
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-002",
+  "text": "المشدد:",
+  "start": 121.16,
+  "end": 121.82,
+  "transcript": "المشدد",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-016",
+  "text": "الثالث",
+  "start": 131.76,
+  "end": 132.3,
+  "transcript": "الثالث",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 46,
+  "id": "p46-ocr-036",
+  "text": "حركته",
+  "start": 99.8,
+  "end": 100.6,
+  "transcript": "حركته",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 53,
+  "id": "p53-w1",
+  "text": "ُالْبَابُ",
+  "start": 10.88,
+  "end": 11.28,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.99
+ },
+ {
+  "page": 54,
+  "id": "p54-ocr-002",
+  "text": "الشدة",
+  "start": 25,
+  "end": 25.9,
+  "transcript": "الشدة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.96
+ },
+ {
+  "page": 54,
+  "id": "p54-ocr-007",
+  "text": "والثاني»",
+  "start": 60.1,
+  "end": 60.86,
+  "transcript": "والثاني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 54,
+  "id": "p54-ocr-024",
+  "text": "حَرَكَاتِهَا",
+  "start": 186.24,
+  "end": 187.2,
+  "transcript": "حركاتها.",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.997
+ },
+ {
+  "page": 54,
+  "id": "p54-ocr-033",
+  "text": "حركتها",
+  "start": 148.9,
+  "end": 149.88,
+  "transcript": "حركتها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 55,
+  "id": "p55-ocr-002",
+  "text": "الشدة",
+  "start": 8.74,
+  "end": 10.76,
+  "transcript": "الشدة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.953
+ },
+ {
+  "page": 64,
+  "id": "p64-w5",
+  "text": "َحََرََكَِتَِهَا",
+  "start": 20.14,
+  "end": 21.1,
+  "transcript": "حركتها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.953
+ },
+ {
+  "page": 67,
+  "id": "p67-ocr-007",
+  "text": "الطبيعى",
+  "start": 20.34,
+  "end": 21,
+  "transcript": "الطبيعي",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 71,
+  "id": "p71-w6",
+  "text": "الْجَمَاعَة",
+  "start": 20.34,
+  "end": 21.06,
+  "transcript": "الجماعة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 72,
+  "id": "p72-ocr-004",
+  "text": "الْجَمَاعَة:",
+  "start": 15.7,
+  "end": 16.5,
+  "transcript": "الجماعة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.997
+ },
+ {
+  "page": 75,
+  "id": "p75-w2",
+  "text": "ُالتَّاءُ",
+  "start": 20.48,
+  "end": 20.92,
+  "transcript": "التاء",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.963
+ },
+ {
+  "page": 76,
+  "id": "p76-w1",
+  "text": "ُالَّتَاُءُ",
+  "start": 6.82,
+  "end": 8.48,
+  "transcript": "التاء",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.88
+ },
+ {
+  "page": 76,
+  "id": "p76-w2",
+  "text": "اْلَْمَْرُْبُوَطَُة",
+  "start": 8.48,
+  "end": 9.36,
+  "transcript": "المربوطة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 77,
+  "id": "p77-w2",
+  "text": "الْوَصْل",
+  "start": 44,
+  "end": 44.66,
+  "transcript": "الوصل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.92
+ },
+ {
+  "page": 77,
+  "id": "p77-w4",
+  "text": "الْوَقْف",
+  "start": 25.28,
+  "end": 27.4,
+  "transcript": "الوقف،",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.967
+ },
+ {
+  "page": 79,
+  "id": "p79-w5",
+  "text": "الْقَمَرِيَّةُ",
+  "start": 21.94,
+  "end": 22.74,
+  "transcript": "القمرية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.975
+ },
+ {
+  "page": 79,
+  "id": "p79-w7",
+  "text": "الشَّمْسِيَّة",
+  "start": 23.28,
+  "end": 24.04,
+  "transcript": "الشمسية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 80,
+  "id": "p80-w50",
+  "text": "اْلُْمَُشََّدَِدِ",
+  "start": 120.88,
+  "end": 121.62,
+  "transcript": "المشدد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.949
+ },
+ {
+  "page": 80,
+  "id": "p80-w54",
+  "text": "ََوَُتُْحَْذَُفُ",
+  "start": 102.4,
+  "end": 103.72,
+  "transcript": "وتحذف",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.916
+ },
+ {
+  "page": 80,
+  "id": "p80-w56",
+  "text": "اْلَْوَْصِْلِ",
+  "start": 73.76,
+  "end": 74.26,
+  "transcript": "الوصل",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.984
+ },
+ {
+  "page": 80,
+  "id": "p80-w59",
+  "text": "اْلِْقَِرَاَءَِةِ؛",
+  "start": 126.04,
+  "end": 127.28,
+  "transcript": "القراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.968
+ },
+ {
+  "page": 80,
+  "id": "p80-w60",
+  "text": "َفََكَِلَِمَُة",
+  "start": 105.5,
+  "end": 106.4,
+  "transcript": "فكلمة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.885
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-007",
+  "text": "الشمسية؟",
+  "start": 32.8,
+  "end": 33.62,
+  "transcript": "الشمسية",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-026",
+  "text": "الطريقةٍ",
+  "start": 134.78,
+  "end": 135.38,
+  "transcript": "الطريقة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.984
+ },
+ {
+  "page": 80,
+  "id": "p80-ocr-034",
+  "text": "قبلهَا:",
+  "start": 75.78,
+  "end": 76.46,
+  "transcript": "قبلها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.982
+ },
+ {
+  "page": 84,
+  "id": "p84-w33",
+  "text": "ِالَّثَاِنَِيَِةِ",
+  "start": 51.94,
+  "end": 52.58,
+  "transcript": "الثانية",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.998
+ },
+ {
+  "page": 84,
+  "id": "p84-w66",
+  "text": "ُمََُتََحَِّرٌِكٌ،",
+  "start": 112.87,
+  "end": 113.69,
+  "transcript": "متحرك",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.935
+ },
+ {
+  "page": 84,
+  "id": "p84-w68",
+  "text": "َحَْرَْفَاِنِ",
+  "start": 115.11,
+  "end": 115.79,
+  "transcript": "حرفان",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.984
+ },
+ {
+  "page": 85,
+  "id": "p85-w8",
+  "text": "الْقَيُّوم",
+  "start": 178.28,
+  "end": 179.76,
+  "transcript": "القيوم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 86,
+  "id": "p86-w10",
+  "text": "َعََلَْيُْكُْمْ",
+  "start": 139.28,
+  "end": 140.56,
+  "transcript": "عليكم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 87,
+  "id": "p87-w5",
+  "text": "الَّرَِحِيِم",
+  "start": 74.56,
+  "end": 75.26,
+  "transcript": "الرحيم",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 87,
+  "id": "p87-w12",
+  "text": "وَإِيَّاكَ",
+  "start": 228.82,
+  "end": 230.08,
+  "transcript": "وإياك",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.958
+ },
+ {
+  "page": 87,
+  "id": "p87-w16",
+  "text": "الرَّسُول",
+  "start": 317.32,
+  "end": 318.26,
+  "transcript": "الرسول",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 87,
+  "id": "p87-w21",
+  "text": "أُسْتَغْفِر",
+  "start": 443.44,
+  "end": 445.66,
+  "transcript": "أستغفر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.987
+ },
+ {
+  "page": 88,
+  "id": "p88-w34",
+  "text": "َُسُْبَْحَاَن",
+  "start": 703.42,
+  "end": 705.18,
+  "transcript": "سبحان",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.984
+ },
+ {
+  "page": 88,
+  "id": "p88-ocr-006",
+  "text": "ادعونى",
+  "start": 177.66,
+  "end": 179.42,
+  "transcript": "ادعوني",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 88,
+  "id": "p88-ocr-007",
+  "text": "خيركم",
+  "start": 424.28,
+  "end": 426.74,
+  "transcript": "خيركم",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 89,
+  "id": "p89-w23",
+  "text": "اْسَْتََطَْعَْت",
+  "start": 461.34,
+  "end": 462.2,
+  "transcript": "استطعت",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.954
+ },
+ {
+  "page": 89,
+  "id": "p89-w36",
+  "text": "،َِوَُكُُتُِبِِهِ،",
+  "start": 789.78,
+  "end": 791.28,
+  "transcript": "وكتبه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 89,
+  "id": "p89-w37",
+  "text": "َوَُرُُسُِلِهِ،",
+  "start": 635.92,
+  "end": 637.32,
+  "transcript": "ورسله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 89,
+  "id": "p89-w43",
+  "text": "ِبِاْلَْقََدَِرِ",
+  "start": 795.56,
+  "end": 796.46,
+  "transcript": "بالقدر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.992
+ },
+ {
+  "page": 92,
+  "id": "p92-w39",
+  "text": "َصَِغِيَرٌَة",
+  "start": 65.3,
+  "end": 66.06,
+  "transcript": "صغيرة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.996
+ },
+ {
+  "page": 92,
+  "id": "p92-w47",
+  "text": "ِقَِرَاَءَِةِاْلَْحَْرِْفِاْلَْكَِبِيِر",
+  "start": 72.62,
+  "end": 74.52,
+  "transcript": "قراءة الحرف الكبير",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.979
+ },
+ {
+  "page": 92,
+  "id": "p92-w86",
+  "text": "ََقَْبَْلَهَا",
+  "start": 150.7,
+  "end": 151.32,
+  "transcript": "قبلها",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 92,
+  "id": "p92-ocr-007",
+  "text": "دائرة",
+  "start": 74.52,
+  "end": 75.82,
+  "transcript": "دائرة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.956
+ },
+ {
+  "page": 92,
+  "id": "p92-ocr-014",
+  "text": "عَلَيْهَا",
+  "start": 138.62,
+  "end": 139.18,
+  "transcript": "عليها",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 94,
+  "id": "p94-w22",
+  "text": "اْلُْمُْصَْحَِفِ",
+  "start": 6.06,
+  "end": 7.12,
+  "transcript": "المصحف",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 95,
+  "id": "p95-w26",
+  "text": "طَعَامِهِۦ",
+  "start": 414.66,
+  "end": 417,
+  "transcript": "طعامه",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.971
+ },
+ {
+  "page": 96,
+  "id": "p96-w26",
+  "text": "قَوَارِيرَاْ",
+  "start": 302.64,
+  "end": 304.04,
+  "transcript": "قواريرا",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.788
+ },
+ {
+  "page": 97,
+  "id": "p97-w3",
+  "text": "دَائِرَةٍ",
+  "start": 18.68,
+  "end": 19.48,
+  "transcript": "دائرة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.982
+ },
+ {
+  "page": 99,
+  "id": "p99-w2",
+  "text": "الثَّالِثَ",
+  "start": 1.7,
+  "end": 2.38,
+  "transcript": "الثالث",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.936
+ },
+ {
+  "page": 99,
+  "id": "p99-w7",
+  "text": "ًَبَْعَْدَ",
+  "start": 6.96,
+  "end": 8.38,
+  "transcript": "بعد",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.919
+ },
+ {
+  "page": 99,
+  "id": "p99-w9",
+  "text": "ِبِِإِْذِْنِ",
+  "start": 11.44,
+  "end": 12.08,
+  "transcript": "بإذن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.866
+ },
+ {
+  "page": 99,
+  "id": "p99-w10",
+  "text": "الَّلَِه",
+  "start": 12.08,
+  "end": 12.42,
+  "transcript": "الله",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.989
+ },
+ {
+  "page": 99,
+  "id": "p99-w13",
+  "text": "ًيُتْقِنَ",
+  "start": 13.28,
+  "end": 14.66,
+  "transcript": "يتقن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 99,
+  "id": "p99-w14",
+  "text": "قِرَاءَةَ",
+  "start": 14.66,
+  "end": 15.32,
+  "transcript": "قراءة",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.932
+ },
+ {
+  "page": 100,
+  "id": "p100-ocr-001",
+  "text": "الطَالِبُ",
+  "start": 7.94,
+  "end": 8.52,
+  "transcript": "الطالب",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.95
+ },
+ {
+  "page": 100,
+  "id": "p100-ocr-002",
+  "text": "حَسَبَ",
+  "start": 9.08,
+  "end": 9.58,
+  "transcript": "حسب",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.946
+ },
+ {
+  "page": 100,
+  "id": "p100-ocr-004",
+  "text": "اثنان",
+  "start": 17.26,
+  "end": 18.66,
+  "transcript": "إثنان",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.834
+ },
+ {
+  "page": 100,
+  "id": "p100-ocr-007",
+  "text": "عشرة",
+  "start": 39.32,
+  "end": 40.72,
+  "transcript": "عشرة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.801
+ },
+ {
+  "page": 102,
+  "id": "p102-w20",
+  "text": "الَّثَاِلُِث",
+  "start": 45.72,
+  "end": 46.4,
+  "transcript": "الثالث",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.995
+ },
+ {
+  "page": 102,
+  "id": "p102-w24",
+  "text": "الَّرَاِبُِع",
+  "start": 52.72,
+  "end": 53.36,
+  "transcript": "الرابع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.968
+ },
+ {
+  "page": 102,
+  "id": "p102-w27",
+  "text": "ُاْلَْبَاُبُ",
+  "start": 59,
+  "end": 60.22,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.913
+ },
+ {
+  "page": 102,
+  "id": "p102-w28",
+  "text": "اْلَْخَاِمُِس",
+  "start": 60.22,
+  "end": 61.06,
+  "transcript": "الخامس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.977
+ },
+ {
+  "page": 102,
+  "id": "p102-w32",
+  "text": "ُاْلَْبَاُبُ",
+  "start": 67.14,
+  "end": 68.42,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.993
+ },
+ {
+  "page": 102,
+  "id": "p102-w33",
+  "text": "الَّسَاِدُِس",
+  "start": 68.42,
+  "end": 69.14,
+  "transcript": "السادس",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.966
+ },
+ {
+  "page": 102,
+  "id": "p102-w36",
+  "text": "ُاْلَْبَاُبُ",
+  "start": 75.34,
+  "end": 76.04,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.994
+ },
+ {
+  "page": 102,
+  "id": "p102-w37",
+  "text": "الَّسَاِبُِع",
+  "start": 76.04,
+  "end": 76.8,
+  "transcript": "السابع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.988
+ },
+ {
+  "page": 102,
+  "id": "p102-w41",
+  "text": "الَّثَاِمُِن",
+  "start": 82.22,
+  "end": 83.4,
+  "transcript": "الثامن",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.803
+ },
+ {
+  "page": 102,
+  "id": "p102-w44",
+  "text": "ُاْلَْبَاُبُ",
+  "start": 88.72,
+  "end": 89.42,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.958
+ },
+ {
+  "page": 102,
+  "id": "p102-w45",
+  "text": "الَّتَاِسُِع",
+  "start": 89.42,
+  "end": 90.18,
+  "transcript": "التاسع",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.955
+ },
+ {
+  "page": 102,
+  "id": "p102-w48",
+  "text": "ُاْلَْبَاُبُ",
+  "start": 95.74,
+  "end": 96.52,
+  "transcript": "الباب",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.978
+ },
+ {
+  "page": 102,
+  "id": "p102-w49",
+  "text": "اْلَْعَاِشُِر",
+  "start": 96.52,
+  "end": 97.26,
+  "transcript": "العاشر",
+  "method": "pdf-text-exact-asr",
+  "confidence": 0.937
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-001",
+  "text": "المقدمة",
+  "start": 3.08,
+  "end": 4.82,
+  "transcript": "المقدمة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.83
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-002",
+  "text": "تمهيد",
+  "start": 26.36,
+  "end": 27.28,
+  "transcript": "تمهيد",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.929
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-010",
+  "text": "مؤسسة",
+  "start": 129.52,
+  "end": 130.86,
+  "transcript": "مؤسسة",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.941
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-011",
+  "text": "طالب",
+  "start": 130.86,
+  "end": 131.32,
+  "transcript": "طالب",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.885
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-012",
+  "text": "العلم",
+  "start": 131.32,
+  "end": 131.64,
+  "transcript": "العلم",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.966
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-013",
+  "text": "للنشر",
+  "start": 131.64,
+  "end": 132.16,
+  "transcript": "للنشر",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.941
+ },
+ {
+  "page": 102,
+  "id": "p102-ocr-014",
+  "text": "والتوزيع",
+  "start": 132.16,
+  "end": 132.98,
+  "transcript": "والتوزيع",
+  "method": "ocr-word-exact-asr",
+  "confidence": 0.971
+ }
+]

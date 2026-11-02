@@ -40,7 +40,7 @@ export function zoneTokens(library, pageId, refW, refH) {
   const page = library?.pages?.[String(pageId)];
   if (!page?.zones?.length) return [];
   const conf = page.zoneStatus === 'pilot-geometry' ? 0.95 : 0.8;
-  return page.zones.filter(z => Array.isArray(z.box) && z.box.length === 4 && z.box.every(Number.isFinite)).map(z => ({
+  return page.zones.filter(z => !z.visionSkip && Array.isArray(z.box) && z.box.length === 4 && z.box.every(Number.isFinite)).map(z => ({
     id: z.id, text: z.text, spokenText: z.spokenText ?? null, kind: kindOf(z), confidence: z.geometryReviewed ? Math.max(conf, 0.9) : conf,
     source: 'audio-library-zone', zone: z,
     box: { x: z.box[0] * refW, y: z.box[1] * refH, width: z.box[2] * refW, height: z.box[3] * refH },
