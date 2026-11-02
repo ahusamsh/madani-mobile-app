@@ -3,10 +3,10 @@
 const { spawn } = require('node:child_process'), fs = require('node:fs'), path = require('node:path');
 const root = path.resolve(__dirname, '..', '..');
 (async () => {
-  const { chromium } = require('playwright');
+  const { chromium } = require('playwright-core');
   const server = spawn(process.execPath, [path.join(root, 'scripts/serve.cjs')], { stdio: ['ignore', 'pipe', 'inherit'] });
   await new Promise((res, rej) => { server.stdout.on('data', d => String(d).includes('MADANI_SERVER') && res()); server.on('exit', c => rej(Error('server exited ' + c))); });
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ channel: 'chrome', headless: true });
   try {
     const page = await browser.newPage(); page.on('pageerror', e => { console.error(e); process.exitCode = 1; });
     await page.goto('http://127.0.0.1:8765/vision/bench/build-index.html');

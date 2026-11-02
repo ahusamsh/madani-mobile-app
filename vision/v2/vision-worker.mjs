@@ -5,7 +5,7 @@
 import { VisionEngineV2 } from './engine-v2.mjs';
 import { VisionEngine } from '../engine/engine.mjs';
 import { parseIndex } from './ref-index.mjs';
-import { resolveContent } from './content-audio.mjs';
+import { resolveContent, resolvePageAudio } from './content-audio.mjs';
 import { referencePages, referenceFeatures, loadGray, openFeatureCache } from '../engine/browser-refs.mjs';
 
 let engine = null, library = null, appRoot = null, lastPage = null, canvas = null, ctx = null;
@@ -21,6 +21,7 @@ async function init({ appRoot: root, engine: which = 'v2' }) {
   try {
     const r = await fetch(new URL('vision/data/ref-index.bin', appRoot)); if (!r.ok) throw new Error('no index');
     const idx = parseIndex(await r.arrayBuffer());
+    if (idx.pages.length !== Object.keys(library.pages).length) throw new Error('stale reference index: not all book pages included');
     for (const p of idx.pages) { urls.set(p.pageId, new URL(p.url, appRoot).href); engine.addReferencePage(p.pageId, null, p.features, p.size, p.thumb); }
   } catch {
     source = 'computed-on-device'; // fallback: compute (and cache in IndexedDB) progressively
@@ -40,7 +41,7 @@ function frame(m) {
   if (r.pageId !== lastPage && r.pageId != null) { // tell the UI which clips to preload for this page
     lastPage = r.pageId;
     const clips = (library.pages[r.pageId]?.zones || []).map(z => resolveContent(library, r.pageId, z)).filter(c => c.audio.status === 'available').map(c => c.audio.clip);
-    post({ type: 'page', pageId: r.pageId, clips });
+    post({ type: 'page', pageId: r.pageId, clips, fullAudio: resolvePageAudio(library, r.pageId) });
   }
   const zoneId = r.accepted ? r.targetId : r.candidateId, zone = zoneId && library.pages[r.pageId]?.zones.find(z => z.id === zoneId);
   const content = zone ? resolveContent(library, r.pageId, zone) : null;

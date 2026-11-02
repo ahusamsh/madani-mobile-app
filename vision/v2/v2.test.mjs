@@ -100,10 +100,11 @@ test('reference index: serialize/parse round trip keeps features and thumbnails 
   assert.deepEqual(Array.from(p.thumb.d), Array.from(t.d));
 });
 
-test('shipped vision/data/ref-index.bin parses and covers every page that has an image and zones', async () => {
+test('shipped vision/data/ref-index.bin parses and covers all 104 book pages', async () => {
   const { parseIndex } = await import('./ref-index.mjs');
   const buf = readFileSync(root + 'vision/data/ref-index.bin'), idx = parseIndex(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
-  const want = Object.entries(library.pages).filter(([, p]) => p.image && p.zones?.length).map(([k]) => +k).sort((a, b) => a - b);
+  const want = Object.entries(library.pages).filter(([, p]) => p.image).map(([k]) => +k).sort((a, b) => a - b);
   assert.deepEqual(idx.pages.map(p => p.pageId).sort((a, b) => a - b), want);
-  assert.ok(idx.pages.every(p => p.features.n > 200 && p.thumb.w === 200));
+  assert.ok(idx.pages.every(p => p.thumb.w === 200));
+  assert.ok(idx.pages.filter(p => library.pages[p.pageId].zones?.length).every(p => p.features.n > 200)); // blank/front-matter pages may have too few visual features to identify reliably
 });

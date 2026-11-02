@@ -10,7 +10,7 @@ const fileEntry = p => { const abs = path.join(root, p.replace(/^\.\//, '')); co
 const list = dir => fs.readdirSync(path.join(root, dir)).filter(f => fs.statSync(path.join(root, dir, f)).isFile()).sort().map(f => `${dir}/${f}`);
 const uniq = a => [...new Set(a.map(rel))];
 
-const refImages = Object.values(lib.pages).filter(p => typeof p.image === 'string' && p.zones?.length).map(p => p.image);
+const refImages = Object.values(lib.pages).filter(p => typeof p.image === 'string').map(p => p.image);
 const clips = [...Object.values(lib.segments).map(s => s.clip), ...Object.values(lib.pages).flatMap(p => (p.boxes || []).map(b => b.clip))].filter(c => typeof c === 'string');
 const pageAudio = [...list('library-audio'), ...Object.values(lib.pages).map(p => p.localAudio).filter(Boolean)];
 

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T04:13:24.989Z",
+ "generatedAt": "2026-11-02T04:30:39.809Z",
  "label": "Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.",
  "errors": [],
  "expected": {
@@ -12,30 +12,30 @@
   "ready": false
  },
  "download": {
-  "ms": 3895,
+  "ms": 4096,
   "chip": "جاهز دون إنترنت ✓",
   "packs": [
    {
     "id": "camera-ar",
     "complete": true,
-    "present": 292,
-    "total": 292,
-    "bytesPresent": 17341979,
+    "present": 307,
+    "total": 307,
+    "bytesPresent": 21016397,
     "verified": true,
-    "verifiedAt": 1793592821121
+    "verifiedAt": 1793593853411
    },
    {
     "id": "book-ar",
     "complete": true,
     "present": 187,
     "total": 187,
-    "bytesPresent": 11735678,
+    "bytesPresent": 11753901,
     "verified": true,
-    "verifiedAt": 1793592822710
+    "verifiedAt": 1793593854845
    }
   ]
  },
- "deepVerify": "✓ سليم (292 ملف)",
+ "deepVerify": "✓ سليم (307 ملف)",
  "offlineOpen": {
   "onLine": false,
   "chip": "دون اتصال — يعمل محليًا ✓",
@@ -46,9 +46,9 @@
  "offlineCamera": {
   "ready": {
    "type": "ready",
-   "pages": 89,
+   "pages": 104,
    "source": "precomputed-index",
-   "ms": 3527,
+   "ms": 5627,
    "engine": "v2"
   },
   "accepted": [
@@ -56,31 +56,31 @@
     "id": "p17-w5",
     "page": 17,
     "play": true,
-    "at": 5046.199999999953,
-    "frameToResultMs": 151.69999999995343
+    "at": 7374.200000047684,
+    "frameToResultMs": 93.90000009536743
    }
   ],
   "audio": [
    {
     "clip": "./pilot-media/p015-word-005.mp3",
-    "latencyMs": 0.5,
+    "latencyMs": 0.39999985694885254,
     "fromCache": true
    }
   ],
-  "results": 4,
+  "results": 5,
   "procMs": {
-   "p50": 149.6,
-   "p95": 159.3,
-   "n": 4
+   "p50": 94.6,
+   "p95": 132.5,
+   "n": 5
   },
   "pipelineMs": {
-   "p50": 160.6,
-   "p95": 218.3
+   "p50": 98,
+   "p95": 150.8
   },
   "errors": [],
   "word": "ج",
   "status": "يُنطق الآن",
-  "msFromStartClickToFirstAudio": 4929,
+  "msFromStartClickToFirstAudio": 6880,
   "pass": true
  },
  "offlineReader": {

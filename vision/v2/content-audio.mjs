@@ -3,6 +3,15 @@
 // loaded becomes 'missing-file' at play time (AudioController). Coverage is reported, not assumed.
 import { resolveAudio } from '../engine/target.mjs';
 
+/** Original full-page recording. Never mislabel this as a word/letter recording. */
+export function resolvePageAudio(library, pageId) {
+  const p = library.pages?.[pageId];
+  if (!p) return null;
+  if (p.localAudio) return p.localAudio;
+  if (p.audioSourceCached && pageId > 2) return './library-audio/page-' + String(pageId - 2).padStart(3, '0') + '.mp3';
+  return null;
+}
+
 const HARAKAT = /[ً-ْٰٕٓٔ]/u;          // tanween, fatha/damma/kasra, shadda, sukun, madda, hamza marks, dagger alef
 const IGNORE = /[ـ\s‌‍ۖ-ۭؐ-ؚ]/gu; // tatweel, joiners, Quranic annotation marks
 const BASE = /[ء-غف-يٱ-ۓ]/gu;          // Arabic base letters

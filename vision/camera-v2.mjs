@@ -11,6 +11,16 @@ const ENGINE = params.get('engine') === 'v1' ? 'v1' : 'v2';
 const stats = window.__v2 = { engine: ENGINE, longTasks: 0, longTaskMs: 0, results: 0, accepted: [], audio: [], procMs: [], pipelineMs: [], errors: [], ready: null };
 const src = new FrameSource($('video')), rate = new AdaptiveRate();
 const audio = new AudioController({ resolveUrl: c => new URL(c, APP_ROOT).href, onEvent: onAudio });
+const fullPagePlayer = new Audio(); fullPagePlayer.preload = 'none';
+let pageAudioClip = null, currentPage = null;
+function showPageAudio(pageId, clip) {
+  if (currentPage === pageId && pageAudioClip === clip) return;
+  fullPagePlayer.pause(); fullPagePlayer.removeAttribute('src');
+  currentPage = pageId; pageAudioClip = clip || null;
+  $('pageAudio').disabled = !pageAudioClip; $('pageAudio').textContent = '▶ سماع الصفحة كاملة';
+}
+fullPagePlayer.onended = () => { $('pageAudio').textContent = '▶ سماع الصفحة كاملة'; };
+fullPagePlayer.onerror = () => { $('pageAudio').textContent = '▶ سماع الصفحة كاملة'; setStatus('noaudio', 'تعذر تحميل تسجيل الصفحة'); };
 let worker = null, active = false, inflight = false, frameId = 0, sent = new Map(), diag = false, held = null, packIndex = null;
 
 const STATUS = {
@@ -47,7 +57,7 @@ function handle(r, meta) {
     const kind = KIND_LABEL_AR[r.kind] || 'موضع', who = r.pointerType === 'pen' ? 'قلم' : 'إصبع';
     $('word').textContent = r.targetText; $('meta').textContent = `الصفحة ${r.pageId} • ${kind} • ${who}` + (r.spokenText ? ` • يُنطق: ${r.spokenText}` : '');
     stats.accepted.push({ id: r.targetId, page: r.pageId, play: r.play, at: meta.at, frameToResultMs: performance.now() - meta.at });
-    if (r.play) { setStatus('ok'); if ($('sound').getAttribute('aria-pressed') === 'true') audio.play(r.audio.clip, { key: r.targetId, requestedAt: performance.now() }); }
+    if (r.play) { setStatus('ok'); if ($('sound').getAttribute('aria-pressed') === 'true') { fullPagePlayer.pause(); $('pageAudio').textContent = '▶ سماع الصفحة كاملة'; audio.play(r.audio.clip, { key: r.targetId, requestedAt: performance.now() }); } }
     else setStatus('noaudio');
   } else {
     const reason = r.rejectionReason || '';
@@ -83,7 +93,7 @@ function startWorker() {
     worker.onmessage = ({ data: m }) => {
       if (m.type === 'ready') { stats.ready = m; resolve(m); }
       else if (m.type === 'progress') setStatus('loading', `${m.done}/${m.total}`);
-      else if (m.type === 'page') audio.preload(m.clips);
+      else if (m.type === 'page') { showPageAudio(m.pageId, m.fullAudio); audio.preload(m.clips); }
       else if (m.type === 'error') { stats.errors.push(m.message); if (!stats.ready) reject(new Error(m.message)); else { inflight = false; requestAnimationFrame(pump); } }
       else if (m.type === 'result') {
         const meta = sent.get(m.id); sent.delete(m.id); inflight = false;
@@ -112,7 +122,7 @@ async function start() {
   finally { $('start').disabled = false; }
 }
 function stop() {
-  active = false; src.stop(); audio.stop(); worker?.postMessage({ type: 'reset' }); held = null; draw(null, 1, 1);
+  active = false; src.stop(); audio.stop(); fullPagePlayer.pause(); showPageAudio(null, null); worker?.postMessage({ type: 'reset' }); held = null; draw(null, 1, 1);
   $('start').textContent = '📷 تشغيل الكاميرا'; $('start').classList.remove('on'); setStatus('off'); $('hint').textContent = 'الكاميرا متوقفة'; $('speaking').classList.remove('on');
 }
 
@@ -161,6 +171,14 @@ async function doVerify(p, row) { const small = row.querySelector('small'); smal
 
 try { new PerformanceObserver(l => { for (const e of l.getEntries()) { stats.longTasks++; stats.longTaskMs += e.duration; } }).observe({ type: 'longtask', buffered: true }); } catch {}
 $('start').onclick = start;
+$('pageAudio').onclick = async () => {
+  if (!pageAudioClip) return;
+  if (!fullPagePlayer.paused) { fullPagePlayer.pause(); $('pageAudio').textContent = '▶ سماع الصفحة كاملة'; return; }
+  audio.stop();
+  fullPagePlayer.src = new URL(pageAudioClip, APP_ROOT).href;
+  try { await fullPagePlayer.play(); $('pageAudio').textContent = '⏸ إيقاف تسجيل الصفحة'; }
+  catch { setStatus('noaudio', 'تعذر تشغيل التسجيل الكامل'); }
+};
 $('sound').onclick = () => { const on = $('sound').getAttribute('aria-pressed') !== 'true'; $('sound').setAttribute('aria-pressed', String(on)); $('sound').textContent = on ? '🔊 الصوت' : '🔇 الصوت متوقف'; audio.setEnabled(on); };
 $('switch').onclick = async () => { await src.switchCamera(); worker?.postMessage({ type: 'reset' }); };
 $('diagBtn').onclick = () => { diag = !diag; $('diagBtn').setAttribute('aria-pressed', String(diag)); $('diagBox').hidden = !diag; $('diagBox').open = diag; };
