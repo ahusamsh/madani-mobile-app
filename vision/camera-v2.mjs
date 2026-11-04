@@ -7,7 +7,7 @@ import { loadPackIndex, packStatus, downloadPack, verifyPack, removePack, storag
 const $ = id => document.getElementById(id);
 const APP_ROOT = new URL('../', import.meta.url);
 const params = new URLSearchParams(location.search);
-const ENGINE = params.get('engine') === 'v1' ? 'v1' : 'v2';
+const ENGINE = ['v1', 'v3'].includes(params.get('engine')) ? params.get('engine') : 'v2'; // V2 stays the default
 const stats = window.__v2 = { engine: ENGINE, longTasks: 0, longTaskMs: 0, results: 0, accepted: [], audio: [], procMs: [], pipelineMs: [], errors: [], ready: null };
 const src = new FrameSource($('video')), rate = new AdaptiveRate();
 const audio = new AudioController({ resolveUrl: c => new URL(c, APP_ROOT).href, onEvent: onAudio });
@@ -170,6 +170,7 @@ async function doDownload(p, row) {
 async function doVerify(p, row) { const small = row.querySelector('small'); small.textContent = 'جارٍ التحقق من سلامة الملفات…'; const v = await verifyPack(p, APP_ROOT, { deep: true }); small.textContent = v.ok ? `✓ سليم (${v.checked} ملف)` : `تالف/ناقص: ${v.bad.length}`; refreshOffline(); }
 
 try { new PerformanceObserver(l => { for (const e of l.getEntries()) { stats.longTasks++; stats.longTaskMs += e.duration; } }).observe({ type: 'longtask', buffered: true }); } catch {}
+$('engineName') && ($('engineName').textContent = ENGINE.toUpperCase());
 $('start').onclick = start;
 $('pageAudio').onclick = async () => {
   if (!pageAudioClip) return;

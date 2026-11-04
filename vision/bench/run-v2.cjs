@@ -23,7 +23,7 @@ const startServer = () => new Promise((res, rej) => { const s = spawn(process.ex
 
     // ---------- A) online: install + download packs ----------
     let ctx = await launch(), page = await ctx.newPage(); page.on('pageerror', e => out.errors.push('A:' + e.message));
-    await page.goto(URL0 + '/vision/camera-v2.html');
+    await page.goto(URL0 + '/vision/camera-v2.html' + (arg('engine') ? '?engine=' + arg('engine') : ''));
     await page.waitForFunction(() => window.__v2?.offline, null, { timeout: 60000 });
     if (!(await page.evaluate(() => navigator.serviceWorker.controller))) { await page.reload(); await page.waitForFunction(() => navigator.serviceWorker.controller && window.__v2?.offline, null, { timeout: 60000 }); }
     out.beforeDownload = await page.evaluate(() => ({ chip: document.querySelector('#offline').textContent, ready: window.__v2.offline.ready }));
@@ -46,7 +46,7 @@ const startServer = () => new Promise((res, rej) => { const s = spawn(process.ex
     server.kill(); server = null; await new Promise(r => setTimeout(r, 500));
     ctx = await launch(); await ctx.setOffline(true); page = await ctx.newPage(); page.on('pageerror', e => out.errors.push('B:' + e.message));
     const reach = await page.evaluate(() => fetch('http://127.0.0.1:8765/__probe').then(() => 'reachable', () => 'unreachable')).catch(() => 'unreachable');
-    await page.goto(URL0 + '/vision/camera-v2.html');
+    await page.goto(URL0 + '/vision/camera-v2.html' + (arg('engine') ? '?engine=' + arg('engine') : ''));
     await page.waitForFunction(() => window.__v2?.offline, null, { timeout: 60000 });
     out.offlineOpen = await page.evaluate(() => ({ onLine: navigator.onLine, chip: document.querySelector('#offline').textContent, ready: window.__v2.offline.ready, sw: !!navigator.serviceWorker.controller }));
     out.offlineOpen.networkProbe = reach;
@@ -64,7 +64,7 @@ const startServer = () => new Promise((res, rej) => { const s = spawn(process.ex
     await ctx.close();
   } catch (e) { out.errors.push('fatal:' + (e.stack || e)); }
   finally { server?.kill(); fs.rmSync(profile, { recursive: true, force: true }); }
-  fs.writeFileSync(path.join(__dirname, 'results-v2-offline.json'), JSON.stringify(out, null, 1));
+  fs.writeFileSync(path.join(__dirname, arg('engine') === 'v3' ? 'results-v3-offline.json' : 'results-v2-offline.json'), JSON.stringify(out, null, 1));
   console.log(JSON.stringify(out, (k, v) => (k === 'packs' ? undefined : v), 1));
   if (out.errors.length || !out.offlineCamera?.pass || !out.offlineReader?.pass) process.exitCode = 1;
 })();
