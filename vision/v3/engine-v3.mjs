@@ -7,6 +7,7 @@
 import { VisionEngineV2, V2_DEFAULTS } from '../v2/engine-v2.mjs';
 import { inkSnappedTokens } from './ink-layout.mjs';
 import { selectInkTarget } from './target-v3.mjs';
+import { project, invertHomography } from '../recognition-core.mjs';
 
 export const V3_DEFAULTS = { ...V2_DEFAULTS };
 
@@ -21,5 +22,11 @@ export class VisionEngineV3 extends VisionEngineV2 {
     this.snapped.set(pageId, tokens);
     return tokens;
   }
-  selectTarget(tip, tokens, page) { return this.lock.select(tip, tokens, page, selectInkTarget); }
+  locatePage(...a) { const r = super.locatePage(...a); this._H = r?.H ?? null; return r; }
+  smoothTip(tip, at, ptr) {
+    this._axis = null; // pointer direction in PAGE coordinates (from the detector's PCA axis in the frame)
+    if (ptr?.axis && ptr?.tip && this._H) { const Hi = invertHomography(this._H), a = project(Hi, ptr.tip), b = project(Hi, { x: ptr.tip.x - ptr.axis.x * 10, y: ptr.tip.y - ptr.axis.y * 10 }); if (a && b) { const dx = a.x - b.x, dy = a.y - b.y, l = Math.hypot(dx, dy) || 1; this._axis = { x: dx / l, y: dy / l }; } }
+    return super.smoothTip(tip, at, ptr);
+  }
+  selectTarget(tip, tokens, page) { const axis = this._axis; return this.lock.select(tip, tokens, page, (t, toks) => selectInkTarget(t, toks, { axis })); }
 }
