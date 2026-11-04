@@ -55,3 +55,14 @@ test('selection refuses a tip midway between two glyphs and a tip far from any g
   assert.equal(selectInkTarget({ x: 105, y: 160 }, toks).target, null);
   assert.equal(selectInkTarget({ x: 105, y: 123 }, toks).target.id, 'a');
 });
+
+test('offline pack manifest matches the shipped files byte-for-byte (a stale hash makes packs impossible to complete)', async () => {
+  const { createHash } = await import('node:crypto'), { existsSync } = await import('node:fs');
+  const packs = JSON.parse(readFileSync(root + 'data/offline-packs.json', 'utf8')).packs.filter(p => p.required || p.id === 'page-audio-ar');
+  const bad = [];
+  for (const p of packs) for (const f of p.files) {
+    const fp = root + f.url.slice(2); if (!existsSync(fp)) { bad.push('missing ' + f.url); continue; }
+    const b = readFileSync(fp); if (b.length !== f.bytes || createHash('sha256').update(b).digest('hex') !== f.sha256) bad.push('stale ' + f.url);
+  }
+  assert.deepEqual(bad, [], 'run: node scripts/build-offline-packs.cjs');
+});
