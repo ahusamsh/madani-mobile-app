@@ -15,7 +15,12 @@ function selectRaw(tip, tokens, { axis = null, aheadPx = 11, minTextConfidence =
     }
     const { b, dx, up, down, d } = best;
     if (!d) { inside.push(t); continue; }
-    const hgt = b.height, ok = dx <= Math.min(maxSide, side * hgt) && up <= Math.min(maxSide, above * hgt) && down <= Math.min(maxBelow, below * hgt);
+    const hgt = b.height;
+    let ok = dx <= Math.min(maxSide, side * hgt) && up <= Math.min(maxSide, above * hgt) && down <= Math.min(maxBelow, below * hgt);
+    if (axis && !ok && d > 0) { // the generous slack belongs on the side the hand comes from (tip falls short towards the hand)
+      const vx = tip.x - Math.min(Math.max(tip.x, b.x), b.x + b.width), vy = tip.y - Math.min(Math.max(tip.y, b.y), b.y + b.height);
+      if ((vx * axis.x + vy * axis.y) / d < -0.7 && d <= Math.min(maxBelow, below * Math.max(hgt, b.width))) ok = true; // tip displaced from the glyph towards the hand
+    }
     // pointer axis (page coords, pointing from the hand towards the tip): a glyph BEHIND the tip lies under the
     // finger/pen body itself, so it can neither be the target nor make the target ambiguous
     if (axis) { const vx = Math.min(Math.max(tip.x, b.x), b.x + b.width) - tip.x, vy = Math.min(Math.max(tip.y, b.y), b.y + b.height) - tip.y, vl = Math.hypot(vx, vy) || 1; if ((vx * axis.x + vy * axis.y) / vl < -0.5) continue; } // nearest point of the box
