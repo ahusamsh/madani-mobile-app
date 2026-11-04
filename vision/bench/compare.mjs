@@ -50,13 +50,14 @@ export function buildScenarios(library, grays, pages, perPage = 3, seed = 202611
 }
 
 /** Run every scenario through one engine. Returns per-scenario rows + summary. */
-export function runCompare(engine, scenarios, grays, { log = () => {} } = {}) {
+export function runCompare(engine, scenarios, grays, { log = () => {}, sourceGrays = null } = {}) {
+  // sourceGrays: images the CAMERA sees (e.g. pdf.js renders of books/ar.pdf), independent of the engine's references
   const rows = [], frameMs = [], stranger = proceduralPage({ seed: 4242 }).gray;
   let clock = 0;
   for (const sc of scenarios) {
     engine.reset();
     const scSeed = [...`${sc.name}|${sc.pageId}|${sc.expect.join()}`].reduce((h, ch) => (Math.imul(h, 31) + ch.charCodeAt(0)) | 0, 7) & 0xffff;
-    const g = sc.pageId === 'procedural' ? stranger : grays.get(sc.pageId), H0 = poseHomography(g, sc.pose), R = rng(scSeed + 1);
+    const g = sc.pageId === 'procedural' ? stranger : (sourceGrays?.get(sc.pageId) ?? grays.get(sc.pageId)), H0 = poseHomography(g, sc.pose), R = rng(scSeed + 1);
     const accepted = [], pageIds = [], tips = []; let pointerStart = null, firstAcceptLatency = null, frameNo = 0;
     for (const step of sc.steps) for (let i = 0; i < step.frames; i++) {
       clock += FRAME_MS; frameNo++;

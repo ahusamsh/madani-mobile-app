@@ -3,23 +3,23 @@
 //  B) app closed, web server STOPPED, browser relaunched OFFLINE with the same profile:
 //     camera-v2 page loads, fake camera (SIMULATED video of real page 17 + pen) -> recognition -> original clip plays;
 //     reader opens and renders the Arabic PDF page from the offline pack.
-// Usage: NODE_PATH=$(npm root -g) node vision/bench/run-v2.cjs [--zone=p17-w5]
+// Usage: node vision/bench/run-v2.cjs [--zone=p17-w5]
 const { spawn } = require('node:child_process'), fs = require('node:fs'), path = require('node:path'), os = require('node:os');
 const root = path.resolve(__dirname, '..', '..'), arg = k => (process.argv.find(a => a.startsWith(`--${k}=`)) || '').split('=')[1];
 const URL0 = 'http://127.0.0.1:8765';
 const startServer = () => new Promise((res, rej) => { const s = spawn(process.execPath, [path.join(root, 'scripts/serve.cjs')], { stdio: ['ignore', 'pipe', 'inherit'] }); s.stdout.on('data', d => String(d).includes('MADANI_SERVER') && res(s)); s.on('exit', c => rej(Error('server exited ' + c))); });
 
 (async () => {
-  const { chromium } = require('playwright-core');
+  const pw = require('./pw.cjs');
   const out = { generatedAt: new Date().toISOString(), label: 'Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.', errors: [] };
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'madani-v2-')), y4m = path.join(profile, 'cam.y4m');
   let server = await startServer();
   try {
     // fake camera video (rendered from the real page image by the bench page)
-    { const b = await chromium.launch({ channel: 'chrome', headless: true }), p = await b.newPage(); await p.goto(URL0 + '/vision/bench/bench.html?noRun=1');
+    { const b = await pw.launch(), p = await b.newPage(); await p.goto(URL0 + '/vision/bench/bench.html?noRun=1');
       const fake = await p.evaluate(z => window.__makeFakeCamera(17, z, { frames: 120, still: 25 }), arg('zone') || 'p17-w5'); await b.close();
       fs.writeFileSync(y4m, Buffer.from(fake.b64, 'base64')); out.expected = { zone: arg('zone') || 'p17-w5', clip: fake.expectedClip, text: fake.text }; }
-    const launch = () => chromium.launchPersistentContext(profile + '/user', { channel: 'chrome', permissions: ['camera'], args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', `--use-file-for-fake-video-capture=${y4m}`, '--autoplay-policy=no-user-gesture-required'] });
+    const launch = () => pw.launchPersistent(profile + '/user', { permissions: ['camera'], args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', `--use-file-for-fake-video-capture=${y4m}`, '--autoplay-policy=no-user-gesture-required'] });
 
     // ---------- A) online: install + download packs ----------
     let ctx = await launch(), page = await ctx.newPage(); page.on('pageerror', e => out.errors.push('A:' + e.message));
