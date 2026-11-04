@@ -84,15 +84,22 @@ export function snapTokens(tokens, units, { minShare = 0.45, pad = 2 } = {}) {
   const zb = tokens.map(t => ({ x0: t.box.x, y0: t.box.y, x1: t.box.x + t.box.width, y1: t.box.y + t.box.height }));
   const owned = tokens.map(() => []);
   for (const u of units) {
-    let best = -1, bs = 0, second = 0;
-    zb.forEach((z, i) => { const s = inter(u, z) / area(u); if (s > bs) { second = bs; bs = s; best = i; } else if (s > second) second = s; });
-    if (best >= 0 && bs >= minShare && bs - second > 0.1) owned[best].push(u);
+    const shares = zb.map((z, i) => ({ i, s: inter(u, z) / area(u), a: area(z) })).filter(x => x.s >= minShare).sort((p, q) => q.s - p.s);
+    if (!shares.length) continue;
+    const top = shares.filter(x => shares[0].s - x.s <= 0.1);
+    if (top.length === 1) { owned[top[0].i].push(u); continue; }
+    // nested heuristic zones (a line-wide box containing a letter's box): the ink belongs to the most specific zone,
+    // but only when it is clearly smaller than every other contender; otherwise leave it unassigned
+    top.sort((p, q) => p.a - q.a);
+    if (top[0].a <= 0.5 * top[1].a) owned[top[0].i].push(u);
   }
   return tokens.map((t, i) => {
     const us = owned[i];
     if (!us.length) return { ...t, zoneBox: t.box, snap: 'zone-only' };
     const x0 = Math.min(...us.map(u => u.x0)) - pad, y0 = Math.min(...us.map(u => u.y0)) - pad, x1 = Math.max(...us.map(u => u.x1)) + pad, y1 = Math.max(...us.map(u => u.y1)) + pad;
-    return { ...t, zoneBox: t.box, box: { x: x0, y: y0, width: x1 - x0, height: y1 - y0 }, snap: 'ink', units: us.length };
+    // `parts`: one padded box per ink unit; selection measures against the nearest PART, never the union box
+    // (a zone whose pieces sit on both sides of another zone must not swallow it)
+    return { ...t, zoneBox: t.box, box: { x: x0, y: y0, width: x1 - x0, height: y1 - y0 }, parts: us.map(u => ({ x: u.x0 - pad, y: u.y0 - pad, width: u.x1 - u.x0 + 2 * pad, height: u.y1 - u.y0 + 2 * pad })), snap: 'ink', units: us.length };
   });
 }
 

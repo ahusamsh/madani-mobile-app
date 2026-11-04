@@ -40,7 +40,9 @@ export function discriminatePages(live, cands, { minDiff = 45, minPixels = 40, m
     const order = errs.map((e, i) => [e, i]).sort((p, q) => p[0] - q[0]), decisive = order[1][0] / Math.max(1e-6, order[0][0]) >= minRatio;
     perGeometry.push({ geometry: g.page, winner: decisive ? cands[order[0][1]].page : null, errs: Object.fromEntries(errs.map((e, i) => [cands[i].page, +e.toFixed(2)])), pixels: L.length, shift: sh });
   }
-  const winners = new Set(perGeometry.map(p => p.winner));
-  const winner = winners.size === 1 && !winners.has(null) && !winners.has(undefined) ? perGeometry[0].winner : null;
+  // a geometry without a decisive result abstains (e.g. a loosely related sibling registers poorly);
+  // any two decisive geometries that disagree block the decision
+  const winners = new Set(perGeometry.map(p => p.winner).filter(v => v != null));
+  const winner = winners.size === 1 ? [...winners][0] : null;
   return { winner, reason: winner ? null : 'siblings-indistinguishable', perGeometry };
 }

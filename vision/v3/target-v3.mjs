@@ -7,18 +7,24 @@ export function selectInkTarget(tip, tokens, { axis = null, minTextConfidence = 
   if (!tip || !Number.isFinite(tip.x) || !Number.isFinite(tip.y) || !Array.isArray(tokens)) return { target: null, reason: 'no-pointer' };
   const inside = [], near = [];
   for (const t of tokens) {
-    const b = t?.box, conf = Number(t?.confidence ?? 0); if (!b || !String(t.text ?? '').trim() || conf < minTextConfidence) continue;
-    const dx = Math.max(b.x - tip.x, 0, tip.x - b.x - b.width), up = Math.max(b.y - tip.y, 0), down = Math.max(tip.y - b.y - b.height, 0);
-    if (!dx && !up && !down) { inside.push(t); continue; }
-    const h = b.height, ok = dx <= Math.min(maxSide, side * h) && up <= Math.min(maxSide, above * h) && down <= Math.min(maxBelow, below * h);
+    const conf = Number(t?.confidence ?? 0); if (!t?.box || !String(t.text ?? '').trim() || conf < minTextConfidence) continue;
+    let best = null; // nearest ink part of this token (or its single box)
+    for (const b of t.parts?.length ? t.parts : [t.box]) {
+      const dx = Math.max(b.x - tip.x, 0, tip.x - b.x - b.width), up = Math.max(b.y - tip.y, 0), down = Math.max(tip.y - b.y - b.height, 0), d = distanceToBox(tip, b);
+      if (!best || d < best.d) best = { b, dx, up, down, d };
+    }
+    const { b, dx, up, down, d } = best;
+    if (!d) { inside.push(t); continue; }
+    const hgt = b.height, ok = dx <= Math.min(maxSide, side * hgt) && up <= Math.min(maxSide, above * hgt) && down <= Math.min(maxBelow, below * hgt);
     // pointer axis (page coords, pointing from the hand towards the tip): a glyph BEHIND the tip lies under the
     // finger/pen body itself, so it can neither be the target nor make the target ambiguous
     if (axis) { const vx = Math.min(Math.max(tip.x, b.x), b.x + b.width) - tip.x, vy = Math.min(Math.max(tip.y, b.y), b.y + b.height) - tip.y, vl = Math.hypot(vx, vy) || 1; if ((vx * axis.x + vy * axis.y) / vl < -0.5) continue; } // nearest point of the box
-    near.push({ t, d: distanceToBox(tip, b), ok });
+    near.push({ t, d, ok });
   }
   if (inside.length > 1) { // overlapping boxes: smallest box that contains the tip, if clearly smaller
-    inside.sort((a, b) => a.box.width * a.box.height - b.box.width * b.box.height);
-    const [a, b] = inside; if (a.box.width * a.box.height > 0.6 * b.box.width * b.box.height) return { target: null, reason: 'ambiguous-neighbours' };
+    const ar = t => (t.parts?.length ? t.parts : [t.box]).reduce((s, b) => s + b.width * b.height, 0);
+    inside.sort((a, b) => ar(a) - ar(b));
+    const [a, b] = inside; if (ar(a) > 0.6 * ar(b)) return { target: null, reason: 'ambiguous-neighbours' };
     return { target: a, confidence: 0.85, reason: null, via: 'inside-smallest' };
   }
   if (inside.length === 1) return { target: inside[0], confidence: 1, reason: null, via: 'inside' };
