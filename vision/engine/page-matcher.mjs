@@ -155,8 +155,8 @@ export class PageIndex {
     // optional full-resolution check between close candidates (V3): the hook returns a decisive winner, or null
     // same-layout siblings are ALWAYS checked: occlusion by the pointer can push the wrong sibling far ahead at low resolution
     const sibs = discriminate ? new Set(this.siblings(best.page, 6)) : null;
-    if (discriminate && second && valid.some(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow))) {
-      const close = [best, ...valid.filter(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow) && (v.dense ?? -1) >= minDense)].slice(0, 3), d = close.length > 1 ? discriminate(close) : { winner: best.page };
+    if (discriminate && second && valid.some(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow) && (v.dense ?? -1) >= Math.max(minDense, best.dense - 0.25))) {
+      const close = [best, ...valid.filter(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow) && (v.dense ?? -1) >= Math.max(minDense, best.dense - 0.25))].slice(0, 3), d = close.length > 1 ? discriminate(close) : { winner: best.page };
       if (!d || d.winner === null) return { page: null, reason: d?.reason === 'loading' ? 'confirming-page' : 'ambiguous-page', evaluated, votes: shortlist, method, fine: d };
       const win = close.find(v => v.page === d.winner);
       return { page: win.page, confidence: Math.min(win.score, 0.5 + win.dense), registration: win.registration, reason: null, evaluated, votes: shortlist, method: method + '+fine', dense: win.dense, denseMargin: 1, fine: d };

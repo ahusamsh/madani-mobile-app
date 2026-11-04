@@ -42,7 +42,9 @@ export function discriminatePages(live, cands, { minDiff = 45, minPixels = 40, m
   }
   // a geometry without a decisive result abstains (e.g. a loosely related sibling registers poorly);
   // any two decisive geometries that disagree block the decision
-  const winners = new Set(perGeometry.map(p => p.winner).filter(v => v != null));
-  const winner = winners.size === 1 ? [...winners][0] : null;
+  // the FIRST candidate is the best-registered one (highest content score): its geometry must decide; the others
+  // may only confirm or block (a candidate with a poor registration must not make its own reference 'match')
+  const lead = perGeometry[0]?.winner ?? null, others = new Set(perGeometry.slice(1).map(p => p.winner).filter(v => v != null));
+  const winner = lead !== null && [...others].every(v => v === lead) ? lead : null;
   return { winner, reason: winner ? null : 'siblings-indistinguishable', perGeometry };
 }

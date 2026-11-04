@@ -3,7 +3,7 @@
 // slack below than beside or above. A tip outside every box is accepted only when one glyph is clearly the closest.
 import { distanceToBox } from '../recognition-core.mjs';
 
-export function selectInkTarget(tip, tokens, { axis = null, minTextConfidence = 0.63, side = 0.25, below = 0.45, above = 0.35, maxSide = 7, maxBelow = 12, outsideRatio = 2.5 } = {}) {
+function selectRaw(tip, tokens, { axis = null, aheadPx = 11, minTextConfidence = 0.63, side = 0.25, below = 0.45, above = 0.35, maxSide = 7, maxBelow = 12, outsideRatio = 2.5 } = {}) {
   if (!tip || !Number.isFinite(tip.x) || !Number.isFinite(tip.y) || !Array.isArray(tokens)) return { target: null, reason: 'no-pointer' };
   const inside = [], near = [];
   for (const t of tokens) {
@@ -32,4 +32,17 @@ export function selectInkTarget(tip, tokens, { axis = null, minTextConfidence = 
   const [n1, n2] = near; if (!n1?.ok) return { target: null, reason: 'no-text-at-tip' };
   if (n2 && n2.d < outsideRatio * n1.d + 4) return { target: null, reason: 'ambiguous-neighbours' };
   return { target: n1.t, confidence: Math.max(0.6, 1 - n1.d / 20), reason: null, via: 'near' };
+}
+
+/**
+ * A dark tip over dark print is invisible for its last ~1-3 mm, so the estimated tip falls SHORT of the true tip
+ * (towards the hand), never beyond it. If a DIFFERENT glyph lies within that distance ahead along the pointer axis
+ * than the one selected at the estimated tip, the real target is uncertain: refuse rather than guess.
+ */
+export function selectInkTarget(tip, tokens, opts = {}) {
+  const r = selectRaw(tip, tokens, opts), { axis = null, aheadPx = 11 } = opts;
+  if (!r.target || !axis) return r;
+  const at = p => tokens.find(t => (t.parts?.length ? t.parts : [t.box]).some(b => p.x >= b.x && p.x <= b.x + b.width && p.y >= b.y && p.y <= b.y + b.height));
+  for (const f of [0.5, 1]) { const q = at({ x: tip.x + axis.x * aheadPx * f, y: tip.y + axis.y * aheadPx * f }); if (q && q !== r.target) return { target: null, reason: 'tip-uncertain-along-axis' }; }
+  return r;
 }
