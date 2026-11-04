@@ -8,6 +8,7 @@ import { VisionEngineV2, V2_DEFAULTS } from '../v2/engine-v2.mjs';
 import { inkSnappedTokens } from './ink-layout.mjs';
 import { selectInkTarget } from './target-v3.mjs';
 import { project, invertHomography } from '../recognition-core.mjs';
+import { discriminatePages } from './page-discriminate.mjs';
 
 export const V3_DEFAULTS = { ...V2_DEFAULTS };
 
@@ -21,6 +22,11 @@ export class VisionEngineV3 extends VisionEngineV2 {
     const { tokens } = inkSnappedTokens(gray, base);
     this.snapped.set(pageId, tokens);
     return tokens;
+  }
+  // same-layout pages (e.g. 47 vs 49: identical grid, fatha vs kasra) are decided at full resolution on the pixels
+  // where the references differ; reference pixels not loaded yet => 'confirming-page' (request the load)
+  identifyExtras(gray) {
+    return { discriminate: cands => { const withGray = cands.map(c => ({ page: c.page, H: c.registration, gray: this.refGray(c.page) })); if (withGray.some(c => !c.gray)) return { winner: null, reason: 'loading' }; return discriminatePages(gray, withGray); } };
   }
   locatePage(...a) { const r = super.locatePage(...a); this._H = r?.H ?? null; return r; }
   smoothTip(tip, at, ptr) {
