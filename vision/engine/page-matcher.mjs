@@ -125,7 +125,7 @@ export class PageIndex {
    * candidates; page-specific CONTENT decides between near-identical layouts (e.g. the same letter grid
    * with fatha vs kasra), so a page is only accepted when its dense score clearly beats every sibling.
    */
-  identify(live, { prior = [], candidates = 3, gray = null, minDense = 0.3, denseMargin = 0.04, quickIterations = 250, searchAll = true, quickMinInliers = 10 } = {}) {
+  identify(live, { prior = [], candidates = 3, gray = null, minDense = 0.3, denseMargin = 0.04, quickIterations = 250, searchAll = true, quickMinInliers = 10, discriminate = null, fineWindow = 0.15 } = {}) {
     const tried = new Map(), add = (id, priorH = null) => { if (!tried.has(id) && this.pages.has(id)) { const v = this.verify(live, id, { priorH }); if (v) tried.set(id, v); } };
     for (const id of prior) add(id);
     // 1) one LSH pass gives candidate correspondences for all pages; 2) quick per-page geometry;
@@ -152,6 +152,15 @@ export class PageIndex {
     const [best, second] = valid, evaluated = [...tried.values()];
     const method = prior.length && best.page === prior[0] ? 'tracked' : 'identified';
     if (!(best.dense >= minDense)) return { page: null, reason: 'insufficient-page-evidence', evaluated, votes: shortlist, method };
+    // optional full-resolution check between close candidates (V3): the hook returns a decisive winner, or null
+    // same-layout siblings are ALWAYS checked: occlusion by the pointer can push the wrong sibling far ahead at low resolution
+    const sibs = discriminate ? new Set(this.siblings(best.page, 6)) : null;
+    if (discriminate && second && valid.some(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow) && (v.dense ?? -1) >= Math.max(minDense, best.dense - 0.25))) {
+      const close = [best, ...valid.filter(v => v !== best && (sibs.has(v.page) || best.dense - (v.dense ?? -1) < fineWindow) && (v.dense ?? -1) >= Math.max(minDense, best.dense - 0.25))].slice(0, 3), d = close.length > 1 ? discriminate(close) : { winner: best.page };
+      if (!d || d.winner === null) return { page: null, reason: d?.reason === 'loading' ? 'confirming-page' : 'ambiguous-page', evaluated, votes: shortlist, method, fine: d };
+      const win = close.find(v => v.page === d.winner);
+      return { page: win.page, confidence: Math.min(win.score, 0.5 + win.dense), registration: win.registration, reason: null, evaluated, votes: shortlist, method: method + '+fine', dense: win.dense, denseMargin: 1, fine: d };
+    }
     if (second && best.dense - (second.dense ?? -1) < denseMargin) return { page: null, reason: 'ambiguous-page', evaluated, votes: shortlist, method };
     return { page: best.page, confidence: Math.min(best.score, 0.5 + best.dense), registration: best.registration, reason: null, evaluated, votes: shortlist, method, dense: best.dense, denseMargin: second ? best.dense - (second.dense ?? -1) : 1 };
   }

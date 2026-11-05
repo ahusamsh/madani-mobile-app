@@ -1,9 +1,10 @@
 // Vision worker: runs the engine off the UI thread. Page identification (throttled) and pointer tracking
 // (every frame) both happen here; the UI only draws and plays audio.
-// Messages in : {type:'init', appRoot, engine:'v2'|'v1'} | {type:'frame', id, width, height, buffer|bitmap, at, debug} | {type:'reset'}
+// Messages in : {type:'init', appRoot, engine:'v2'|'v1'|'v3'} | {type:'frame', id, width, height, buffer|bitmap, at, debug} | {type:'reset'}
 // Messages out: {type:'progress'|'ready'|'error'|'result'|'page'}
 import { VisionEngineV2 } from './engine-v2.mjs';
 import { VisionEngine } from '../engine/engine.mjs';
+import { VisionEngineV3 } from '../v3/engine-v3.mjs';
 import { parseIndex } from './ref-index.mjs';
 import { resolveContent, resolvePageAudio } from './content-audio.mjs';
 import { referencePages, referenceFeatures, loadGray, openFeatureCache } from '../engine/browser-refs.mjs';
@@ -15,7 +16,7 @@ const post = (m, t) => self.postMessage(m, t || []);
 async function init({ appRoot: root, engine: which = 'v2' }) {
   const t0 = performance.now(); appRoot = new URL(root);
   library = await (await fetch(new URL('data/audio-library.json', appRoot))).json();
-  const Engine = which === 'v1' ? VisionEngine : VisionEngineV2;
+  const Engine = which === 'v1' ? VisionEngine : which === 'v3' ? VisionEngineV3 : VisionEngineV2;
   engine = new Engine({ library, loadGray: id => loadGray(urls.get(id)), keepPages: 4 });
   let source = 'precomputed-index';
   try {

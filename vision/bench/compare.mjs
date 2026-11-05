@@ -5,11 +5,14 @@ import { poseHomography, renderFrame, rng, proceduralPage } from '../engine/synt
 const FRAME_MS = 70; // simulated camera period (~14 fps)
 
 /** Scenario factory. Each scenario yields a list of steps {frames, pointer, poseJitter} on one page. */
-export function buildScenarios(library, grays, pages, perPage = 3, seed = 20261102) {
+export function buildScenarios(library, grays, pages, perPage = 3, seed = 20261102, { truth = null } = {}) {
+  // With `truth` (vision/bench/pdf-truth.json pages), tips are placed on the glyph positions from the PDF TEXT LAYER
+  // (independent of the zone map) and only zones that have such a position are used.
   const R = rng(seed), out = [];
+  const zonesOf = pageId => { const zs = library.pages[pageId].zones; if (!truth) return zs; const byId = new Map(zs.map(z => [z.id, z])); return (truth[pageId]?.truth || []).filter(t => byId.has(t.zoneId)).map(t => ({ ...byId.get(t.zoneId), box: t.box })); };
   const tipOf = (g, z, fy = 0.78, fx = null) => ({ x: (z.box[0] + z.box[2] * (fx ?? (0.35 + 0.3 * R()))) * g.w, y: (z.box[1] + z.box[3] * fy) * g.h });
   for (const pageId of pages) {
-    const g = grays.get(pageId), zones = library.pages[pageId].zones.filter(z => z.box[2] * g.w > 14 && z.box[3] * g.h > 12);
+    const g = grays.get(pageId), zones = zonesOf(pageId).filter(z => z.box[2] * g.w > (truth ? 5 : 14) && z.box[3] * g.h > 12); if (!zones.length) continue;
     const pick = Array.from({ length: perPage }, (_, i) => zones[Math.floor(((i + 0.5) / perPage) * zones.length)]);
     const center = tip => [0.5, Math.min(0.8, Math.max(0.3, tip.y / g.h + 0.08))];
     for (const z of pick) {
@@ -28,14 +31,14 @@ export function buildScenarios(library, grays, pages, perPage = 3, seed = 202611
       { const tip = tipOf(g, z, 0.75, 0.5); out.push({ name: 'steady-hold-shake', pageId, expect: [z.id], steps: [{ frames: 3, pointer: null }, { frames: 16, pointer: { type: 'finger', hand: true, tipPage: tip, angleDeg: 95 }, shake: true }], pose: { pageWidthInFrame: 1.15, center: center(tip) }, light: {} }); }
     }
     // move to the adjacent word in the same row without lifting
-    const byRow = {}; for (const z of library.pages[pageId].zones) (byRow[z.row] ??= []).push(z);
+    const byRow = {}; for (const z of zonesOf(pageId)) (byRow[z.row] ??= []).push(z);
     let moves = 0;
     for (const row of Object.values(byRow)) {
       if (moves >= 2) break;
       row.sort((a, b) => a.box[0] - b.box[0]);
       for (let i = 0; i + 1 < row.length && moves < 2; i++) {
-        const a = row[i], b = row[i + 1]; if (a.box[2] * g.w < 14 || b.box[2] * g.w < 14) continue;
-        if (library.pages[pageId].zones.some(o => o !== a && o !== b && o.box[1] < a.box[1] + a.box[3] && o.box[1] + o.box[3] > a.box[1] && o.box[0] < b.box[0] + b.box[2] && o.box[0] + o.box[2] > a.box[0] && (o.box[0] > a.box[0] + a.box[2] - 1 && o.box[0] + o.box[2] < b.box[0] + 1))) continue;
+        const a = row[i], b = row[i + 1]; if (a.box[2] * g.w < (truth ? 5 : 14) || b.box[2] * g.w < (truth ? 5 : 14)) continue;
+        if (zonesOf(pageId).some(o => o.id !== a.id && o.id !== b.id && o !== a && o !== b && o.box[1] < a.box[1] + a.box[3] && o.box[1] + o.box[3] > a.box[1] && o.box[0] < b.box[0] + b.box[2] && o.box[0] + o.box[2] > a.box[0] && (o.box[0] > a.box[0] + a.box[2] - 1 && o.box[0] + o.box[2] < b.box[0] + 1))) continue;
         moves++; const ta = tipOf(g, a, 0.75, 0.5), tb = tipOf(g, b, 0.75, 0.5);
         out.push({ name: 'move-between-adjacent-words', pageId, expect: [b.id, a.id].sort() && [a.id, b.id], steps: [{ frames: 3, pointer: null }, { frames: 8, pointer: { type: 'pen', tipPage: ta, angleDeg: 80 } }, { frames: 8, pointer: { type: 'pen', tipPage: tb, angleDeg: 80 } }], pose: { pageWidthInFrame: 1.15, center: center(ta) }, light: {} });
       }
@@ -47,13 +50,14 @@ export function buildScenarios(library, grays, pages, perPage = 3, seed = 202611
 }
 
 /** Run every scenario through one engine. Returns per-scenario rows + summary. */
-export function runCompare(engine, scenarios, grays, { log = () => {} } = {}) {
+export function runCompare(engine, scenarios, grays, { log = () => {}, sourceGrays = null } = {}) {
+  // sourceGrays: images the CAMERA sees (e.g. pdf.js renders of books/ar.pdf), independent of the engine's references
   const rows = [], frameMs = [], stranger = proceduralPage({ seed: 4242 }).gray;
   let clock = 0;
   for (const sc of scenarios) {
     engine.reset();
     const scSeed = [...`${sc.name}|${sc.pageId}|${sc.expect.join()}`].reduce((h, ch) => (Math.imul(h, 31) + ch.charCodeAt(0)) | 0, 7) & 0xffff;
-    const g = sc.pageId === 'procedural' ? stranger : grays.get(sc.pageId), H0 = poseHomography(g, sc.pose), R = rng(scSeed + 1);
+    const g = sc.pageId === 'procedural' ? stranger : (sourceGrays?.get(sc.pageId) ?? grays.get(sc.pageId)), H0 = poseHomography(g, sc.pose), R = rng(scSeed + 1);
     const accepted = [], pageIds = [], tips = []; let pointerStart = null, firstAcceptLatency = null, frameNo = 0;
     for (const step of sc.steps) for (let i = 0; i < step.frames; i++) {
       clock += FRAME_MS; frameNo++;

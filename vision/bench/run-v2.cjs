@@ -3,27 +3,27 @@
 //  B) app closed, web server STOPPED, browser relaunched OFFLINE with the same profile:
 //     camera-v2 page loads, fake camera (SIMULATED video of real page 17 + pen) -> recognition -> original clip plays;
 //     reader opens and renders the Arabic PDF page from the offline pack.
-// Usage: NODE_PATH=$(npm root -g) node vision/bench/run-v2.cjs [--zone=p17-w5]
+// Usage: node vision/bench/run-v2.cjs [--zone=p17-w5]
 const { spawn } = require('node:child_process'), fs = require('node:fs'), path = require('node:path'), os = require('node:os');
 const root = path.resolve(__dirname, '..', '..'), arg = k => (process.argv.find(a => a.startsWith(`--${k}=`)) || '').split('=')[1];
 const URL0 = 'http://127.0.0.1:8765';
 const startServer = () => new Promise((res, rej) => { const s = spawn(process.execPath, [path.join(root, 'scripts/serve.cjs')], { stdio: ['ignore', 'pipe', 'inherit'] }); s.stdout.on('data', d => String(d).includes('MADANI_SERVER') && res(s)); s.on('exit', c => rej(Error('server exited ' + c))); });
 
 (async () => {
-  const { chromium } = require('playwright-core');
+  const pw = require('./pw.cjs');
   const out = { generatedAt: new Date().toISOString(), label: 'Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.', errors: [] };
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'madani-v2-')), y4m = path.join(profile, 'cam.y4m');
   let server = await startServer();
   try {
     // fake camera video (rendered from the real page image by the bench page)
-    { const b = await chromium.launch({ channel: 'chrome', headless: true }), p = await b.newPage(); await p.goto(URL0 + '/vision/bench/bench.html?noRun=1');
+    { const b = await pw.launch(), p = await b.newPage(); await p.goto(URL0 + '/vision/bench/bench.html?noRun=1');
       const fake = await p.evaluate(z => window.__makeFakeCamera(17, z, { frames: 120, still: 25 }), arg('zone') || 'p17-w5'); await b.close();
       fs.writeFileSync(y4m, Buffer.from(fake.b64, 'base64')); out.expected = { zone: arg('zone') || 'p17-w5', clip: fake.expectedClip, text: fake.text }; }
-    const launch = () => chromium.launchPersistentContext(profile + '/user', { channel: 'chrome', permissions: ['camera'], args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', `--use-file-for-fake-video-capture=${y4m}`, '--autoplay-policy=no-user-gesture-required'] });
+    const launch = () => pw.launchPersistent(profile + '/user', { permissions: ['camera'], args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', `--use-file-for-fake-video-capture=${y4m}`, '--autoplay-policy=no-user-gesture-required'] });
 
     // ---------- A) online: install + download packs ----------
     let ctx = await launch(), page = await ctx.newPage(); page.on('pageerror', e => out.errors.push('A:' + e.message));
-    await page.goto(URL0 + '/vision/camera-v2.html');
+    await page.goto(URL0 + '/vision/camera-v2.html' + (arg('engine') ? '?engine=' + arg('engine') : ''));
     await page.waitForFunction(() => window.__v2?.offline, null, { timeout: 60000 });
     if (!(await page.evaluate(() => navigator.serviceWorker.controller))) { await page.reload(); await page.waitForFunction(() => navigator.serviceWorker.controller && window.__v2?.offline, null, { timeout: 60000 }); }
     out.beforeDownload = await page.evaluate(() => ({ chip: document.querySelector('#offline').textContent, ready: window.__v2.offline.ready }));
@@ -46,7 +46,7 @@ const startServer = () => new Promise((res, rej) => { const s = spawn(process.ex
     server.kill(); server = null; await new Promise(r => setTimeout(r, 500));
     ctx = await launch(); await ctx.setOffline(true); page = await ctx.newPage(); page.on('pageerror', e => out.errors.push('B:' + e.message));
     const reach = await page.evaluate(() => fetch('http://127.0.0.1:8765/__probe').then(() => 'reachable', () => 'unreachable')).catch(() => 'unreachable');
-    await page.goto(URL0 + '/vision/camera-v2.html');
+    await page.goto(URL0 + '/vision/camera-v2.html' + (arg('engine') ? '?engine=' + arg('engine') : ''));
     await page.waitForFunction(() => window.__v2?.offline, null, { timeout: 60000 });
     out.offlineOpen = await page.evaluate(() => ({ onLine: navigator.onLine, chip: document.querySelector('#offline').textContent, ready: window.__v2.offline.ready, sw: !!navigator.serviceWorker.controller }));
     out.offlineOpen.networkProbe = reach;
@@ -64,7 +64,7 @@ const startServer = () => new Promise((res, rej) => { const s = spawn(process.ex
     await ctx.close();
   } catch (e) { out.errors.push('fatal:' + (e.stack || e)); }
   finally { server?.kill(); fs.rmSync(profile, { recursive: true, force: true }); }
-  fs.writeFileSync(path.join(__dirname, 'results-v2-offline.json'), JSON.stringify(out, null, 1));
+  fs.writeFileSync(path.join(__dirname, arg('engine') === 'v3' ? 'results-v3-offline.json' : 'results-v2-offline.json'), JSON.stringify(out, null, 1));
   console.log(JSON.stringify(out, (k, v) => (k === 'packs' ? undefined : v), 1));
   if (out.errors.length || !out.offlineCamera?.pass || !out.offlineReader?.pass) process.exitCode = 1;
 })();

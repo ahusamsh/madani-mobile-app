@@ -64,7 +64,7 @@ export class VisionEngine {
         // near-identical sibling pages (same layout) are re-checked by content periodically while tracking
         if (at - (t.checkedAt ?? -Infinity) >= this.opt.siblingCheckMs) {
           t.checkedAt = at;
-          const r = this.index.identify(F, { prior: [t.page], candidates: 0, budgetPages: 0, gray, searchAll: this.opt.siblingSearchAll ?? true });
+          const r = this.index.identify(F, { prior: [t.page], candidates: 0, budgetPages: 0, gray, searchAll: this.opt.siblingSearchAll ?? true, ...this.identifyExtras(gray) });
           if (r.page === null) { t.ambiguous = r.reason; } else { t.ambiguous = null; if (r.page !== t.page) { this.track = null; this.pending = null; this.lastIdentifyAt = -Infinity; return { page: null, reason: 'page-changed' }; } }
         }
         if (t.ambiguous) return { page: null, reason: t.ambiguous };
@@ -76,7 +76,7 @@ export class VisionEngine {
     if (at - this.lastIdentifyAt < this.opt.identifyIntervalMs) return null;
     this.lastIdentifyAt = at;
     const prior = t ? [t.page, t.page + 1, t.page - 1] : [];
-    const r = this.index.identify(F, { prior, gray, ...(this.opt.identify || {}) });
+    const r = this.index.identify(F, { prior, gray, ...(this.opt.identify || {}), ...this.identifyExtras(gray) });
     if (r.page === null) { if (!t || t.misses >= this.opt.trackMisses * 4) this.track = null; return { page: null, reason: r.reason, evaluated: r.evaluated }; }
     const seen = this.pending?.page === r.page ? this.pending.hits + 1 : 1;
     this.pending = { page: r.page, hits: seen };
@@ -88,6 +88,7 @@ export class VisionEngine {
 
   // ---- extension hooks (defaults = baseline behaviour; Offline Vision V2 overrides them) ----
   liveFeatureOpts() { return LIVE_FEATURE_OPTS; }
+  identifyExtras() { return {}; }
   fastConfirm() { return false; }
   smoothTip(tip) { return tip; }
   pointerLost() {}

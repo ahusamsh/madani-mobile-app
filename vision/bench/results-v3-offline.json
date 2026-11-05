@@ -1,0 +1,94 @@
+{
+ "generatedAt": "2026-11-04T16:49:42.958Z",
+ "label": "Headless Chromium on a cloud VM; camera = SIMULATED video from a real page image. Not a phone.",
+ "errors": [],
+ "expected": {
+  "zone": "p17-w5",
+  "clip": "./pilot-media/p015-word-005.mp3",
+  "text": "ج"
+ },
+ "beforeDownload": {
+  "chip": "غير جاهز دون إنترنت",
+  "ready": false
+ },
+ "download": {
+  "ms": 9465,
+  "chip": "جاهز دون إنترنت ✓",
+  "packs": [
+   {
+    "id": "camera-ar",
+    "complete": true,
+    "present": 1004,
+    "total": 1004,
+    "bytesPresent": 35816599,
+    "verified": true,
+    "verifiedAt": 1793811005030
+   },
+   {
+    "id": "book-ar",
+    "complete": true,
+    "present": 187,
+    "total": 187,
+    "bytesPresent": 11735678,
+    "verified": true,
+    "verifiedAt": 1793811007564
+   }
+  ]
+ },
+ "deepVerify": "✓ سليم (1004 ملف)",
+ "offlineOpen": {
+  "onLine": false,
+  "chip": "دون اتصال — يعمل محليًا ✓",
+  "ready": true,
+  "sw": true,
+  "networkProbe": "unreachable"
+ },
+ "offlineCamera": {
+  "ready": {
+   "type": "ready",
+   "pages": 104,
+   "source": "precomputed-index",
+   "ms": 4045,
+   "engine": "v3"
+  },
+  "accepted": [
+   {
+    "id": "p17-w5",
+    "page": 17,
+    "play": true,
+    "at": 5864.199999999997,
+    "frameToResultMs": 97.59999999999854
+   }
+  ],
+  "audio": [
+   {
+    "clip": "./pilot-media/p015-word-005.mp3",
+    "latencyMs": 0.5999999999985448,
+    "fromCache": true
+   }
+  ],
+  "results": 4,
+  "procMs": {
+   "p50": 143,
+   "p95": 289.2,
+   "n": 4
+  },
+  "pipelineMs": {
+   "p50": 153.7,
+   "p95": 311.6
+  },
+  "errors": [],
+  "word": "ج",
+  "status": "يُنطق الآن",
+  "msFromStartClickToFirstAudio": 5488,
+  "pass": true
+ },
+ "offlineReader": {
+  "title": "القاعدة المدنية | الكتاب الناطق",
+  "page": "الصفحة ١٧",
+  "canvas": 720,
+  "loadingHidden": true,
+  "zones": 28,
+  "pass": true
+ }
+}
