@@ -49,3 +49,8 @@
 - Source-target provenance and original clip URL: `vision/alignment/reused-letter-clips-audit.json`; reproduction `py scripts/reuse-exact-letter-clips.py`; validation `py scripts/letter-reuse-qa.py` and `node scripts/qa.cjs`.
 - All new and previous automatically created links are **pending listening/human review**, and remain silent if the exact recording cannot be mapped. More than two thousand visible zones are still unlinked.
 - `camera-ar` offline pack manifest was rebuilt; users must update their downloaded offline pack to have the latest mappings offline. No connection to the training computer.
+
+
+## Vision V3 — handover and reproducible workflow (2026-11-05)
+
+Read [the V3 handover guide](docs/VISION_V3_HANDOVER.md) for repository/asset audit, local setup, engine architecture, test commands, offline-pack generation, branch and deployment policy, mobile QA and release/rollback procedures. V3 remains on the `feature/vision-v3-accuracy` branch (PR #7); production keeps V2 as the default. Simulation metrics are **not** evidence of smartphone-camera readiness.
