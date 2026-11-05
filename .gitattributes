@@ -1,4 +1,4 @@
-﻿# File-by-file checksums in data/offline-packs.json are generated from LF bytes.
+# File-by-file checksums in data/offline-packs.json are generated from LF bytes.
 # Preserve those exact source bytes on Windows too, where core.autocrlf may be true.
 *.json text eol=lf
 vendor/cmaps/LICENSE text eol=lf
